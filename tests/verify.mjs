@@ -181,7 +181,10 @@ for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio'])
 // enlaces a localhost, que en el computador del cliente no existen.
 const deckApp = readFileSync(resolve(root, 'presentacion/app.js'), 'utf8');
 const deckHtml = readFileSync(resolve(root, 'presentacion/index.html'), 'utf8');
-if (/127\.0\.0\.1|localhost/.test(deckApp)) {
+// Se buscan URL reales, no la palabra: los comentarios del propio archivo
+// explican por qué localhost no sirve, y eso no es un enlace.
+const deckCode = deckApp.replace(/\/\*[\s\S]*?\*\//g, ' ').replace(/(^|\s)\/\/.*$/gm, ' ');
+if (/https?:\/\/(127\.0\.0\.1|localhost)/i.test(deckCode)) {
   throw new Error('La presentación no debe fijar enlaces a localhost.');
 }
 if (!deckHtml.includes('Lo que no prometemos')) {
