@@ -272,5 +272,12 @@ window.RESERVA_CONFIG = {
     "Selva Valdiviana",
     "Mercado Fluvial de Valdivia",
     "Parque Saval"
+  ],
+  "galeria": [
+    "https://cabanasloscisnes.cl/wp-content/uploads/2018/10/19.jpg?id=15",
+    "https://cabanasloscisnes.cl/wp-content/uploads/2020/01/Aerea-Caban%CC%83as.jpg?id=879",
+    "https://cabanasloscisnes.cl/wp-content/uploads/2018/11/41.jpg",
+    "https://cabanasloscisnes.cl/wp-content/uploads/2020/01/1-1.jpg",
+    "https://cabanasloscisnes.cl/wp-content/uploads/2020/09/IMG_20200920_125407_1-scaled.jpg"
   ]
 };

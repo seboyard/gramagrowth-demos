@@ -106,5 +106,9 @@ window.RESERVA_CONFIG = {
     "Parque Saval",
     "Museo Kunstmann",
     "Fuerte Niebla"
+  ],
+  "galeria": [
+    "https://files.cdn-files-a.com/uploads/11444919/800_gi-692cff10a4034.jpg",
+    "https://files.cdn-files-a.com/uploads/11444919/2000_gi-692cff10a4034.jpg"
   ]
 };

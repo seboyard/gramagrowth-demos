@@ -233,10 +233,16 @@ function renderQuote() {
   const text = buildMessage(result, form);
   const hostPreview = $('#host-preview');
   if (hostPreview) hostPreview.textContent = text;
-  whatsapp.hidden = false;
-  whatsapp.href = `https://api.whatsapp.com/send?phone=${config.negocio.whatsapp}&text=${encodeURIComponent(text)}`;
+  if (config.negocio.whatsapp) {
+    whatsapp.hidden = false;
+    whatsapp.href = `https://api.whatsapp.com/send?phone=${config.negocio.whatsapp}&text=${encodeURIComponent(text)}`;
+  } else {
+    whatsapp.hidden = true;
+  }
   if (config.negocio.email) {
     email.hidden = false;
+    email.className = config.negocio.whatsapp ? 'button ghost block' : 'button primary block';
+    email.textContent = config.negocio.whatsapp ? 'Enviar por correo' : 'Enviar solicitud por correo';
     email.href = `mailto:${config.negocio.email}?subject=${encodeURIComponent(`Consulta de disponibilidad · ${result.nights} noches`)}&body=${encodeURIComponent(text)}`;
   }
 }
@@ -299,14 +305,31 @@ function boot() {
   setText('[data-field="nombreFooter"]', negocio.nombre);
   setText('[data-field="direccionFooter"]', negocio.direccion);
 
-  const waHref = `https://api.whatsapp.com/send?phone=${negocio.whatsapp}`;
-  $('#hero-whatsapp').href = waHref;
-  $('#footer-whatsapp').href = waHref;
-  $('#footer-whatsapp').textContent = 'WhatsApp';
-  $('#footer-phone').href = `tel:${negocio.telefono.replace(/\s/g, '')}`;
-  $('#footer-phone').textContent = negocio.telefono;
-  $('#footer-email').href = `mailto:${negocio.email}`;
-  $('#footer-email').textContent = negocio.email;
+  // No todos publican WhatsApp: si no hay, se ofrece correo y se ocultan los
+  // botones en vez de dejar enlaces rotos.
+  if (negocio.whatsapp) {
+    const waHref = `https://api.whatsapp.com/send?phone=${negocio.whatsapp}`;
+    $('#hero-whatsapp').href = waHref;
+    $('#footer-whatsapp').href = waHref;
+    $('#footer-whatsapp').textContent = 'WhatsApp';
+  } else {
+    $('#hero-whatsapp').hidden = true;
+    $('#footer-whatsapp').hidden = true;
+    if (negocio.email) {
+      $('#hero-whatsapp').hidden = false;
+      $('#hero-whatsapp').href = `mailto:${negocio.email}`;
+      $('#hero-whatsapp').textContent = 'Escribir por correo';
+      $('#hero-whatsapp').removeAttribute('target');
+    }
+  }
+  if (negocio.telefono) {
+    $('#footer-phone').href = `tel:${negocio.telefono.replace(/\s/g, '')}`;
+    $('#footer-phone').textContent = negocio.telefono;
+  } else { $('#footer-phone').hidden = true; }
+  if (negocio.email) {
+    $('#footer-email').href = `mailto:${negocio.email}`;
+    $('#footer-email').textContent = negocio.email;
+  } else { $('#footer-email').hidden = true; }
   $('#map-link').href = negocio.mapa;
   // Mapa embebido: usa mapaEmbed si el config lo trae, si no lo arma desde la
   // dirección. Sin API key — el modo `output=embed` es público.
@@ -333,6 +356,39 @@ function boot() {
 
   // El panel del anfitrión es material de venta: sólo existe mientras es muestra.
   if (demo?.activo) $('#host-panel').hidden = false;
+
+  // Galería: fotos del propio sitio del cliente. La primera se usa de fondo en
+  // la portada. Si alguna no carga (protección de hotlink, imagen movida) se
+  // quita sola en vez de dejar un hueco roto.
+  const fotos = (config.galeria || []).filter(Boolean);
+  if (fotos.length) {
+    const hero = document.querySelector('.hero');
+    const probe = new Image();
+    probe.addEventListener('load', () => {
+      hero.style.backgroundImage =
+        `linear-gradient(150deg, rgba(0,0,0,.78), rgba(0,0,0,.55)), url("${fotos[0]}")`;
+      hero.classList.add('has-photo');
+    });
+    probe.src = fotos[0];
+
+    const section = $('#galeria');
+    const grid = $('[data-list="galeria"]');
+    grid.replaceChildren(...fotos.map((src, index) => {
+      const figure = document.createElement('figure');
+      figure.className = 'gallery-item';
+      const image = document.createElement('img');
+      image.src = src;
+      image.loading = index === 0 ? 'eager' : 'lazy';
+      image.alt = `${negocio.nombre} — foto ${index + 1}`;
+      image.addEventListener('error', () => figure.remove());
+      figure.append(image);
+      return figure;
+    }));
+    section.hidden = false;
+    if (demo?.activo) {
+      $('#gallery-note').textContent = `Fotos tomadas del sitio público ${demo.fuente}. En la entrega final se reemplazan por las que entregue el cliente.`;
+    }
+  }
 
   buildList('[data-list="certificaciones"]', propiedad.certificaciones,
     (item) => Object.assign(document.createElement('li'), { textContent: item }));
