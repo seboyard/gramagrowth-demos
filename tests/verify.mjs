@@ -30,6 +30,10 @@ const required = [
   'plantillas/planes-gimnasio/config.js',
   'plantillas/planes-gimnasio/app.js',
   'plantillas/planes-gimnasio/README.md',
+  'presentacion/index.html',
+  'presentacion/app.js',
+  'presentacion/styles.css',
+  'docs/RESCATE_TEMPORADA.md',
   'assets/logo-gramagrowth.png'
 ];
 
@@ -170,6 +174,21 @@ for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio'])
   if (!templateApp.includes('api.whatsapp.com')) {
     throw new Error(`${template} no arma la solicitud por WhatsApp.`);
   }
+}
+
+// --- Presentación de oferta ---
+// Se imprime a PDF y va a un prospecto: no puede prometer resultados ni llevar
+// enlaces a localhost, que en el computador del cliente no existen.
+const deckApp = readFileSync(resolve(root, 'presentacion/app.js'), 'utf8');
+const deckHtml = readFileSync(resolve(root, 'presentacion/index.html'), 'utf8');
+if (/127\.0\.0\.1|localhost/.test(deckApp)) {
+  throw new Error('La presentación no debe fijar enlaces a localhost.');
+}
+if (!deckHtml.includes('Lo que no prometemos')) {
+  throw new Error('La presentación debe declarar qué no se promete.');
+}
+if (!deckApp.includes('public-base')) {
+  throw new Error('La presentación debe permitir configurar la URL pública de las demos.');
 }
 
 // --- Referencias de archivos en HTML ---
