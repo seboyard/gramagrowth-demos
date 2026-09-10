@@ -152,7 +152,7 @@
     },
     "status": "review",
     "followUp": "",
-    "notes": ""
+    "notes": "Demo: clientes/sportlife-valdivia/"
   },
   {
     "id": "apart-hotel-raitue",
@@ -236,7 +236,7 @@
     },
     "status": "review",
     "followUp": "",
-    "notes": ""
+    "notes": "Demo: clientes/apart-hotel-raitue/"
   },
   {
     "id": "academia-los-rios",
@@ -390,7 +390,7 @@
     },
     "status": "review",
     "followUp": "",
-    "notes": ""
+    "notes": "Demo: clientes/cabanas-rio-baker/"
   },
   {
     "id": "cabanas-rio-valdivia",
@@ -465,7 +465,7 @@
     },
     "status": "review",
     "followUp": "",
-    "notes": ""
+    "notes": "Demo: clientes/cabanas-rio-valdivia/"
   },
   {
     "id": "cabanas-los-cisnes",
