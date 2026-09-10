@@ -77,19 +77,33 @@ async function handleApi(request, response, pathname) {
         let business = entry.name;
         let source = null;
         let units = 0;
+        let unitsLabel = 'unidad';
+        let unitsPlural = 'unidades';
         let priced = false;
         if (existsSync(configPath)) {
           try {
             const scope = {};
             new Function('window', readFileSync(configPath, 'utf8'))(scope);
-            const config = scope.RESERVA_CONFIG || {};
+            // Cada vertical declara su propio global. La galería no necesita
+            // saber cuál es: toma el que exista y lee los campos comunes.
+            const config = scope.RESERVA_CONFIG || scope.EVENTO_CONFIG || scope.GIMNASIO_CONFIG || {};
             business = config.negocio?.nombre || entry.name;
             source = config.demo?.fuente || null;
-            units = (config.tipos || []).length;
-            priced = (config.tipos || []).some((type) => type.temporadas?.length) || (config.temporadas || []).length > 0;
+            // Unidades cotizables: cabañas en la vertical de hospedaje,
+            // servicios en la de eventos.
+            const items = config.tipos || config.planes || config.servicios || [];
+            units = items.length;
+            unitsLabel = config.planes ? 'plan' : config.tipos ? 'unidad' : 'servicio';
+            // El plural va explícito: en español no basta con agregar una "s"
+            // ("unidad" → "unidades", "plan" → "planes").
+            unitsPlural = config.planes ? 'planes' : config.tipos ? 'unidades' : 'servicios';
+            priced = items.some((item) => item.temporadas?.length
+              || item.precio
+              || (item.opciones || []).some((option) => option.valorPorInvitado !== null && option.valorPorInvitado !== undefined))
+              || (config.temporadas || []).length > 0;
           } catch { /* config ilegible: se muestra igual con el nombre de carpeta */ }
         }
-        return { id: entry.name, business, source, units, priced };
+        return { id: entry.name, business, source, units, unitsLabel, unitsPlural, priced };
       })
       .sort((left, right) => left.business.localeCompare(right.business, 'es'));
     return sendJson(response, 200, demos);

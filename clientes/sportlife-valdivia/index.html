@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Compara los planes, revisa los horarios y agenda una clase de prueba sin tener que preguntar el precio por mensaje.">
+  <title>Planes y clase de prueba | Muestra Gramagrowth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <p id="demo-banner" class="demo-banner" hidden></p>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow" data-field="comuna"></p>
+      <h1 data-field="nombre"></h1>
+      <p class="lead" data-field="bajada"></p>
+      <div class="hero-actions">
+        <a class="button primary" href="#planes">Ver planes y precios</a>
+        <a class="button ghost" href="#prueba">Agendar clase de prueba</a>
+      </div>
+      <ul class="hero-facts" data-list="instalaciones"></ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ── Planes ────────────────────────────────────────────────── -->
+    <section id="planes" class="plans" aria-labelledby="plans-title">
+      <div class="section-head">
+        <h2 id="plans-title">Planes de membresía</h2>
+        <p class="section-lead">El precio por mes de cada plan, calculado, para que no tengas que hacer la cuenta.</p>
+      </div>
+      <div data-list="planes" class="plan-grid"></div>
+      <p id="plans-missing" class="plans-missing" hidden></p>
+    </section>
+
+    <!-- ── Clase de prueba ───────────────────────────────────────── -->
+    <section id="prueba" class="trial" aria-labelledby="trial-title">
+      <div class="trial-form">
+        <h2 id="trial-title" data-field="pruebaTitulo"></h2>
+        <p class="trial-lead" data-field="pruebaTexto"></p>
+
+        <div class="field-grid">
+          <label>Tu nombre<input id="visitor-name" type="text" autocomplete="name" placeholder="Nombre y apellido"></label>
+          <label>Plan que te interesa<select id="plan-select"></select></label>
+          <label>Día que te acomoda<select id="day-select"></select></label>
+          <label>Horario preferido<select id="time-select"></select></label>
+        </div>
+
+        <div id="trial-summary" class="trial-summary" aria-live="polite"></div>
+
+        <a id="request-whatsapp" class="button primary block" target="_blank" rel="noreferrer" hidden>
+          Enviar solicitud por WhatsApp
+        </a>
+        <a id="request-email" class="button ghost block" hidden>Enviar por correo</a>
+        <p class="trial-note">Esto envía una <strong>solicitud</strong>: el gimnasio confirma cupo y precio al responder.</p>
+      </div>
+
+      <aside class="services-card">
+        <h3>Servicios con valor publicado</h3>
+        <div data-list="servicios" class="service-list"></div>
+        <ul data-list="reglas" class="rules-list"></ul>
+      </aside>
+    </section>
+
+    <!-- ── Panel para el dueño (sólo en modo demo) ───────────────── -->
+    <section id="host-panel" class="host-panel" hidden aria-labelledby="host-title">
+      <div class="host-head">
+        <p class="host-tag">Para el dueño · no aparece en el sitio publicado</p>
+        <h2 id="host-title">Esto es lo que te llega a ti</h2>
+        <p class="host-lead">Cada consulta llega con nombre, plan de interés y horario. Sin la conversación de cuatro mensajes para averiguar lo mismo.</p>
+      </div>
+      <div class="host-compare">
+        <div class="host-col before">
+          <h3>Hoy recibes</h3>
+          <pre class="host-msg">hola cuanto sale el plan?</pre>
+          <p class="host-note">Y ahí empieza: qué plan, cuándo puede venir, si quiere clase de prueba, si es para niños.</p>
+        </div>
+        <div class="host-col after">
+          <h3>Con esta página recibes</h3>
+          <pre class="host-msg" id="host-preview"></pre>
+          <p class="host-note">Con el plan ya elegido y el horario propuesto, listo para confirmar cupo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Clases y horarios ─────────────────────────────────────── -->
+    <section class="schedule" aria-labelledby="schedule-title">
+      <div>
+        <h2 id="schedule-title">Clases dirigidas</h2>
+        <div data-list="clases" class="class-row"></div>
+      </div>
+      <div>
+        <h3>Horario de atención</h3>
+        <ul data-list="horarios" class="hours-list"></ul>
+      </div>
+    </section>
+
+    <!-- ── Preguntas frecuentes ──────────────────────────────────── -->
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Preguntas frecuentes</h2>
+      <div data-list="faq" class="faq-list"></div>
+    </section>
+
+    <!-- ── Ubicación ─────────────────────────────────────────────── -->
+    <section class="place" aria-labelledby="place-title">
+      <div>
+        <h2 id="place-title">Dónde estamos</h2>
+        <p class="address" data-field="direccion"></p>
+        <a id="map-link" class="button ghost" target="_blank" rel="noreferrer">Abrir en Google Maps</a>
+        <div id="map-embed" class="map-embed" hidden></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong data-field="nombreFooter"></strong>
+      <p data-field="direccionFooter"></p>
+    </div>
+    <div class="footer-contact">
+      <a id="footer-whatsapp" target="_blank" rel="noreferrer"></a>
+      <a id="footer-phone"></a>
+      <a id="footer-instagram" target="_blank" rel="noreferrer"></a>
+      <a id="footer-email"></a>
+    </div>
+    <p class="footer-source" id="footer-source"></p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

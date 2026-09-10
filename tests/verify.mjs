@@ -22,6 +22,14 @@ const required = [
   'plantillas/reserva-cabanas/config.js',
   'plantillas/reserva-cabanas/app.js',
   'plantillas/reserva-cabanas/README.md',
+  'plantillas/cotizar-evento/index.html',
+  'plantillas/cotizar-evento/config.js',
+  'plantillas/cotizar-evento/app.js',
+  'plantillas/cotizar-evento/README.md',
+  'plantillas/planes-gimnasio/index.html',
+  'plantillas/planes-gimnasio/config.js',
+  'plantillas/planes-gimnasio/app.js',
+  'plantillas/planes-gimnasio/README.md',
   'assets/logo-gramagrowth.png'
 ];
 
@@ -37,7 +45,8 @@ const prospectApp = readFileSync(resolve(root, 'prospectar/app.js'), 'utf8');
 const server = readFileSync(resolve(root, 'scripts/serve.mjs'), 'utf8');
 const offers = readFileSync(resolve(root, 'docs/OFFERS.md'), 'utf8');
 const htmlFiles = ['index.html', 'kit/index.html', 'prospectar/index.html',
-  'plantillas/landing-prospecto/index.html', 'plantillas/reserva-cabanas/index.html'];
+  'plantillas/landing-prospecto/index.html', 'plantillas/reserva-cabanas/index.html',
+  'plantillas/cotizar-evento/index.html', 'plantillas/planes-gimnasio/index.html'];
 
 // --- Claims comerciales ---
 const forbiddenPublicClaims = [
@@ -102,22 +111,66 @@ if (dead.ok || !dead.signals.some((signal) => signal.id === 'dominio-caido')) {
   throw new Error('El auditor no detecta un dominio inexistente.');
 }
 
-// --- Plantilla de reserva ---
-// Es una muestra construida con datos ajenos: debe declararse como tal y no
-// puede confirmar reservas ni pedir pagos, que es lo que la hace vendible.
-const reservaConfig = readFileSync(resolve(root, 'plantillas/reserva-cabanas/config.js'), 'utf8');
-const reservaApp = readFileSync(resolve(root, 'plantillas/reserva-cabanas/app.js'), 'utf8');
-if (!reservaConfig.includes('demo:')) throw new Error('La plantilla de reserva no declara el bloque demo.');
-if (!reservaConfig.includes('fuente:') || !reservaConfig.includes('leidoEl:')) {
-  throw new Error('La plantilla de reserva no declara de dónde salieron los datos ni cuándo se leyeron.');
+// --- Plantilla de cotización de eventos ---
+// Mismas garantías que la de reserva: es una muestra con datos ajenos, no
+// cobra y no compromete una fecha. Además, cada valor publicado tiene que
+// declarar de qué documento salió, que es lo que evita citar una tarifa
+// vencida como si fuera la vigente.
+const eventoConfigSource = readFileSync(resolve(root, 'plantillas/cotizar-evento/config.js'), 'utf8');
+const eventoApp = readFileSync(resolve(root, 'plantillas/cotizar-evento/app.js'), 'utf8');
+if (!eventoConfigSource.includes('demo:')) throw new Error('La plantilla de eventos no declara el bloque demo.');
+if (!eventoConfigSource.includes('fuente:') || !eventoConfigSource.includes('leidoEl:')) {
+  throw new Error('La plantilla de eventos no declara de dónde salieron los datos ni cuándo se leyeron.');
 }
-// Términos precisos: "card" a secas hacía match con nombres de clase como unit-card.
 for (const banned of ['webpay', 'transbank', 'stripe', 'mercadopago', 'cardnumber', 'card_number', 'cvv', 'flow.cl', 'khipu']) {
-  if (reservaApp.toLowerCase().includes(banned)) {
-    throw new Error(`La plantilla de reserva no debe procesar pagos: encontrado "${banned}"`);
+  if (eventoApp.toLowerCase().includes(banned)) {
+    throw new Error(`La plantilla de eventos no debe procesar pagos: encontrado "${banned}"`);
   }
 }
-if (!reservaApp.includes('api.whatsapp.com')) throw new Error('La plantilla de reserva no arma la solicitud por WhatsApp.');
+if (!eventoApp.includes('api.whatsapp.com')) throw new Error('La plantilla de eventos no arma la solicitud por WhatsApp.');
+
+const eventoScope = {};
+new Function('window', eventoConfigSource)(eventoScope);
+const eventoConfig = eventoScope.EVENTO_CONFIG;
+if (!eventoConfig?.servicios?.length) throw new Error('La plantilla de eventos no declara servicios.');
+for (const service of eventoConfig.servicios) {
+  if (!Number.isFinite(service.minimoInvitados)) {
+    throw new Error(`El servicio ${service.id} no declara mínimo de invitados.`);
+  }
+  if (!service.opciones?.length) throw new Error(`El servicio ${service.id} no declara opciones.`);
+  for (const option of service.opciones) {
+    const value = option.valorPorInvitado;
+    if (value !== null && !Number.isFinite(value)) {
+      throw new Error(`El servicio ${service.id} declara un valor por invitado que no es un número ni null.`);
+    }
+    // Un precio sin procedencia es un precio inventado esperando a ocurrir.
+    if (value !== null && !('documento' in service)) {
+      throw new Error(`El servicio ${service.id} publica un valor sin declarar de qué documento salió.`);
+    }
+  }
+}
+
+// --- Plantillas de producto: mismas garantías para todas ---
+// Cada vertical debe declararse como muestra, decir de dónde salieron sus datos
+// y no procesar pagos. Es lo que las hace vendibles sin generar responsabilidad.
+const PAY_TERMS = ['webpay', 'transbank', 'stripe', 'mercadopago', 'cardnumber',
+  'card_number', 'cvv', 'flow.cl', 'khipu'];
+for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio']) {
+  const templateConfig = readFileSync(resolve(root, `plantillas/${template}/config.js`), 'utf8');
+  const templateApp = readFileSync(resolve(root, `plantillas/${template}/app.js`), 'utf8');
+  if (!templateConfig.includes('demo:')) throw new Error(`${template} no declara el bloque demo.`);
+  if (!templateConfig.includes('fuente:') || !templateConfig.includes('leidoEl:')) {
+    throw new Error(`${template} no declara de dónde salieron los datos ni cuándo se leyeron.`);
+  }
+  for (const banned of PAY_TERMS) {
+    if (templateApp.toLowerCase().includes(banned)) {
+      throw new Error(`${template} no debe procesar pagos: encontrado "${banned}"`);
+    }
+  }
+  if (!templateApp.includes('api.whatsapp.com')) {
+    throw new Error(`${template} no arma la solicitud por WhatsApp.`);
+  }
+}
 
 // --- Referencias de archivos en HTML ---
 for (const htmlFile of htmlFiles) {

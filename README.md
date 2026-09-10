@@ -6,6 +6,8 @@ Este repositorio contiene sólo los activos necesarios para vender y entregar el
 - `kit/`: generador local de diagnóstico, mensaje y propuesta imprimible.
 - `prospectar/`: cola local con auditorías verificables, estados y borradores de contacto.
 - `plantillas/landing-prospecto/`: base para crear una demo o entrega de cliente.
+- `plantillas/reserva-cabanas/`: producto vertical de solicitud de reserva para cabañas y hospedajes.
+- `plantillas/cotizar-evento/`: producto vertical de cotización para banqueterías y centros de eventos.
 - `docs/OFFERS.md`: alcance, precio y límites de las tres ofertas.
 - `docs/REVENUE_SPRINT.md`: operación del sprint de cinco días.
 

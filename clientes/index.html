@@ -66,7 +66,9 @@
         tags.className = 'demo-tags';
         const units = document.createElement('span');
         units.className = 'demo-tag';
-        units.textContent = `${demo.units} ${demo.units === 1 ? 'unidad' : 'unidades'}`;
+        units.textContent = `${demo.units} ${demo.units === 1
+          ? (demo.unitsLabel || 'unidad')
+          : (demo.unitsPlural || 'unidades')}`;
         const priced = document.createElement('span');
         priced.className = 'demo-tag';
         priced.dataset.priced = String(demo.priced);
