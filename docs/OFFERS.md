@@ -85,6 +85,38 @@ Se marcan con un check en `/kit/` y aparecen en la propuesta **separados del
 producto principal**, nunca disueltos en su precio. Se ofrecen sólo cuando el
 prospecto tiene el problema que los justifica.
 
+### Rescate de temporada
+
+**Cuándo ofrecerlo:** el negocio tiene una lista de huéspedes o clientes
+anteriores —aunque sea su historial de WhatsApp— y nunca los vuelve a contactar.
+En alojamiento es casi universal.
+
+**Por qué funciona:** en mercados maduros, los huéspedes anteriores que reciben
+un mensaje personalizado vuelven a reservar a 3-5 veces la tasa de una audiencia
+fría, con costo de adquisición cero. Es demanda que el negocio ya tiene y no usa.
+
+**Incluye:** segmentación de la lista por temporada y tipo de estadía, tres
+mensajes escritos —aviso de apertura de temporada, recordatorio y último llamado—
+y un calendario de envío.
+
+**No incluye:** envío masivo desde nuestros servidores, compra de listas, ni
+contacto a personas que no sean clientes anteriores del negocio. **Envía el
+negocio**, desde su propio WhatsApp o correo: la relación es suya y el permiso
+también.
+
+**Plazo:** 2 días hábiles desde que entrega la lista.
+
+**Precio:** $150.000 CLP por una vez. Rango $120.000–180.000 según el tamaño de
+la lista.
+
+**Por qué es la mejor puerta de entrada:** produce ingresos en días, no en meses.
+Invierte la conversación con un negocio de caja estacional: en vez de pedirle
+plata a alguien que la tendrá en enero, le llevas plata ahora. La landing se
+vende después, con el cliente ya convencido.
+
+**Límite honesto:** no se promete un número de reservas. Se promete el trabajo
+—lista segmentada, mensajes escritos, calendario—, no el resultado.
+
 ### Gestión de redes sociales
 
 **Cuándo ofrecerlo:** el negocio tiene perfiles enlazados pero abandonados.

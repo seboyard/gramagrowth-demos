@@ -50,6 +50,14 @@ const offers = {
 // la regla de OFFERS.md es un alcance = un canal principal de conversión, así que
 // un extra nunca se disuelve dentro del precio base.
 const extras = {
+  rescate: {
+    name: 'Rescate de temporada',
+    price: 150000,
+    unit: 'una vez',
+    trigger: 'El negocio tiene huéspedes o clientes anteriores y no los vuelve a contactar.',
+    scope: 'Segmentación de su lista de pasajeros anteriores, tres mensajes escritos y calendario de envío. Envía el negocio desde su propio WhatsApp o correo.',
+    limits: 'No incluye envío masivo desde nuestros servidores, compra de listas, ni contacto a quien no sea cliente anterior del negocio.'
+  },
   redes: {
     name: 'Gestión de redes sociales',
     price: 180000,
