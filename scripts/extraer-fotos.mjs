@@ -27,10 +27,23 @@ function candidates(html, base) {
     if (!url || !/^https?:/i.test(url)) return;
     if (!/\.(jpe?g|png|webp)(\?|$)/i.test(url)) return;
     if (NOISE.test(url) || NOISE.test(alt)) return;
-    // Miniaturas explícitas de WordPress: se prefiere el original.
-    const clean = url.replace(/-\d{2,4}x\d{2,4}(?=\.(jpe?g|png|webp))/i, '');
+    // Una misma foto llega en varios tamaños, y el tamaño puede estar en el
+    // nombre ("-800x600.jpg", "2000_foto.jpg") o en la ruta del CDN
+    // ("/w=768,h=526/foto.png"). Se agrupa por nombre de archivo normalizado,
+    // que cubre los dos casos, y se conserva la variante más grande.
+    const clean = url.split('?')[0].split('/').pop()
+      .replace(/-\d{2,4}x\d{2,4}(?=\.(jpe?g|png|webp))/i, '')
+      .replace(/-scaled(?=\.(jpe?g|png|webp))/i, '')
+      .replace(/^\d{3,4}_/, '')
+      .toLowerCase();
+    // Ancho declarado en la ruta del CDN, para elegir la versión mayor.
+    const declared = Number(url.match(/[?,/]w=(\d{2,5})/i)?.[1] || url.match(/\/(\d{3,4})_/)?.[1] || 0);
     const previous = found.get(clean);
-    found.set(clean, Math.max(previous || 0, weight));
+    // Gana la de mayor peso; a igual peso, la de mayor ancho declarado.
+    if (!previous || weight > previous.weight
+      || (weight === previous.weight && declared > previous.declared)) {
+      found.set(clean, { url, weight, declared });
+    }
   };
 
   // Imagen social: suele ser la que el negocio eligió para representarse.
@@ -53,7 +66,9 @@ function candidates(html, base) {
   for (const match of html.matchAll(/background-image\s*:\s*url\((["']?)([^"')]+)\1\)/gi)) {
     push(match[2], 70);
   }
-  return [...found.entries()].sort((left, right) => right[1] - left[1]).map(([url]) => url);
+  return [...found.values()]
+    .sort((left, right) => right.weight - left.weight || right.declared - left.declared)
+    .map((entry) => entry.url);
 }
 
 // Descarta lo que no sea una foto de verdad: pide sólo la cabecera.

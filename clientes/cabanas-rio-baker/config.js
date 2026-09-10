@@ -166,6 +166,7 @@ window.RESERVA_CONFIG = {
     "https://www.cabanasriobaker.cl/wp-content/uploads/2015/05/Valdivia_y_su_r%C3%ADo2.jpg",
     "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/1.jpeg",
     "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/2.jpeg",
-    "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/3.jpeg"
+    "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/3.jpeg",
+    "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/6.jpeg"
   ]
 };

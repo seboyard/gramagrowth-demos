@@ -90,7 +90,6 @@ window.RESERVA_CONFIG = {
     "Fuerte Niebla"
   ],
   "galeria": [
-    "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=526,fit=crop/FFiN1hS6K6PMnjBV/desayuno-2-yxOfuDbmkWqDNLo4.png",
-    "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=375,h=366,fit=crop/FFiN1hS6K6PMnjBV/desayuno-2-yxOfuDbmkWqDNLo4.png"
+    "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=526,fit=crop/FFiN1hS6K6PMnjBV/desayuno-2-yxOfuDbmkWqDNLo4.png"
   ]
 };

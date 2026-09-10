@@ -121,6 +121,7 @@ window.RESERVA_CONFIG = {
     "https://cabanasrosner.cl/wp-content/uploads/2026/04/Camara-7-scaled.jpg",
     "https://cabanasrosner.cl/wp-content/uploads/2026/04/Dron-10-1-1-scaled.jpg",
     "https://cabanasrosner.cl/wp-content/uploads/gpf_media/npjA293sVZhe1zDxw0Bo/dron-9-scaled.jpg",
-    "https://cabanasrosner.cl/wp-content/uploads/2026/04/20260306_104023-1.jpg"
+    "https://cabanasrosner.cl/wp-content/uploads/2026/04/20260306_104023-1.jpg",
+    "https://cabanasrosner.cl/wp-content/uploads/gpf_media/as95LHTMowtlprrfTIqm/dron-4-scaled.jpg"
   ]
 };
