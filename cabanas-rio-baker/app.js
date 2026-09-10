@@ -357,6 +357,39 @@ function boot() {
   // El panel del anfitrión es material de venta: sólo existe mientras es muestra.
   if (demo?.activo) $('#host-panel').hidden = false;
 
+  // Galería: fotos del propio sitio del cliente. La primera se usa de fondo en
+  // la portada. Si alguna no carga (protección de hotlink, imagen movida) se
+  // quita sola en vez de dejar un hueco roto.
+  const fotos = (config.galeria || []).filter(Boolean);
+  if (fotos.length) {
+    const hero = document.querySelector('.hero');
+    const probe = new Image();
+    probe.addEventListener('load', () => {
+      hero.style.backgroundImage =
+        `linear-gradient(150deg, rgba(0,0,0,.78), rgba(0,0,0,.55)), url("${fotos[0]}")`;
+      hero.classList.add('has-photo');
+    });
+    probe.src = fotos[0];
+
+    const section = $('#galeria');
+    const grid = $('[data-list="galeria"]');
+    grid.replaceChildren(...fotos.map((src, index) => {
+      const figure = document.createElement('figure');
+      figure.className = 'gallery-item';
+      const image = document.createElement('img');
+      image.src = src;
+      image.loading = index === 0 ? 'eager' : 'lazy';
+      image.alt = `${negocio.nombre} — foto ${index + 1}`;
+      image.addEventListener('error', () => figure.remove());
+      figure.append(image);
+      return figure;
+    }));
+    section.hidden = false;
+    if (demo?.activo) {
+      $('#gallery-note').textContent = `Fotos tomadas del sitio público ${demo.fuente}. En la entrega final se reemplazan por las que entregue el cliente.`;
+    }
+  }
+
   buildList('[data-list="certificaciones"]', propiedad.certificaciones,
     (item) => Object.assign(document.createElement('li'), { textContent: item }));
   buildList('[data-list="amenidades"]', propiedad.amenidades,

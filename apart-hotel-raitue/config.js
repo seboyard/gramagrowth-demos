@@ -88,5 +88,8 @@ window.RESERVA_CONFIG = {
     "Museo Kunstmann",
     "Parque Saval",
     "Fuerte Niebla"
+  ],
+  "galeria": [
+    "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=526,fit=crop/FFiN1hS6K6PMnjBV/desayuno-2-yxOfuDbmkWqDNLo4.png"
   ]
 };

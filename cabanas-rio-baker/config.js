@@ -160,5 +160,13 @@ window.RESERVA_CONFIG = {
     "Museo Kunstmann",
     "Balneario de Niebla",
     "Parque Saval"
+  ],
+  "galeria": [
+    "http://www.cabanasriobaker.cl/wp-content/uploads/2015/05/Attachment-1.jpg",
+    "https://www.cabanasriobaker.cl/wp-content/uploads/2015/05/Valdivia_y_su_r%C3%ADo2.jpg",
+    "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/1.jpeg",
+    "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/2.jpeg",
+    "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/3.jpeg",
+    "https://www.cabanasriobaker.cl/wp-content/uploads/2015/11/6.jpeg"
   ]
 };

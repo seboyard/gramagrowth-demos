@@ -79,6 +79,13 @@
       </div>
     </section>
 
+    <!-- ── Galería ───────────────────────────────────────────────── -->
+    <section id="galeria" class="gallery" hidden aria-labelledby="gallery-title">
+      <h2 id="gallery-title" class="visually-hidden">Fotos</h2>
+      <div data-list="galeria" class="gallery-grid"></div>
+      <p class="gallery-note" id="gallery-note"></p>
+    </section>
+
     <!-- ── Cabañas ───────────────────────────────────────────────── -->
     <section class="units" aria-labelledby="units-title">
       <h2 id="units-title" data-field="propiedadTitular"></h2>
@@ -125,21 +132,3 @@
   <script src="app.js" defer></script>
 </body>
 </html>
-
-<!-- DEMO — CALENDARIO CON DATOS DE PRUEBA (archivo real, inventado solo para probar UI) -->
-<section id="calendario-reservas" style="padding:2rem;background:#2b2118;color:#fff;">
-  <h2>Reservar — Calendario de disponibilidad (demo de prueba)</h2>
-  <p><strong style="color:#a8743a;">DEMO: datos inventados para probar UI. Confirmar con anfitrión.</strong></p>
-  <table border="1" cellpadding="8" style="background:#f7f4f0;color:#2b2118;border-collapse:collapse;width:100%;max-width:600px;">
-    <tr style="background:#a8743a;color:#fff;"><th>Fecha</th><th>Estado</th><th>Precio</th></tr>
-    <tr><td>10 jul 2026</td><td>Disponible</td><td>$50.000</td></tr>
-    <tr><td>11 jul 2026</td><td>Ocupado</td><td>—</td></tr>
-    <tr><td>12 jul 2026</td><td>Disponible</td><td>$50.000</td></tr>
-    <tr><td>13 jul 2026</td><td>Disponible (vista río)</td><td>$60.000</td></tr>
-    <tr><td>14 jul 2026</td><td>Disponible</td><td>$50.000</td></tr>
-  </table>
-  <p style="margin-top:1rem;">📞 <a href="https://wa.me/56996431514" style="color:#a8743a;">+56 9 9643 1514</a> (archivo real de config.js)</p>
-  <p>📍 <a href="https://www.google.com/maps/search/?api=1&query=Cabanas+Rosner+Valdivia" style="color:#a8743a;">Mapa real</a></p>
-  <p><em>Nota archivo: precios confirmados del sitio público. Confirmación final con anfitrión para abono, checkout y fechas exactas.</em></p>
-</section>
-<section id="precios-dinamicos" style="padding:2rem;background:#a8743a;color:#fff;"><h2>Tarifas dinámicas (archivo real config.js)</h2><p><strong>DEMO.</strong> Confirmar con anfitrión.</p><ul><li>Alta (ene-mar): +20% ($50k→$60k)</li><li>Media: base ($50k/$60k)</li><li>Abono: confirmar</li></ul></section>
