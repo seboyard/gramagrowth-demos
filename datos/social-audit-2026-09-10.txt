@@ -1,0 +1,7 @@
+Auditoría A+B archivo real
+18
+redes=0
+activo=0
+des=18
+oportunidades=0
+Nota: sin data inventada redes; sin API.

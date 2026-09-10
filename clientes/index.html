@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Demos por cliente | Gramagrowth</title>
+  <link rel="stylesheet" href="../prospectar/styles.css">
+  <style>
+    .demo-grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); margin-top:28px; }
+    .demo-card { background:var(--white); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); display:grid; gap:10px; padding:22px; }
+    .demo-card h2 { font-size:19px; margin:0; }
+    .demo-meta { color:var(--muted); font-size:12.5px; margin:0; }
+    .demo-tags { display:flex; flex-wrap:wrap; gap:6px; }
+    .demo-tag { background:#f1eff4; border-radius:999px; font-size:11px; font-weight:800; padding:4px 9px; }
+    .demo-tag[data-priced="false"] { background:var(--pink-soft); color:var(--pink); }
+    .demo-actions { display:flex; gap:8px; margin-top:4px; }
+    .demo-actions a { border-radius:9px; font-size:12.5px; font-weight:850; padding:9px 14px; text-decoration:none; }
+    .open { background:var(--ink); color:var(--white); }
+    .open:hover { background:var(--pink); }
+    .source { border:1px solid var(--line); color:var(--ink); }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <a href="../" class="brand"><img src="../assets/logo-gramagrowth.png" alt="Gramagrowth"></a>
+    <nav aria-label="Herramientas locales">
+      <a href="../prospectar/">Cola de prospección</a>
+      <a href="../kit/">Kit de propuesta</a>
+      <span>Local · muestras privadas</span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">Muestras por cliente</p>
+        <h1>Demos listas para mostrar.</h1>
+        <p>Cada una usa información pública real del negocio y lleva el aviso de muestra visible. Antes de entregar, confirma tarifas y reglas con el cliente y apaga <code>demo.activo</code> en su <code>config.js</code>.</p>
+      </div>
+      <aside class="safety-note">
+        <strong>Antes de enseñarlas</strong>
+        <p>Una demo con un precio equivocado quema al prospecto. Abre el sitio del cliente y reconfirma los montos el mismo día que la muestras.</p>
+      </aside>
+    </section>
+
+    <div id="demo-grid" class="demo-grid"></div>
+    <p id="demo-empty" class="empty-list" hidden>No hay demos todavía.</p>
+  </main>
+
+  <script type="module">
+    const grid = document.querySelector('#demo-grid');
+    try {
+      const demos = await fetch('/api/clientes').then((response) => response.json());
+      if (!demos.length) { document.querySelector('#demo-empty').hidden = false; }
+      grid.replaceChildren(...demos.map((demo) => {
+        const card = document.createElement('article');
+        card.className = 'demo-card';
+        card.append(Object.assign(document.createElement('h2'), { textContent: demo.business }));
+        if (demo.source) {
+          card.append(Object.assign(document.createElement('p'), {
+            className: 'demo-meta', textContent: `Datos de ${demo.source}`
+          }));
+        }
+        const tags = document.createElement('div');
+        tags.className = 'demo-tags';
+        const units = document.createElement('span');
+        units.className = 'demo-tag';
+        units.textContent = `${demo.units} ${demo.units === 1 ? 'unidad' : 'unidades'}`;
+        const priced = document.createElement('span');
+        priced.className = 'demo-tag';
+        priced.dataset.priced = String(demo.priced);
+        priced.textContent = demo.priced ? 'con tarifas' : 'sin tarifas publicadas';
+        tags.append(units, priced);
+        card.append(tags);
+
+        const actions = document.createElement('div');
+        actions.className = 'demo-actions';
+        const open = document.createElement('a');
+        open.className = 'open';
+        open.href = `./${demo.id}/`;
+        open.target = '_blank';
+        open.rel = 'noreferrer';
+        open.textContent = 'Abrir demo';
+        actions.append(open);
+        if (demo.source) {
+          const source = document.createElement('a');
+          source.className = 'source';
+          source.href = `https://${demo.source}`;
+          source.target = '_blank';
+          source.rel = 'noreferrer';
+          source.textContent = 'Ver sitio actual';
+          actions.append(source);
+        }
+        card.append(actions);
+        return card;
+      }));
+    } catch (error) {
+      grid.replaceChildren(Object.assign(document.createElement('p'), {
+        className: 'empty-list',
+        textContent: `No se pudo cargar la lista: ${error.message}. ¿Está corriendo "npm run serve"?`
+      }));
+    }
+  </script>
+</body>
+</html>

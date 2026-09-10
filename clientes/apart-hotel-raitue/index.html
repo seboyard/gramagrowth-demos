@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Consulta disponibilidad y tarifas, y envía tu solicitud de reserva con fechas y pasajeros ya incluidos.">
+  <title>Reserva directa | Muestra Gramagrowth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <p id="demo-banner" class="demo-banner" hidden></p>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow" data-field="comuna"></p>
+      <h1 data-field="nombre"></h1>
+      <p class="lead" data-field="bajada"></p>
+      <div class="hero-actions">
+        <a class="button primary" href="#cotizar">Consultar disponibilidad</a>
+        <a class="button ghost" id="hero-whatsapp" target="_blank" rel="noreferrer">Escribir por WhatsApp</a>
+      </div>
+      <ul class="hero-facts" data-list="certificaciones"></ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ── Cotizador ─────────────────────────────────────────────── -->
+    <section id="cotizar" class="quote" aria-labelledby="quote-title">
+      <div class="quote-form">
+        <h2 id="quote-title">Calcula tu estadía</h2>
+        <p class="quote-sub">Elige fechas y pasajeros. Te mostramos el valor estimado antes de escribir.</p>
+
+        <div class="field-grid">
+          <label>Llegada<input id="checkin" type="date"></label>
+          <label>Salida<input id="checkout" type="date"></label>
+          <label>Pasajeros<select id="guests"></select></label>
+          <label>Cabaña<select id="unit"></select></label>
+        </div>
+
+        <div id="quote-result" class="quote-result" aria-live="polite"></div>
+
+        <a id="request-whatsapp" class="button primary block" target="_blank" rel="noreferrer" hidden>
+          Enviar solicitud por WhatsApp
+        </a>
+        <a id="request-email" class="button ghost block" hidden>Enviar por correo</a>
+        <p class="quote-note">Esto envía una <strong>solicitud</strong>: la reserva se confirma cuando el anfitrión responde y se cancela el abono.</p>
+
+        <ul data-list="reservaDirecta" class="direct-list"></ul>
+      </div>
+
+      <aside class="rates-card">
+        <h3 id="rates-title">Tarifas por noche</h3>
+        <ul data-list="temporadas" class="rates-list"></ul>
+        <p id="rates-empty" class="rates-empty" hidden>Las tarifas de esta unidad no están publicadas. Envía tu consulta y el anfitrión te confirma el valor.</p>
+        <div data-list="promociones" class="promo-list"></div>
+        <ul data-list="reglas" class="rules-list"></ul>
+      </aside>
+    </section>
+
+    <!-- ── Panel para el anfitrión (sólo en modo demo) ───────────── -->
+    <section id="host-panel" class="host-panel" hidden aria-labelledby="host-title">
+      <div class="host-head">
+        <p class="host-tag">Para el anfitrión · no aparece en el sitio publicado</p>
+        <h2 id="host-title">Esto es lo que te llega a ti</h2>
+        <p class="host-lead">Cada consulta llega completa, sin que tengas que preguntar nada ni calcular el valor a mano.</p>
+      </div>
+      <div class="host-compare">
+        <div class="host-col before">
+          <h3>Hoy recibes</h3>
+          <pre class="host-msg">Hola, tienen disponibilidad?</pre>
+          <p class="host-note">Y empiezan cuatro mensajes de ida y vuelta: fechas, cuántos son, cuánto sale, cómo se reserva.</p>
+        </div>
+        <div class="host-col after">
+          <h3>Con esta página recibes</h3>
+          <pre class="host-msg" id="host-preview"></pre>
+          <p class="host-note">Con el valor ya calculado según tus propias tarifas, incluidas promociones y recargos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Cabañas ───────────────────────────────────────────────── -->
+    <section class="units" aria-labelledby="units-title">
+      <h2 id="units-title" data-field="propiedadTitular"></h2>
+      <p class="section-lead" data-field="propiedadDescripcion"></p>
+      <div data-list="amenidades" class="amenity-row"></div>
+      <div data-list="tipos" class="unit-grid"></div>
+    </section>
+
+    <!-- ── Preguntas frecuentes ──────────────────────────────────── -->
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Preguntas frecuentes</h2>
+      <div data-list="faq" class="faq-list"></div>
+    </section>
+
+    <!-- ── Ubicación y entorno ───────────────────────────────────── -->
+    <section class="place" aria-labelledby="place-title">
+      <div>
+        <h2 id="place-title">Dónde estamos</h2>
+        <p class="address" data-field="direccion"></p>
+        <a id="map-link" class="button ghost" target="_blank" rel="noreferrer">Abrir en Google Maps</a>
+        <div id="map-embed" class="map-embed" hidden></div>
+      </div>
+      <div>
+        <h3>Qué visitar cerca</h3>
+        <ul data-list="atractivos" class="attraction-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong data-field="nombreFooter"></strong>
+      <p data-field="direccionFooter"></p>
+    </div>
+    <div class="footer-contact">
+      <a id="footer-whatsapp" target="_blank" rel="noreferrer"></a>
+      <a id="footer-phone"></a>
+      <a id="footer-email"></a>
+    </div>
+    <p class="footer-source" id="footer-source"></p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

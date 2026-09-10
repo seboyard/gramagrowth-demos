@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Cola de prospección | Gramagrowth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <a href="../" class="brand"><img src="../assets/logo-gramagrowth.png" alt="Gramagrowth"></a>
+    <nav aria-label="Herramientas locales">
+      <a href="../kit/">Kit de propuesta</a>
+      <span>Local · sin envío automático</span>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div>
+        <p class="eyebrow">Cola de prospección · Valdivia</p>
+        <h1>Prospectar con evidencia, no con volumen.</h1>
+        <p>Cada hallazgo viene de una auditoría automática del sitio público. Re-verifica antes de contactar: los sitios cambian y un hallazgo vencido quema el prospecto.</p>
+      </div>
+      <aside class="safety-note">
+        <strong>Control de envío</strong>
+        <p>Esta herramienta audita sitios públicos, copia textos y abre borradores. No envía correos, no rastrea aperturas y no comparte datos con terceros.</p>
+      </aside>
+    </section>
+
+    <section class="add-panel">
+      <div class="add-row">
+        <label class="grow"><span>Auditar un sitio nuevo</span>
+          <input id="new-url" type="url" placeholder="https://negocio.cl" autocomplete="off"></label>
+        <label><span>Negocio</span><input id="new-business" type="text" placeholder="Nombre visible"></label>
+        <label><span>Rubro</span><input id="new-segment" type="text" placeholder="Turismo y alojamiento" list="segment-options"></label>
+        <button type="button" id="audit-button" class="primary">Auditar</button>
+      </div>
+      <datalist id="segment-options"></datalist>
+      <div id="audit-preview" class="audit-preview" hidden></div>
+    </section>
+
+    <section class="summary" aria-label="Resumen de la cola">
+      <div><strong id="visible-count">0</strong><span>visibles</span></div>
+      <div><strong id="ready-count">0</strong><span>listos</span></div>
+      <div><strong id="contacted-count">0</strong><span>contactados</span></div>
+      <div><strong id="due-count">0</strong><span>seguimientos hoy</span></div>
+      <p id="data-note">Cargando…</p>
+    </section>
+
+    <section class="workspace">
+      <aside class="queue-panel">
+        <div class="filters">
+          <label class="search-label"><span>Buscar</span><input id="search" type="search" placeholder="Negocio o rubro"></label>
+          <div class="filter-row">
+            <label><span>Estado</span><select id="status-filter">
+              <option value="all">Todos</option><option value="review">Por revisar</option><option value="ready">Listo para contactar</option>
+              <option value="contacted">Contactado</option><option value="replied">Respondió</option><option value="discarded">Descartado</option>
+            </select></label>
+            <label><span>Rubro</span><select id="segment-filter"><option value="all">Todos</option></select></label>
+            <label><span>Canal</span><select id="channel-filter">
+              <option value="all">Todos</option><option value="email">Con correo</option>
+              <option value="phone">Sólo teléfono</option><option value="none">Sin canal directo</option>
+            </select></label>
+          </div>
+        </div>
+        <div id="prospect-list" class="prospect-list" aria-label="Prospectos"></div>
+      </aside>
+
+      <article id="prospect-detail" class="detail-panel" aria-live="polite"></article>
+    </section>
+  </main>
+
+  <template id="detail-template">
+    <div class="detail-topline">
+      <div>
+        <span class="priority-badge" data-field="priority"></span>
+        <span class="segment" data-field="segment"></span>
+        <span class="score-badge" data-field="score"></span>
+      </div>
+      <a data-link="website" target="_blank" rel="noreferrer">Ver sitio ↗</a>
+    </div>
+    <h2 data-field="business"></h2>
+    <p class="opportunity" data-field="opportunity"></p>
+
+    <div class="workflow-controls">
+      <label>Estado<select id="prospect-status">
+        <option value="review">Por revisar</option><option value="ready">Listo para contactar</option><option value="contacted">Contactado</option>
+        <option value="replied">Respondió</option><option value="discarded">Descartado</option>
+      </select></label>
+      <label>Seguimiento<input id="follow-up" type="date"></label>
+      <label>Prioridad<select id="prospect-priority">
+        <option value="Alta">Alta</option><option value="Media">Media</option><option value="Baja">Baja</option>
+      </select></label>
+    </div>
+
+    <section class="detail-section">
+      <div class="section-title">
+        <h3>Auditoría del sitio</h3>
+        <button type="button" id="reverify" class="quiet-button">Re-verificar ahora</button>
+      </div>
+      <p class="audit-stamp" data-field="auditStamp"></p>
+      <div id="reverify-result" class="reverify-result" hidden></div>
+      <ul data-list="signals" class="signal-list"></ul>
+    </section>
+
+    <section class="detail-section">
+      <div class="section-title"><h3>Hallazgos para el correo</h3><span data-field="verifiedAt"></span></div>
+      <ol data-list="findings"></ol>
+    </section>
+
+    <section class="detail-section">
+      <div class="section-title"><h3>Fuentes</h3><span>abrir y reconfirmar</span></div>
+      <div data-list="evidence" class="evidence-list"></div>
+    </section>
+
+    <section class="contact-card">
+      <div class="section-title"><h3>Cómo contactarlo</h3><span data-field="contactLabel"></span></div>
+      <div data-list="channels" class="channel-list"></div>
+    </section>
+
+    <section class="email-draft">
+      <div class="section-title">
+        <div><span class="draft-label">Borrador personal</span><h3 data-field="subject"></h3></div>
+        <button type="button" id="copy-subject">Copiar asunto</button>
+      </div>
+      <pre data-field="email"></pre>
+      <div class="draft-actions">
+        <button type="button" id="copy-email" class="primary">Copiar correo</button>
+        <a id="open-contact" target="_blank" rel="noreferrer"></a>
+        <a id="open-kit" class="quiet">Llevar al kit de propuesta</a>
+      </div>
+      <label class="notes-label"><span>Notas privadas</span><textarea id="notes" rows="2" placeholder="Objeción, respuesta, siguiente paso…"></textarea></label>
+      <p class="send-warning">Antes de usarlo: re-verifica, confirma que los hallazgos siguen vigentes y ajusta el saludo. Un seguimiento útil máximo; sin secuencias automáticas.</p>
+    </section>
+  </template>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

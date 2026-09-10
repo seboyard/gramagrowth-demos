@@ -1,0 +1,1129 @@
+[
+  {
+    "id": "valdivia-encanta",
+    "business": "Valdivia Encanta",
+    "segment": "Turismo y experiencias",
+    "priority": "Media",
+    "website": "https://www.valdiviaencanta.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "form",
+      "value": "https://www.valdiviaencanta.cl/contacto",
+      "label": "Página pública de contacto; no se encontró un correo genérico verificable"
+    },
+    "offer": "landing",
+    "opportunity": "Dar a cada experiencia turística un siguiente paso claro para consultar disponibilidad.",
+    "findings": [
+      "La portada reúne rutas, banco fotográfico, city tour y otros servicios sin jerarquizar una acción principal.",
+      "No se ve en la portada un bloque breve con duración, precio orientativo o mecanismo de disponibilidad para el city tour.",
+      "El pie muestra © 2012, por lo que conviene reforzar visualmente qué información y experiencias están vigentes hoy."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada y oferta pública",
+        "url": "https://www.valdiviaencanta.cl/"
+      },
+      {
+        "label": "Sitio oficial — contacto",
+        "url": "https://www.valdiviaencanta.cl/contacto"
+      }
+    ],
+    "subject": "Una página más directa para las experiencias de Valdivia Encanta",
+    "email": "Hola, equipo de Valdivia Encanta:\n\nSoy Sebastián, de Gramagrowth. Estuve revisando su sitio y vi que reúne mucho material valioso —rutas, fotografía, city tour y otros servicios—, pero para una persona nueva no queda tan claro cuál es la experiencia principal ni cómo consultar disponibilidad.\n\nMi idea sería crear una página breve para una experiencia concreta, con duración, qué incluye, punto de encuentro, preguntas frecuentes y un botón de contacto que ya indique fecha y cantidad de personas. No sería reemplazar todo el contenido, sino convertir una visita en una consulta más fácil de atender.\n\nPuedo prepararles sin costo tres mejoras priorizadas y una muestra visual. ¿Les gustaría verla?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
+    "audit": {
+      "score": 12,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "status": 0,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": ""
+  },
+  {
+    "id": "sportlife-valdivia",
+    "business": "Sportlife Valdivia",
+    "segment": "Bienestar y deporte",
+    "priority": "Alta",
+    "website": "https://sportlifevaldivia.cl/",
+    "verifiedAt": "2026-09-09",
+    "contact": {
+      "type": "form",
+      "value": "https://sportlifevaldivia.cl/planes/",
+      "label": "Formulario público; no se encontró un correo genérico verificable"
+    },
+    "offer": "presence",
+    "opportunity": "Retirar contenido de plantilla y construir un camino confiable desde planes a inscripción.",
+    "findings": [
+      "La portada muestra testimonios de plantilla con texto “Lorem ipsum” y cargos genéricos.",
+      "El bloque de entrenadores presenta nombres y roles en inglés que parecen contenido de demostración.",
+      "El formulario muestra “contacto@company.com” como ejemplo y el pie conserva © 2020."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada y contenido de plantilla",
+        "url": "https://sportlifevaldivia.cl/"
+      },
+      {
+        "label": "Sitio oficial — planes y formulario",
+        "url": "https://sportlifevaldivia.cl/planes/"
+      }
+    ],
+    "subject": "Tres ajustes concretos para la web de Sportlife Valdivia",
+    "email": "Hola, equipo de Sportlife Valdivia:\n\nSoy Sebastián, de Gramagrowth. Revisé su web pública y encontré algunos elementos de plantilla que hoy están visibles: testimonios con “Lorem ipsum”, entrenadores de ejemplo y el texto “contacto@company.com” en el formulario. No cuestionan el servicio, pero sí pueden restar confianza justo antes de elegir un plan.\n\nLes propondría una intervención acotada: limpiar esos elementos, ordenar los planes y dejar un recorrido móvil claro desde la comparación hasta la inscripción o consulta. Puedo preparar una muestra visual usando sólo información pública y sin tocar el sitio actual.\n\n¿Les puedo enviar las tres mejoras priorizadas para que evalúen si vale la pena conversar?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
+    "audit": {
+      "score": 8,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-09",
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2020",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…Valdivia. 07:00 - 00:00 Name Email Message Enviar mensaje © Sportlife 2020. Derechos reservados. Cesta de compras…"
+        },
+        {
+          "id": "plantilla-sin-terminar",
+          "severity": "alta",
+          "label": "Texto de plantilla visible: \"lorem ipsum\"",
+          "detail": "Contenido de ejemplo que quedó publicado. Resta confianza justo antes de contactar.",
+          "evidence": "…Locales \" I am slide content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus n…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Sportlife Valdivia",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@company.com"
+        ],
+        "bytes": 133922,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": ""
+  },
+  {
+    "id": "apart-hotel-raitue",
+    "business": "Apart Hotel Raitue",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://aparthotelraitue.com/",
+    "verifiedAt": "2026-09-09",
+    "contact": {
+      "type": "email",
+      "value": "contacto@raituenvaldivia.cl",
+      "label": "Primer correo publicado; verificar antes de enviar"
+    },
+    "offer": "landing",
+    "opportunity": "Unificar el canal de reserva para que el visitante no tenga que decidir entre datos de contacto distintos.",
+    "findings": [
+      "La misma página publica contacto@raituenvaldivia.cl e info@raituapart.cl como correos de contacto.",
+      "El llamado principal es “Llamar ya”, sin una consulta estructurada de fechas y huéspedes.",
+      "El menú mezcla español con la etiqueta “About”, lo que resta continuidad a la experiencia."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — navegación y bloque de contacto",
+        "url": "https://aparthotelraitue.com/"
+      }
+    ],
+    "subject": "Idea para unificar las consultas de Apart Hotel Raitue",
+    "email": "Hola, equipo de Apart Hotel Raitue:\n\nSoy Sebastián, de Gramagrowth. Revisé su página y noté una oportunidad sencilla: hoy aparecen dos correos de contacto de dominios distintos y el llamado principal invita a llamar, pero no prepara una consulta con fechas y número de huéspedes.\n\nPodría ayudarles a concentrar todo en un único recorrido de reserva: información esencial, fotos, condiciones y un formulario o WhatsApp con los datos de la estadía ya preparados. El objetivo sería reducir dudas y evitar que una consulta llegue por el canal equivocado.\n\nSi les interesa, puedo mostrarles una propuesta visual breve y el alcance cerrado para implementarla en cinco días hábiles. ¿Con quién conviene revisarla?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
+    "audit": {
+      "score": 7,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-09",
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2025",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…para reservar tu cabaña hoy Email info@raituapart.cl (63) 221 5401 © 2025. All rights reserved.…"
+        },
+        {
+          "id": "correos-en-conflicto",
+          "severity": "alta",
+          "label": "Publica 2 correos de 2 dominios distintos",
+          "detail": "Las consultas se reparten entre bandejas, o una de ellas ya no se revisa.",
+          "evidence": "contacto@raituenvaldivia.cl · info@raituapart.cl"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Apart Hotel Raitue en Valdi | Apart Hotel Raitue",
+        "platform": null,
+        "emails": [
+          "contacto@raituenvaldivia.cl",
+          "info@raituapart.cl"
+        ],
+        "bytes": 143030,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": ""
+  },
+  {
+    "id": "academia-los-rios",
+    "business": "Academia Los Ríos",
+    "segment": "Academias y talleres",
+    "priority": "Alta",
+    "website": "https://academialosrios.cl/",
+    "verifiedAt": "2026-09-09",
+    "contact": {
+      "type": "email",
+      "value": "academialosrios@hotmail.cl",
+      "label": "Correo público del sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Actualizar la información de inscripción y concentrar el siguiente paso en una sola página.",
+    "findings": [
+      "La sección de valores todavía se presenta como “Valores 2024”.",
+      "Las series publicadas usan años de nacimiento que requieren revisión para la temporada actual.",
+      "Horarios, valores y contacto existen, pero no están organizados como un flujo breve de inscripción o clase de prueba."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — inicio, series, valores y contacto",
+        "url": "https://academialosrios.cl/"
+      }
+    ],
+    "subject": "Idea para actualizar la información de Academia Los Ríos",
+    "email": "Hola, equipo de Academia Los Ríos:\n\nSoy Sebastián, de Gramagrowth. Revisé su sitio público y vi una mejora muy concreta: la sección de valores todavía aparece como “Valores 2024” y las series están explicadas por años de nacimiento que convendría confirmar para la temporada actual.\n\nPodría prepararles una página breve de inscripción con series vigentes, horarios, valores y un botón directo para consultar por una clase de prueba. La idea no es rehacer todo el sitio, sino facilitar que una familia entienda la información actual y dé el siguiente paso desde el celular.\n\nSi les sirve, puedo enviarles sin costo tres mejoras priorizadas y una propuesta visual simple. ¿A quién se la debería mostrar?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
+    "audit": {
+      "score": 4,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-09",
+      "signals": [
+        {
+          "id": "precio-desactualizado",
+          "severity": "alta",
+          "label": "Precios o temporada publicados como 2024",
+          "detail": "Una persona que entra hoy no sabe si el valor sigue vigente (2 años de desfase).",
+          "evidence": "…ETITIVA SUB 13 (2011) SUB 14 (2010) VALORES Escuela formativa VALORES 2024 Matricula niños nuevos : $35.000 (incluye uniforme y gorro) $ 38.000.…"
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Academia Los Ríos",
+        "platform": "WordPress",
+        "emails": [
+          "academialosrios@hotmail.cl"
+        ],
+        "bytes": 139963,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": ""
+  },
+  {
+    "id": "cabanas-rio-baker",
+    "business": "Cabañas Río Baker",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.cabanasriobaker.cl/",
+    "verifiedAt": "2026-09-09",
+    "contact": {
+      "type": "email",
+      "value": "contactoriobaker@gmail.com",
+      "label": "Correo público del sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Reforzar la vigencia de la información y llevar cada visita a una consulta de disponibilidad bien preparada.",
+    "findings": [
+      "El encabezado principal todavía dice “Verano 2025”.",
+      "Las tarifas se muestran por enero y febrero, sin indicar explícitamente la temporada o fecha de vigencia actual.",
+      "El sitio ofrece formulario y WhatsApp, pero el primer mensaje podría llegar prellenado con fechas y número de huéspedes."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada, precios y reserva",
+        "url": "https://www.cabanasriobaker.cl/"
+      }
+    ],
+    "subject": "Una mejora simple para las reservas de Cabañas Río Baker",
+    "email": "Hola, equipo de Cabañas Río Baker:\n\nSoy Sebastián, de Gramagrowth. Al revisar su sitio vi que la portada todavía anuncia “Verano 2025” y que las tarifas de enero y febrero no muestran una vigencia explícita. Para alguien que está cotizando hoy, ese pequeño detalle puede generar una consulta adicional antes de reservar.\n\nMi propuesta sería una mejora acotada: dejar temporada y tarifas claramente actualizadas y conectar el botón de WhatsApp con un mensaje que ya incluya fechas y cantidad de pasajeros. Así reciben consultas más completas sin cambiar su forma de atender.\n\nPreparé tres observaciones concretas. ¿Les puedo enviar una muestra breve, sin compromiso?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
+    "audit": {
+      "score": 4,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-09",
+      "signals": [
+        {
+          "id": "precio-desactualizado",
+          "severity": "alta",
+          "label": "Precios o temporada publicados como 2025",
+          "detail": "Una persona que entra hoy no sabe si el valor sigue vigente (1 año de desfase).",
+          "evidence": "…ñas ¿Por que Valdivia? Reserva tu cabaña!! CABAÑAS EN VALDIVIA VERANO 2025 Brindando calidez y buen servicio a sus pasajeros. Cabañas Rio Baker,…"
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cabañas Valdivia | Cómodas cabañas equipadas para 4 y 5 personas",
+        "platform": "WordPress",
+        "emails": [
+          "contactoriobaker@gmail.com"
+        ],
+        "bytes": 54423,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": ""
+  },
+  {
+    "id": "cabanas-rio-valdivia",
+    "business": "Cabañas Río Valdivia",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://www.hospedajelosrios.com/",
+    "verifiedAt": "2026-09-09",
+    "contact": {
+      "type": "email",
+      "value": "hospedaje.riovaldivia@gmail.com",
+      "label": "Correo público del sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Convertir la descripción general de las cabañas en una consulta de disponibilidad más informada.",
+    "findings": [
+      "El formulario mezcla contenido en español con campos y botón “Contact Us” en inglés.",
+      "La portada enumera cuatro cabañas, pero no resume en el mismo flujo capacidad, tarifa orientativa o disponibilidad.",
+      "WhatsApp está disponible, aunque el enlace no explica qué datos enviar para cotizar una estadía."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — cabañas y contacto",
+        "url": "https://www.hospedajelosrios.com/"
+      }
+    ],
+    "subject": "Idea breve para simplificar consultas en Cabañas Río Valdivia",
+    "email": "Hola, equipo de Cabañas Río Valdivia:\n\nSoy Sebastián, de Gramagrowth. Revisé su presencia pública y vi una oportunidad puntual: el sitio muestra las cabañas y sus datos de contacto, pero el formulario mezcla etiquetas en inglés y la consulta no reúne de entrada fechas, pasajeros y cabaña de interés.\n\nUna landing de disponibilidad podría ordenar capacidad, equipamiento, ubicación y preguntas frecuentes, y abrir WhatsApp con esos datos ya escritos. Así mantienen la atención personal y reciben consultas más fáciles de responder.\n\nSi les parece útil, puedo enviarles una muestra de estructura y tres ajustes concretos, sin compromiso ni acceso a su sitio actual. ¿Se los comparto por este correo?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
+    "audit": {
+      "score": 4,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-09",
+      "signals": [
+        {
+          "id": "idioma-mezclado",
+          "severity": "media",
+          "label": "Interfaz en inglés dentro de una página en español: \"contact us\"",
+          "detail": "Da la impresión de una plantilla sin terminar justo en el momento de escribir.",
+          "evidence": "…modidad, permitiéndote disfrutar cada momento de su estadía. Contacto Contact Us Avenida Francia 1881, Valdivia, Chile +56-962081979 - Whatsapp hosped…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": ". - Caba&ntilde;as &quot;R&iacute;o Valdivia&quot;",
+        "platform": null,
+        "emails": [
+          "hospedaje.riovaldivia@gmail.com"
+        ],
+        "bytes": 196704,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": ""
+  },
+  {
+    "id": "cabanas-los-cisnes",
+    "business": "Lodge & Cabañas Los Cisnes",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://cabanasloscisnes.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "email",
+      "value": "fweisserr@gmail.com",
+      "label": "Correo publicado en el sitio; verificar antes de enviar"
+    },
+    "offer": "landing",
+    "opportunity": "Convertir la tabla de tarifas publicada en una cotización que llegue por WhatsApp con fechas, pasajeros y valor ya calculados.",
+    "findings": [
+      "En /tarifas/, la tabla de la Casa Gran Suite Superior Familiar rotula el período como “Diciembte-Enero”.",
+      "La página de tarifas publica cinco valores distintos, uno por unidad, pero el sitio no ofrece un modo de cotizar una estadía concreta.",
+      "La portada no declara meta descripción, así que Google arma el resumen del negocio por su cuenta."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada, unidades y check in",
+        "url": "https://cabanasloscisnes.cl/"
+      },
+      {
+        "label": "Sitio oficial — tabla de tarifas por unidad y período",
+        "url": "https://cabanasloscisnes.cl/tarifas/"
+      }
+    ],
+    "subject": "Una errata en la tabla de tarifas de Los Cisnes",
+    "email": "Hola, equipo de Los Cisnes:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. En su página de tarifas, la tabla de la Casa Gran Suite Superior Familiar dice «Diciembte-Enero» en vez de «Diciembre». Está justo donde la gente mira el precio.\n\nYa dejé armada una muestra de página de reserva con datos suyos: las tarifas publicadas de la Cabaña Suite Standard, el check in de 15:30 a 22:00 y lo de la tinaja. El visitante elige fechas y pasajeros, ve el valor y a usted le llega el mensaje completo por WhatsApp. La instalación va entre $250.000 y $350.000.\n\n¿Le mando el enlace para que la abra en el celular?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 1,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cabañas Los Cisnes",
+        "platform": "WordPress",
+        "emails": [
+          "fweisserr@gmail.com"
+        ],
+        "bytes": 106750,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo con datos reales en clientes/cabanas-los-cisnes/ (tarifas de la Cabaña Suite Standard; los otros cuatro valores quedan citados en el FAQ). El sitio no publica porcentaje de abono: la muestra lo deja en 0% y lo declara. Confirmar con el anfitrión antes de mostrarla."
+  },
+  {
+    "id": "hostal-internacional-valdivia",
+    "business": "Hostal Internacional",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.hostalinternacional.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "form",
+      "value": "https://www.hostalinternacional.cl/contacto.html",
+      "label": "Formulario público; el correo del sitio está oculto tras un antispam que exige JavaScript"
+    },
+    "offer": "landing",
+    "opportunity": "Aprovechar que ya publican tarifas para que la consulta llegue calculada, y reparar los enlaces rotos del pie.",
+    "findings": [
+      "El enlace del pie muestra el texto “www.hostalinternacional.cl” pero apunta a https://www.hostainternacional.cl, sin la ele.",
+      "Los íconos de Instagram, Facebook y Twitter del pie enlazan a las portadas de esas redes, no a cuentas del hostal.",
+      "El correo de contacto no es legible: el sitio lo entrega con un antispam que exige JavaScript, y el auditor no encuentra ningún correo.",
+      "Las tarifas están publicadas ($45.000 single/doble, $55.000 triple/cuádruple, desayuno $5.500) pero el formulario de reservas no calcula el valor de la estadía."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada y pie con el enlace equivocado",
+        "url": "https://www.hostalinternacional.cl/"
+      },
+      {
+        "label": "Sitio oficial — reservas y tarifas publicadas",
+        "url": "https://www.hostalinternacional.cl/reservas.html"
+      }
+    ],
+    "subject": "El enlace del pie de su sitio apunta a un dominio sin la ele",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth. Revisando hostalinternacional.cl vi que el enlace del pie se lee «www.hostalinternacional.cl» pero apunta a hostainternacional.cl, sin la ele. Los íconos de Instagram, Facebook y Twitter tampoco llevan a sus cuentas: abren la portada de cada red.\n\nAparte de eso tomé sus tarifas publicadas —$45.000 single o doble, $55.000 triple o cuádruple, desayuno $5.500— y con ellas armé una muestra de página de reserva. Quien consulta elige fechas y el mensaje llega calculado a su WhatsApp. Instalación entre $250.000 y $350.000, sin mensualidad obligatoria.\n\n¿Prefiere que le muestre primero los arreglos del sitio actual o la muestra?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 6,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hostal Internacional - Inicio",
+        "platform": null,
+        "emails": [],
+        "bytes": 24525,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo con datos reales en clientes/hostal-internacional-valdivia/ (nivel de tarifa $45.000; el de $55.000 queda citado en el FAQ). El correo no se pudo leer, así que la muestra lo deja en blanco. El abono no está publicado: la muestra lo deja en 0% y lo declara."
+  },
+  {
+    "id": "cabanas-selva-valdiviana",
+    "business": "Cabañas Selva Valdiviana",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.cabanasvaldivia.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "none",
+      "value": "",
+      "label": "Sin correo público: el sitio sólo publica WhatsApp +56 9 9247 7311. Habría que escribir por ese canal o por Instagram @cabanasselvavaldiviana"
+    },
+    "offer": "landing",
+    "opportunity": "Sumar un canal escrito y una cotización previa al WhatsApp, aprovechando que ya publican precios, reglamento y calendario.",
+    "findings": [
+      "El sitio no publica ningún correo de contacto: el auditor no encuentra formulario ni dirección de correo.",
+      "La página de precios publica $40.000 diarios para la cabaña de 2 o 3 personas y $50.000 para la de 4, con arriendo mínimo de 2 días.",
+      "El reglamento para huéspedes está publicado (llegada 14:00, salida 12:00, sin mascotas), pero no se cruza con el cotizador ni con la consulta."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada y equipamiento",
+        "url": "https://www.cabanasvaldivia.cl/"
+      },
+      {
+        "label": "Sitio oficial — precios publicados",
+        "url": "https://www.cabanasvaldivia.cl/precios/"
+      },
+      {
+        "label": "Sitio oficial — reglamento para huéspedes",
+        "url": "https://www.cabanasvaldivia.cl/reglamento-para-huespedes/"
+      }
+    ],
+    "subject": "Publican precios y calendario, pero no hay correo en el sitio",
+    "email": "Hola:\n\nUna observación concreta de cabanasvaldivia.cl: publican el valor diario, el reglamento para huéspedes y hasta un calendario de fechas disponibles, pero en todo el sitio no aparece ningún correo. A quien no le acomode WhatsApp se queda sin cómo escribir.\n\nSoy Sebastián, de Gramagrowth, en Valdivia. Con esa misma información —los $40.000 diarios, llegada 14:00, salida 12:00 y mínimo dos noches— dejé preparada una muestra de página de solicitud: el huésped elige fechas, ve el valor y el mensaje sale listo. La instalación va entre $250.000 y $350.000.\n\n¿Se la envío para que la revise y me diga qué cambiaría?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 3,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cabañas en Valdivia para 2 o 3 personas",
+        "platform": "WordPress",
+        "emails": [],
+        "bytes": 55961,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo con datos reales en clientes/cabanas-selva-valdiviana/ (tarifa $40.000; la cabaña de 4 personas queda citada en el FAQ). Sin correo público: el primer contacto tendría que ser por WhatsApp o Instagram. El abono no está publicado: la muestra lo deja en 0% y lo declara."
+  },
+  {
+    "id": "cabanas-rosner",
+    "business": "Cabañas Rosner",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasrosner.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "email",
+      "value": "rebolledoa480@gmail.com",
+      "label": "Correo publicado en el pie y en la página de contacto"
+    },
+    "offer": "landing",
+    "opportunity": "Cerrar la brecha entre el precio “desde” y la consulta real, con una cotización por fechas antes de abrir WhatsApp.",
+    "findings": [
+      "El título de la portada es “Rosner – Rosner”: el nombre aparece repetido en la pestaña del navegador y en Google.",
+      "La portada no declara meta descripción.",
+      "Las fichas de cabaña muestran el mismo valor dos veces, una como “$50.000CLP” y otra como “Desde $50.000CLP”, sin fechas de vigencia."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada y datos de contacto",
+        "url": "https://cabanasrosner.cl/"
+      },
+      {
+        "label": "Sitio oficial — ficha de la Cabaña Estándar con su valor",
+        "url": "https://cabanasrosner.cl/cabanas/"
+      },
+      {
+        "label": "Sitio oficial — ficha de la cabaña con vista al río",
+        "url": "https://cabanasrosner.cl/cabanas-con-vista-al-rio-valdivia/"
+      }
+    ],
+    "subject": "La pestaña de su sitio dice «Rosner – Rosner»",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth. Un detalle chico de cabanasrosner.cl: el título que sale en la pestaña del navegador y en Google dice «Rosner – Rosner», repetido, y la página no tiene meta descripción, así que Google arma el resumen por su cuenta.\n\nTrabajo con hospedajes de Valdivia y preparé una muestra con información de ustedes: General Lagos 1787, las dos cabañas de 44 m2, los kayaks incluidos y los valores publicados desde $50.000 y $60.000. El visitante cotiza sus fechas y el mensaje llega completo por WhatsApp. Instalación entre $250.000 y $350.000.\n\n¿La abre y me dice qué corregiría? Le paso el enlace.\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 1,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Rosner &#8211; Rosner",
+        "platform": "WordPress",
+        "emails": [
+          "rebolledoa480@gmail.com"
+        ],
+        "bytes": 240178,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo con datos reales en clientes/cabanas-rosner/ (valor piso $50.000 de la Cabaña Estándar; la de vista al río, desde $60.000, queda en el FAQ). Los valores están publicados como “desde”: la muestra lo declara. El abono no está publicado y queda en 0%, también declarado."
+  },
+  {
+    "id": "complejo-turistico-isla-teja",
+    "business": "Complejo Turístico Isla Teja",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.islateja.com/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "none",
+      "value": "",
+      "label": "Sin canal público verificable: el sitio no carga y no publica correo, formulario ni WhatsApp. Habría que contactarlos por teléfono o presencialmente"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer una presencia que hoy no existe: el sitio está caído y no hay dónde ver cabañas, tarifas ni contacto.",
+    "findings": [
+      "El sitio responde con error HTTP 500 y muestra “Ha habido un error crítico en esta web”, el mensaje de error de WordPress.",
+      "Por lo mismo no hay formulario, correo ni WhatsApp visibles para nadie que llegue desde Google.",
+      "La página caída pesa 2.695 bytes: no queda contenido público que un visitante pueda leer."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — hoy devuelve el error crítico de WordPress",
+        "url": "https://www.islateja.com/"
+      }
+    ],
+    "subject": "Hoy islateja.com no carga: muestra un error de WordPress",
+    "email": "Hola:\n\nLes escribo por algo urgente, no por una venta. Hoy entré a islateja.com y no se ve el sitio: aparece «Ha habido un error crítico en esta web», el mensaje de error de WordPress. Quien los busque en Google hoy no encuentra fotos, tarifas ni forma de contactarlos.\n\nSoy Sebastián, de Gramagrowth, en Valdivia, y hago páginas de solicitud de reserva para hospedajes. No pude prepararles una muestra con sus datos justamente porque el sitio no carga y no quiero inventar nada. Reponer una página con cabañas, tarifas y WhatsApp va entre $250.000 y $350.000.\n\n¿Sabían que estaba caído? Con esa respuesta me basta.\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 9,
+      "ok": true,
+      "error": null,
+      "status": 500,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 500",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "WordPress &rsaquo; Error",
+        "platform": null,
+        "emails": [],
+        "bytes": 2695,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo: el sitio no carga, así que no hay dato publicado que copiar sin inventarlo. Sin correo público verificable; requiere contacto por otra vía antes de mandar nada."
+  },
+  {
+    "id": "hostal-los-cisnes",
+    "business": "Hostal Los Cisnes",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.hostalloscisnes.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "email",
+      "value": "rubenmartineznoriega@gmail.com",
+      "label": "Correo publicado en su ficha del registro público de Sernatur; verificar antes de enviar"
+    },
+    "offer": "landing",
+    "opportunity": "Recuperar una presencia propia: hoy el dominio del hostal lleva al visitante a un sitio de casino en línea.",
+    "findings": [
+      "El dominio hostalloscisnes.cl redirige a mapschile.cl, una página de casino en línea titulada “Pin Up Casino”.",
+      "Ese mismo dominio es el que figura en la ficha pública del hostal en el registro de Sernatur, junto a la dirección Anfión Muñoz 313, Valdivia.",
+      "En consecuencia, hoy no hay ninguna página que muestre habitaciones, tarifas ni contacto del hostal."
+    ],
+    "evidence": [
+      {
+        "label": "Dominio del hostal — redirige a un sitio de casino",
+        "url": "https://www.hostalloscisnes.cl/"
+      },
+      {
+        "label": "Registro público de Sernatur — ficha del hostal con ese dominio",
+        "url": "https://serviciosturisticos.sernatur.cl/14828-hostal-los-cisnes"
+      }
+    ],
+    "subject": "hostalloscisnes.cl hoy redirige a una página de casino",
+    "email": "Hola:\n\nEsto conviene mirarlo hoy mismo. Si uno escribe hostalloscisnes.cl en el navegador, la dirección redirige a mapschile.cl, una página de casino en línea. Lo comprobé hoy. Es el mismo sitio que aparece en su ficha del registro de Sernatur, así que quien los busque por ahí termina en esa página.\n\nSoy Sebastián, de Gramagrowth, en Valdivia. Hago páginas de solicitud de reserva para hospedajes. No armé una muestra con sus datos porque ya no queda nada publicado que copiar sin inventarlo. Una página nueva con habitaciones, tarifas y WhatsApp va entre $250.000 y $350.000.\n\n¿Ese dominio sigue siendo suyo?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 2,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Pin Up Casino: 120% + 250 FS con el Registro para Jugadores de Chile",
+        "platform": "WordPress",
+        "emails": [],
+        "bytes": 235002,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo: no queda información publicada del hostal que se pueda copiar. Los datos de contacto y dirección salen del registro de Sernatur, no del sitio."
+  },
+  {
+    "id": "el-encanto-de-antilhue",
+    "business": "El Encanto de Antilhue",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://elencantodeantilhue.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "email",
+      "value": "reservas@elencantodeantilhue.cl",
+      "label": "Correo publicado en el pie del sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Limpiar restos de instalación de WordPress y dar a las Tiny Cabin una consulta con fechas y valor.",
+    "findings": [
+      "El título del sitio es “elencantodeantihue”: el nombre aparece sin la ele en la pestaña del navegador y en Google.",
+      "El pie sigue mostrando las páginas de ejemplo de WordPress —“Sample Page”, “e-Books”, “Events”, “About”, “Contact”— junto a las páginas reales.",
+      "El sitio publica la política de cancelación y el abono del 30%, pero no publica ninguna tarifa por noche."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada, cabañas y ubicación",
+        "url": "https://elencantodeantilhue.cl/"
+      },
+      {
+        "label": "Sitio oficial — políticas de cancelación y abono del 30%",
+        "url": "https://elencantodeantilhue.cl/politicas-de-cancelacion/"
+      }
+    ],
+    "subject": "El nombre de su sitio aparece sin la ele en la pestaña",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. Dos cosas visibles al abrir elencantodeantilhue.cl: el título de la pestaña dice «elencantodeantihue», sin la ele, y en el pie siguen publicadas las páginas de ejemplo que trae WordPress —«Sample Page», «e-Books», «Events»— junto a las suyas.\n\nMe dedico a páginas de solicitud de reserva para hospedajes. No les preparé una muestra con sus datos porque el sitio no publica tarifas y prefiero no inventar valores; sí encontré el abono del 30% y la política de cancelación. La instalación va entre $250.000 y $350.000.\n\n¿Me pasa las tarifas de la Tiny Cabin y se la armo esta semana?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 3,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "elencantodeantihue",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@elencantodeantilhue.cl"
+        ],
+        "bytes": 238488,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo: el sitio no publica tarifas por noche y no se inventa ninguna. Sí publica abono 30% y política de cancelación, listos para cargar apenas entreguen los valores."
+  },
+  {
+    "id": "cabanas-ainilebu",
+    "business": "Cabañas Ainilebu",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://www.xn--cabaasainilebu-tnb.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "email",
+      "value": "info@cabañasainilebu.cl",
+      "label": "Único correo publicado; contiene una ñ y puede rebotar. Alternativa verificada: WhatsApp +56 9 7810 1739"
+    },
+    "offer": "landing",
+    "opportunity": "Arreglar el canal de contacto y transformar el “desde $35.000” en una cotización real por fechas.",
+    "findings": [
+      "El correo publicado en el pie es info@cabañasainilebu.cl, con ñ en el dominio; el auditor no lo reconoce como dirección válida.",
+      "Ese correo está escrito como texto plano: el sitio no tiene ningún enlace mailto ni tel, así que desde el celular no se puede tocar para escribir o llamar.",
+      "El precio publicado en la portada es “Desde | $ 35.000”, sin tarifa por unidad ni fechas de vigencia.",
+      "El sitio ofrece un descuento del 10% por reservar directamente por WhatsApp, pero no dice sobre qué valor se aplica."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — cabañas, contacto, check in/out y promoción",
+        "url": "https://www.xn--cabaasainilebu-tnb.cl/"
+      }
+    ],
+    "subject": "El correo publicado en su sitio lleva una ñ",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth. En el pie de su sitio el correo aparece como info@cabañasainilebu.cl, con ñ. Muchos programas de correo no aceptan una ñ en la dirección, así que quien lo copie puede recibir un rebote. Además está escrito como texto plano: no se puede tocar para escribir desde el celular.\n\nTrabajo con hospedajes de Valdivia. No armé una muestra con sus tarifas porque el sitio sólo dice «desde $35.000» y no quiero poner un valor que después no calce con el real. Con sus valores por noche la dejo lista; la instalación va entre $250.000 y $350.000.\n\n¿Me confirma sus tarifas y le preparo la muestra esta semana?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 0,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [],
+      "meta": {
+        "title": "Cabañas Ainilebu - Valdivia",
+        "platform": null,
+        "emails": [
+          "core@2.9.2"
+        ],
+        "bytes": 46800,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo: el sitio sólo publica un precio “desde $35.000” y no una tarifa por unidad, así que cargarlo sería suponer el valor. Correo publicado con ñ: alto riesgo de rebote, conviene escribir por WhatsApp."
+  },
+  {
+    "id": "cabanas-renova",
+    "business": "Cabañas Renova",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasrenova.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "form",
+      "value": "https://cabanasrenova.cl/contacto/",
+      "label": "Formulario público de reservas; el sitio no publica ningún correo"
+    },
+    "offer": "landing",
+    "opportunity": "Dar un canal escrito visible desde la portada y una cotización por fechas en lugar de “contáctenos por detalles”.",
+    "findings": [
+      "En la portada no hay correo ni formulario: el auditor no encuentra ninguno y el único dato directo es el teléfono +56 9 6618 7552.",
+      "El sitio no publica ninguna tarifa; la portada invita a “contáctenos para mayores detalles”.",
+      "El botón de WhatsApp está implementado como widget de script, por lo que no existe como enlace en la página."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada, dirección y teléfono",
+        "url": "https://cabanasrenova.cl/"
+      },
+      {
+        "label": "Sitio oficial — formulario de reservas y consultas",
+        "url": "https://cabanasrenova.cl/contacto/"
+      }
+    ],
+    "subject": "En la portada de Cabañas Renova no hay correo ni tarifas",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. Revisé cabanasrenova.cl mirando lo que ve un visitante: en la portada no hay correo ni formulario, sólo el teléfono +56 9 6618 7552. Para escribir hay que entrar a «Contacto», y las tarifas no aparecen publicadas en ninguna parte del sitio.\n\nHago páginas de solicitud de reserva para cabañas: el visitante elige fechas y pasajeros, ve el valor calculado con las tarifas del anfitrión y el mensaje llega armado por WhatsApp. No les preparé una muestra porque no publican precios y no invento ninguno.\n\nLa instalación va entre $250.000 y $350.000. ¿Me manda sus tarifas por temporada y se la dejo lista?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 5,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "CABAÑAS RENOVA - Arriendo de cabañas en Valdivia",
+        "platform": "WordPress",
+        "emails": [],
+        "bytes": 121864,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo: el sitio no publica tarifas y no se inventa ninguna. Sin correo público; el contacto sería por el formulario o por teléfono."
+  },
+  {
+    "id": "cabanas-playa-curinanco",
+    "business": "Cabañas Playa Curiñanco",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasplayacurinanco.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "form",
+      "value": "https://cabanasplayacurinanco.cl/",
+      "label": "Formulario en la portada; el sitio no publica correo. WhatsApp verificado: +56 9 7417 4913"
+    },
+    "offer": "landing",
+    "opportunity": "Ordenar la portada y publicar capacidad, tarifas y contacto antes de mandar a la gente a WhatsApp.",
+    "findings": [
+      "El menú superior muestra “Inicio” dos veces y una tercera opción llamada “Uncategorized”, la categoría por defecto de WordPress.",
+      "La portada repite ocho veces el mismo bloque con el texto “Ubicadas en la Costa Valdiviana, ofrecemos la mejor comodidad y conexión con la Naturaleza”.",
+      "El sitio no publica dirección, teléfono, correo, capacidad de las cabañas ni tarifas; el único canal directo es el botón de WhatsApp."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — menú, portada y formulario",
+        "url": "https://cabanasplayacurinanco.cl/"
+      }
+    ],
+    "subject": "Su menú muestra «Uncategorized» y dos veces «Inicio»",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth. En cabanasplayacurinanco.cl el menú de arriba muestra «Inicio» dos veces y una tercera opción llamada «Uncategorized», que es la categoría por defecto de WordPress. Tampoco hay dirección, teléfono ni correo en la página: el único canal visible es el botón de WhatsApp.\n\nMe dedico a páginas de solicitud de reserva para cabañas. No les armé una muestra porque el sitio no publica tarifas y prefiero no inventar valores en algo que ustedes van a leer. Con sus precios reales queda funcionando; la instalación va entre $250.000 y $350.000.\n\n¿Cuánto vale hoy la noche en temporada alta? Con ese dato se la preparo.\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 0,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [],
+      "meta": {
+        "title": "Cabañas Playa Curiñanco",
+        "platform": "WordPress",
+        "emails": [],
+        "bytes": 194241,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo: no publican tarifas ni capacidad por cabaña. El sitio responde intermitente (llegó a devolver HTTP 406 a lecturas seguidas); reintentar si no carga."
+  },
+  {
+    "id": "hostel-torobayo",
+    "business": "Hostel Torobayo",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://hosteltorobayo.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "none",
+      "value": "",
+      "label": "Sin correo legible: el sitio muestra el marcador “[email protected]” del sistema antispam. Teléfono publicado: +56 9 7582 3095"
+    },
+    "offer": "landing",
+    "opportunity": "Reparar el canal de contacto escrito y publicar tarifas con una consulta por fechas.",
+    "findings": [
+      "En el bloque de Contacto, donde debería ir el correo, se muestra el texto literal “[email protected]”: el marcador del sistema antispam quedó sin reemplazar.",
+      "El auditor no encuentra formulario ni correo en la página; el teléfono +56 9 7582 3095 sí está publicado.",
+      "El sitio no publica tarifas por habitación ni un modo de consultar disponibilidad para fechas concretas."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — servicios, fotos y bloque de contacto",
+        "url": "https://hosteltorobayo.cl/"
+      }
+    ],
+    "subject": "En su sitio el correo se muestra como «[email protected]»",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. En hosteltorobayo.cl, en el bloque de Contacto, donde debería ir el correo aparece el texto «[email protected]». Es el marcador que deja el sistema antispam cuando no alcanza a reemplazarse. Quien quiera escribirles sólo ve eso; el teléfono +56 9 7582 3095 sí se lee bien.\n\nHago páginas de solicitud de reserva para hospedajes: fechas, pasajeros, valor calculado y el mensaje listo para WhatsApp. No les preparé una muestra porque el sitio no publica tarifas y no pongo precios inventados. La instalación va entre $250.000 y $350.000.\n\n¿Cuál es el correo real del hostel?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 5,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hostel Torobayo | CL",
+        "platform": null,
+        "emails": [],
+        "bytes": 38674,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo: no publican tarifas. Sin correo legible en el sitio; el borrador pide precisamente esa dirección, así que habría que hacérselo llegar por teléfono o Instagram."
+  },
+  {
+    "id": "cabanas-verano-valdivia",
+    "business": "Cabañas Verano Valdivia (Isla Teja)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasvaldiviachile.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "email",
+      "value": "cabanasveranovaldivia@gmail.com",
+      "label": "Correo publicado en el encabezado y el pie del sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Poner una cotización con fechas y valor entre la visita y el salto a WhatsApp.",
+    "findings": [
+      "El ítem “Reservas” del menú no lleva a una página del sitio: enlaza directo a wa.me/56993547994, así que abre WhatsApp de inmediato.",
+      "El sitio no publica ninguna tarifa por noche ni por temporada.",
+      "La dirección publicada es sólo “Isla Teja, Valdivia”, sin calle ni número, y los check in/out (15:00 y 12:00) aparecen sólo en el pie."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — menú, cabañas, contacto y horarios",
+        "url": "https://cabanasvaldiviachile.cl/"
+      }
+    ],
+    "subject": "El botón «Reservas» de su menú abre WhatsApp de inmediato",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. En cabanasvaldiviachile.cl el ítem «Reservas» del menú no lleva a ninguna página: abre WhatsApp al tiro. Quien todavía está comparando se va sin ver una tarifa, y la dirección publicada es sólo «Isla Teja, Valdivia», sin calle ni número.\n\nHago páginas de solicitud de reserva para cabañas. Ahí el visitante elige fechas y pasajeros, ve el valor con las tarifas del anfitrión y recién entonces abre WhatsApp, con el mensaje escrito. No armé la muestra con sus precios porque el sitio no los publica. Instalación entre $250.000 y $350.000.\n\n¿Me pasa sus valores de enero y febrero y la preparo?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "score": 0,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [],
+      "meta": {
+        "title": "Cabañas en Isla Teja Valdivia Cerca del Centro",
+        "platform": "WordPress",
+        "emails": [
+          "cabanasveranovaldivia@gmail.com"
+        ],
+        "bytes": 273511,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo: el sitio no publica tarifas. Buen candidato apenas entreguen valores; ya tienen correo, WhatsApp y horarios publicados."
+  }
+]

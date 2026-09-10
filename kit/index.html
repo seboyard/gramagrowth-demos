@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Kit local de ventas | Gramagrowth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <a href="../" class="brand"><img src="../assets/logo-gramagrowth.png" alt="Gramagrowth"></a>
+    <div>
+      <strong>Kit local de ventas</strong>
+      <span>No envía ni comparte datos</span>
+    </div>
+    <a class="header-link" href="../prospectar/">Abrir cola de prospección</a>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">Prospecto → diagnóstico → propuesta</p>
+      <h1>Prepara una conversación útil en menos de 15 minutos.</h1>
+      <p>Registra sólo hechos observables. El kit no inventa métricas, no busca contactos y no envía mensajes.</p>
+    </section>
+
+    <section class="workspace">
+      <form id="audit-form" autocomplete="off">
+        <div class="form-heading">
+          <h2>1. Evidencia del prospecto</h2>
+          <button type="button" id="clear-form" class="text-button">Limpiar</button>
+        </div>
+
+        <label>Negocio
+          <input name="business" required placeholder="Ej. Cabañas Río Sur">
+        </label>
+        <div class="field-row">
+          <label>Rubro
+            <input name="segment" required placeholder="Ej. alojamiento turístico">
+          </label>
+          <label>Ciudad
+            <input name="location" value="Valdivia">
+          </label>
+        </div>
+        <label>Fuente pública revisada
+          <input name="source" type="url" placeholder="https://...">
+        </label>
+        <label>Problema observable 1
+          <textarea name="finding1" required rows="2" placeholder="Ej. No hay una página que reúna tipos de cabaña, ubicación y contacto."></textarea>
+        </label>
+        <label>Problema observable 2
+          <textarea name="finding2" required rows="2" placeholder="Ej. Instagram obliga a buscar información entre publicaciones antiguas."></textarea>
+        </label>
+        <label>Problema observable 3
+          <textarea name="finding3" required rows="2" placeholder="Ej. El enlace de contacto no prepara el mensaje ni identifica la consulta."></textarea>
+        </label>
+
+        <h2>2. Oferta recomendada</h2>
+        <label>Producto
+          <select name="offer" id="offer-select">
+            <option value="landing">Landing de consultas</option>
+            <option value="presence">Presencia lista para consultas</option>
+            <option value="flow">Reserva o seguimiento simple</option>
+          </select>
+        </label>
+        <div class="field-row">
+          <label>Precio propuesto (CLP)
+            <input name="price" type="number" min="0" step="10000" value="320000" required>
+          </label>
+          <label>Plazo
+            <input name="timeline" value="5 días hábiles" required>
+          </label>
+        </div>
+        <label>Resultado concreto
+          <textarea name="outcome" rows="2">Una página clara para que las personas entiendan la oferta y consulten por WhatsApp con menos fricción.</textarea>
+        </label>
+        <label class="consent-line">
+          <input name="evidenceConfirmed" type="checkbox" required>
+          Confirmo que los hallazgos están basados en evidencia pública y no en suposiciones.
+        </label>
+        <button class="primary-button" type="submit">Generar materiales</button>
+        <p class="storage-note">El borrador se guarda únicamente en este navegador. No uses datos sensibles.</p>
+      </form>
+
+      <section class="outputs" aria-live="polite">
+        <div class="empty-output" id="empty-output">
+          <span>01</span>
+          <h2>Completa la evidencia.</h2>
+          <p>Obtendrás un diagnóstico, un mensaje de contacto y una propuesta lista para imprimir.</p>
+        </div>
+
+        <div id="generated-output" hidden>
+          <article class="output-card">
+            <div class="output-heading">
+              <h2>Diagnóstico breve</h2>
+              <button type="button" data-copy="diagnosis">Copiar</button>
+            </div>
+            <div id="diagnosis-output"></div>
+          </article>
+
+          <article class="output-card">
+            <div class="output-heading">
+              <h2>Mensaje personal</h2>
+              <button type="button" data-copy="message">Copiar</button>
+            </div>
+            <p id="message-output"></p>
+          </article>
+
+          <article class="output-card proposal-preview">
+            <div class="output-heading">
+              <h2>Propuesta</h2>
+              <button type="button" id="print-proposal">Imprimir / PDF</button>
+            </div>
+            <div id="proposal-output"></div>
+          </article>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <template id="proposal-template">
+    <section class="proposal" id="printable-proposal">
+      <header>
+        <img src="../assets/logo-gramagrowth.png" alt="Gramagrowth">
+        <p>Propuesta comercial</p>
+      </header>
+      <p class="proposal-kicker">Preparada para <strong data-field="business"></strong></p>
+      <h1 data-field="offerName"></h1>
+      <p class="proposal-lead" data-field="outcome"></p>
+
+      <section>
+        <h2>Oportunidad observada</h2>
+        <ul data-field="findings"></ul>
+        <p class="source-line" data-field="sourceLine"></p>
+      </section>
+
+      <section>
+        <h2>Qué entregamos</h2>
+        <ul data-field="deliverables"></ul>
+      </section>
+
+      <div class="proposal-terms">
+        <div><span>Plazo</span><strong data-field="timeline"></strong></div>
+        <div><span>Inversión</span><strong data-field="price"></strong></div>
+        <div><span>Inicio</span><strong>50% para comenzar</strong></div>
+        <div><span>Ajustes</span><strong>1 ronda incluida</strong></div>
+      </div>
+
+      <section>
+        <h2>Siguiente paso</h2>
+        <p>Confirmar alcance, materiales disponibles y fecha de inicio. El saldo se paga contra entrega aprobada.</p>
+      </section>
+      <footer>
+        <strong>Gramagrowth</strong>
+        <span>Presencia digital para negocios locales · Valdivia / Chile · @gramagrowth</span>
+      </footer>
+    </section>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
