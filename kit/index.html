@@ -71,6 +71,14 @@
             <input name="timeline" value="5 días hábiles" required>
           </label>
         </div>
+
+        <fieldset class="extras">
+          <legend>Extras opcionales</legend>
+          <p class="extras-hint">Se cotizan aparte y sólo si el prospecto los pide. Cada uno suma al total y aparece separado en la propuesta.</p>
+          <div data-list="extras" class="extras-list"></div>
+          <p class="extras-total" id="extras-total" hidden></p>
+        </fieldset>
+
         <label>Resultado concreto
           <textarea name="outcome" rows="2">Una página clara para que las personas entiendan la oferta y consulten por WhatsApp con menos fricción.</textarea>
         </label>
@@ -137,6 +145,11 @@
       <section>
         <h2>Qué entregamos</h2>
         <ul data-field="deliverables"></ul>
+      </section>
+
+      <section data-block="extras" hidden>
+        <h2>Extras acordados</h2>
+        <ul data-field="extras"></ul>
       </section>
 
       <div class="proposal-terms">

@@ -46,6 +46,36 @@ const offers = {
   }
 };
 
+// Extras opcionales. Se cotizan y se muestran aparte del producto principal:
+// la regla de OFFERS.md es un alcance = un canal principal de conversión, así que
+// un extra nunca se disuelve dentro del precio base.
+const extras = {
+  redes: {
+    name: 'Gestión de redes sociales',
+    price: 180000,
+    unit: 'mensual',
+    trigger: 'El prospecto tiene perfiles enlazados pero sin publicaciones recientes.',
+    scope: '12 publicaciones al mes con calendario, redacción y piezas base, a partir de fotos y datos que entrega el negocio. Publica el negocio.',
+    limits: 'No incluye producción audiovisual presencial, pauta pagada, respuesta de mensajes ni promesas de crecimiento.'
+  },
+  fotos: {
+    name: 'Sesión de fotos del lugar',
+    price: 150000,
+    unit: 'una vez',
+    trigger: 'El sitio usa fotos de banco o imágenes de baja calidad.',
+    scope: 'Una sesión presencial en Valdivia y 20 fotos editadas, listas para la página y las redes.',
+    limits: 'No incluye modelos, dron, video ni desplazamiento fuera de Valdivia.'
+  },
+  tarifas: {
+    name: 'Actualización de tarifas por temporada',
+    price: 25000,
+    unit: 'mensual',
+    trigger: 'El sitio publica precios de una temporada vencida.',
+    scope: 'Hosting de la página y actualización de tarifas, promociones y fechas cada vez que cambian, dentro de un día hábil.',
+    limits: 'No incluye rediseño, contenido nuevo ni funcionalidades adicionales.'
+  }
+};
+
 function formatPrice(value) {
   return new Intl.NumberFormat('es-CL', {
     style: 'currency',
@@ -56,6 +86,12 @@ function formatPrice(value) {
 
 function getData() {
   return Object.fromEntries(new FormData(form).entries());
+}
+
+function selectedExtras() {
+  return [...form.querySelectorAll('[data-extra]:checked')].map((input) => ({
+    key: input.dataset.extra, ...extras[input.dataset.extra]
+  }));
 }
 
 function setField(root, name, value) {
@@ -102,6 +138,14 @@ function render(data) {
   setField(proposal, 'sourceLine', data.source ? `Fuente pública revisada: ${data.source}` : 'Fuente pública revisada y registrada por Gramagrowth.');
   fillList(proposal, 'findings', findings);
   fillList(proposal, 'deliverables', offer.deliverables);
+
+  const chosen = selectedExtras();
+  const extrasBlock = proposal.querySelector('[data-block="extras"]');
+  if (chosen.length) {
+    extrasBlock.hidden = false;
+    fillList(proposal, 'extras', chosen.map((extra) =>
+      `${extra.name} — ${formatPrice(extra.price)} ${extra.unit}. ${extra.scope} No incluye: ${extra.limits.replace(/^No incluye /, '')}`));
+  }
   proposalOutput.replaceChildren(proposal);
 
   emptyOutput.hidden = true;
@@ -111,6 +155,7 @@ function render(data) {
 function persist() {
   const data = getData();
   delete data.evidenceConfirmed;
+  data.extrasSeleccionados = selectedExtras().map((extra) => extra.key);
   localStorage.setItem(storageKey, JSON.stringify(data));
 }
 
@@ -120,8 +165,14 @@ function restore() {
   try {
     const data = JSON.parse(saved);
     Object.entries(data).forEach(([name, value]) => {
+      if (name === 'extrasSeleccionados') return;
       if (form.elements[name] && name !== 'evidenceConfirmed') form.elements[name].value = value;
     });
+    (data.extrasSeleccionados || []).forEach((key) => {
+      const input = form.querySelector(`[data-extra="${key}"]`);
+      if (input) input.checked = true;
+    });
+    updateExtrasTotal();
   } catch {
     localStorage.removeItem(storageKey);
   }
@@ -144,6 +195,47 @@ function importProspectFromQuery() {
   }
   form.elements.evidenceConfirmed.checked = false;
   persist();
+}
+
+function buildExtras() {
+  const host = document.querySelector('[data-list="extras"]');
+  host.replaceChildren(...Object.entries(extras).map(([key, extra]) => {
+    const row = document.createElement('label');
+    row.className = 'extra-row';
+
+    const input = document.createElement('input');
+    input.type = 'checkbox';
+    input.dataset.extra = key;
+    input.name = `extra-${key}`;
+
+    const body = document.createElement('span');
+    body.className = 'extra-body';
+    body.append(
+      Object.assign(document.createElement('strong'), {
+        textContent: `${extra.name} · ${formatPrice(extra.price)} ${extra.unit}`
+      }),
+      Object.assign(document.createElement('span'), { className: 'extra-trigger', textContent: extra.trigger }),
+      Object.assign(document.createElement('span'), { className: 'extra-scope', textContent: extra.scope })
+    );
+
+    row.append(input, body);
+    input.addEventListener('change', () => { updateExtrasTotal(); persist(); });
+    return row;
+  }));
+  updateExtrasTotal();
+}
+
+function updateExtrasTotal() {
+  const chosen = selectedExtras();
+  const node = document.querySelector('#extras-total');
+  if (!chosen.length) { node.hidden = true; return; }
+  const once = chosen.filter((extra) => extra.unit === 'una vez').reduce((sum, extra) => sum + extra.price, 0);
+  const monthly = chosen.filter((extra) => extra.unit === 'mensual').reduce((sum, extra) => sum + extra.price, 0);
+  const parts = [];
+  if (once) parts.push(`${formatPrice(once)} por una vez`);
+  if (monthly) parts.push(`${formatPrice(monthly)} al mes`);
+  node.hidden = false;
+  node.textContent = `Extras seleccionados: ${parts.join(' + ')}. Van aparte del precio del producto principal.`;
 }
 
 document.querySelector('#offer-select').addEventListener('change', (event) => {
@@ -186,5 +278,6 @@ document.querySelectorAll('[data-copy]').forEach((button) => {
   });
 });
 
+buildExtras();
 restore();
 importProspectFromQuery();

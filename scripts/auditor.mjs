@@ -23,18 +23,23 @@ const PLATFORMS = [
   [/shopify/i, 'Shopify'], [/webflow/i, 'Webflow'], [/jimdo/i, 'Jimdo']
 ];
 
-// Redes y perfiles externos. Sirven para dos cosas: detectar que el negocio
-// existe fuera de su web, y darle a Sebastián un canal cuando no hay correo.
-// Actividad de redes: detecta si hay evidencia de uso reciente en lo que
-// el sitio declara (no inventa datos de plataformas externas).
-function detectSocialActivity(html) {
-  const low = html.toLowerCase();
-  const hasFeed = /instagram\.com\/p\/|facebook\.com\/.*\/posts\/|tiktok\.com\/@/i.test(html);
-  const hasUpdate = /última actualizaci|último post|último reel|nuevos? \d+|feed\b/i.test(low);
-  if (hasFeed || hasUpdate) return 'activo';
-  return 'desconocido';
+// Qué tan viva se ve la presencia social DESDE EL SITIO del negocio.
+//
+// Importante: la frecuencia real de publicación no es observable desde aquí.
+// Instagram y Facebook bloquean la lectura automática, así que el auditor no
+// puede afirmar que alguien "no publica hace meses". Lo que sí se ve es si el
+// sitio muestra un feed en vivo o enlaza publicaciones concretas, señal de una
+// presencia mantenida. Todo lo demás queda como "hay que mirarlo a mano".
+function detectSocialEmbed(html) {
+  const widget = /instagram\.com\/embed|elfsight|lightwidget|snapwidget|behold\.so|curator\.io|juicer\.io|facebook\.com\/plugins\/(page|post)|instafeed/i.test(html);
+  if (widget) return 'feed-embebido';
+  const post = /instagram\.com\/(p|reel)\/|facebook\.com\/[^"'\s]+\/posts\/|tiktok\.com\/@[^"'\s]+\/video\//i.test(html);
+  if (post) return 'enlaza-publicaciones';
+  return 'sin-evidencia-en-el-sitio';
 }
 
+// Redes y perfiles externos. Sirven para dos cosas: detectar que el negocio
+// existe fuera de su web, y darle a Sebastián un canal cuando no hay correo.
 const SOCIAL_PATTERNS = [
   ['instagram', /(?:https?:\/\/)?(?:www\.)?instagram\.com\/([A-Za-z0-9._]{2,40})/i],
   ['facebook', /(?:https?:\/\/)?(?:www\.)?facebook\.com\/([A-Za-z0-9.\-]{2,60})/i],
@@ -181,12 +186,15 @@ function detectSignals(html, finalUrl) {
     const match = html.match(pattern);
     if (match) socials[network] = match[0].startsWith('http') ? match[0] : `https://${match[0]}`;
   }
-  const socialActivity = detectSocialActivity(html);
+  const socialEmbed = detectSocialEmbed(html);
   const ownSocials = ['instagram', 'facebook', 'tiktok', 'youtube'].filter((network) => socials[network]);
-  if (ownSocials.length && socialActivity === 'desconocido') {
-    add('redes-sin-actividad', 'baja',
-      'Tiene redes públicas enlazadas (Instagram/Facebook/TikTok) sin evidencia de actividad reciente en su sitio',
-      'Oportunidad de ofrecer gestión de redes: si hay perfil pero no se actualiza, un servicio de contenido y frecuencia valdría.');
+  // No se afirma que no publiquen: se marca que hay que abrir el perfil y mirar.
+  // Ese chequeo manual toma diez segundos y es el que decide si vale la pena
+  // ofrecerles gestión de redes.
+  if (ownSocials.length && socialEmbed === 'sin-evidencia-en-el-sitio') {
+    add('redes-por-revisar', 'baja',
+      `Enlaza ${ownSocials.join(' y ')}, pero el sitio no muestra publicaciones`,
+      'Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.');
   }
   if (!ownSocials.length) {
     add('sin-redes', 'baja', 'El sitio no enlaza ninguna red social',
@@ -208,7 +216,7 @@ function detectSignals(html, finalUrl) {
     signals,
     meta: {
       title, platform, emails, phones, socials,
-      socialActivity: detectSocialActivity(html),
+      socialEmbed,
       bytes: html.length,
       hasWhatsapp: /wa\.me|api\.whatsapp/i.test(html)
     }
@@ -259,7 +267,7 @@ export async function auditUrl(rawUrl, { timeout = 25000 } = {}) {
         detail: 'El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.',
         evidence: null
       }] : [],
-      meta: { title: '', platform: null, emails: [], phones: [], socials: {}, bytes: 0, hasWhatsapp: false }
+      meta: { title: '', platform: null, emails: [], phones: [], socials: {}, socialEmbed: null, bytes: 0, hasWhatsapp: false }
     };
   }
 }
