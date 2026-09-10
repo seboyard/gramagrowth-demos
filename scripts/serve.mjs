@@ -116,6 +116,9 @@ async function handleApi(request, response, pathname) {
         findings: incoming.findings || [], evidence: incoming.evidence || [],
         subject: incoming.subject || '', email: incoming.email || '',
         audit: incoming.audit || null,
+        // Marcado a mano: si el negocio aparece en Booking o Airbnb no es
+        // observable desde su propio sitio, hay que ir a mirar y anotarlo.
+        plataformas: incoming.plataformas || {},
         status: 'review', followUp: '', notes: ''
       };
       prospects.push(created);
@@ -129,7 +132,8 @@ async function handleApi(request, response, pathname) {
       const patch = await readBody(request);
       // Sólo campos que la interfaz puede editar; el resto viene de la auditoría.
       const editable = ['status', 'followUp', 'notes', 'subject', 'email', 'contact',
-        'priority', 'segment', 'offer', 'opportunity', 'findings', 'audit', 'verifiedAt'];
+        'priority', 'segment', 'offer', 'opportunity', 'findings', 'audit', 'verifiedAt',
+        'plataformas'];
       for (const key of editable) {
         if (key in patch) prospects[index][key] = patch[key];
       }

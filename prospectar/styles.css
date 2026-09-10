@@ -123,3 +123,26 @@ button,.draft-actions a { border:0; border-radius:999px; cursor:pointer; font-si
 .channel-action { background:var(--ink); border-radius:8px; color:var(--white); font-size:11px; font-weight:850; padding:6px 11px; text-decoration:none; white-space:nowrap; }
 .channel-action:hover { background:var(--pink); }
 @media (max-width:560px) { .channel { grid-template-columns:1fr auto; } .channel-kind { grid-column:1/-1; } }
+
+/* ── Agrupado por rubro y chips de estado ─────────────── */
+.group-toggle { align-items:center; cursor:pointer; display:flex; gap:8px; font-size:11px; font-weight:850; letter-spacing:.06em; margin-top:10px; text-transform:uppercase; }
+.group-toggle input { width:auto; }
+.group-heading { align-items:center; background:#f7f6f9; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; margin:0; padding:9px 20px; position:sticky; top:0; z-index:1; }
+.group-heading span { font-size:11px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
+.group-heading strong { background:var(--ink); border-radius:999px; color:var(--white); font-size:10.5px; padding:3px 8px; }
+.site-chip { border-radius:999px; color:var(--white)!important; font-weight:850; padding:4px 8px; }
+.site-chip[data-state="broken"] { background:#b3261e; }
+.site-chip[data-state="none"] { background:var(--muted); }
+.platform-chip { background:#1f6f8b; border-radius:999px; color:var(--white)!important; font-weight:850; padding:4px 8px; }
+
+/* ── Plataformas de reserva ───────────────────────────── */
+.platform-hint { color:var(--muted); font-size:12px; margin:0 0 12px; }
+.platform-list { display:grid; gap:8px; }
+.platform-row { align-items:center; background:#fbfaf8; border:1px solid var(--line); border-radius:10px; display:grid; gap:10px; grid-template-columns:90px minmax(0,1fr) auto auto; padding:9px 12px; }
+.platform-row[data-active="true"] { background:rgba(31,111,139,.1); border-color:#1f6f8b; }
+.platform-name { font-size:13px; font-weight:850; }
+.platform-state { color:var(--muted); font-size:11.5px; }
+.platform-search { color:var(--ink); font-size:11px; font-weight:850; text-decoration:none; white-space:nowrap; }
+.platform-search:hover { color:var(--pink); }
+.platform-toggle { font-size:11px; padding:5px 7px; width:auto; }
+@media (max-width:600px) { .platform-row { grid-template-columns:1fr auto; } .platform-state { grid-column:1/-1; } }

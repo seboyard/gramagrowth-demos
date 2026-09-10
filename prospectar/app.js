@@ -14,6 +14,9 @@ const search = document.querySelector('#search');
 const statusFilter = document.querySelector('#status-filter');
 const segmentFilter = document.querySelector('#segment-filter');
 const channelFilter = document.querySelector('#channel-filter');
+const siteFilter = document.querySelector('#site-filter');
+const platformFilter = document.querySelector('#platform-filter');
+const groupToggle = document.querySelector('#group-by-segment');
 const dataNote = document.querySelector('#data-note');
 
 let prospects = [];
@@ -39,6 +42,31 @@ function byPriority(left, right) {
   return rank !== 0 ? rank : (right.audit?.score || 0) - (left.audit?.score || 0);
 }
 
+// Estado del sitio web: distingue "no tiene" de "lo tiene pero está caído",
+// que es el prospecto más urgente de todos.
+function siteState(prospect) {
+  if (!prospect.website) return 'none';
+  if (!prospect.audit) return 'ok';
+  if (!prospect.audit.ok || prospect.audit.status >= 400) return 'broken';
+  return 'ok';
+}
+
+const SITE_LABELS = { ok: 'Sitio funcionando', broken: 'Sitio caído', none: 'Sin sitio' };
+const PLATFORMS = [
+  { key: 'booking', label: 'Booking', buscar: (name) => `https://www.booking.com/searchresults.es.html?ss=${encodeURIComponent(name)}` },
+  { key: 'airbnb', label: 'Airbnb', buscar: (name) => `https://www.airbnb.cl/s/${encodeURIComponent(name)}/homes` }
+];
+
+// Un prospecto "usa" una plataforma si el auditor la encontró enlazada en su
+// sitio, o si Sebastián la marcó a mano tras buscarla.
+function usesPlatform(prospect, key) {
+  if (prospect.plataformas?.[key] === true) return true;
+  if (prospect.plataformas?.[key] === false) return false;
+  return Boolean(prospect.audit?.meta?.socials?.[key]);
+}
+
+const isLodging = (prospect) => /turismo|alojamiento|hospedaje|caba|hotel/i.test(prospect.segment || '');
+
 const today = () => new Date().toISOString().slice(0, 10);
 const formatDate = (value) => (value ? value.split('-').reverse().join('-') : '');
 
@@ -61,7 +89,11 @@ function filteredProspects() {
       || (channelFilter.value === 'email' && prospect.contact.type === 'email')
       || (channelFilter.value === 'phone' && prospect.contact.type !== 'email' && (prospect.audit?.meta?.phones || []).length)
       || (channelFilter.value === 'none' && prospect.contact.type !== 'email' && !(prospect.audit?.meta?.phones || []).length);
-    return matchesSearch && matchesStatus && matchesSegment && matchesChannel;
+    const matchesSite = siteFilter.value === 'all' || siteState(prospect) === siteFilter.value;
+    const matchesPlatform = platformFilter.value === 'all'
+      || (platformFilter.value === 'ninguna' && !PLATFORMS.some((platform) => usesPlatform(prospect, platform.key)))
+      || usesPlatform(prospect, platformFilter.value);
+    return matchesSearch && matchesStatus && matchesSegment && matchesChannel && matchesSite && matchesPlatform;
   });
 }
 
@@ -74,7 +106,35 @@ function renderList() {
     empty.textContent = prospects.length ? 'No hay prospectos con estos filtros.' : 'Aún no hay prospectos. Audita un sitio para empezar.';
     list.append(empty);
   }
-  visible.forEach((prospect) => {
+
+  if (groupToggle.checked) {
+    // Agrupado por rubro, manteniendo el orden por prioridad dentro de cada grupo.
+    const groups = new Map();
+    visible.forEach((prospect) => {
+      const key = prospect.segment || 'Sin clasificar';
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(prospect);
+    });
+    [...groups.entries()]
+      .sort(([left], [right]) => left.localeCompare(right, 'es'))
+      .forEach(([segment, items]) => {
+        const heading = document.createElement('p');
+        heading.className = 'group-heading';
+        heading.append(
+          Object.assign(document.createElement('span'), { textContent: segment }),
+          Object.assign(document.createElement('strong'), { textContent: String(items.length) })
+        );
+        list.append(heading);
+        items.forEach((prospect) => list.append(prospectItem(prospect)));
+      });
+  } else {
+    visible.forEach((prospect) => list.append(prospectItem(prospect)));
+  }
+  document.querySelector('#visible-count').textContent = visible.length;
+}
+
+function prospectItem(prospect) {
+  {
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'prospect-item';
@@ -107,6 +167,22 @@ function renderList() {
       meta.append(due);
     }
 
+    const state = siteState(prospect);
+    if (state !== 'ok') {
+      const site = document.createElement('span');
+      site.className = 'site-chip';
+      site.dataset.state = state;
+      site.textContent = state === 'broken' ? 'sitio caído' : 'sin sitio';
+      meta.append(site);
+    }
+    PLATFORMS.forEach((platform) => {
+      if (!usesPlatform(prospect, platform.key)) return;
+      const chip = document.createElement('span');
+      chip.className = 'platform-chip';
+      chip.textContent = platform.label;
+      meta.append(chip);
+    });
+
     button.append(name, meta);
     button.addEventListener('click', () => {
       selectedId = prospect.id;
@@ -114,9 +190,8 @@ function renderList() {
       renderDetail(prospect);
       if (window.innerWidth < 940) detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
-    list.append(button);
-  });
-  document.querySelector('#visible-count').textContent = visible.length;
+    return button;
+  }
 }
 
 function setText(root, selector, value) {
@@ -207,6 +282,61 @@ function renderChannels(container, prospect) {
     link.textContent = channel.action;
     if (channel.external) { link.target = '_blank'; link.rel = 'noreferrer'; }
     row.append(link);
+    container.append(row);
+  });
+}
+
+// Bloque de plataformas: sólo para alojamiento y turismo, que es donde el
+// argumento de la comisión aplica.
+function renderPlatforms(section, container, prospect) {
+  if (!isLodging(prospect)) { section.hidden = true; return; }
+  section.hidden = false;
+  container.replaceChildren();
+
+  PLATFORMS.forEach((platform) => {
+    const detected = Boolean(prospect.audit?.meta?.socials?.[platform.key]);
+    const marked = prospect.plataformas?.[platform.key];
+    const active = usesPlatform(prospect, platform.key);
+
+    const row = document.createElement('div');
+    row.className = 'platform-row';
+    row.dataset.active = String(active);
+
+    const label = document.createElement('span');
+    label.className = 'platform-name';
+    label.textContent = platform.label;
+
+    const state = document.createElement('span');
+    state.className = 'platform-state';
+    if (detected) state.textContent = 'enlazado desde su sitio';
+    else if (marked === true) state.textContent = 'confirmado a mano';
+    else if (marked === false) state.textContent = 'revisado: no aparece';
+    else state.textContent = 'sin revisar';
+
+    const buscar = document.createElement('a');
+    buscar.className = 'platform-search';
+    buscar.href = platform.buscar(`${prospect.business} Valdivia`);
+    buscar.target = '_blank';
+    buscar.rel = 'noreferrer';
+    buscar.textContent = 'Buscar ↗';
+
+    const toggle = document.createElement('select');
+    toggle.className = 'platform-toggle';
+    [['', 'Sin revisar'], ['si', 'Sí aparece'], ['no', 'No aparece']].forEach(([value, text]) => {
+      toggle.append(new Option(text, value));
+    });
+    toggle.value = marked === true ? 'si' : marked === false ? 'no' : '';
+    toggle.disabled = detected;
+    if (detected) toggle.title = 'Detectado automáticamente en su sitio';
+    toggle.addEventListener('change', async () => {
+      const plataformas = { ...(prospect.plataformas || {}) };
+      if (toggle.value === '') delete plataformas[platform.key];
+      else plataformas[platform.key] = toggle.value === 'si';
+      const updated = await patchProspect(prospect.id, { plataformas });
+      renderPlatforms(section, container, updated);
+    });
+
+    row.append(label, state, buscar, toggle);
     container.append(row);
   });
 }
@@ -316,6 +446,11 @@ function renderDetail(prospect) {
   const signalList = fragment.querySelector('[data-list="signals"]');
   renderSignals(signalList, prospect.audit?.signals);
   renderChannels(fragment.querySelector('[data-list="channels"]'), prospect);
+  renderPlatforms(
+    fragment.querySelector('#platform-section'),
+    fragment.querySelector('[data-list="platforms"]'),
+    prospect
+  );
 
   const findings = fragment.querySelector('[data-list="findings"]');
   // Si el sitio ya no carga, los hallazgos escritos describen páginas que no existen.
@@ -524,7 +659,8 @@ function renderSignalsPreview(container, signals) {
   });
 }
 
-[search, statusFilter, segmentFilter, channelFilter].forEach((control) => control.addEventListener('input', renderList));
+[search, statusFilter, segmentFilter, channelFilter, siteFilter, platformFilter, groupToggle]
+  .forEach((control) => control.addEventListener('input', renderList));
 
 async function boot() {
   try {

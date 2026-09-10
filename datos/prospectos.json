@@ -49,6 +49,9 @@
         "title": "",
         "platform": null,
         "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
         "bytes": 0,
         "hasWhatsapp": false
       }
@@ -63,7 +66,7 @@
     "segment": "Bienestar y deporte",
     "priority": "Alta",
     "website": "https://sportlifevaldivia.cl/",
-    "verifiedAt": "2026-09-09",
+    "verifiedAt": "2026-09-10",
     "contact": {
       "type": "form",
       "value": "https://sportlifevaldivia.cl/planes/",
@@ -89,11 +92,11 @@
     "subject": "Tres ajustes concretos para la web de Sportlife Valdivia",
     "email": "Hola, equipo de Sportlife Valdivia:\n\nSoy Sebastián, de Gramagrowth. Revisé su web pública y encontré algunos elementos de plantilla que hoy están visibles: testimonios con “Lorem ipsum”, entrenadores de ejemplo y el texto “contacto@company.com” en el formulario. No cuestionan el servicio, pero sí pueden restar confianza justo antes de elegir un plan.\n\nLes propondría una intervención acotada: limpiar esos elementos, ordenar los planes y dejar un recorrido móvil claro desde la comparación hasta la inscripción o consulta. Puedo preparar una muestra visual usando sólo información pública y sin tocar el sitio actual.\n\n¿Les puedo enviar las tres mejoras priorizadas para que evalúen si vale la pena conversar?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
     "audit": {
-      "score": 8,
+      "score": 9,
       "ok": true,
       "error": null,
       "status": 200,
-      "auditedAt": "2026-09-09",
+      "auditedAt": "2026-09-10",
       "signals": [
         {
           "id": "copyright-antiguo",
@@ -122,6 +125,13 @@
           "label": "No hay meta descripción",
           "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
           "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
         }
       ],
       "meta": {
@@ -130,6 +140,12 @@
         "emails": [
           "contacto@company.com"
         ],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/sportlife_valdivia",
+          "facebook": "https://www.facebook.com/sportlifevaldiviachile"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 133922,
         "hasWhatsapp": false
       }
@@ -144,7 +160,7 @@
     "segment": "Turismo y alojamiento",
     "priority": "Alta",
     "website": "https://aparthotelraitue.com/",
-    "verifiedAt": "2026-09-09",
+    "verifiedAt": "2026-09-10",
     "contact": {
       "type": "email",
       "value": "contacto@raituenvaldivia.cl",
@@ -166,11 +182,11 @@
     "subject": "Idea para unificar las consultas de Apart Hotel Raitue",
     "email": "Hola, equipo de Apart Hotel Raitue:\n\nSoy Sebastián, de Gramagrowth. Revisé su página y noté una oportunidad sencilla: hoy aparecen dos correos de contacto de dominios distintos y el llamado principal invita a llamar, pero no prepara una consulta con fechas y número de huéspedes.\n\nPodría ayudarles a concentrar todo en un único recorrido de reserva: información esencial, fotos, condiciones y un formulario o WhatsApp con los datos de la estadía ya preparados. El objetivo sería reducir dudas y evitar que una consulta llegue por el canal equivocado.\n\nSi les interesa, puedo mostrarles una propuesta visual breve y el alcance cerrado para implementarla en cinco días hábiles. ¿Con quién conviene revisarla?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
     "audit": {
-      "score": 7,
+      "score": 8,
       "ok": true,
       "error": null,
       "status": 200,
-      "auditedAt": "2026-09-09",
+      "auditedAt": "2026-09-10",
       "signals": [
         {
           "id": "copyright-antiguo",
@@ -192,6 +208,13 @@
           "label": "No hay enlace a WhatsApp",
           "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
           "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
         }
       ],
       "meta": {
@@ -201,6 +224,12 @@
           "contacto@raituenvaldivia.cl",
           "info@raituapart.cl"
         ],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabanas_raitue",
+          "facebook": "https://www.facebook.com/profile.php"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 143030,
         "hasWhatsapp": false
       }
@@ -215,7 +244,7 @@
     "segment": "Academias y talleres",
     "priority": "Alta",
     "website": "https://academialosrios.cl/",
-    "verifiedAt": "2026-09-09",
+    "verifiedAt": "2026-09-10",
     "contact": {
       "type": "email",
       "value": "academialosrios@hotmail.cl",
@@ -237,11 +266,11 @@
     "subject": "Idea para actualizar la información de Academia Los Ríos",
     "email": "Hola, equipo de Academia Los Ríos:\n\nSoy Sebastián, de Gramagrowth. Revisé su sitio público y vi una mejora muy concreta: la sección de valores todavía aparece como “Valores 2024” y las series están explicadas por años de nacimiento que convendría confirmar para la temporada actual.\n\nPodría prepararles una página breve de inscripción con series vigentes, horarios, valores y un botón directo para consultar por una clase de prueba. La idea no es rehacer todo el sitio, sino facilitar que una familia entienda la información actual y dé el siguiente paso desde el celular.\n\nSi les sirve, puedo enviarles sin costo tres mejoras priorizadas y una propuesta visual simple. ¿A quién se la debería mostrar?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
     "audit": {
-      "score": 4,
+      "score": 5,
       "ok": true,
       "error": null,
       "status": 200,
-      "auditedAt": "2026-09-09",
+      "auditedAt": "2026-09-10",
       "signals": [
         {
           "id": "precio-desactualizado",
@@ -256,6 +285,13 @@
           "label": "No hay meta descripción",
           "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
           "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
         }
       ],
       "meta": {
@@ -264,7 +300,15 @@
         "emails": [
           "academialosrios@hotmail.cl"
         ],
-        "bytes": 139963,
+        "phones": [
+          "+56967183150"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/academialosrios",
+          "facebook": "https://www.facebook.com/academialosrios"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 139952,
         "hasWhatsapp": true
       }
     },
@@ -278,7 +322,7 @@
     "segment": "Turismo y alojamiento",
     "priority": "Alta",
     "website": "https://www.cabanasriobaker.cl/",
-    "verifiedAt": "2026-09-09",
+    "verifiedAt": "2026-09-10",
     "contact": {
       "type": "email",
       "value": "contactoriobaker@gmail.com",
@@ -300,11 +344,11 @@
     "subject": "Una mejora simple para las reservas de Cabañas Río Baker",
     "email": "Hola, equipo de Cabañas Río Baker:\n\nSoy Sebastián, de Gramagrowth. Al revisar su sitio vi que la portada todavía anuncia “Verano 2025” y que las tarifas de enero y febrero no muestran una vigencia explícita. Para alguien que está cotizando hoy, ese pequeño detalle puede generar una consulta adicional antes de reservar.\n\nMi propuesta sería una mejora acotada: dejar temporada y tarifas claramente actualizadas y conectar el botón de WhatsApp con un mensaje que ya incluya fechas y cantidad de pasajeros. Así reciben consultas más completas sin cambiar su forma de atender.\n\nPreparé tres observaciones concretas. ¿Les puedo enviar una muestra breve, sin compromiso?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
     "audit": {
-      "score": 4,
+      "score": 5,
       "ok": true,
       "error": null,
       "status": 200,
-      "auditedAt": "2026-09-09",
+      "auditedAt": "2026-09-10",
       "signals": [
         {
           "id": "precio-desactualizado",
@@ -319,6 +363,13 @@
           "label": "No hay meta descripción",
           "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
           "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
         }
       ],
       "meta": {
@@ -327,6 +378,12 @@
         "emails": [
           "contactoriobaker@gmail.com"
         ],
+        "phones": [
+          "+56632434150",
+          "+56996426266"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 54423,
         "hasWhatsapp": true
       }
@@ -341,7 +398,7 @@
     "segment": "Turismo y alojamiento",
     "priority": "Media",
     "website": "https://www.hospedajelosrios.com/",
-    "verifiedAt": "2026-09-09",
+    "verifiedAt": "2026-09-10",
     "contact": {
       "type": "email",
       "value": "hospedaje.riovaldivia@gmail.com",
@@ -363,11 +420,11 @@
     "subject": "Idea breve para simplificar consultas en Cabañas Río Valdivia",
     "email": "Hola, equipo de Cabañas Río Valdivia:\n\nSoy Sebastián, de Gramagrowth. Revisé su presencia pública y vi una oportunidad puntual: el sitio muestra las cabañas y sus datos de contacto, pero el formulario mezcla etiquetas en inglés y la consulta no reúne de entrada fechas, pasajeros y cabaña de interés.\n\nUna landing de disponibilidad podría ordenar capacidad, equipamiento, ubicación y preguntas frecuentes, y abrir WhatsApp con esos datos ya escritos. Así mantienen la atención personal y reciben consultas más fáciles de responder.\n\nSi les parece útil, puedo enviarles una muestra de estructura y tres ajustes concretos, sin compromiso ni acceso a su sitio actual. ¿Se los comparto por este correo?\n\nSaludos,\nSebastián\nGramagrowth · Valdivia",
     "audit": {
-      "score": 4,
+      "score": 5,
       "ok": true,
       "error": null,
       "status": 200,
-      "auditedAt": "2026-09-09",
+      "auditedAt": "2026-09-10",
       "signals": [
         {
           "id": "idioma-mezclado",
@@ -382,6 +439,13 @@
           "label": "No hay enlace a WhatsApp",
           "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
           "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
         }
       ],
       "meta": {
@@ -390,6 +454,11 @@
         "emails": [
           "hospedaje.riovaldivia@gmail.com"
         ],
+        "phones": [
+          "+56962081979"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 196704,
         "hasWhatsapp": false
       }
@@ -430,7 +499,7 @@
     "subject": "Una errata en la tabla de tarifas de Los Cisnes",
     "email": "Hola, equipo de Los Cisnes:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. En su página de tarifas, la tabla de la Casa Gran Suite Superior Familiar dice «Diciembte-Enero» en vez de «Diciembre». Está justo donde la gente mira el precio.\n\nYa dejé armada una muestra de página de reserva con datos suyos: las tarifas publicadas de la Cabaña Suite Standard, el check in de 15:30 a 22:00 y lo de la tinaja. El visitante elige fechas y pasajeros, ve el valor y a usted le llega el mensaje completo por WhatsApp. La instalación va entre $250.000 y $350.000.\n\n¿Le mando el enlace para que la abra en el celular?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 1,
+      "score": 2,
       "ok": true,
       "error": null,
       "status": 200,
@@ -442,6 +511,13 @@
           "label": "No hay meta descripción",
           "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
           "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
         }
       ],
       "meta": {
@@ -450,13 +526,22 @@
         "emails": [
           "fweisserr@gmail.com"
         ],
+        "phones": [
+          "+56996431514"
+        ],
+        "socials": {
+          "facebook": "https://www.facebook.com/lodgeycabanasloscisnes",
+          "tripadvisor": "https://www.tripadvisor.cl/VacationRentals-g294302-Reviews-Valdivia_Los_Rios_Region-Vacation_Rentals.html"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 106750,
         "hasWhatsapp": true
       }
     },
     "status": "review",
     "followUp": "",
-    "notes": "Demo con datos reales en clientes/cabanas-los-cisnes/ (tarifas de la Cabaña Suite Standard; los otros cuatro valores quedan citados en el FAQ). El sitio no publica porcentaje de abono: la muestra lo deja en 0% y lo declara. Confirmar con el anfitrión antes de mostrarla."
+    "notes": "Demo con datos reales en clientes/cabanas-los-cisnes/ (tarifas de la Cabaña Suite Standard; los otros cuatro valores quedan citados en el FAQ). El sitio no publica porcentaje de abono: la muestra lo deja en 0% y lo declara. Confirmar con el anfitrión antes de mostrarla.",
+    "plataformas": {}
   },
   {
     "id": "hostal-internacional-valdivia",
@@ -491,7 +576,7 @@
     "subject": "El enlace del pie de su sitio apunta a un dominio sin la ele",
     "email": "Hola:\n\nSoy Sebastián, de Gramagrowth. Revisando hostalinternacional.cl vi que el enlace del pie se lee «www.hostalinternacional.cl» pero apunta a hostainternacional.cl, sin la ele. Los íconos de Instagram, Facebook y Twitter tampoco llevan a sus cuentas: abren la portada de cada red.\n\nAparte de eso tomé sus tarifas publicadas —$45.000 single o doble, $55.000 triple o cuádruple, desayuno $5.500— y con ellas armé una muestra de página de reserva. Quien consulta elige fechas y el mensaje llega calculado a su WhatsApp. Instalación entre $250.000 y $350.000, sin mensualidad obligatoria.\n\n¿Prefiere que le muestre primero los arreglos del sitio actual o la muestra?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 6,
+      "score": 7,
       "ok": true,
       "error": null,
       "status": 200,
@@ -517,12 +602,25 @@
           "label": "No hay meta descripción",
           "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
           "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
         }
       ],
       "meta": {
         "title": "Hostal Internacional - Inicio",
         "platform": null,
         "emails": [],
+        "phones": [
+          "+56953175777",
+          "+56632212015"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 24525,
         "hasWhatsapp": false
       }
@@ -567,7 +665,7 @@
     "subject": "Publican precios y calendario, pero no hay correo en el sitio",
     "email": "Hola:\n\nUna observación concreta de cabanasvaldivia.cl: publican el valor diario, el reglamento para huéspedes y hasta un calendario de fechas disponibles, pero en todo el sitio no aparece ningún correo. A quien no le acomode WhatsApp se queda sin cómo escribir.\n\nSoy Sebastián, de Gramagrowth, en Valdivia. Con esa misma información —los $40.000 diarios, llegada 14:00, salida 12:00 y mínimo dos noches— dejé preparada una muestra de página de solicitud: el huésped elige fechas, ve el valor y el mensaje sale listo. La instalación va entre $250.000 y $350.000.\n\n¿Se la envío para que la revise y me diga qué cambiaría?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 3,
+      "score": 6,
       "ok": true,
       "error": null,
       "status": 200,
@@ -579,12 +677,25 @@
           "label": "No hay formulario ni correo de contacto visible",
           "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
           "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
         }
       ],
       "meta": {
         "title": "Cabañas en Valdivia para 2 o 3 personas",
         "platform": "WordPress",
         "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://instagram.com/cabanasselvavaldiviana",
+          "tiktok": "https://www.tiktok.com/@cabanasselvavaldiviana"
+        },
+        "socialEmbed": "enlaza-publicaciones",
         "bytes": 55961,
         "hasWhatsapp": true
       }
@@ -629,7 +740,7 @@
     "subject": "La pestaña de su sitio dice «Rosner – Rosner»",
     "email": "Hola:\n\nSoy Sebastián, de Gramagrowth. Un detalle chico de cabanasrosner.cl: el título que sale en la pestaña del navegador y en Google dice «Rosner – Rosner», repetido, y la página no tiene meta descripción, así que Google arma el resumen por su cuenta.\n\nTrabajo con hospedajes de Valdivia y preparé una muestra con información de ustedes: General Lagos 1787, las dos cabañas de 44 m2, los kayaks incluidos y los valores publicados desde $50.000 y $60.000. El visitante cotiza sus fechas y el mensaje llega completo por WhatsApp. Instalación entre $250.000 y $350.000.\n\n¿La abre y me dice qué corregiría? Le paso el enlace.\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 1,
+      "score": 2,
       "ok": true,
       "error": null,
       "status": 200,
@@ -641,6 +752,13 @@
           "label": "No hay meta descripción",
           "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
           "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
         }
       ],
       "meta": {
@@ -649,6 +767,11 @@
         "emails": [
           "rebolledoa480@gmail.com"
         ],
+        "phones": [
+          "+56999382584"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 240178,
         "hasWhatsapp": true
       }
@@ -685,7 +808,7 @@
     "subject": "Hoy islateja.com no carga: muestra un error de WordPress",
     "email": "Hola:\n\nLes escribo por algo urgente, no por una venta. Hoy entré a islateja.com y no se ve el sitio: aparece «Ha habido un error crítico en esta web», el mensaje de error de WordPress. Quien los busque en Google hoy no encuentra fotos, tarifas ni forma de contactarlos.\n\nSoy Sebastián, de Gramagrowth, en Valdivia, y hago páginas de solicitud de reserva para hospedajes. No pude prepararles una muestra con sus datos justamente porque el sitio no carga y no quiero inventar nada. Reponer una página con cabañas, tarifas y WhatsApp va entre $250.000 y $350.000.\n\n¿Sabían que estaba caído? Con esa respuesta me basta.\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 9,
+      "score": 13,
       "ok": true,
       "error": null,
       "status": 500,
@@ -718,12 +841,29 @@
           "label": "No hay meta descripción",
           "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
           "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
         }
       ],
       "meta": {
         "title": "WordPress &rsaquo; Error",
         "platform": null,
         "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 2695,
         "hasWhatsapp": false
       }
@@ -764,7 +904,7 @@
     "subject": "hostalloscisnes.cl hoy redirige a una página de casino",
     "email": "Hola:\n\nEsto conviene mirarlo hoy mismo. Si uno escribe hostalloscisnes.cl en el navegador, la dirección redirige a mapschile.cl, una página de casino en línea. Lo comprobé hoy. Es el mismo sitio que aparece en su ficha del registro de Sernatur, así que quien los busque por ahí termina en esa página.\n\nSoy Sebastián, de Gramagrowth, en Valdivia. Hago páginas de solicitud de reserva para hospedajes. No armé una muestra con sus datos porque ya no queda nada publicado que copiar sin inventarlo. Una página nueva con habitaciones, tarifas y WhatsApp va entre $250.000 y $350.000.\n\n¿Ese dominio sigue siendo suyo?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 2,
+      "score": 6,
       "ok": true,
       "error": null,
       "status": 200,
@@ -776,12 +916,29 @@
           "label": "No hay enlace a WhatsApp",
           "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
           "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
         }
       ],
       "meta": {
         "title": "Pin Up Casino: 120% + 250 FS con el Registro para Jugadores de Chile",
         "platform": "WordPress",
         "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 235002,
         "hasWhatsapp": false
       }
@@ -822,7 +979,7 @@
     "subject": "El nombre de su sitio aparece sin la ele en la pestaña",
     "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. Dos cosas visibles al abrir elencantodeantilhue.cl: el título de la pestaña dice «elencantodeantihue», sin la ele, y en el pie siguen publicadas las páginas de ejemplo que trae WordPress —«Sample Page», «e-Books», «Events»— junto a las suyas.\n\nMe dedico a páginas de solicitud de reserva para hospedajes. No les preparé una muestra con sus datos porque el sitio no publica tarifas y prefiero no inventar valores; sí encontré el abono del 30% y la política de cancelación. La instalación va entre $250.000 y $350.000.\n\n¿Me pasa las tarifas de la Tiny Cabin y se la armo esta semana?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 3,
+      "score": 4,
       "ok": true,
       "error": null,
       "status": 200,
@@ -841,6 +998,13 @@
           "label": "No hay meta descripción",
           "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
           "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
         }
       ],
       "meta": {
@@ -849,6 +1013,13 @@
         "emails": [
           "reservas@elencantodeantilhue.cl"
         ],
+        "phones": [
+          "+56976804880"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/elencantodeantilhue"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 238488,
         "hasWhatsapp": false
       }
@@ -886,18 +1057,31 @@
     "subject": "El correo publicado en su sitio lleva una ñ",
     "email": "Hola:\n\nSoy Sebastián, de Gramagrowth. En el pie de su sitio el correo aparece como info@cabañasainilebu.cl, con ñ. Muchos programas de correo no aceptan una ñ en la dirección, así que quien lo copie puede recibir un rebote. Además está escrito como texto plano: no se puede tocar para escribir desde el celular.\n\nTrabajo con hospedajes de Valdivia. No armé una muestra con sus tarifas porque el sitio sólo dice «desde $35.000» y no quiero poner un valor que después no calce con el real. Con sus valores por noche la dejo lista; la instalación va entre $250.000 y $350.000.\n\n¿Me confirma sus tarifas y le preparo la muestra esta semana?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 0,
+      "score": 1,
       "ok": true,
       "error": null,
       "status": 200,
       "auditedAt": "2026-09-10",
-      "signals": [],
+      "signals": [
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
       "meta": {
         "title": "Cabañas Ainilebu - Valdivia",
         "platform": null,
         "emails": [
           "core@2.9.2"
         ],
+        "phones": [
+          "+56978101739"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 46800,
         "hasWhatsapp": true
       }
@@ -938,7 +1122,7 @@
     "subject": "En la portada de Cabañas Renova no hay correo ni tarifas",
     "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. Revisé cabanasrenova.cl mirando lo que ve un visitante: en la portada no hay correo ni formulario, sólo el teléfono +56 9 6618 7552. Para escribir hay que entrar a «Contacto», y las tarifas no aparecen publicadas en ninguna parte del sitio.\n\nHago páginas de solicitud de reserva para cabañas: el visitante elige fechas y pasajeros, ve el valor calculado con las tarifas del anfitrión y el mensaje llega armado por WhatsApp. No les preparé una muestra porque no publican precios y no invento ninguno.\n\nLa instalación va entre $250.000 y $350.000. ¿Me manda sus tarifas por temporada y se la dejo lista?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 5,
+      "score": 6,
       "ok": true,
       "error": null,
       "status": 200,
@@ -957,12 +1141,24 @@
           "label": "No hay formulario ni correo de contacto visible",
           "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
           "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
         }
       ],
       "meta": {
         "title": "CABAÑAS RENOVA - Arriendo de cabañas en Valdivia",
         "platform": "WordPress",
         "emails": [],
+        "phones": [
+          "+56966187552"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 121864,
         "hasWhatsapp": false
       }
@@ -999,16 +1195,37 @@
     "subject": "Su menú muestra «Uncategorized» y dos veces «Inicio»",
     "email": "Hola:\n\nSoy Sebastián, de Gramagrowth. En cabanasplayacurinanco.cl el menú de arriba muestra «Inicio» dos veces y una tercera opción llamada «Uncategorized», que es la categoría por defecto de WordPress. Tampoco hay dirección, teléfono ni correo en la página: el único canal visible es el botón de WhatsApp.\n\nMe dedico a páginas de solicitud de reserva para cabañas. No les armé una muestra porque el sitio no publica tarifas y prefiero no inventar valores en algo que ustedes van a leer. Con sus precios reales queda funcionando; la instalación va entre $250.000 y $350.000.\n\n¿Cuánto vale hoy la noche en temporada alta? Con ese dato se la preparo.\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 0,
+      "score": 4,
       "ok": true,
       "error": null,
       "status": 200,
       "auditedAt": "2026-09-10",
-      "signals": [],
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
       "meta": {
         "title": "Cabañas Playa Curiñanco",
         "platform": "WordPress",
         "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabana_playa_curinanco",
+          "facebook": "https://www.facebook.com/CabanasPlayaCurinanco"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 194241,
         "hasWhatsapp": true
       }
@@ -1045,7 +1262,7 @@
     "subject": "En su sitio el correo se muestra como «[email protected]»",
     "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. En hosteltorobayo.cl, en el bloque de Contacto, donde debería ir el correo aparece el texto «[email protected]». Es el marcador que deja el sistema antispam cuando no alcanza a reemplazarse. Quien quiera escribirles sólo ve eso; el teléfono +56 9 7582 3095 sí se lee bien.\n\nHago páginas de solicitud de reserva para hospedajes: fechas, pasajeros, valor calculado y el mensaje listo para WhatsApp. No les preparé una muestra porque el sitio no publica tarifas y no pongo precios inventados. La instalación va entre $250.000 y $350.000.\n\n¿Cuál es el correo real del hostel?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 5,
+      "score": 6,
       "ok": true,
       "error": null,
       "status": 200,
@@ -1064,12 +1281,24 @@
           "label": "No hay formulario ni correo de contacto visible",
           "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
           "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
         }
       ],
       "meta": {
         "title": "Hostel Torobayo | CL",
         "platform": null,
         "emails": [],
+        "phones": [
+          "+56975823095"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 38674,
         "hasWhatsapp": false
       }
@@ -1106,18 +1335,33 @@
     "subject": "El botón «Reservas» de su menú abre WhatsApp de inmediato",
     "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, en Valdivia. En cabanasvaldiviachile.cl el ítem «Reservas» del menú no lleva a ninguna página: abre WhatsApp al tiro. Quien todavía está comparando se va sin ver una tarifa, y la dirección publicada es sólo «Isla Teja, Valdivia», sin calle ni número.\n\nHago páginas de solicitud de reserva para cabañas. Ahí el visitante elige fechas y pasajeros, ve el valor con las tarifas del anfitrión y recién entonces abre WhatsApp, con el mensaje escrito. No armé la muestra con sus precios porque el sitio no los publica. Instalación entre $250.000 y $350.000.\n\n¿Me pasa sus valores de enero y febrero y la preparo?\n\nSebastián · Gramagrowth · Valdivia\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
-      "score": 0,
+      "score": 1,
       "ok": true,
       "error": null,
       "status": 200,
       "auditedAt": "2026-09-10",
-      "signals": [],
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
       "meta": {
         "title": "Cabañas en Isla Teja Valdivia Cerca del Centro",
         "platform": "WordPress",
         "emails": [
           "cabanasveranovaldivia@gmail.com"
         ],
+        "phones": [
+          "+56993547994"
+        ],
+        "socials": {
+          "facebook": "https://www.facebook.com/Cabanasvaldiviachile"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
         "bytes": 273511,
         "hasWhatsapp": true
       }

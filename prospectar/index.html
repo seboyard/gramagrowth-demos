@@ -63,6 +63,23 @@
               <option value="all">Todos</option><option value="email">Con correo</option>
               <option value="phone">Sólo teléfono</option><option value="none">Sin canal directo</option>
             </select></label>
+            <label><span>Sitio web</span><select id="site-filter">
+              <option value="all">Todos</option>
+              <option value="ok">Funcionando</option>
+              <option value="broken">Caído o con error</option>
+              <option value="none">Sin sitio</option>
+            </select></label>
+            <label><span>Plataformas</span><select id="platform-filter">
+              <option value="all">Todas</option>
+              <option value="booking">Usa Booking</option>
+              <option value="airbnb">Usa Airbnb</option>
+              <option value="ninguna">Sin plataformas marcadas</option>
+            </select></label>
+          </div>
+          <label class="group-toggle">
+            <input id="group-by-segment" type="checkbox">
+            <span>Agrupar por rubro</span>
+          </label>
           </div>
         </div>
         <div id="prospect-list" class="prospect-list" aria-label="Prospectos"></div>
@@ -118,6 +135,12 @@
     <section class="contact-card">
       <div class="section-title"><h3>Cómo contactarlo</h3><span data-field="contactLabel"></span></div>
       <div data-list="channels" class="channel-list"></div>
+    </section>
+
+    <section class="detail-section" id="platform-section" hidden>
+      <div class="section-title"><h3>Plataformas de reserva</h3><span>marcar a mano</span></div>
+      <p class="platform-hint">No se puede detectar desde su sitio: casi nadie enlaza la plataforma que le cobra comisión. Busca y marca lo que encuentres — es el argumento de venta más fuerte del producto.</p>
+      <div data-list="platforms" class="platform-list"></div>
     </section>
 
     <section class="email-draft">
