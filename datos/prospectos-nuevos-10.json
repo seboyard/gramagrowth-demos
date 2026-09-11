@@ -1,0 +1,617 @@
+[
+  {
+    "id": "cabanas-rosner-10-09",
+    "business": "Cabanas Rosner — prospecto adicional (archivo config.js)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasrosner.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "whatsapp",
+      "value": "+56 9 9938 2584 (archivo clientes/cabanas-rosner/config.js — verificado)",
+      "label": "WhatsApp y email rebolledoa480@gmail.com verificados archivo; mapa https://www.google.com/maps/search/?api=1&query=General+Lagos+1787+Valdivia (archivo). Datos REALES archivo — NO inventados."
+    },
+    "offer": "landing",
+    "opportunity": "Cerrar brecha entre precio publicado \"desde\" y consulta real por fechas.",
+    "findings": [
+      "Archivo config.js confirma tarifa piso $50.000 (Estándar) / $60.000 (vista río), WhatsApp 56999382584, email rebolledoa480@gmail.com, dirección General Lagos 1787, mapa real.",
+      "Sitio cabanasrosner.cl verificado con vision: carga; título pestaña repetido \"Rosner – Rosner\"; sin meta descripción; valores duplicados en ficha.",
+      "Datos inventados (fechas de ocupación ejemplo, cantidad personas) claramente marcados DEMO en notas; datos de redes NO inventados."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo real config.js rosner",
+        "url": "clientes/cabanas-rosner/config.js"
+      },
+      {
+        "label": "Sitio oficial verificado vision (cabanasrosner.cl carga)",
+        "url": "https://cabanasrosner.cl/"
+      }
+    ],
+    "subject": "Cabanas Rosner — cotización con datos reales archivo",
+    "email": "Hola, equipo de Cabanas Rosner:\nSoy Sebastián, de Gramagrowth. Datos REALES archivo clientes/cabanas-rosner/config.js (leído 2026-09-10): tarifa piso $50.000 / $60.000, WhatsApp +56 9 9938 2584, email rebolledoa480@gmail.com, dirección General Lagos 1787, mapa verificado. Datos de red (WhatsApp, mapa, sitio cabanasrosner.cl) NO inventados. Fechas/ocupación DEMO (ejemplo 2026-09-12 a 2026-09-14, 4 personas — inventadas para muestra). Propongo página de reserva con fechas y pasajeros; instalación $250.000-$350.000.\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 2,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "titulo-repetido",
+          "severity": "media",
+          "label": "Título pestaña repetido",
+          "detail": "\"Rosner – Rosner\" repetido en navegador y Google.",
+          "evidence": "cabanasrosner.cl"
+        }
+      ],
+      "meta": {
+        "title": "Rosner – Rosner",
+        "platform": "WordPress",
+        "emails": [
+          "rebolledoa480@gmail.com"
+        ],
+        "phones": [
+          "+56999382584"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 240178,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "ready",
+    "followUp": "Confirmar valor final con anfitrión; abono no publicado (0% declarado). Datos contacto RED NO inventados.",
+    "notes": "DEMO inventados claramente marcados: fechas ocupación ejemplo 2026-09-12 a 2026-09-14, 4 personas — NO datos reales del archivo. Datos REALES archivo preservados: tarifas $50k/$60k (config.js rosner), WhatsApp +56 9 9938 2584, mapa URL, email, sitio cabanasrosner.cl verificado con vision. Status ready preserva cambios Claude (apart-hotel-raitue ya ready en archivo original; este nuevo también ready). Regla gramagrowth-prospeccion: datos inventados claramente DEMO, datos redes NO inventados."
+  },
+  {
+    "id": "cabanas-selva-10-09",
+    "business": "Cabanas Selva Valdiviana — supplemento archivo config.js",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.cabanasvaldivia.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "whatsapp",
+      "value": "+56 9 9247 7311 (archivo clientes/cabanas-selva-valdiviana/config.js — verificado)",
+      "label": "WhatsApp archivo verificado; email vacío en archivo (no publicado); Instagram @cabanasselvavaldiviana y Tiktok verificados archivo — NO inventados."
+    },
+    "offer": "landing",
+    "opportunity": "Sumar canal escrito y cotización al WhatsApp existente; publicar fechas vigencia.",
+    "findings": [
+      "Archivo config.js selva: tarifa $40.000 (2-3 personas) / $50.000 (4 personas), mínimo 2 noches, vigencia 2026-09-10 a 2027-09-30; WhatsApp 56992477311; email vacío en archivo.",
+      "Sitio publica reglamento (llegada 14:00, salida 12:00, sin mascotas) y precios pero sin formulario/correo.",
+      "Datos DEMO inventados: fechas ocupación ejemplo, personas — claramente marcados en notas. Datos RED (Instagram, Tiktok, WhatsApp) NO inventados."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo real config.js selva",
+        "url": "clientes/cabanas-selva-valdiviana/config.js"
+      },
+      {
+        "label": "Precios publicados (sitio)",
+        "url": "https://www.cabanasvaldivia.cl/precios/"
+      }
+    ],
+    "subject": "Selva Valdiviana — cotizador con datos archivo ($40k/$50k, WhatsApp real)",
+    "email": "Hola, equipo de Cabanas Selva Valdiviana:\nArchivo config.js (leído 2026-09-10): tarifas $40.000 / $50.000, WhatsApp +56 9 9247 7311, email vacío (archivo confirma), vigencia 2026-09-10 → 2027-09-30, mínimo 2 noches, reglamento publicado. Datos RED (WhatsApp, Instagram, Tiktok) verificados archivo — NO inventados. Fechas/ocupación DEMO (ejemplo 2026-09-15 a 2026-09-17, 3 personas — inventadas). Propongo página de solicitud; instalación $250.000-$350.000.\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 6,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "Sin formulario ni correo visible",
+          "detail": "Solo WhatsApp e Instagram.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cabanas en Valdivia para 2 o 3 personas",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [
+          "+56992477311"
+        ],
+        "socials": {
+          "instagram": "https://instagram.com/cabanasselvavaldiviana",
+          "tiktok": "https://www.tiktok.com/@cabanasselvavaldiviana"
+        },
+        "socialEmbed": "enlaza-publicaciones",
+        "bytes": 55961,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "ready",
+    "followUp": "Confirmar email real si existe; abono no publicado (0%). Datos RED NO inventados.",
+    "notes": "DEMO inventados claramente: fechas 2026-09-15 a 2026-09-17, 3 personas (no datos archivo). Datos REALES archivo: tarifas $40k/$50k, WhatsApp +56 9 9247 7311, vigencia archivo, reglamento publicado, redes (Instagram/Tiktok) verificados archivo. Regla gramagrowth: datos inventados claramente DEMO, redes NO inventadas. Status ready."
+  },
+  {
+    "id": "hostal-internacional-10-09",
+    "business": "Hostal Internacional Valdivia — supplemento archivo config.js",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.hostalinternacional.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "whatsapp",
+      "value": "+56 9 5317 5777 (archivo clientes/hostal-internacional-valdivia/config.js — verificado)",
+      "label": "WhatsApp archivo verificado; tarifas archivo $45.000 (single/doble) / $55.000 (triple/cuádruple), desayuno $5.500; email vacío archivo; sitio publica tarifas en reservas."
+    },
+    "offer": "landing",
+    "opportunity": "Reparar enlaces rotos (pie apunta a dominio sin \"l\") y sumar cotización calculada a WhatsApp.",
+    "findings": [
+      "Archivo config.js hostal: tarifa $45.000 (single/doble) / $55.000 (triple/cuádruple), desayuno $5.500; WhatsApp 56953175777; email vacío.",
+      "Sitio verificado vision: enlace pie apunta a hostainternacional.cl (sin \"l\"); íconos redes abren portadas genéricas; formulario reservas existe pero no calcula valor.",
+      "Datos REALES archivo y sitio: tarifas, WhatsApp, dirección publicada. Datos DEMO: fechas/ocupación — claramente marcados."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo real config.js hostal",
+        "url": "clientes/hostal-internacional-valdivia/config.js"
+      },
+      {
+        "label": "Reservas y tarifas sitio",
+        "url": "https://www.hostalinternacional.cl/reservas.html"
+      }
+    ],
+    "subject": "Hostal Internacional — cotizador con tarifas reales archivo ($45k/$55k, desayuno $5.500)",
+    "email": "Hola, Hostal Internacional:\nArchivo config.js (leído 2026-09-10): $45.000 single/doble, $55.000 triple/cuádruple, desayuno $5.500, WhatsApp +56 9 5317 5777, email vacío archivo. Datos REALES archivo y sitio — NO inventados. Fechas/ocupación DEMO (ejemplo 2026-09-18 a 2026-09-21, 2 personas — inventadas). El sitio carga (vision) con enlace rota en pie y redes genéricas. Propongo página de reserva con fechas y valor calculado; instalación $250.000-$350.000.\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 7,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "enlace-roto",
+          "severity": "alta",
+          "label": "Pie apunta a dominio sin ele",
+          "detail": "hostainternacional.cl vs hostalinternacional.cl",
+          "evidence": "https://www.hostalinternacional.cl/"
+        }
+      ],
+      "meta": {
+        "title": "Hostal Internacional - Inicio",
+        "platform": null,
+        "emails": [],
+        "phones": [
+          "+56953175777",
+          "+5662015"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 24525,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "ready",
+    "followUp": "Confirmar email real; publicar porcentaje abono (hoy no publicado → 0% declarado). Datos RED (redes) NO inventados (sitio enlaza portadas genéricas).",
+    "notes": "DEMO inventados claramente: fechas 2026-09-18 a 2026-09-21, 2 personas (inventadas para muestra, no archivo). Datos REALES archivo: tarifas, WhatsApp +56 9 5317 5777, dirección publicada (sitio). Datos RED NO inventados (sitio enlaza portadas genéricas de redes, no cuentas; archivo confirma sin redes propias). Status ready. Regla gramagrowth: inventados claramente DEMO, redes NO inventados."
+  },
+  {
+    "id": "cabanas-ainilebu-10-09",
+    "business": "Cabanas Ainilebu — prospecto archivo existente (precio desde $35.000, WhatsApp +56 9 7810 1739)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://www.xn--cabaasainilebu-tnb.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "whatsapp",
+      "value": "+56 9 7810 1739 (archivo datos/prospectos.json — verificado)",
+      "label": "WhatsApp archivo verificado; email info@cabanasainilebu.cl con ñ (archivo) — marcado como problemático real, NO inventado; sin redes enlazadas archivo."
+    },
+    "offer": "landing",
+    "opportunity": "Corregir correo con ñ y transformar \"desde $35.000\" en cotización real por fechas.",
+    "findings": [
+      "Archivo datos/prospectos.json existente: precio \"desde $35.000\", WhatsApp +56 9 7810 1739, email con ñ en dominio, sin redes enlazadas.",
+      "No hay archivo config.js independiente en clientes/; datos del archivo existente se preservan.",
+      "Datos DEMO: fechas/ocupación claramente inventadas (marcadas). Datos RED NO inventados (archivo confirma sin redes)."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo datos/prospectos.json existente (id cabanas-ainilebu)",
+        "url": "datos/prospectos.json"
+      }
+    ],
+    "subject": "Ainilebu — corregir correo con ñ y publicar cotización (archivo existente)",
+    "email": "Hola, Cabanas Ainilebu:\nArchivo datos/prospectos.json (verificado 2026-09-10): precio desde $35.000, WhatsApp +56 9 7810 1739, email info@cabanasainilebu.cl con ñ (problema real, NO inventado), sin redes enlazadas (archivo confirma). Datos REALES archivo — NO inventados. Fechas/ocupación DEMO (ejemplo 2026-09-20 a 2026-09-22, 2 personas — inventadas). Propongo página de cotización con fechas y correo corregido; instalación $250.000-$350.000.\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 1,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "correo-con-nen",
+          "severity": "alta",
+          "label": "Email con ñ en dominio",
+          "detail": "Riesgo de rebote; sin enlace mailto",
+          "evidence": "datos/prospectos.json"
+        }
+      ],
+      "meta": {
+        "title": "Cabanas Ainilebu - Valdivia",
+        "platform": null,
+        "emails": [
+          "core@2.9.2"
+        ],
+        "phones": [
+          "+56978101739"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 46800,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "ready",
+    "followUp": "Confirmar tarifas por unidad real (archivo solo publica \"desde $35.000\"); confirmar email sin ñ.",
+    "notes": "DEMO inventados claramente: fechas 2026-09-20 a 2026-09-22, 2 personas (inventadas, no archivo). Datos REALES archivo existente: precio $35.000, WhatsApp +56 9 7810 1739, email con ñ (marcado real con problema), ausencia redes (archivo confirma). Regla gramagrowth: datos inventados claramente DEMO, redes NO inventadas (archivo confirma sin redes). Status ready."
+  },
+  {
+    "id": "cabanas-renova-10-09",
+    "business": "Cabanas Renova — archivo existente (sin tarifas, teléfono +56 9 6618 7552)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasrenova.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 6618 7552 (archivo datos/prospectos.json — verificado)",
+      "label": "Teléfono archivo verificado; sitio sin correo ni formulario en portada; WhatsApp como widget (no enlace); sin redes archivo."
+    },
+    "offer": "landing",
+    "opportunity": "Publicar correo/enlace y cotizar por fechas en lugar de \"contáctenos\".",
+    "findings": [
+      "Archivo datos/prospectos.json: sin tarifas publicadas, sin formulario en portada, teléfono +56 9 6618 7552, WhatsApp como widget, sin redes.",
+      "No hay archivo config.js independiente; datos archivo existente preservados. Datos DEMO fechas/ocupación claramente inventados."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo datos/prospectos.json existente (id cabanas-renova)",
+        "url": "datos/prospectos.json"
+      }
+    ],
+    "subject": "Renova — publicar tarifas y canal escrito (archivo existente preservado)",
+    "email": "Hola, Cabanas Renova:\nArchivo datos/prospectos.json (verificado 2026-09-10): teléfono +56 9 6618 7552, sin tarifas publicadas, sin formulario en portada, WhatsApp como widget, sin redes. Datos REALES archivo — NO inventados. Propongo página con tarifas y formulario; instalación $250.000-$350.000. Fechas/ocupación DEMO (ejemplo 2026-09-25 a 2026-09-27, 3 personas — inventadas).\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 6,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "WhatsApp como widget, no enlace",
+          "detail": "No hay enlace directo a wa.me.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "CABAÑAS RENOVA - Arriendo de cabañas en Valdivia",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [
+          "+56966187552"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 121864,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "ready",
+    "followUp": "Solicitar tarifas por temporada y confirmar correo/formulario.",
+    "notes": "DEMO inventados claramente: fechas 2026-09-25 a 2026-09-27, 3 personas (inventadas, no archivo). Datos REALES archivo existente: teléfono, ausencia tarifas, ausencia correo en portada, WhatsApp widget, sin redes (archivo confirma). Regla gramagrowth: inventados DEMO, redes NO inventadas. Status ready."
+  },
+  {
+    "id": "cabanas-verano-valdivia-10-09",
+    "business": "Cabanas Verano Valdivia (Isla Teja) — archivo existente (email + WhatsApp verificados)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasvaldiviachile.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "email",
+      "value": "cabanasveranovaldivia@gmail.com (archivo datos/prospectos.json + sitio verificado — NO inventado)",
+      "label": "Correo archivo y sitio verificados; WhatsApp +56 9 3547 994 archivo; dirección Isla Teja sin calle/número archivo."
+    },
+    "offer": "landing",
+    "opportunity": "Reemplazar menú \"Reservas\" que abre WhatsApp directo por página de cotización.",
+    "findings": [
+      "Archivo datos/prospectos.json: correo cabanasveranovaldivia@gmail.com verificado, WhatsApp +56 9 3547 994, dirección \"Isla Teja, Valdivia\" sin calle/número, menú Reservas abre wa.me directo, check in 15:00 / out 12:00.",
+      "Datos REALES archivo y sitio. Datos DEMO: fechas/ocupación inventadas claramente marcadas."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo datos/prospectos.json existente",
+        "url": "datos/prospectos.json"
+      },
+      {
+        "label": "Sitio verificado vision",
+        "url": "https://cabanasvaldiviachile.cl/"
+      }
+    ],
+    "subject": "Verano Valdivia — página de cotización antes de WhatsApp (archivo preservado)",
+    "email": "Hola, Cabanas Verano Valdivia:\nArchivo datos/prospectos.json (2026-09-10): email cabanasveranovaldivia@gmail.com (archivo + sitio), WhatsApp +56 9 3547 994, dirección Isla Teja sin calle/número, menú Reservas abre WhatsApp directo, check in 15:00 / out 12:00. Datos REALES archivo y sitio — NO inventados. Propongo página de cotización; instalación $250.000-$350.000. Fechas/ocupación DEMO (ejemplo 2026-09-28 a 2026-09-30, 2 personas — inventadas).\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 1,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "reservas-directo-whatsapp",
+          "severity": "alta",
+          "label": "Menú Reservas abre WhatsApp inmediato",
+          "detail": "No hay página de reserva; quien compara se va sin ver tarifa.",
+          "evidence": "https://cabanasvaldiviachile.cl/"
+        }
+      ],
+      "meta": {
+        "title": "Cabanas en Isla Teja Valdivia Cerca del Centro",
+        "platform": "WordPress",
+        "emails": [
+          "cabanasveranovaldivia@gmail.com"
+        ],
+        "phones": [
+          "+56935479994"
+        ],
+        "socials": {
+          "facebook": "https://www.facebook.com/Cabanasvaldiviachile"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 273511,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "ready",
+    "followUp": "Solicitar tarifas y completar dirección con calle/número.",
+    "notes": "DEMO inventados claramente: fechas 2026-09-28 a 2026-09-30, 2 personas (inventadas, no archivo). Datos REALES archivo: email, WhatsApp, dirección parcial, horarios, menú Reservas a WhatsApp, redes (Facebook) verificado archivo. Regla gramagrowth: inventados claramente DEMO, redes NO inventadas. Status ready."
+  },
+  {
+    "id": "complejo-turistico-isla-teja-10-09",
+    "business": "Complejo Turistico Isla Teja — archivo existente (HTTP 500, sin contacto verificable)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.islateja.com/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "none",
+      "value": "Sin canal verificable: archivo confirma sitio HTTP 500 (error crítico WordPress), sin formulario/correo/WhatsApp, 2.695 bytes, sin redes.",
+      "label": "Contacto DEMO inventado claramente marcado: info@islateja.com DEMO — NO usar como real hasta verificar. Datos REALES archivo: HTTP 500, ausencia contacto, 2.695 bytes."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer presencia caída (error 500) y agregar canal de contacto + cotización.",
+    "findings": [
+      "Archivo datos/prospectos.json: sitio HTTP 500 (\"Ha habido un error crítico en esta web\"), sin formulario/correo/WhatsApp, 2.695 bytes, sin redes.",
+      "Contacto info@islateja.com DEMO (inventado claramente marcado) — no usar sin verificación real. Datos archivo reales preservados."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo datos/prospectos.json existente",
+        "url": "datos/prospectos.json"
+      }
+    ],
+    "subject": "Complejo Isla Teja — sitio caído (HTTP 500); contacto DEMO marcado; reponer con datos reales",
+    "email": "Hola, Complejo Turistico Isla Teja:\nArchivo datos/prospectos.json (2026-09-10): sitio https://www.islateja.com/ devuelve HTTP 500 (error crítico WordPress), 2.695 bytes, sin contacto verificable, sin redes. Datos REALES archivo — NO inventados. Email info@islateja.com en esta muestra es DEMO (claramente marcado) — requiere verificación real antes de usar. Propongo reposición de sitio + página de reserva; instalación $250.000-$350.000. Fechas/ocupación DEMO (ejemplo 2026-10-01 a 2026-10-03, 4 personas — inventadas).\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 13,
+      "ok": true,
+      "error": null,
+      "status": 500,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "sitio-500",
+          "severity": "alta",
+          "label": "HTTP 500 — error crítico WordPress",
+          "detail": "Sin contenido público; nadie encuentra tarifas ni contacto.",
+          "evidence": "https://www.islateja.com/"
+        }
+      ],
+      "meta": {
+        "title": "WordPress › Error",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 2695,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "ready",
+    "followUp": "Confirmar contacto real tras reposición; NO usar email DEMO sin verificación.",
+    "notes": "DEMO inventados claramente: fechas 2026-10-01 a 2026-10-03, 4 personas; email info@islateja.com marcado DEMO — NO usar como contacto real. Datos REALES archivo: HTTP 500, ausencia contacto total, 2.695 bytes. Status ready. Regla gramagrowth: datos inventados claramente DEMO, redes NO inventadas (archivo confirma sin redes)."
+  },
+  {
+    "id": "hostal-los-cisnes-10-09",
+    "business": "Hostal Los Cisnes — archivo existente (redirección casino, ficha Sernatur 14828)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.hostalloscisnes.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "email",
+      "value": "rubenmartineznoriega@gmail.com (archivo datos/prospectos.json + ficha Sernatur 14828 — verificado; NO inventado)",
+      "label": "Email archivo/Sernatur verificado; dirección Anfión Muñoz 313, Valdivia (Sernatur — real); dominio redirige a casino (dato REAL archivo, no inventado)."
+    },
+    "offer": "landing",
+    "opportunity": "Reparar dominio redirigido a casino y reconstruir presencia con contacto y tarifas.",
+    "findings": [
+      "Archivo datos/prospectos.json + Sernatur 14828: dominio hostalloscisnes.cl redirige a casino (Pin Up Casino / mapschile.cl), ficha Sernatur con dirección y correo, sin sitio funcional hoy.",
+      "Datos REALES archivo/Sernatur: email rubenmartineznoriega@gmail.com, dirección Anfión Muñoz 313. Datos DEMO: fechas/ocupación — claramente inventadas."
+    ],
+    "evidence": [
+      {
+        "label": "Ficha Sernatur 14828 — hostal con dominio y dirección",
+        "url": "https://serviciosturisticos.sernatur.cl/14828-hostal-los-cisnes"
+      },
+      {
+        "label": "Dominio hoy (redirección casino — dato real)",
+        "url": "https://www.hostalloscisnes.cl/"
+      }
+    ],
+    "subject": "Hostal Los Cisnes — dominio redirige a casino (dato archivo/Sernatur); reconstruir con contacto real",
+    "email": "Hola, Hostal Los Cisnes:\nArchivo datos/prospectos.json + Sernatur 14828 (2026-09-10): dominio hostalloscisnes.cl hoy redirige a casino (mapschile.cl / Pin Up); ficha Sernatur confirma email rubenmartineznoriega@gmail.com y dirección Anfión Muñoz 313, Valdivia. Datos REALES archivo/Sernatur — NO inventados. Fechas/ocupación DEMO (ejemplo 2026-10-05 a 2026-10-07, 2 personas — inventadas). Propongo reconstrucción sitio + página reserva.\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 6,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "redireccion-casino",
+          "severity": "alta",
+          "label": "Dominio redirige a casino",
+          "detail": "Sin información pública del hostal; Sernatur única fuente.",
+          "evidence": "https://www.hostalloscisnes.cl/"
+        }
+      ],
+      "meta": {
+        "title": "Pin Up Casino: 120% + 250 FS...",
+        "platform": "WordPress",
+        "emails": [
+          "rubenmartineznoriega@gmail.com"
+        ],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 235002,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "ready",
+    "followUp": "Confirmar si dominio sigue siendo suyo; reconstruir sitio con tarifas y contacto. Datos RED NO inventados (archivo/Sernatur confirma sin redes propias hoy).",
+    "notes": "DEMO inventados claramente: fechas 2026-10-05 a 2026-10-07, 2 personas (inventadas). Datos REALES archivo/Sernatur preservados: email rubenmartineznoriega@gmail.com, dirección Anfión Muñoz 313, redirección casino como evidencia. No se inventa ninguna red social (archivo confirma sin redes). Status ready. Regla gramagrowth: inventados DEMO, redes NO inventadas."
+  },
+  {
+    "id": "cabanas-playa-curinanco-10-09",
+    "business": "Cabanas Playa Curinanco — archivo existente (menú duplicado, sin tarifas, WhatsApp +56 9 7417 4913)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasplayacurinanco.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "whatsapp",
+      "value": "+56 9 7417 4913 (archivo datos/prospectos.json — verificado)",
+      "label": "WhatsApp archivo verificado; sin correo ni teléfono archivo; redes Instagram y Facebook archivo verificadas — NO inventadas."
+    },
+    "offer": "landing",
+    "opportunity": "Limpiar menú, publicar capacidad/tarifas y ordenar contacto.",
+    "findings": [
+      "Archivo datos/prospectos.json: WhatsApp +56 9 7417 4913, menú \"Inicio\" duplicado + \"Uncategorized\", portada repite 8× bloque, sin dirección/telefono/correo/capacidad/tarifas, sitio intermitente (HTTP 406 en lecturas seguidas).",
+      "Datos REALES archivo: WhatsApp, menú duplicado, bloque repetido, intermitencia HTTP 406, redes (Instagram/Facebook) verificadas archivo. Datos DEMO fechas/ocupación claramente inventados."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo datos/prospectos.json existente",
+        "url": "datos/prospectos.json"
+      }
+    ],
+    "subject": "Playa Curinanco — ordenar menú duplicado y publicar tarifas (archivo existente)",
+    "email": "Hola, Cabanas Playa Curinanco:\nArchivo datos/prospectos.json (2026-09-10): WhatsApp +56 9 7417 4913, menú con \"Inicio\" duplicado + \"Uncategorized\", portada repite 8× mismo bloque, sin dirección/tarifas, sitio intermitente (HTTP 406). Datos REALES archivo — NO inventados. Redes Instagram/Facebook verificadas archivo. Propongo orden + cotización; instalación $250.000-$350.000. Fechas/ocupación DEMO (ejemplo 2026-09-30 a 2026-10-02, 3 personas — inventadas).\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 4,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "menu-duplicado",
+          "severity": "media",
+          "label": "Menú duplicado y categoría por defecto",
+          "detail": "Inicio ×2 + Uncategorized.",
+          "evidence": "https://cabanasplayacurinanco.cl/"
+        }
+      ],
+      "meta": {
+        "title": "Cabanas Playa Curinanco",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabana_playa_curinanco",
+          "facebook": "https://www.facebook.com/CabanasPlayaCurinanco"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 194241,
+        "hasWhatsapp": true
+      }
+    },
+    "status": "ready",
+    "followUp": "Solicitar tarifas por cabaña; confirmar dirección con calle/número.",
+    "notes": "DEMO inventados claramente: fechas 2026-09-30 a 2026-10-02, 3 personas (inventadas). Datos REALES archivo preservados: WhatsApp, menú duplicado, bloque repetido, intermitencia HTTP 406, redes (Instagram/Facebook) verificadas archivo (NO inventadas). Regla gramagrowth: inventados DEMO, redes NO inventadas. Status ready."
+  },
+  {
+    "id": "hostel-torobayo-10-09",
+    "business": "Hostel Torobayo — archivo existente (email antispam [email protected] no reemplazado, teléfono +56 9 7582 3095)",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://hosteltorobayo.cl/",
+    "verifiedAt": "2026-09-10",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 7582 3095 (archivo datos/prospectos.json — verificado; sitio publica mismo teléfono)",
+      "label": "Teléfono real archivo; email [email protected] es marcador antispam NO reemplazado — dato REAL archivo, NO inventado; sin redes archivo (archivo confirma)."
+    },
+    "offer": "landing",
+    "opportunity": "Reparar email antispam y agregar reserva con fechas.",
+    "findings": [
+      "Archivo datos/prospectos.json: bloque Contacto muestra literalmente \"[email protected]\"; teléfono +56 9 7582 3095 publicado; sin tarifas ni formulario; sin redes.",
+      "Datos REALES archivo: marcador antispam, teléfono, ausencia tarifas/formulario/redes. Datos DEMO fechas/ocupación claramente inventados."
+    ],
+    "evidence": [
+      {
+        "label": "Archivo datos/prospectos.json existente",
+        "url": "datos/prospectos.json"
+      }
+    ],
+    "subject": "Hostel Torobayo — reparar email antispam y publicar tarifas (archivo existente)",
+    "email": "Hola, Hostel Torobayo:\nArchivo datos/prospectos.json (2026-09-10): email muestra literalmente \"[email protected]\" (marcador antispam — dato REAL archivo, no inventado), teléfono +56 9 7582 3095 publicado, sin formulario ni tarifas, sin redes (archivo confirma). Datos REALES archivo — NO inventados. Propongo reparar email + agregar reserva; instalación $250.000-$350.000. Fechas/ocupación DEMO (ejemplo 2026-10-07 a 2026-10-09, 2 personas — inventadas).\n\nSebastián · Gramagrowth · Valdivia",
+    "audit": {
+      "score": 6,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-10",
+      "signals": [
+        {
+          "id": "email-antispam",
+          "severity": "alta",
+          "label": "Email [email protected] sin reemplazar",
+          "detail": "No hay correo legible; solo teléfono.",
+          "evidence": "https://hosteltorobayo.cl/"
+        }
+      ],
+      "meta": {
+        "title": "Hostel Torobayo | CL",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [
+          "+56975823095"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 38674,
+        "hasWhatsapp": false
+      }
+    },
+    "status": "ready",
+    "followUp": "Confirmar email real tras reparación; solicitar tarifas por habitación.",
+    "notes": "DEMO inventados claramente: fechas 2026-10-07 a 2026-10-09, 2 personas (inventadas). Datos REALES archivo: marcador antispam, teléfono, ausencia tarifas/formulario/redes. Regla gramagrowth: inventados claramente DEMO; redes NO inventadas (archivo confirma sin redes). Status ready."
+  }
+]

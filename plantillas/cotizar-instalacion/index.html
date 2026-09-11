@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Carga las medidas de tus ventanas, mira los metros cuadrados y pide la visita técnica con la solicitud ya escrita.">
+  <title>Cotizar instalación | Muestra Gramagrowth</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <p id="demo-banner" class="demo-banner" hidden></p>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow" data-field="comuna"></p>
+      <h1 data-field="nombre"></h1>
+      <p class="lead" data-field="bajada"></p>
+      <div class="hero-actions">
+        <a class="button primary" href="#cotizar">Cargar mis medidas</a>
+        <a class="button ghost" id="hero-whatsapp" target="_blank" rel="noreferrer">Escribir por WhatsApp</a>
+      </div>
+      <ul class="hero-facts" data-list="incluye"></ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ── Cotizador ─────────────────────────────────────────────── -->
+    <section id="cotizar" class="quote" aria-labelledby="quote-title">
+      <div class="quote-form">
+        <h2 id="quote-title">Mide tu proyecto</h2>
+        <p class="quote-sub">Carga cada vano con su ancho y su alto. Sumamos los metros cuadrados y armamos la solicitud de visita técnica.</p>
+
+        <div class="field-grid">
+          <label class="field-wide">Trabajo<select id="trabajo"></select></label>
+          <label class="field-wide" id="material-field">Material o perfil<select id="material"></select></label>
+          <label>Tipo de proyecto<select id="tipo-proyecto"></select></label>
+          <label id="comuna-field">Comuna<span id="comuna-slot"></span></label>
+        </div>
+
+        <!-- Modo vano: la persona carga ventana por ventana -->
+        <fieldset id="vanos" class="vanos">
+          <legend>Vanos a medir</legend>
+          <p class="vanos-help">Mide el hueco por dentro, en centímetros. Si te da distinto en dos puntos, anota el menor.</p>
+          <div id="vanos-list" class="vanos-list"></div>
+          <button type="button" id="add-vano" class="button ghost small">Agregar otro vano</button>
+        </fieldset>
+
+        <!-- Modo superficie: un solo número -->
+        <fieldset id="superficie" class="extras" hidden>
+          <legend>Superficie a intervenir</legend>
+          <label class="surface-field">Metros cuadrados
+            <input id="m2" type="number" min="0" step="0.1" value="20">
+          </label>
+        </fieldset>
+
+        <fieldset id="extras" class="extras" hidden>
+          <legend>Trabajos adicionales</legend>
+          <div id="extras-list" class="extras-list"></div>
+        </fieldset>
+
+        <div id="quote-result" class="quote-result" aria-live="polite"></div>
+
+        <a id="request-whatsapp" class="button primary block" target="_blank" rel="noreferrer" hidden>
+          Pedir visita técnica por WhatsApp
+        </a>
+        <a id="request-email" class="button ghost block" hidden>Pedir visita técnica por correo</a>
+        <p class="quote-note">Esto envía una <strong>solicitud de visita</strong>: las medidas son referenciales y el valor final se confirma en terreno.</p>
+
+        <ul data-list="contactoDirecto" class="direct-list"></ul>
+      </div>
+
+      <aside class="rates-card">
+        <h3 id="work-title">Qué incluye</h3>
+        <p id="work-summary" class="service-summary"></p>
+        <ul id="material-list" class="rates-list"></ul>
+        <p id="rates-empty" class="rates-empty" hidden>Este negocio no publica valores por metro cuadrado. La página te entrega el alcance medido y el equipo pone el número al ver la obra.</p>
+        <p id="rates-stale" class="rates-stale" hidden></p>
+        <div id="visit-card" class="deposit-card"></div>
+        <ul data-list="reglas" class="rules-list"></ul>
+      </aside>
+    </section>
+
+    <!-- ── Panel para el cliente (sólo en modo demo) ─────────────── -->
+    <section id="host-panel" class="host-panel" hidden aria-labelledby="host-title">
+      <div class="host-head">
+        <p class="host-tag">Para el equipo · no aparece en el sitio publicado</p>
+        <h2 id="host-title">Esto es lo que te llega a ti</h2>
+        <p class="host-lead">Cada consulta llega con los vanos medidos y los metros cuadrados sumados, así puedes decidir si la visita vale el traslado antes de subirte a la camioneta.</p>
+      </div>
+      <div class="host-compare">
+        <div class="host-col before">
+          <h3>Hoy recibes</h3>
+          <pre class="host-msg">Hola, quiero cotizar ventanas para mi casa</pre>
+          <p class="host-note">Y empiezan seis mensajes de ida y vuelta: cuántas ventanas, de qué medidas, qué perfil, en qué comuna, para cuándo. Varias de esas visitas terminan siendo dos ventanas que no cubrían el traslado.</p>
+        </div>
+        <div class="host-col after">
+          <h3>Con esta página recibes</h3>
+          <pre class="host-msg" id="host-preview"></pre>
+          <p class="host-note">Con los metros cuadrados ya sumados y cada vano identificado por su ubicación en la casa.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Trabajos ──────────────────────────────────────────────── -->
+    <section class="units" aria-labelledby="units-title">
+      <h2 id="units-title" data-field="operacionTitular"></h2>
+      <p class="section-lead" data-field="operacionDescripcion"></p>
+      <div data-list="incluyeChips" class="amenity-row"></div>
+      <div data-list="trabajos" class="unit-grid"></div>
+    </section>
+
+    <!-- ── Preguntas frecuentes ──────────────────────────────────── -->
+    <section class="faq" aria-labelledby="faq-title">
+      <h2 id="faq-title">Preguntas frecuentes</h2>
+      <div data-list="faq" class="faq-list"></div>
+    </section>
+
+    <!-- ── Dónde estamos ─────────────────────────────────────────── -->
+    <section class="place" aria-labelledby="place-title">
+      <div>
+        <h2 id="place-title">Dónde estamos</h2>
+        <p class="address" data-field="direccion"></p>
+        <a id="map-link" class="button ghost" target="_blank" rel="noreferrer" hidden>Abrir en Google Maps</a>
+        <div id="map-embed" class="map-embed" hidden></div>
+      </div>
+      <div>
+        <h3>Cómo sigue</h3>
+        <ol class="steps-list" data-list="pasos"></ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong data-field="nombreFooter"></strong>
+      <p data-field="direccionFooter"></p>
+    </div>
+    <div class="footer-contact">
+      <a id="footer-whatsapp" target="_blank" rel="noreferrer"></a>
+      <a id="footer-phone"></a>
+      <a id="footer-email"></a>
+    </div>
+    <p class="footer-source" id="footer-source"></p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

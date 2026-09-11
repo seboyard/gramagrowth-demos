@@ -171,7 +171,9 @@
     "findings": [
       "La misma página publica contacto@raituenvaldivia.cl e info@raituapart.cl como correos de contacto.",
       "El llamado principal es “Llamar ya”, sin una consulta estructurada de fechas y huéspedes.",
-      "El menú mezcla español con la etiqueta “About”, lo que resta continuidad a la experiencia."
+      "El menú mezcla español con la etiqueta “About”, lo que resta continuidad a la experiencia.",
+      "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+      "No hay enlace a WhatsApp"
     ],
     "evidence": [
       {
@@ -234,8 +236,8 @@
         "hasWhatsapp": false
       }
     },
-    "status": "review",
-    "followUp": "",
+    "status": "contacted",
+    "followUp": "2026-09-12",
     "notes": "Demo: clientes/apart-hotel-raitue/"
   },
   {
@@ -869,7 +871,7 @@
       }
     },
     "status": "review",
-    "followUp": "",
+    "followUp": "2026-09-12",
     "notes": "Sin demo: el sitio no carga, así que no hay dato publicado que copiar sin inventarlo. Sin correo público verificable; requiere contacto por otra vía antes de mandar nada."
   },
   {

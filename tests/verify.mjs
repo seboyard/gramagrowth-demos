@@ -30,6 +30,10 @@ const required = [
   'plantillas/planes-gimnasio/config.js',
   'plantillas/planes-gimnasio/app.js',
   'plantillas/planes-gimnasio/README.md',
+  'plantillas/cotizar-instalacion/index.html',
+  'plantillas/cotizar-instalacion/config.js',
+  'plantillas/cotizar-instalacion/app.js',
+  'plantillas/cotizar-instalacion/README.md',
   'presentacion/index.html',
   'presentacion/app.js',
   'presentacion/styles.css',
@@ -50,7 +54,8 @@ const server = readFileSync(resolve(root, 'scripts/serve.mjs'), 'utf8');
 const offers = readFileSync(resolve(root, 'docs/OFFERS.md'), 'utf8');
 const htmlFiles = ['index.html', 'kit/index.html', 'prospectar/index.html',
   'plantillas/landing-prospecto/index.html', 'plantillas/reserva-cabanas/index.html',
-  'plantillas/cotizar-evento/index.html', 'plantillas/planes-gimnasio/index.html'];
+  'plantillas/cotizar-evento/index.html', 'plantillas/planes-gimnasio/index.html',
+  'plantillas/cotizar-instalacion/index.html'];
 
 // --- Claims comerciales ---
 const forbiddenPublicClaims = [
@@ -159,7 +164,7 @@ for (const service of eventoConfig.servicios) {
 // y no procesar pagos. Es lo que las hace vendibles sin generar responsabilidad.
 const PAY_TERMS = ['webpay', 'transbank', 'stripe', 'mercadopago', 'cardnumber',
   'card_number', 'cvv', 'flow.cl', 'khipu'];
-for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio']) {
+for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio', 'cotizar-instalacion']) {
   const templateConfig = readFileSync(resolve(root, `plantillas/${template}/config.js`), 'utf8');
   const templateApp = readFileSync(resolve(root, `plantillas/${template}/app.js`), 'utf8');
   if (!templateConfig.includes('demo:')) throw new Error(`${template} no declara el bloque demo.`);
@@ -174,6 +179,36 @@ for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio'])
   if (!templateApp.includes('api.whatsapp.com')) {
     throw new Error(`${template} no arma la solicitud por WhatsApp.`);
   }
+}
+
+// --- Plantilla de cotización de instalación ---
+// Su resultado principal es un alcance medido, no un precio. Lo que se controla
+// es que ningún rango en pesos aparezca sin declarar de dónde salió, y que cada
+// trabajo diga cómo se mide, porque de eso depende qué formulario se muestra.
+const instalacionScope = {};
+new Function('window', readFileSync(resolve(root, 'plantillas/cotizar-instalacion/config.js'), 'utf8'))(instalacionScope);
+const instalacionConfig = instalacionScope.INSTALACION_CONFIG;
+if (!instalacionConfig?.trabajos?.length) throw new Error('La plantilla de instalación no declara trabajos.');
+for (const trabajo of instalacionConfig.trabajos) {
+  if (!['vano', 'superficie'].includes(trabajo.medida)) {
+    throw new Error(`El trabajo ${trabajo.id} debe declarar medida 'vano' o 'superficie'.`);
+  }
+  if (!trabajo.materiales?.length) throw new Error(`El trabajo ${trabajo.id} no declara materiales.`);
+  for (const material of trabajo.materiales) {
+    const rango = material.valorM2;
+    if (rango === null || rango === undefined) continue;
+    if (!Number.isFinite(rango.desde) || !Number.isFinite(rango.hasta) || rango.desde > rango.hasta) {
+      throw new Error(`El material ${trabajo.id}/${material.id} declara un rango por m² inválido.`);
+    }
+    // Un rango sin procedencia es un precio inventado esperando a ocurrir.
+    if (!material.referencia?.fuente) {
+      throw new Error(`El material ${trabajo.id}/${material.id} publica un rango sin declarar de dónde salió.`);
+    }
+  }
+}
+const instalacionApp = readFileSync(resolve(root, 'plantillas/cotizar-instalacion/app.js'), 'utf8');
+if (!instalacionApp.includes('referencial')) {
+  throw new Error('La plantilla de instalación debe declarar que las medidas son referenciales.');
 }
 
 // --- Presentación de oferta ---

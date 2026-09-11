@@ -86,20 +86,21 @@ async function handleApi(request, response, pathname) {
             new Function('window', readFileSync(configPath, 'utf8'))(scope);
             // Cada vertical declara su propio global. La galería no necesita
             // saber cuál es: toma el que exista y lee los campos comunes.
-            const config = scope.RESERVA_CONFIG || scope.EVENTO_CONFIG || scope.GIMNASIO_CONFIG || {};
+            const config = scope.RESERVA_CONFIG || scope.EVENTO_CONFIG || scope.GIMNASIO_CONFIG || scope.INSTALACION_CONFIG || {};
             business = config.negocio?.nombre || entry.name;
             source = config.demo?.fuente || null;
             // Unidades cotizables: cabañas en la vertical de hospedaje,
-            // servicios en la de eventos.
-            const items = config.tipos || config.planes || config.servicios || [];
+            // servicios en la de eventos, trabajos en la de instalación.
+            const items = config.tipos || config.planes || config.servicios || config.trabajos || [];
             units = items.length;
-            unitsLabel = config.planes ? 'plan' : config.tipos ? 'unidad' : 'servicio';
+            unitsLabel = config.planes ? 'plan' : config.tipos ? 'unidad' : config.trabajos ? 'trabajo' : 'servicio';
             // El plural va explícito: en español no basta con agregar una "s"
             // ("unidad" → "unidades", "plan" → "planes").
-            unitsPlural = config.planes ? 'planes' : config.tipos ? 'unidades' : 'servicios';
+            unitsPlural = config.planes ? 'planes' : config.tipos ? 'unidades' : config.trabajos ? 'trabajos' : 'servicios';
             priced = items.some((item) => item.temporadas?.length
               || item.precio
-              || (item.opciones || []).some((option) => option.valorPorInvitado !== null && option.valorPorInvitado !== undefined))
+              || (item.opciones || []).some((option) => option.valorPorInvitado !== null && option.valorPorInvitado !== undefined)
+              || (item.materiales || []).some((material) => material.valorM2))
               || (config.temporadas || []).length > 0;
           } catch { /* config ilegible: se muestra igual con el nombre de carpeta */ }
         }

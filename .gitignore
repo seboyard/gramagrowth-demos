@@ -3,3 +3,4 @@ tmp-*.mjs
 *-tmp.mjs
 .DS_Store
 prospectos-backup-*.json
+.claude/
