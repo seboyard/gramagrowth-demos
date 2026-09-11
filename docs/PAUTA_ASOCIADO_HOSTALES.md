@@ -113,17 +113,57 @@ las otras dos que le muestro."* Y les muestras la de Perú o Ana María.
 
 ## 4. Precios — con descuento por esta reunión
 
+### Por cada hostal
+
 | | Precio de lista | **Precio hoy** | Piso (no bajar de aquí) |
 |---|---:|---:|---:|
-| Página de reserva directa | $320.000 | **$250.000** | $220.000 |
-| Rescate de temporada (opcional) | $150.000 | **$120.000** | $100.000 |
-| Los dos juntos | $470.000 | **$330.000** | $300.000 |
+| Página de reserva directa | $320.000 | **$200.000** | $180.000 |
+| Fotos y video del lugar | $250.000 | **$200.000** | $170.000 |
+| Sólo fotos (20 editadas) | $150.000 | **$120.000** | $100.000 |
+| Rescate de temporada | $150.000 | **$120.000** | $100.000 |
 | Actualización de tarifas por temporada | $25.000/mes | **$20.000/mes** | $20.000/mes |
 
-**Cómo presentar el descuento:** *"El precio de lista es $320.000. Como vengo por
-[nombre de quien los presentó], puedo dejarlo en $250.000 si lo confirmamos esta
-semana."* El descuento tiene razón (la presentación) y plazo (esta semana). Sin
-las dos cosas, es sólo bajar el precio.
+### Los tres juntos — la oferta que conviene cerrar
+
+La persona con la que te reúnes está ligada a los tres. Si cierra los tres de
+una vez, el precio cambia:
+
+| | Suma de los tres al precio hoy | **Paquete** | Piso |
+|---|---:|---:|---:|
+| 3 páginas de reserva | $600.000 | **$500.000** | $450.000 |
+| 3 páginas + fotos y video en los 3 | $1.200.000 | **$950.000** | $850.000 |
+
+**Por qué podemos hacerlo:** la segunda y la tercera página cuestan horas, no
+días, porque el motor es el mismo y sólo cambian los datos. Ese ahorro se lo
+traspasamos en parte. Dilo así: *"Como las tres se hacen con la misma base, la
+segunda y la tercera salen mucho más rápido, y eso se lo descuento."*
+
+**Condiciones del paquete:** se firma de una vez, 50% al inicio sobre el total
+(**$250.000** por las tres páginas), y las tres entregas van en un solo
+calendario. Si uno se cae antes de partir, los otros dos vuelven al precio
+individual.
+
+### Cómo presentar los números
+
+Empieza por el paquete, no por el individual. Es más fácil bajar de tres a uno
+que subir de uno a tres:
+
+> *"Por las tres páginas, $500.000. Si prefiere partir con una sola, son
+> $200.000 cada una. Y si quiere que además vayamos a hacer fotos y un video
+> corto de cada hostal, las tres con todo son $950.000."*
+
+El descuento tiene razón (viene por presentación, y son tres) y plazo (esta
+semana). Sin las dos cosas, es sólo bajar el precio.
+
+### Fotos y video: cuándo sacarlo
+
+Los tres hostales casi no tienen fotos propias: Perú tiene dos usables en su
+sitio, Ana María una, Aníbal Pinto ninguna. **Es el extra más fácil de vender
+en esta reunión**, porque el hueco es evidente en la propia demo.
+
+Qué incluye, para decirlo sin dudar: una sesión en el lugar, 20 fotos editadas,
+un recorrido en video de 60 a 90 segundos para la página, y tres clips
+verticales cortos para Instagram o WhatsApp. Cinco días hábiles desde la sesión.
 
 **Forma de pago — no negociable:** 50% para empezar, 50% contra entrega
 aprobada. Si piden pagar todo al final, la respuesta es no. Es lo que nos
@@ -134,6 +174,7 @@ protege.
 | Negociable | No negociable |
 |---|---|
 | El precio, hasta el piso | El 50% para comenzar |
+| Armar el paquete con 2 en vez de 3 (2 páginas: $360.000) | Dar precio de paquete por una sola |
 | El plazo de pago del saldo (hasta 15 días tras entrega) | Prometer cantidad de reservas o resultados |
 | Agregar el rescate de temporada con descuento | Disponibilidad en tiempo real o pagos en línea (no es este producto) |
 | Una segunda ronda de ajustes | Empezar sin las tarifas y fotos del cliente |
@@ -146,9 +187,9 @@ protege.
 > necesidad."*
 
 **"Es caro."**
-> *"Una reserva de dos noches por Booking les cuesta entre 15 y 17 mil pesos de
+> *"Una reserva de dos noches por Booking les cuesta entre 10 y 14 mil pesos de
 > comisión. Con unas cuantas reservas directas al año, la página se pagó sola.
-> Y hoy puedo dejarla en $250.000."*
+> Y hoy puedo dejarla en $200.000 — o las tres en $500.000."*
 
 **"Ya tengo página."** (Perú y Ana María)
 > *"Sí, y por eso vine con algo concreto que vi en ella, no con un discurso.
@@ -160,7 +201,7 @@ protege.
 
 **"Lo tengo que pensar."**
 > *"Perfecto. ¿Le parece si lo confirmamos antes del viernes? El precio de
-> $250.000 lo puedo mantener hasta ahí."*
+> $200.000 —o el paquete de $500.000— lo puedo mantener hasta ahí."*
 
 **"¿Me garantiza más reservas?"**
 > *"No. Nadie serio puede garantizar eso. Lo que garantizo es el trabajo: una

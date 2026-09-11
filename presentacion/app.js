@@ -113,6 +113,7 @@ function afterMessage(prospect) {
 }
 
 function render(prospect, config) {
+  const params = new URLSearchParams(location.search);
   const offer = OFERTAS[prospect.offer] || OFERTAS.landing;
   const fragment = template.content.cloneNode(true);
   const priceToday = Number(inputs.priceToday.value) || offer.precio;
@@ -207,6 +208,27 @@ function render(prospect, config) {
     demoBox.remove();
     warning.hidden = !demoPath;
     if (demoPath) warning.textContent = 'Esta muestra sólo existe en tu computador. Pega arriba la URL pública para que el enlace aparezca en el PDF.';
+  }
+
+  // Extras con el precio de hoy, y paquete por varios locales si viene en el enlace.
+  const extraFotos = Number(params.get('fotos')) || 200000;
+  const extraRescate = Number(params.get('rescate')) || 120000;
+  setText(fragment, 'upsellFotos', `Opcional — fotos y video del lugar, ${money(extraFotos)}.`);
+  setText(fragment, 'upsellRescate', `Opcional — rescate de temporada, ${money(extraRescate)}.`);
+
+  const bundlePages = Number(params.get('paquete'));
+  const bundleFull = Number(params.get('paqueteFull'));
+  const bundleBox = fragment.querySelector('[data-block="bundle"]');
+  if (bundlePages) {
+    bundleBox.hidden = false;
+    setText(fragment, 'bundlePages', money(bundlePages));
+    setText(fragment, 'bundlePagesList', `en vez de ${money(priceToday * 3)}`);
+    if (bundleFull) {
+      setText(fragment, 'bundleFull', money(bundleFull));
+      setText(fragment, 'bundleFullList', `en vez de ${money((priceToday + extraFotos) * 3)}`);
+    } else {
+      bundleBox.querySelector('.bundle-row > div:last-child')?.remove();
+    }
   }
 
   // Firma con contacto real

@@ -66,6 +66,14 @@ const extras = {
     scope: '12 publicaciones al mes con calendario, redacción y piezas base, a partir de fotos y datos que entrega el negocio. Publica el negocio.',
     limits: 'No incluye producción audiovisual presencial, pauta pagada, respuesta de mensajes ni promesas de crecimiento.'
   },
+  video: {
+    name: 'Fotos y video del lugar',
+    price: 250000,
+    unit: 'una vez',
+    trigger: 'Necesita material propio para la página e Instagram; casi no tiene fotos.',
+    scope: 'Sesión presencial en Valdivia: 20 fotos editadas, un recorrido en video de 60 a 90 segundos y tres clips verticales para Instagram o WhatsApp.',
+    limits: 'No incluye dron, modelos, locución ni desplazamiento fuera de Valdivia.'
+  },
   fotos: {
     name: 'Sesión de fotos del lugar',
     price: 150000,

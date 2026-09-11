@@ -136,7 +136,8 @@ sueldo.
 
 ### Sesión de fotos del lugar
 
-**Cuándo ofrecerlo:** el sitio usa fotos de banco o imágenes de baja calidad.
+**Cuándo ofrecerlo:** el sitio usa fotos de banco, imágenes de baja calidad o
+—como en los tres hostales de Valdivia— casi no tiene fotos propias.
 
 **Incluye:** una sesión presencial en Valdivia y 20 fotos editadas, listas para
 la página y las redes.
@@ -144,6 +145,24 @@ la página y las redes.
 **No incluye:** modelos, dron, video ni desplazamiento fuera de Valdivia.
 
 **Precio:** $150.000 CLP por una vez.
+
+### Fotos y video del lugar
+
+**Cuándo ofrecerlo:** cuando además de fotos el negocio necesita material para
+Instagram y para que la página muestre el lugar en movimiento. En alojamiento,
+un recorrido corto responde la pregunta que más hacen los pasajeros: "¿cómo es
+por dentro?".
+
+**Incluye:** una sesión presencial en Valdivia con 20 fotos editadas, un
+recorrido en video de 60 a 90 segundos para la página, y tres clips verticales
+de 15 a 30 segundos para Instagram o WhatsApp.
+
+**No incluye:** dron, modelos, locución, subtítulos en otro idioma, ni
+desplazamiento fuera de Valdivia. Una ronda de ajustes de edición.
+
+**Plazo:** 5 días hábiles desde la sesión.
+
+**Precio:** $250.000 CLP por una vez. Rango $200.000–280.000.
 
 ### Actualización de tarifas por temporada
 
@@ -156,6 +175,21 @@ fechas cada vez que cambian, dentro de un día hábil.
 **No incluye:** rediseño, contenido nuevo ni funcionalidades adicionales.
 
 **Precio:** $25.000 CLP mensuales.
+
+## Paquete por varios locales del mismo dueño
+
+Cuando una misma persona controla dos o más alojamientos, la segunda y tercera
+página cuestan horas, no días: el motor es el mismo y sólo cambia `config.js`.
+Ese ahorro se traspasa en parte al cliente para cerrar todo de una vez.
+
+| | Suma individual (precio hoy) | Paquete | Piso |
+|---|---:|---:|---:|
+| 3 páginas de reserva | $600.000 | **$500.000** | $450.000 |
+| 3 páginas + fotos y video en los 3 | $1.200.000 | **$950.000** | $850.000 |
+
+**Condiciones del paquete:** se firma de una vez, 50% al inicio sobre el total,
+y las tres entregas se programan en un solo calendario. Si uno de los tres se
+cae antes de partir, los otros dos vuelven al precio individual.
 
 ## Reglas de cotización
 

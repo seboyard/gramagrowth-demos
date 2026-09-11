@@ -138,3 +138,34 @@ h1,h2,h3 { letter-spacing:-.025em; line-height:1.1; margin:0; }
 }
 
 .local-warning { background:var(--pink-soft); border-bottom:1px solid var(--pink); color:var(--ink); font-size:12.5px; margin:0; padding:11px 22px; }
+
+/* ── Extras y paquete ─────────────────────────────────── */
+.upsell-list { display:grid; gap:8px; margin-bottom:12px; }
+.upsell-line { border:1px dashed var(--line); border-radius:10px; color:var(--ink-soft); font-size:11px; margin:0; padding:9px 13px; }
+.bundle { background:var(--ink); border-radius:12px; color:var(--white); padding:14px 16px; }
+.bundle-tag { color:var(--mint); display:block; font-size:10px; font-weight:900; letter-spacing:.1em; margin-bottom:10px; text-transform:uppercase; }
+.bundle-row { display:grid; gap:14px; grid-template-columns:1fr 1fr; }
+.bundle-row span { color:#c4c2cf; display:block; font-size:10px; letter-spacing:.06em; margin-bottom:3px; text-transform:uppercase; }
+.bundle-row strong { color:var(--mint); display:block; font-size:22px; letter-spacing:-.02em; }
+.bundle-row em { color:#8f8ca3; font-size:10.5px; font-style:normal; text-decoration:line-through; }
+.bundle-note { color:#c4c2cf; font-size:10.5px; margin:10px 0 0; }
+@media print { .bundle,.upsell-list { break-inside:avoid; } }
+
+/* Página 4 lleva la cuenta, el alcance, los extras y el paquete: va más apretada. */
+.page-dense .page-head { margin-bottom:9mm; }
+.page-dense h2 { font-size:21px; margin-bottom:5px; }
+.page-dense .section-lead { font-size:11.5px; margin-bottom:10px; }
+.page-dense .math { font-size:10.5px; margin-bottom:6px; }
+.page-dense .math th,.page-dense .math td { padding:6px 8px; }
+.page-dense .math-note { margin-bottom:10px; }
+.page-dense .h2-tight { padding-top:10px; }
+.page-dense .scope-grid { gap:18px; margin-bottom:10px; }
+.page-dense .scope-grid ul { font-size:10.5px; gap:3px; }
+.page-dense .scope-grid h3 { margin-bottom:6px; }
+.page-dense .terms { margin-bottom:10px; padding:10px 14px; }
+.page-dense .terms strong { font-size:13.5px; }
+.page-dense .upsell-list { gap:6px; margin-bottom:9px; }
+.page-dense .upsell-line { font-size:10.5px; padding:7px 11px; }
+.page-dense .bundle { padding:11px 14px; }
+.page-dense .bundle-row strong { font-size:19px; }
+.page-dense .bundle-note { font-size:10px; margin-top:7px; }
