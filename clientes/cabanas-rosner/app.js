@@ -122,7 +122,9 @@ function buildMessage(result, form) {
     `${config.unidadLabel || 'Cabaña'}: ${result.unit.nombre}`
   ];
   if (result.total !== null) {
-    lines.push('', `Valor estimado según su sitio: ${money(result.total)}`);
+    lines.push('', ratesSource === 'ejemplo'
+      ? `Valor de referencia (precios de ejemplo, por confirmar): ${money(result.total)}`
+      : `Valor estimado según sus tarifas: ${money(result.total)}`);
     if (result.promoApplied) lines.push(`Incluye ${result.promoApplied.nombre}`);
     if (result.deposit !== null) {
       lines.push(`Abono para reservar (${config.reglas.abonoPorcentaje}%): ${money(result.deposit)}`);
@@ -206,9 +208,11 @@ function renderQuote() {
 
     const total = document.createElement('p');
     total.className = 'quote-total';
+    const totalValue = Object.assign(document.createElement('strong'), { textContent: money(result.total) });
+    if (ratesSource === 'ejemplo') totalValue.prepend(exampleBadge());
     total.append(
-      Object.assign(document.createElement('span'), { textContent: 'Total estimado' }),
-      Object.assign(document.createElement('strong'), { textContent: money(result.total) })
+      Object.assign(document.createElement('span'), { textContent: ratesSource === 'ejemplo' ? 'Total con precios de ejemplo' : 'Total estimado' }),
+      totalValue
     );
     box.append(total);
     // Sin porcentaje de abono publicado no se inventa uno: se omite la línea.
@@ -249,6 +253,17 @@ function renderQuote() {
 
 // ── Construcción de la página desde config ─────────────────────────────────
 
+// Origen de las tarifas que se están mostrando. 'anfitrion' cuando las escribió
+// él en la reunión; 'ejemplo' cuando son de muestra y llevan etiqueta visible.
+let ratesSource = null;
+
+function exampleBadge() {
+  const badge = document.createElement('span');
+  badge.className = 'example-badge';
+  badge.textContent = 'ejemplo';
+  return badge;
+}
+
 function renderRates(unitType) {
   const seasons = seasonsOf(unitType);
   const title = $('#rates-title');
@@ -259,10 +274,9 @@ function renderRates(unitType) {
   }
   buildList('[data-list="temporadas"]', seasons, (season) => {
     const item = document.createElement('li');
-    item.append(
-      Object.assign(document.createElement('span'), { textContent: season.nombre }),
-      Object.assign(document.createElement('strong'), { textContent: `${money(season.tarifa)} / noche` })
-    );
+    const price = Object.assign(document.createElement('strong'), { textContent: `${money(season.tarifa)} / noche` });
+    if (ratesSource === 'ejemplo') price.prepend(exampleBadge());
+    item.append(Object.assign(document.createElement('span'), { textContent: season.nombre }), price);
     return item;
   });
   const empty = $('#rates-empty');
@@ -280,6 +294,127 @@ function buildList(selector, items, render) {
   const host = $(selector);
   if (!host) return;
   host.replaceChildren(...items.map(render));
+}
+
+// ── Editor de tarifas para la reunión ─────────────────────────────────────
+// Sólo existe en modo muestra. Resuelve el caso más común: el prospecto no
+// publica precios, y sin precios el cotizador no puede lucirse. El anfitrión
+// dicta sus tarifas, el asociado las escribe y la página se enciende con SUS
+// números. Se guardan en este navegador; nunca se publican desde aquí.
+
+const editorKey = () => `gramagrowth.tarifas.${(config.demo?.fuente || config.negocio.nombre).replace(/\W+/g, '-')}`;
+
+// Precios de ejemplo: orientativos por capacidad, para mostrar el mecanismo
+// cuando el anfitrión no tiene el número a mano. Van etiquetados en toda la página.
+const EXAMPLE_PER_PERSON = 22000;
+
+function applyRates(rates, source) {
+  const year = new Date().getFullYear();
+  config.tipos.forEach((type) => {
+    const price = rates.units?.[type.id];
+    if (price) {
+      type.temporadas = [
+        { id: 'todo-el-ano', nombre: 'Tarifa por noche', desde: `${year}-01-01`, hasta: `${year + 1}-12-31`, tarifa: price }
+      ];
+    } else {
+      delete type.temporadas;
+    }
+  });
+  config.temporadas = [];
+  config.reglas.abonoPorcentaje = rates.deposit || 0;
+  ratesSource = Object.keys(rates.units || {}).length ? source : null;
+
+  renderRates(config.tipos.find((type) => type.id === $('#unit').value) || config.tipos[0]);
+  renderUnitCards();
+  renderQuote();
+  const status = $('#rates-editor-status');
+  if (status) {
+    status.textContent = ratesSource === 'anfitrion'
+      ? 'Tarifas del anfitrión cargadas. Cotiza fechas arriba para verlas funcionando.'
+      : ratesSource === 'ejemplo'
+        ? 'Precios de ejemplo activos: aparecen etiquetados en toda la página.'
+        : 'Sin tarifas: la página muestra "consultar".';
+  }
+}
+
+function readEditor() {
+  const units = {};
+  document.querySelectorAll('#rates-editor-rows input[data-unit]').forEach((input) => {
+    const value = Number(input.value);
+    if (value > 0) units[input.dataset.unit] = value;
+  });
+  return { units, deposit: Number($('#rates-editor-deposit').value) || 0 };
+}
+
+function persistEditor(rates, source) {
+  try { localStorage.setItem(editorKey(), JSON.stringify({ ...rates, source })); } catch { /* sin storage */ }
+}
+
+function setupRatesEditor() {
+  if (!config.demo?.activo) return;
+  const toggle = $('#rates-editor-toggle');
+  const panel = $('#rates-editor');
+  const rows = $('#rates-editor-rows');
+  if (!toggle || !panel) return;
+  toggle.hidden = false;
+
+  rows.replaceChildren(...config.tipos.map((type) => {
+    const row = document.createElement('label');
+    row.className = 'rates-editor-row';
+    const input = Object.assign(document.createElement('input'), { type: 'number', min: 0, step: 1000, placeholder: '$ por noche' });
+    input.dataset.unit = type.id;
+    row.append(Object.assign(document.createElement('span'), { textContent: `${type.nombre} · hasta ${type.capacidad}` }), input);
+    return row;
+  }));
+
+  const apply = (source) => {
+    const rates = readEditor();
+    persistEditor(rates, source);
+    applyRates(rates, source);
+  };
+
+  rows.addEventListener('input', () => apply('anfitrion'));
+  $('#rates-editor-deposit').addEventListener('input', () => apply(ratesSource || 'anfitrion'));
+
+  $('#rates-editor-example').addEventListener('click', () => {
+    config.tipos.forEach((type) => {
+      const input = rows.querySelector(`input[data-unit="${type.id}"]`);
+      if (input) input.value = Math.round((EXAMPLE_PER_PERSON * type.capacidad) / 1000) * 1000;
+    });
+    if (!$('#rates-editor-deposit').value) $('#rates-editor-deposit').value = 50;
+    apply('ejemplo');
+  });
+  $('#rates-editor-clear').addEventListener('click', () => {
+    rows.querySelectorAll('input').forEach((input) => { input.value = ''; });
+    $('#rates-editor-deposit').value = '';
+    try { localStorage.removeItem(editorKey()); } catch { /* sin storage */ }
+    applyRates({ units: {}, deposit: 0 }, null);
+  });
+  $('#rates-editor-copy').addEventListener('click', async (event) => {
+    const button = event.currentTarget;
+    const snippet = config.tipos.map((type) => ({ id: type.id, nombre: type.nombre, temporadas: type.temporadas || [] }));
+    const header = `// Tarifas dictadas en la reunión (${new Date().toLocaleDateString('es-CL')}). Confirmar por escrito antes de publicar.`;
+    const text = `${header}\ntipos: ${JSON.stringify(snippet, null, 2)},\nreglas: { abonoPorcentaje: ${config.reglas.abonoPorcentaje} }`;
+    await navigator.clipboard.writeText(text);
+    const original = button.textContent;
+    button.textContent = 'Copiado';
+    setTimeout(() => { button.textContent = original; }, 1400);
+  });
+
+  toggle.addEventListener('click', () => { panel.hidden = !panel.hidden; });
+  $('#rates-editor-close').addEventListener('click', () => { panel.hidden = true; });
+
+  try {
+    const saved = JSON.parse(localStorage.getItem(editorKey()) || 'null');
+    if (saved?.units) {
+      Object.entries(saved.units).forEach(([id, price]) => {
+        const input = rows.querySelector(`input[data-unit="${id}"]`);
+        if (input) input.value = price;
+      });
+      if (saved.deposit) $('#rates-editor-deposit').value = saved.deposit;
+      applyRates(saved, saved.source || 'anfitrion');
+    }
+  } catch { /* sin storage */ }
 }
 
 function boot() {
@@ -399,6 +534,10 @@ function boot() {
   buildList('[data-list="atractivos"]', config.atractivos,
     (item) => Object.assign(document.createElement('li'), { textContent: item }));
 
+  renderUnitCards();
+}
+
+function renderUnitCards() {
   buildList('[data-list="tipos"]', config.tipos, (type) => {
     const card = document.createElement('article');
     card.className = 'unit-card';
@@ -409,9 +548,9 @@ function boot() {
     );
     const desde = fromPrice(type);
     if (desde !== null) {
-      card.append(Object.assign(document.createElement('p'), {
-        className: 'unit-from', textContent: `Desde ${money(desde)} por noche`
-      }));
+      const from = Object.assign(document.createElement('p'), { className: 'unit-from', textContent: `Desde ${money(desde)} por noche` });
+      if (ratesSource === 'ejemplo') from.prepend(exampleBadge());
+      card.append(from);
     }
     const pick = document.createElement('button');
     pick.type = 'button';
@@ -425,7 +564,10 @@ function boot() {
     card.append(pick);
     return card;
   });
+}
 
+function bootRest() {
+  const { reglas } = config;
   renderRates(config.tipos[0]);
 
   buildList('[data-list="promociones"]', config.promociones || [], (promo) => {
@@ -484,6 +626,8 @@ function boot() {
   });
 
   renderQuote();
+  setupRatesEditor();
 }
 
 boot();
+bootRest();

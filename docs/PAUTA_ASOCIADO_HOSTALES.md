@@ -35,6 +35,30 @@ el botón de WhatsApp. Luego baja hasta el panel oscuro que dice *"Esto es lo qu
 te llega a ti"*: ahí está el mensaje completo que recibirían. Ese panel es el
 que vende.
 
+### El momento clave: sus tarifas, en vivo
+
+Ninguno de los tres publica precios, así que la demo abre diciendo "consultar".
+**No la muestres así.** Abajo a la derecha hay un botón **"Ingresar tarifas"**.
+
+1. Pregunta: *"¿Cuánto cobran la noche en la single? ¿Y la doble?"*
+2. Escribe lo que digan, ahí mismo, delante de ellos.
+3. La página se enciende con **sus** números: el cotizador calcula, las
+   tarjetas muestran "desde", el mensaje de WhatsApp lleva el valor.
+
+Ese es el segundo en que deja de ser "una página" y pasa a ser "mi página".
+Lo que escribas queda guardado en tu celular para esa demo; no se publica.
+
+Si no tienen el número a mano, el botón **"Usar precios de ejemplo"** pone
+valores orientativos **etiquetados como EJEMPLO en toda la página**. Sirve para
+mostrar el mecanismo, y nada más: nunca digas que esos son sus precios.
+
+Al terminar, **"Copiar para el config"** te deja las tarifas listas para
+mandárselas a Sebastián. Con eso la entrega parte el mismo día.
+
+**Para Hostal Perú:** en agregadores aparecen entre $35.000 y $60.000 la noche.
+No lo afirmes; pregúntalo: *"vi que en Booking aparecen entre 35 y 60 mil,
+¿es correcto?"*. Te dan el número real en un segundo.
+
 ## 3. Qué decirle a cada uno
 
 ### Hostal Perú — la portada no dice cómo reservar
