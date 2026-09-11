@@ -1,0 +1,4 @@
+{
+  "publicBase": "https://seboyard.github.io/gramagrowth-demos",
+  "nota": "URL pública donde se publican las demos (rama gh-pages). La usan la cola y la presentación."
+}

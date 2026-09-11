@@ -21,6 +21,7 @@ const dataNote = document.querySelector('#data-note');
 
 let prospects = [];
 let selectedId = null;
+let appConfig = {};
 
 const api = async (path, options = {}) => {
   const response = await fetch(`/api${path}`, {
@@ -341,6 +342,45 @@ function renderPlatforms(section, container, prospect) {
   });
 }
 
+// Enlaces al material ya construido: demo pública, demo local y propuesta.
+function renderAssets(section, container, prospect) {
+  const demoPath = (prospect.notes || '').match(/clientes\/([a-z0-9-]+)/i)?.[1];
+  container.replaceChildren();
+  const links = [];
+  if (demoPath) {
+    if (appConfig.publicBase) {
+      links.push({ kind: 'Demo pública', value: `${appConfig.publicBase}/${demoPath}/`, href: `${appConfig.publicBase}/${demoPath}/`, action: 'Abrir', copy: true });
+    }
+    links.push({ kind: 'Demo local', value: `clientes/${demoPath}/`, href: `/clientes/${demoPath}/`, action: 'Abrir' });
+  }
+  links.push({ kind: 'Propuesta', value: 'Presentación de 6 páginas, imprimible a PDF', href: `/presentacion/?id=${prospect.id}${appConfig.publicBase ? `&base=${encodeURIComponent(appConfig.publicBase)}` : ''}`, action: 'Abrir' });
+  section.hidden = false;
+  links.forEach((link) => {
+    const row = document.createElement('div');
+    row.className = 'channel';
+    row.append(
+      Object.assign(document.createElement('span'), { className: 'channel-kind', textContent: link.kind }),
+      Object.assign(document.createElement('strong'), { className: 'channel-value', textContent: link.value })
+    );
+    const actions = document.createElement('span');
+    actions.className = 'asset-actions';
+    if (link.copy) {
+      const copy = document.createElement('button');
+      copy.type = 'button';
+      copy.className = 'channel-action';
+      copy.textContent = 'Copiar';
+      copy.addEventListener('click', (event) => copyText(event.currentTarget, link.href));
+      actions.append(copy);
+    }
+    const open = document.createElement('a');
+    open.href = link.href; open.target = '_blank'; open.rel = 'noreferrer';
+    open.className = 'channel-action'; open.textContent = link.action;
+    actions.append(open);
+    row.append(actions);
+    container.append(row);
+  });
+}
+
 function renderSignals(container, signals) {
   container.replaceChildren();
   if (!signals?.length) {
@@ -446,6 +486,7 @@ function renderDetail(prospect) {
   const signalList = fragment.querySelector('[data-list="signals"]');
   renderSignals(signalList, prospect.audit?.signals);
   renderChannels(fragment.querySelector('[data-list="channels"]'), prospect);
+  renderAssets(fragment.querySelector('#assets-section'), fragment.querySelector('[data-list="assets"]'), prospect);
   renderPlatforms(
     fragment.querySelector('#platform-section'),
     fragment.querySelector('[data-list="platforms"]'),
@@ -664,6 +705,7 @@ function renderSignalsPreview(container, signals) {
 
 async function boot() {
   try {
+    appConfig = await api('/config').catch(() => ({}));
     prospects = await api('/prospectos');
     prospects.sort(byPriority);
     selectedId = prospects[0]?.id ?? null;

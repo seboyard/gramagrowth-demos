@@ -217,8 +217,11 @@ async function boot() {
   const publicBase = document.querySelector('#public-base');
   // ?base= permite fijar la URL pública desde el enlace, para imprimir en
   // lote sin depender de lo guardado en el navegador.
+  // Prioridad: parámetro del enlace, luego datos/config.json compartido con la
+  // cola, luego lo que se haya escrito antes en este navegador.
   const params = new URLSearchParams(location.search);
-  publicBase.value = params.get('base') || localStorage.getItem('gramagrowth.public-base') || '';
+  const shared = await api('/config').catch(() => ({}));
+  publicBase.value = params.get('base') || shared.publicBase || localStorage.getItem('gramagrowth.public-base') || '';
   publicBase.addEventListener('change', () => {
     localStorage.setItem('gramagrowth.public-base', publicBase.value.trim());
     rerender();

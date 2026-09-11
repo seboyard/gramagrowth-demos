@@ -110,6 +110,15 @@ async function handleApi(request, response, pathname) {
     return sendJson(response, 200, demos);
   }
 
+  // Configuración compartida (URL pública de las demos), para que la cola y
+  // la presentación lean el mismo valor en vez de guardarlo cada una.
+  if (section === 'config' && request.method === 'GET') {
+    const configPath = resolve(root, 'datos', 'config.json');
+    if (!existsSync(configPath)) return sendJson(response, 200, {});
+    try { return sendJson(response, 200, JSON.parse(readFileSync(configPath, 'utf8'))); }
+    catch { return sendJson(response, 200, {}); }
+  }
+
   if (section === 'prospectos') {
     const prospects = readProspects();
 
