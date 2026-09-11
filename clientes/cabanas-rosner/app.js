@@ -119,7 +119,7 @@ function buildMessage(result, form) {
     `Salida: ${longDate(form.checkout)}`,
     `Noches: ${result.nights}`,
     `Pasajeros: ${result.guests}`,
-    `Cabaña: ${result.unit.nombre}`
+    `${config.unidadLabel || 'Cabaña'}: ${result.unit.nombre}`
   ];
   if (result.total !== null) {
     lines.push('', `Valor estimado según su sitio: ${money(result.total)}`);
@@ -296,6 +296,8 @@ function boot() {
     banner.textContent = demo.aviso;
   }
 
+  // "Cabaña" por defecto; un hostal dice "Habitación", un lodge "Unidad".
+  setText('[data-field="unidadLabel"]', config.unidadLabel || 'Cabaña');
   setText('[data-field="comuna"]', negocio.comuna);
   setText('[data-field="nombre"]', negocio.nombre);
   setText('[data-field="bajada"]', negocio.bajada);

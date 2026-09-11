@@ -1371,5 +1371,251 @@
     "status": "review",
     "followUp": "",
     "notes": "Sin demo: el sitio no publica tarifas. Buen candidato apenas entreguen valores; ya tienen correo, WhatsApp y horarios publicados."
+  },
+  {
+    "id": "hostal-peru",
+    "business": "Hostal Perú",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.hostalperu681.com/",
+    "verifiedAt": "2026-09-11",
+    "contact": {
+      "type": "phone",
+      "value": "+56981291004",
+      "label": "Celular publicado en su página de contactos. El correo gmosandoval@hotmail.com circula en agregadores pero no está en su sitio: sin verificar."
+    },
+    "offer": "landing",
+    "opportunity": "Que un pasajero pueda cotizar y pedir reserva sin tener que buscar el teléfono en una página interna.",
+    "findings": [
+      "La portada no muestra teléfono, correo ni WhatsApp: para contactarlos hay que entrar a \"Contactos\" y ahí sólo aparecen dos números.",
+      "No publica tarifas ni capacidad por tipo de habitación, aunque agregadores externos sí muestran precios suyos.",
+      "El título que aparece en Google es \"Peru - 681\", no el nombre del hostal.",
+      "Sin enlace a WhatsApp ni a ninguna red social desde el sitio."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.hostalperu681.com/"
+      },
+      {
+        "label": "Sitio oficial — contactos",
+        "url": "https://www.hostalperu681.com/contactos/"
+      }
+    ],
+    "subject": "La portada de Hostal Perú no dice cómo reservar",
+    "email": "",
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/hostal-peru/. Reunión presencial vía asociado el 2026-09-11. Fuerte en clientela corporativa (empresas y contratistas).",
+    "audit": {
+      "score": 11,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-11",
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "Título genérico: \"Peru - 681\"",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Peru - 681",
+        "platform": "Jimdo",
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 26850,
+        "hasWhatsapp": false
+      }
+    }
+  },
+  {
+    "id": "hostal-ana-maria",
+    "business": "Hostal Ana María",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://hostalanamaria.cl/",
+    "verifiedAt": "2026-09-11",
+    "contact": {
+      "type": "email",
+      "value": "anamsandovalf@hotmail.com",
+      "label": "Correo publicado en el sitio. Celular +56 9 8807 7261."
+    },
+    "offer": "landing",
+    "opportunity": "Corregir el contenido de las habitaciones y dar un camino directo para cotizar departamentos, que es su producto más distintivo.",
+    "findings": [
+      "La \"Habitación Matrimonial\" se describe como \"ideal para el viajero solo\", con \"cama individual\" y \"capacidad para 2 persona\": es texto copiado de otra habitación.",
+      "No publica tarifas de habitaciones ni de departamentos.",
+      "El pie de página dice © 2024.",
+      "Publican celular pero no hay botón de WhatsApp; el contacto es un formulario."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — habitaciones",
+        "url": "https://hostalanamaria.cl/habitaciones/"
+      },
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://hostalanamaria.cl/"
+      }
+    ],
+    "subject": "Un error en la ficha de la habitación matrimonial",
+    "email": "",
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/hostal-ana-maria/. Reunión presencial vía asociado el 2026-09-11. Departamentos para 5 son su diferenciador.",
+    "audit": {
+      "score": 6,
+      "ok": true,
+      "error": null,
+      "status": 200,
+      "auditedAt": "2026-09-11",
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2024",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…andovalf@hotmail.com Síguenos Seguir Seguir Seguir HOSTAL ANA MARÍA © 2024 Todos Los Derechos Reservados &#8211; Diseño/Desarrollo PropanelWeb.c…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza youtube, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hostal Ana María | Valdivia",
+        "platform": "WordPress",
+        "emails": [
+          "anamsandovalf@hotmail.com"
+        ],
+        "phones": [
+          "+56988077261"
+        ],
+        "socials": {
+          "youtube": "https://www.youtube.com/@HostalAnaMar"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 154517,
+        "hasWhatsapp": false
+      }
+    }
+  },
+  {
+    "id": "hostal-anibal-pinto",
+    "business": "Hostal Aníbal Pinto",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "",
+    "verifiedAt": "2026-09-11",
+    "contact": {
+      "type": "none",
+      "value": "",
+      "label": "Sin teléfono ni correo en ninguna fuente pública encontrada. Tiene página de Facebook."
+    },
+    "offer": "landing",
+    "opportunity": "Tener por primera vez una presencia propia donde contar quiénes son, en vez de existir sólo en fichas de terceros.",
+    "findings": [
+      "No tiene sitio web: su presencia pública es una página de Facebook y fichas en TripAdvisor y agregadores.",
+      "No publica teléfono ni correo en ninguna fuente pública que hayamos encontrado.",
+      "En TripAdvisor figura como #15 de 16 alojamientos de su categoría en Valdivia: hoy la única versión pública del hostal la escriben terceros."
+    ],
+    "evidence": [
+      {
+        "label": "Facebook — Hostal Anibal Pinto",
+        "url": "https://www.facebook.com/people/Hostal-Anibal-Pinto/100066474257001/"
+      },
+      {
+        "label": "TripAdvisor — Hospedaje Anibal Pinto",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g294302-d12990454-Reviews-Hospedaje_Anibal_Pinto-Valdivia_Los_Rios_Region.html"
+      }
+    ],
+    "subject": "Hostal Aníbal Pinto no tiene dónde contar su versión",
+    "email": "",
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/hostal-anibal-pinto/ (estructura vacía, sin datos del hostal). Reunión presencial vía asociado el 2026-09-11. OJO: reseñas bajas en TripAdvisor — no abrir con eso en persona.",
+    "audit": {
+      "score": 10,
+      "ok": false,
+      "error": "Sin sitio web",
+      "status": 0,
+      "auditedAt": "2026-09-11",
+      "signals": [
+        {
+          "id": "sin-sitio",
+          "severity": "alta",
+          "label": "No tiene sitio web propio",
+          "detail": "Su presencia depende de Facebook y de fichas de terceros que no controla.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "facebook": "https://www.facebook.com/people/Hostal-Anibal-Pinto/100066474257001/",
+          "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g294302-d12990454-Reviews-Hospedaje_Anibal_Pinto-Valdivia_Los_Rios_Region.html"
+        },
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    }
   }
 ]
