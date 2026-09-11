@@ -35,7 +35,7 @@
           <label>Llegada<input id="checkin" type="date"></label>
           <label>Salida<input id="checkout" type="date"></label>
           <label>Pasajeros<select id="guests"></select></label>
-          <label>Cabaña<select id="unit"></select></label>
+          <label><span data-field="unidadLabel">Cabaña</span><select id="unit"></select></label>
         </div>
 
         <div id="quote-result" class="quote-result" aria-live="polite"></div>
@@ -77,6 +77,13 @@
           <p class="host-note">Con el valor ya calculado según tus propias tarifas, incluidas promociones y recargos.</p>
         </div>
       </div>
+    </section>
+
+    <!-- ── Galería ───────────────────────────────────────────────── -->
+    <section id="galeria" class="gallery" hidden aria-labelledby="gallery-title">
+      <h2 id="gallery-title" class="visually-hidden">Fotos</h2>
+      <div data-list="galeria" class="gallery-grid"></div>
+      <p class="gallery-note" id="gallery-note"></p>
     </section>
 
     <!-- ── Cabañas ───────────────────────────────────────────────── -->
