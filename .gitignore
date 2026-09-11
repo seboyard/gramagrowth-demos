@@ -4,3 +4,4 @@ tmp-*.mjs
 .DS_Store
 prospectos-backup-*.json
 .claude/
+entregas/

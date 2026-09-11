@@ -201,7 +201,6 @@ async function boot() {
   const selected = prospects.find((prospect) => prospect.id === requested) || prospects[0];
   if (!selected) return;
   picker.value = selected.id;
-  render(selected);
 
   const rerender = () => {
     const prospect = prospects.find((candidate) => candidate.id === picker.value);
@@ -216,11 +215,15 @@ async function boot() {
   bookingsInput.addEventListener('change', rerender);
   rateInput.addEventListener('change', rerender);
   const publicBase = document.querySelector('#public-base');
-  publicBase.value = localStorage.getItem('gramagrowth.public-base') || '';
+  // ?base= permite fijar la URL pública desde el enlace, para imprimir en
+  // lote sin depender de lo guardado en el navegador.
+  const params = new URLSearchParams(location.search);
+  publicBase.value = params.get('base') || localStorage.getItem('gramagrowth.public-base') || '';
   publicBase.addEventListener('change', () => {
     localStorage.setItem('gramagrowth.public-base', publicBase.value.trim());
     rerender();
   });
+  render(selected);
   document.querySelector('#print-btn').addEventListener('click', () => window.print());
 }
 
