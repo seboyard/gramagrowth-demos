@@ -351,7 +351,7 @@ function persistEditor(rates, source) {
 }
 
 function setupRatesEditor() {
-  if (!config.demo?.activo) return;
+  if (!config.demo?.activo || document.documentElement.dataset.captura) return;
   const toggle = $('#rates-editor-toggle');
   const panel = $('#rates-editor');
   const rows = $('#rates-editor-rows');
@@ -425,11 +425,15 @@ function boot() {
   document.documentElement.style.setProperty('--acento', marca.acento);
   document.documentElement.style.setProperty('--papel', marca.papel);
 
-  if (demo?.activo) {
+  // ?captura=1: para fotografiar la página y ponerla en la propuesta. Oculta lo
+  // que sólo existe en modo muestra (aviso, editor), que en un PDF es ruido.
+  const captura = new URLSearchParams(location.search).has('captura');
+  if (demo?.activo && !captura) {
     const banner = $('#demo-banner');
     banner.hidden = false;
     banner.textContent = demo.aviso;
   }
+  if (captura) document.documentElement.dataset.captura = 'true';
 
   // "Cabaña" por defecto; un hostal dice "Habitación", un lodge "Unidad".
   setText('[data-field="unidadLabel"]', config.unidadLabel || 'Cabaña');

@@ -1,4 +1,12 @@
 {
   "publicBase": "https://seboyard.github.io/gramagrowth-demos",
-  "nota": "URL pública donde se publican las demos (rama gh-pages). La usan la cola y la presentación."
+  "nota": "URL pública donde se publican las demos (rama gh-pages). La usan la cola y la presentación.",
+  "contacto": {
+    "nombre": "Sebastián",
+    "telefono": "",
+    "whatsapp": "",
+    "email": "",
+    "instagram": "https://www.instagram.com/gramagrowth/"
+  },
+  "notaContacto": "Teléfono y WhatsApp de Gramagrowth para la firma de las propuestas. Vacíos hasta que Sebastián los complete."
 }

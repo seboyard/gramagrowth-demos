@@ -173,3 +173,10 @@ main .button.ghost:hover { background:rgba(29,50,49,.05); }
 .rates-editor-status { color:var(--suave); font-size:12px; margin:12px 0 0; min-height:1.2em; }
 .example-badge { background:#f0a500; border-radius:6px; color:#1d1d1d; display:inline-block; font-size:9.5px; font-weight:900; letter-spacing:.08em; margin-right:7px; padding:2px 6px; text-transform:uppercase; vertical-align:middle; }
 @media print { .rates-editor-toggle,.rates-editor { display:none !important; } }
+html[data-captura] .host-panel,html[data-captura] .gallery-note,html[data-captura] .footer-source { display:none !important; }
+/* Modo captura: el layout se fija al ancho de un celular aunque la ventana
+   sea mayor, porque Edge headless no baja de ~500px de ventana. */
+html[data-captura] body { margin:0; max-width:390px; overflow-x:hidden; }
+html[data-captura] .hero { padding:44px 20px 52px; }
+html[data-captura] .quote,html[data-captura] .place { grid-template-columns:1fr; margin-top:-24px; }
+html[data-captura] .field-grid { grid-template-columns:1fr 1fr; }

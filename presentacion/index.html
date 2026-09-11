@@ -5,24 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
   <title>Presentación de oferta | Gramagrowth</title>
+  <link rel="icon" type="image/png" href="../assets/isotipo-color-64.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Barra de control: no se imprime -->
   <div class="toolbar no-print">
     <a href="../prospectar/" class="tool-link">← Cola</a>
-    <label>Prospecto
-      <select id="prospect-picker"></select>
-    </label>
-    <label class="inline">Reservas por Booking el verano pasado
-      <input id="bookings" type="number" min="0" max="500" step="5" value="40">
-    </label>
-    <label class="inline">Valor promedio por noche
-      <input id="rate" type="number" min="0" step="5000" value="90000">
-    </label>
-    <label class="inline">URL pública de las demos
-      <input id="public-base" type="url" placeholder="https://usuario.github.io/repo" autocomplete="off">
-    </label>
+    <label>Prospecto<select id="prospect-picker"></select></label>
+    <label class="inline">Precio hoy (CLP)<input id="price-today" type="number" min="0" step="10000" placeholder="ej. 250000"></label>
+    <label class="inline">Válido hasta<input id="valid-until" type="date"></label>
+    <label class="inline">Reservas por Booking al año<input id="bookings" type="number" min="0" max="500" step="5"></label>
+    <label class="inline">Valor promedio por noche<input id="rate" type="number" min="0" step="5000"></label>
+    <label class="inline">URL pública de las demos<input id="public-base" type="url" placeholder="https://usuario.github.io/repo" autocomplete="off"></label>
     <button type="button" id="print-btn" class="primary">Guardar como PDF</button>
   </div>
   <p id="local-warning" class="local-warning no-print" hidden></p>
@@ -30,115 +25,120 @@
   <main id="deck" aria-live="polite"></main>
 
   <template id="deck-template">
-    <!-- Portada -->
+    <!-- 1 · Portada -->
     <section class="page cover">
       <header class="page-head">
-        <img src="../assets/logo-gramagrowth.png" alt="Gramagrowth">
+        <img src="../assets/logo-color-600.png" alt="Gramagrowth" class="logo">
         <span data-field="fecha"></span>
       </header>
-      <div class="cover-body">
-        <p class="kicker">Propuesta preparada para</p>
-        <h1 data-field="business"></h1>
-        <p class="cover-lead" data-field="opportunity"></p>
-        <div class="cover-meta">
-          <div><span>Rubro</span><strong data-field="segment"></strong></div>
-          <div><span>Revisado</span><strong data-field="verifiedAt"></strong></div>
-          <div><span>Fuente</span><strong data-field="website"></strong></div>
+      <div class="cover-grid">
+        <div class="cover-body">
+          <p class="kicker">Propuesta preparada para</p>
+          <h1 data-field="business"></h1>
+          <p class="cover-lead" data-field="coverLead"></p>
+          <div class="cover-meta">
+            <div><span>Rubro</span><strong data-field="segment"></strong></div>
+            <div><span>Revisado</span><strong data-field="verifiedAt"></strong></div>
+            <div><span>Fuente</span><strong data-field="website"></strong></div>
+          </div>
+          <div class="cover-price" data-block="coverPrice">
+            <span>Inversión</span>
+            <strong data-field="priceToday"></strong>
+            <em data-field="priceList"></em>
+          </div>
         </div>
+        <figure class="phone" data-block="phone">
+          <div class="phone-screen"><img data-img="capture" alt="Muestra en el celular"></div>
+          <figcaption>Su muestra, ya construida con su información</figcaption>
+        </figure>
       </div>
-      <footer class="page-foot">
-        <span>Gramagrowth · Valdivia</span>
-        <span data-field="pageNum">1</span>
-      </footer>
+      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>1 / 5</span></footer>
     </section>
 
-    <!-- Hallazgos -->
+    <!-- 2 · Hallazgos -->
     <section class="page">
-      <header class="page-head"><img src="../assets/logo-gramagrowth.png" alt="Gramagrowth"><span data-field="businessSmall"></span></header>
-      <h2>Lo que encontramos en su sitio</h2>
-      <p class="section-lead">Todo lo de abajo se puede verificar abriendo su página ahora mismo. No hay supuestos.</p>
+      <header class="page-head"><img src="../assets/logo-color-600.png" alt="Gramagrowth" class="logo"><span data-field="businessSmall"></span></header>
+      <h2>Lo que encontramos en su presencia pública</h2>
+      <p class="section-lead">Todo lo de abajo se puede verificar ahora mismo. No hay supuestos ni opiniones: son cosas que ve cualquier persona que los busca.</p>
       <ol data-list="findings" class="findings"></ol>
       <p class="source-note" data-field="sourceNote"></p>
-      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>2</span></footer>
+      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>2 / 5</span></footer>
     </section>
 
-    <!-- La cuenta -->
-    <section class="page" data-block="comision">
-      <header class="page-head"><img src="../assets/logo-gramagrowth.png" alt="Gramagrowth"><span data-field="businessSmall2"></span></header>
-      <h2>Lo que cuesta depender de la plataforma</h2>
-      <p class="section-lead">Booking cobra entre 15% y 17% de comisión por reserva a alojamientos independientes. Con extras, el costo efectivo suele superar el 20%.</p>
-      <table class="math">
-        <thead><tr><th>Escenario</th><th>Reservas</th><th>Facturado</th><th>Comisión 15%</th><th>Comisión 17%</th></tr></thead>
-        <tbody data-list="math"></tbody>
-      </table>
-      <p class="math-note" data-field="mathNote"></p>
-      <div class="callout">
-        <strong>Esto no reemplaza a Booking.</strong>
-        <p>Booking le trae demanda que de otra forma no llegaría, y eso vale. Lo que se recupera es la reserva que <em>ya le llega directo</em> por Instagram, WhatsApp o recomendación, y que hoy termina pasando por la plataforma.</p>
-      </div>
-      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>3</span></footer>
-    </section>
-
-    <!-- La solución -->
+    <!-- 3 · Lo que cambia -->
     <section class="page">
-      <header class="page-head"><img src="../assets/logo-gramagrowth.png" alt="Gramagrowth"><span data-field="businessSmall3"></span></header>
-      <h2>Qué le dejamos funcionando</h2>
+      <header class="page-head"><img src="../assets/logo-color-600.png" alt="Gramagrowth" class="logo"><span data-field="businessSmall2"></span></header>
+      <h2>Lo que cambia con la página</h2>
       <p class="section-lead" data-field="demoLead"></p>
+      <div class="compare">
+        <div class="compare-col before">
+          <h3>Hoy le llega esto</h3>
+          <pre class="msg" data-field="msgBefore"></pre>
+          <p class="compare-note">Y empiezan los mensajes de ida y vuelta: fechas, cuántos son, cuánto sale, cómo se reserva.</p>
+        </div>
+        <div class="compare-col after">
+          <h3>Con la página le llega esto</h3>
+          <pre class="msg" data-field="msgAfter"></pre>
+          <p class="compare-note">Completo, sin preguntar nada. Usted confirma y listo.</p>
+        </div>
+      </div>
       <div class="feature-grid" data-list="features"></div>
       <div class="demo-box" data-block="demo">
-        <span>Muestra ya construida con su información</span>
+        <span>Ábrala en el celular</span>
         <a data-link="demo" target="_blank" rel="noreferrer"></a>
       </div>
-      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>4</span></footer>
+      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>3 / 5</span></footer>
     </section>
 
-    <!-- Alcance y precio -->
+    <!-- 4 · La cuenta y el precio -->
     <section class="page">
-      <header class="page-head"><img src="../assets/logo-gramagrowth.png" alt="Gramagrowth"><span data-field="businessSmall4"></span></header>
-      <h2>Alcance, plazo y precio</h2>
+      <header class="page-head"><img src="../assets/logo-color-600.png" alt="Gramagrowth" class="logo"><span data-field="businessSmall3"></span></header>
+      <div data-block="comision">
+        <h2>Lo que cuesta depender de la plataforma</h2>
+        <p class="section-lead">Booking cobra entre 15% y 17% por reserva a alojamientos independientes. Esto no lo reemplaza: recupera la reserva que <em>ya le llega directo</em> y hoy termina pasando por la plataforma.</p>
+        <table class="math">
+          <thead><tr><th></th><th>Reservas / año</th><th>Facturado</th><th>Comisión 15%</th><th>Comisión 17%</th></tr></thead>
+          <tbody data-list="math"></tbody>
+        </table>
+        <p class="math-note" data-field="mathNote"></p>
+      </div>
+      <h2 class="h2-tight">Alcance e inversión</h2>
       <div class="scope-grid">
-        <div>
-          <h3>Incluye</h3>
-          <ul data-list="incluye"></ul>
-        </div>
-        <div>
-          <h3>No incluye</h3>
-          <ul data-list="noIncluye" class="excludes"></ul>
-        </div>
+        <div><h3>Incluye</h3><ul data-list="incluye"></ul></div>
+        <div><h3>No incluye</h3><ul data-list="noIncluye" class="excludes"></ul></div>
       </div>
       <div class="terms">
+        <div><span>Inversión hoy</span><strong data-field="priceToday2"></strong><em data-field="priceList2"></em></div>
+        <div><span>Válido hasta</span><strong data-field="validUntil"></strong></div>
         <div><span>Plazo</span><strong data-field="timeline"></strong></div>
-        <div><span>Inversión</span><strong data-field="price"></strong></div>
         <div><span>Para comenzar</span><strong>50%</strong></div>
-        <div><span>Ajustes</span><strong>1 ronda incluida</strong></div>
       </div>
-      <div class="upsell">
-        <h3>Opcional: rescate de temporada</h3>
-        <p>Sus huéspedes anteriores son el canal que más convierte y el único con costo de adquisición cero. Segmentamos su lista, escribimos tres mensajes y armamos el calendario. <strong>Los envía usted</strong>, desde su propio WhatsApp o correo.</p>
-        <p class="upsell-price">$150.000 por una vez · entrega en 2 días hábiles</p>
-      </div>
-      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>5</span></footer>
+      <p class="upsell-line"><strong>Opcional — rescate de temporada, $120.000:</strong> segmentamos su lista de huéspedes anteriores, escribimos tres mensajes y armamos el calendario. Los envía usted desde su propio WhatsApp. Es el canal que más convierte y el único con costo de adquisición cero.</p>
+      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>4 / 5</span></footer>
     </section>
 
-    <!-- Cierre -->
+    <!-- 5 · Cierre -->
     <section class="page closing">
-      <header class="page-head"><img src="../assets/logo-gramagrowth.png" alt="Gramagrowth"><span data-field="businessSmall5"></span></header>
+      <header class="page-head"><img src="../assets/logo-color-600.png" alt="Gramagrowth" class="logo"><span data-field="businessSmall4"></span></header>
       <h2>Siguiente paso</h2>
       <ol class="steps">
         <li><strong>Revisar la muestra.</strong> Está hecha con su información pública. Dígame qué cambiaría.</li>
-        <li><strong>Confirmar los datos reales.</strong> Tarifas vigentes, reglas de reserva y fotos que quiera usar.</li>
-        <li><strong>Reservar el inicio</strong> con el 50%. El saldo se paga contra entrega aprobada.</li>
+        <li><strong>Entregar los datos reales.</strong> Tarifas vigentes, reglas de reserva y fotos que quiera usar. Con eso partimos.</li>
+        <li><strong>Reservar el inicio</strong> con el 50%. El saldo se paga contra entrega aprobada, en el plazo acordado.</li>
       </ol>
       <div class="promise">
         <h3>Lo que no prometemos</h3>
-        <p>No prometemos cantidad de reservas, posiciones en Google ni resultados de venta. Prometemos el trabajo: una página clara, con su información real, funcionando en celular, en el plazo acordado.</p>
+        <p>No prometemos cantidad de reservas, posiciones en Google ni resultados de venta. Prometemos el trabajo: una página clara, con su información real, funcionando en el celular, en el plazo acordado.</p>
       </div>
       <div class="signature">
-        <strong>Sebastián · Gramagrowth</strong>
-        <span>Valdivia, Región de Los Ríos</span>
-        <span data-field="contacto"></span>
+        <img src="../assets/isotipo-color-128.png" alt="" class="signature-mark">
+        <div>
+          <strong data-field="firmaNombre">Sebastián · Gramagrowth</strong>
+          <span>Valdivia, Región de Los Ríos</span>
+          <span data-field="firmaContacto"></span>
+        </div>
       </div>
-      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>6</span></footer>
+      <footer class="page-foot"><span>Gramagrowth · Valdivia</span><span>5 / 5</span></footer>
     </section>
   </template>
 
