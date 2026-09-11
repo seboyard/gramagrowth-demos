@@ -152,3 +152,24 @@ main .button.ghost:hover { background:rgba(29,50,49,.05); }
 .gallery-item:hover img { transform:scale(1.04); }
 .gallery-note { color:var(--suave); font-size:12px; margin:14px 0 0; }
 @media (max-width:620px) { .gallery-item:first-child { grid-column:span 1; } }
+
+/* ── Editor de tarifas (sólo modo muestra) ────────────── */
+.rates-editor-toggle { background:var(--tinta); border:0; border-radius:999px; bottom:18px; box-shadow:0 10px 30px rgba(0,0,0,.25); color:var(--blanco); cursor:pointer; font-size:14px; font-weight:800; padding:13px 20px; position:fixed; right:18px; z-index:50; }
+.rates-editor-toggle:hover { background:var(--acento); }
+.rates-editor { background:var(--blanco); border:1px solid var(--linea); border-radius:16px; bottom:70px; box-shadow:0 20px 60px rgba(0,0,0,.28); max-height:calc(100vh - 100px); overflow:auto; padding:20px; position:fixed; right:18px; width:min(360px,calc(100vw - 36px)); z-index:50; }
+.rates-editor-head { align-items:center; display:flex; justify-content:space-between; margin-bottom:6px; }
+.rates-editor-head h2 { font-size:17px; }
+.rates-editor-close { background:transparent; border:0; color:var(--suave); cursor:pointer; font-size:22px; line-height:1; }
+.rates-editor-hint { color:var(--suave); font-size:12px; margin:0 0 14px; }
+.rates-editor-rows { display:grid; gap:8px; }
+.rates-editor-row { align-items:center; display:grid; gap:10px; grid-template-columns:1fr 120px; font-size:12.5px; }
+.rates-editor-row input,.rates-editor-field input { background:#fbfaf7; border:1px solid var(--linea); border-radius:9px; padding:9px 10px; width:100%; }
+.rates-editor-row input:focus,.rates-editor-field input:focus { border-color:var(--acento); outline:3px solid rgba(15,123,108,.14); }
+.rates-editor-field { display:grid; font-size:12.5px; gap:6px; margin-top:12px; }
+.rates-editor-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+.rates-editor-actions button { border-radius:9px; cursor:pointer; font-size:12.5px; font-weight:800; padding:9px 13px; }
+.rates-editor-actions .quiet { background:transparent; border:1px solid var(--linea); color:var(--tinta); }
+.rates-editor-actions .primary { background:var(--acento); border:0; color:var(--blanco); }
+.rates-editor-status { color:var(--suave); font-size:12px; margin:12px 0 0; min-height:1.2em; }
+.example-badge { background:#f0a500; border-radius:6px; color:#1d1d1d; display:inline-block; font-size:9.5px; font-weight:900; letter-spacing:.08em; margin-right:7px; padding:2px 6px; text-transform:uppercase; vertical-align:middle; }
+@media print { .rates-editor-toggle,.rates-editor { display:none !important; } }

@@ -128,6 +128,24 @@
     <p class="footer-source" id="footer-source"></p>
   </footer>
 
+  <!-- Editor de tarifas para la reunión: sólo en modo muestra -->
+  <button type="button" id="rates-editor-toggle" class="rates-editor-toggle no-print" hidden>Ingresar tarifas</button>
+  <aside id="rates-editor" class="rates-editor no-print" hidden aria-labelledby="rates-editor-title">
+    <div class="rates-editor-head">
+      <h2 id="rates-editor-title">Tarifas para la muestra</h2>
+      <button type="button" id="rates-editor-close" class="rates-editor-close" aria-label="Cerrar">×</button>
+    </div>
+    <p class="rates-editor-hint">Escribe las tarifas que diga el anfitrión. Se guardan sólo en este navegador, para la reunión. No se publican hasta que él las confirme por escrito.</p>
+    <div id="rates-editor-rows" class="rates-editor-rows"></div>
+    <label class="rates-editor-field">Abono para reservar (%)<input id="rates-editor-deposit" type="number" min="0" max="100" step="5" placeholder="ej. 50"></label>
+    <div class="rates-editor-actions">
+      <button type="button" id="rates-editor-example" class="quiet">Usar precios de ejemplo</button>
+      <button type="button" id="rates-editor-clear" class="quiet">Borrar</button>
+      <button type="button" id="rates-editor-copy" class="primary">Copiar para el config</button>
+    </div>
+    <p id="rates-editor-status" class="rates-editor-status"></p>
+  </aside>
+
   <script src="config.js"></script>
   <script src="app.js" defer></script>
 </body>
