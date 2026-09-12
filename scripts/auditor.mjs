@@ -139,9 +139,17 @@ function detectSignals(html, finalUrl) {
   }
 
   // --- Correos en conflicto ---
+  // Los `placeholder` de formularios ("tu@empresa.cl") no son correos del
+  // negocio: en tecalumvaldivia.cl uno de esos produjo un hallazgo falso.
+  const placeholders = new Set([...html.matchAll(/placeholder\s*=\s*["']([^"']*@[^"']*)["']/gi)]
+    .map((match) => match[1].toLowerCase()));
   const emails = [...new Set([...html.matchAll(/[\w.+-]+@[\w-]+\.[\w.]{2,}/g)]
     .map((match) => match[0].toLowerCase())
-    .filter((email) => !/\.(png|jpe?g|gif|svg|webp|css|js)$/.test(email) && !email.includes('@2x')))];
+    .filter((email) => !/\.(png|jpe?g|gif|svg|webp|css|js)$/.test(email) && !email.includes('@2x'))
+    .filter((email) => ![...placeholders].some((ph) => ph.includes(email)))
+    // Un correo real termina en un dominio con TLD de letras; "grad@20..48"
+    // es un artefacto de CSS/SVG que la expresión general deja pasar.
+    .filter((email) => /^[\w.+-]+@[\w-]+(\.[\w-]+)*\.[a-z]{2,}$/.test(email)))];
   const domains = new Set(emails.map((email) => email.split('@')[1]));
   if (domains.size > 1) {
     add('correos-en-conflicto', 'alta',

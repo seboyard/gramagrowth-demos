@@ -34,6 +34,11 @@ const required = [
   'plantillas/cotizar-instalacion/config.js',
   'plantillas/cotizar-instalacion/app.js',
   'plantillas/cotizar-instalacion/README.md',
+  'scripts/descubrir.mjs',
+  'scripts/prospectar-lote.mjs',
+  'scripts/promover.mjs',
+  'hermes/skills/gramagrowth-prospector/SKILL.md',
+  'docs/PROSPECCION_AUTOMATIZADA.md',
   'presentacion/index.html',
   'presentacion/app.js',
   'presentacion/styles.css',
@@ -242,6 +247,29 @@ for (const trabajo of instalacionConfig.trabajos) {
 const instalacionApp = readFileSync(resolve(root, 'plantillas/cotizar-instalacion/app.js'), 'utf8');
 if (!instalacionApp.includes('referencial')) {
   throw new Error('La plantilla de instalación debe declarar que las medidas son referenciales.');
+}
+
+// --- Pipeline de prospección automatizada ---
+// El agente redacta, pero la compuerta (promover.mjs) decide. Se comprueba que
+// las reglas de OFFERS.md estén en código: nada de redes, nada de promesas,
+// ningún hallazgo sin señal auditada, y siempre una salida en el correo.
+const promover = readFileSync(resolve(root, 'scripts/promover.mjs'), 'utf8');
+for (const rule of ['no publica', 'garantiz', 'seguidores', 'posicion', 'audit?.signals', "status: 'review'", 'responde "no"']) {
+  if (!promover.includes(rule)) throw new Error(`promover.mjs perdió la regla "${rule}".`);
+}
+if (promover.includes("status: 'ready'")) throw new Error('promover.mjs no puede marcar prospectos como listos: eso lo decide una persona.');
+const descubrir = readFileSync(resolve(root, 'scripts/descubrir.mjs'), 'utf8');
+if (!/overpass-api\.de/.test(descubrir)) throw new Error('descubrir.mjs debe usar Overpass (fuente pública, sin API key).');
+if (/googleapis\.com\/maps|places\.googleapis/.test(descubrir)) throw new Error('descubrir.mjs no debe depender de Google Places.');
+const skill = readFileSync(resolve(root, 'hermes/skills/gramagrowth-prospector/SKILL.md'), 'utf8');
+for (const rule of ['No envías', 'promover.mjs', 'audit.signals', 'Nada de redes', 'Nada de promesas']) {
+  if (!skill.includes(rule)) throw new Error(`La skill del prospector perdió la regla "${rule}".`);
+}
+for (const script of ['scripts/descubrir.mjs', 'scripts/prospectar-lote.mjs', 'scripts/promover.mjs']) {
+  const source = readFileSync(resolve(root, script), 'utf8');
+  for (const banned of ['nodemailer', 'smtp', 'sendgrid', 'api.whatsapp.com/send', 'wa.me']) {
+    if (source.toLowerCase().includes(banned)) throw new Error(`${script} no debe enviar mensajes: encontrado "${banned}"`);
+  }
 }
 
 // --- Presentación de oferta ---

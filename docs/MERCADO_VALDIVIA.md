@@ -147,8 +147,10 @@ Los ocho dicen alguna variante de "cotización gratuita sin compromiso".
 tercer dominio es `tu@empresa.cl`, que es el `placeholder` del campo de correo
 del formulario: no es un defecto. El sitio publica dos correos reales del mismo
 dominio (`ventas@` y `contacto@`), lo que es normal. **No mencionar los correos a
-TecAlum**; el hallazgo válido es el enlace de teléfono. Queda anotado para
-mejorar el auditor: debe ignorar atributos `placeholder` al contar correos.
+TecAlum**; el hallazgo válido es el enlace de teléfono. El auditor ya ignora
+los `placeholder` desde el 2026-09-12; aun así, `correos-en-conflicto` se sigue
+verificando a mano mirando la evidencia (valdilum.cl publica `correo@empresa.cl`
+fuera de un placeholder, y también es de relleno).
 
 Dos hallazgos individuales que valen una conversación cada uno:
 

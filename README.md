@@ -8,8 +8,12 @@ Este repositorio contiene sólo los activos necesarios para vender y entregar el
 - `plantillas/landing-prospecto/`: base para crear una demo o entrega de cliente.
 - `plantillas/reserva-cabanas/`: producto vertical de solicitud de reserva para cabañas y hospedajes.
 - `plantillas/cotizar-evento/`: producto vertical de cotización para banqueterías y centros de eventos.
-- `docs/OFFERS.md`: alcance, precio y límites de las tres ofertas.
+- `docs/OFFERS.md`: alcance, precio y límites de las ofertas y extras.
 - `docs/REVENUE_SPRINT.md`: operación del sprint de cinco días.
+- `docs/MERCADO_VALDIVIA.md`: análisis de mercado y elección del cuarto vertical.
+- `docs/PROSPECCION_AUTOMATIZADA.md`: pipeline de descubrimiento y redacción con agentes.
+- `scripts/descubrir.mjs` → `prospectar-lote.mjs` → `promover.mjs`: descubre negocios en OpenStreetMap, los audita y sólo promueve a la cola lo que pasa las reglas de honestidad.
+- `hermes/skills/gramagrowth-prospector/`: skill de Hermes que redacta hallazgos y correos para un lote.
 
 No es un CRM ni un SaaS. El kit y la cola guardan borradores y estados únicamente en el navegador local. Ninguna herramienta envía mensajes.
 

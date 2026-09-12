@@ -1,0 +1,5088 @@
+[
+  {
+    "id": "entre-tilos-valdivia",
+    "business": "Entre Tilos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.hotelentretilos.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+5663 2232359",
+    "email": "info@hotelentretilos.com",
+    "direccion": "Rosas",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1221587444,
+      "categoria": "hotel",
+      "lat": -39.8117156,
+      "lon": -73.2394972
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.hotelentretilos.com/",
+      "finalUrl": "https://www.hotelentretilos.com/",
+      "status": 404,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 18,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 404",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-viewport",
+          "severity": "alta",
+          "label": "La página no declara viewport móvil",
+          "detail": "Se ve reducida y difícil de leer en celular, que es donde llega la mayoría.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "La página no tiene título",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 15,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-puerto-pelicano-valdivia",
+    "business": "Cabañas Puerto Pelicano",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.puertopelicano.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 63 204481",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1619421525,
+      "categoria": "chalet",
+      "lat": -39.8464788,
+      "lon": -73.3092571
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.puertopelicano.cl/",
+      "finalUrl": "https://www.puertopelicano.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-terrapuerto-valdivia",
+    "business": "Hotel Terrapuerto",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hotelterrapuerto.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 63 227 6350",
+    "email": "contacto@hotelterrapuerto.cl",
+    "direccion": "Carlos Anwandter 1001",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5302717853,
+      "categoria": "hotel",
+      "lat": -39.8159726,
+      "lon": -73.2355717
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.hotelterrapuerto.cl/",
+      "finalUrl": "http://www.hotelterrapuerto.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-del-muelle-valdivia",
+    "business": "Hostal del Muelle",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hostaldelmuelle.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56999387010",
+    "email": "hostaldelmuelle@gmail.com",
+    "direccion": "Yungay 736",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 147214632,
+      "categoria": "hostel",
+      "lat": -39.816491,
+      "lon": -73.2482175
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.hostaldelmuelle.cl/",
+      "finalUrl": "http://www.hostaldelmuelle.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "encanto-del-rio-valdivia",
+    "business": "Encanto del Río",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://encantodelriohotel.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56932555881",
+    "email": "encantodelriovaldivia@gmail.com",
+    "direccion": "Avenida Arturo Prat 415",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 676041007,
+      "categoria": "hotel",
+      "lat": -39.8097981,
+      "lon": -73.2425648
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://encantodelriohotel.cl/",
+      "finalUrl": "https://encantodelriohotel.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-y-cabanas-agua-del-obispo-valdivia",
+    "business": "Camping y Cabañas Agua del Obispo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://campingaguadelobispo.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 9 88196804",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 963751793,
+      "categoria": "camp_site",
+      "lat": -39.8623819,
+      "lon": -73.3546358
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://campingaguadelobispo.cl/",
+      "finalUrl": "http://campingaguadelobispo.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-del-abuelo-valdivia",
+    "business": "Cabañas del Abuelo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 63 282321",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1619440207,
+      "categoria": "chalet",
+      "lat": -39.8562882,
+      "lon": -73.3920844
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostel-chumaihuen-valdivia",
+    "business": "Hostel Chumaihuén",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 63 223 2423",
+    "email": null,
+    "direccion": "Barros Arana 684",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4155670889,
+      "categoria": "hostel",
+      "lat": -39.8243217,
+      "lon": -73.2306349
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-loncotregua-valdivia",
+    "business": "Cabaña Loncotregua",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56995656526",
+    "email": "ampuero.fernando@gmail.com",
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4414995890,
+      "categoria": "hostel",
+      "lat": -39.8242105,
+      "lon": -73.2451819
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-loncotregua-valdivia",
+    "business": "Cabañas Loncotregua",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56995656526",
+    "email": "ampuero.fernando@gmail.com",
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4414995891,
+      "categoria": "hostel",
+      "lat": -39.8217844,
+      "lon": -73.2447434
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-encanto-del-rio-valdivia",
+    "business": "Hotel Encanto del Río",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hotelencantodelrio.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56632225740",
+    "email": "encantodelriovaldivia@gmail.com",
+    "direccion": "Avenida Arturo Prat 415",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4520670289,
+      "categoria": "hotel",
+      "lat": -39.80977,
+      "lon": -73.242463
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.hotelencantodelrio.cl/",
+      "finalUrl": "http://www.hotelencantodelrio.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 6,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "hotelencantodelrio.cl",
+        "platform": null,
+        "emails": [
+          "you@company.com"
+        ],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 31851,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "mirador-de-niebla-valdivia",
+    "business": "Mirador de Niebla",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+5693576707",
+    "email": "aleja.dami@gmail.com",
+    "direccion": "Camino Costero",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4715888590,
+      "categoria": "motel",
+      "lat": -39.8609483,
+      "lon": -73.3930006
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-norris-valdivia",
+    "business": "Cabañas Norris",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "983307583",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4750922621,
+      "categoria": "chalet",
+      "lat": -39.86712,
+      "lon": -73.3940943
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-y-cabanas-donde-sofia-valdivia",
+    "business": "Hostal y Cabañas Donde Sofia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56994204719",
+    "email": null,
+    "direccion": "Tornagaleones 1168",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5288977972,
+      "categoria": "hostel",
+      "lat": -39.8316755,
+      "lon": -73.236467
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "kapai-hostel-valdivia",
+    "business": "Kapai Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://www.facebook.com/kapaihostel",
+    "sinWeb": true,
+    "telefono": "+56992072616",
+    "email": "kapaihostel@gmail.com",
+    "direccion": "Avenida Arturo Prat 737",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5315579521,
+      "categoria": "hostel",
+      "lat": -39.8130399,
+      "lon": -73.2376622
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-ulloa-valdivia",
+    "business": "Cabañas Ulloa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "632232386",
+    "email": null,
+    "direccion": "Beauchef 875 interior",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5391439122,
+      "categoria": "hostel",
+      "lat": -39.8188078,
+      "lon": -73.237763
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-central-valdivia",
+    "business": "Cabaña central",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56982712346",
+    "email": null,
+    "direccion": "Guillermo Frick 114",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6163731181,
+      "categoria": "apartment",
+      "lat": -39.8240914,
+      "lon": -73.2496998
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-patricia-valdivia",
+    "business": "Hospedaje Patricia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56932205377",
+    "email": null,
+    "direccion": "General Lagos 1071",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8674512617,
+      "categoria": "hotel",
+      "lat": -39.8204406,
+      "lon": -73.2495892
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-arrayanes-valdivia",
+    "business": "Camping Los Arrayanes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 5403 2517",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8914205035,
+      "categoria": "camp_site",
+      "lat": -39.8614259,
+      "lon": -73.3531693
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-reflejos-de-luna-valdivia",
+    "business": "Cabañas Reflejos De Luna",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 63 2282189",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8914205036,
+      "categoria": "chalet",
+      "lat": -39.8616104,
+      "lon": -73.3539149
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-toty-valdivia",
+    "business": "Cabañas Toty",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 7696 5765",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8942249218,
+      "categoria": "hostel",
+      "lat": -39.7346438,
+      "lon": -73.3892803
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-kila-hostel-valdivia",
+    "business": "Casa Kila Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 4264 6402",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9758633517,
+      "categoria": "hostel",
+      "lat": -39.8182617,
+      "lon": -73.2451505
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-orilla-verde-valdivia",
+    "business": "Camping Orilla Verde",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56975624832",
+    "email": null,
+    "direccion": "E. Lillo 23",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10679561505,
+      "categoria": "camp_site",
+      "lat": -39.8252302,
+      "lon": -73.2513751
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rustico-punucapa-valdivia",
+    "business": "Cabañas Rústico Punucapa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://rustico-punucapa.negocio.site/",
+    "sinWeb": true,
+    "telefono": null,
+    "email": "rusticopunucapa@gmail.com",
+    "direccion": "Ruta T-358 17",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10898493605,
+      "categoria": "motel",
+      "lat": -39.7793059,
+      "lon": -73.297849
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-valdi-bliss-valdivia",
+    "business": "Hostal Valdi-Bliss",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://airbnb.com/h/valdibliss",
+    "sinWeb": true,
+    "telefono": "+56975320692",
+    "email": null,
+    "direccion": "Avenida Doctor Clemente Holzapfel 845",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11505637023,
+      "categoria": "hostel",
+      "lat": -39.8267668,
+      "lon": -73.2063902
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cygnus-hostel-valdivia",
+    "business": "Cygnus Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56996462244",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11725895969,
+      "categoria": "hostel",
+      "lat": -39.8235244,
+      "lon": -73.240041
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-kolping-valdivia",
+    "business": "Casa Kolping",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 63 212921",
+    "email": null,
+    "direccion": "General Lagos 1608",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 124953084,
+      "categoria": "hotel",
+      "lat": -39.8263684,
+      "lon": -73.2501017
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "plava-valdivia",
+    "business": "Plava",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://plava.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "General Lagos 1551",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 287715375,
+      "categoria": "hotel",
+      "lat": -39.8257229,
+      "lon": -73.2506749
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://plava.cl/",
+      "finalUrl": "http://plava.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-ana-maria-valdivia",
+    "business": "Hostal Ana María",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 63 2 222468",
+    "email": null,
+    "direccion": "José Martí",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 434951792,
+      "categoria": "hotel",
+      "lat": -39.8153354,
+      "lon": -73.2345229
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostel-bosque-nativo-valdivia",
+    "business": "Hostel Bosque Nativo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://hostelnativo.cl/index.php/es/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "Fresia 290",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 463263892,
+      "categoria": "hostel",
+      "lat": -39.8106853,
+      "lon": -73.2439317
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://hostelnativo.cl/index.php/es/",
+      "finalUrl": "https://hostelnativo.cl/index.php/es/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "las-hortensias-niebla",
+    "business": "Las Hortensias",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+5699050382",
+    "email": null,
+    "direccion": "Avenida Conde de Castellar",
+    "comuna": "Niebla",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 515100620,
+      "categoria": "chalet",
+      "lat": -39.8661518,
+      "lon": -73.3936018
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "liquen-hostal-valdivia",
+    "business": "Liquen Hostal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56933173319",
+    "email": null,
+    "direccion": "Avenida Francia 1800",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 775626376,
+      "categoria": "guest_house",
+      "lat": -39.8346031,
+      "lon": -73.2396356
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "refugio-el-robledal-valdivia",
+    "business": "Refugio \"El Robledal\"",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56983989950",
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 948016823,
+      "categoria": "chalet",
+      "lat": -39.7523113,
+      "lon": -73.2722224
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-vista-al-mar-niebla",
+    "business": "Cabañas Vista al Mar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+569 91346166",
+    "email": null,
+    "direccion": "Del Castillo 975",
+    "comuna": "Niebla",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1014460066,
+      "categoria": "chalet",
+      "lat": -39.8712594,
+      "lon": -73.3999839
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-los-cisnes-valdivia",
+    "business": "Hostal Los Cisnes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56632433868",
+    "email": null,
+    "direccion": "Avenida Arturo Prat",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1347349512,
+      "categoria": "guest_house",
+      "lat": -39.8140933,
+      "lon": -73.2358354
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "pablo-godoy-valdivia",
+    "business": "Pablo Godoy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 309952307,
+      "categoria": "chalet",
+      "lat": -39.8416655,
+      "lon": -73.2444738
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-di-torlaschi-valdivia",
+    "business": "Hotel Di Torlaschi",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Yerbas Buenas 283",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 529776701,
+      "categoria": "hotel",
+      "lat": -39.8180278,
+      "lon": -73.2467563
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "motel-havana-valdivia",
+    "business": "Motel Havana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Baquedano",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1371730044,
+      "categoria": "hostel",
+      "lat": -39.8231444,
+      "lon": -73.2357691
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "arrayan-valdivia",
+    "business": "Arrayán",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Pérez Rosales",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1377254459,
+      "categoria": "hotel",
+      "lat": -39.8183076,
+      "lon": -73.2472974
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "carlos-anwandter-valdivia",
+    "business": "Carlos Anwandter",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Anwandter 601",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1415810541,
+      "categoria": "hotel",
+      "lat": -39.8114414,
+      "lon": -73.2409964
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "la-terraza-valdivia",
+    "business": "La Terraza",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1415810551,
+      "categoria": "hostel",
+      "lat": -39.8118338,
+      "lon": -73.2398225
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "donde-marcelo-valdivia",
+    "business": "Donde Marcelo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1415810561,
+      "categoria": "hostel",
+      "lat": -39.8111395,
+      "lon": -73.2444595
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-carampangue-valdivia",
+    "business": "Cabañas Carampangue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1415810564,
+      "categoria": "motel",
+      "lat": -39.8121791,
+      "lon": -73.2427918
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "aredi-valdivia",
+    "business": "Aredi",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Rosas",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1415810570,
+      "categoria": "hostel",
+      "lat": -39.8119005,
+      "lon": -73.2396889
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-raitue-valdivia",
+    "business": "Cabañas Raitué",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "General Lagos",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1415831868,
+      "categoria": "motel",
+      "lat": -39.8238416,
+      "lon": -73.2498291
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-janequeo-valdivia",
+    "business": "Cabañas Janequeo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Janequeo",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1427542641,
+      "categoria": "guest_house",
+      "lat": -39.8110593,
+      "lon": -73.2430621
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "puerta-del-sur-hotel-valdivia",
+    "business": "Puerta del Sur Hotel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Lingues 950",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1493597440,
+      "categoria": "hotel",
+      "lat": -39.8151672,
+      "lon": -73.2611799
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-pumantu-valdivia",
+    "business": "Cabañas Pumantu",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1612241280,
+      "categoria": "motel",
+      "lat": -39.8302786,
+      "lon": -73.250586
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rio-de-luna-valdivia",
+    "business": "Río de Luna",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1657092297,
+      "categoria": "hostel",
+      "lat": -39.8119214,
+      "lon": -73.2385833
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "don-lalo-valdivia",
+    "business": "Don Lalo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1913583458,
+      "categoria": "camp_site",
+      "lat": -39.8325493,
+      "lon": -73.4038531
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "la-cascada-valdivia",
+    "business": "La Cascada",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1913583531,
+      "categoria": "camp_site",
+      "lat": -39.8364762,
+      "lon": -73.4010856
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-don-gaspar-valdivia",
+    "business": "Cabañas Don Gaspar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Pelúes",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1918796920,
+      "categoria": "hotel",
+      "lat": -39.8148757,
+      "lon": -73.2584426
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-huairavo-valdivia",
+    "business": "El Huairavo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2125018339,
+      "categoria": "hostel",
+      "lat": -39.8693889,
+      "lon": -73.3993101
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-borde-rio-valdivia",
+    "business": "Cabañas Borde Río",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Camilo Henríquez",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2504215582,
+      "categoria": "hotel",
+      "lat": -39.816973,
+      "lon": -73.2449124
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "la-ruka-valdivia",
+    "business": "La Ruka",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3443116396,
+      "categoria": "camp_site",
+      "lat": -39.8045213,
+      "lon": -73.0926687
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ruka-lof-michillanca-valdivia",
+    "business": "Ruka Lof Michillanca",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3643460008,
+      "categoria": "hostel",
+      "lat": -39.8448296,
+      "lon": -73.3970217
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-copihues-valdivia",
+    "business": "Camping Los Copihues",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Cruce Ruta 5 (Paillaco) ‐ Cruce Ruta 202 (Valdivia)",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4110504897,
+      "categoria": "camp_site",
+      "lat": -39.9538036,
+      "lon": -73.0958234
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-y-cabanas-el-yugo-valdivia",
+    "business": "Camping y Cabañas El Yugo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4110507372,
+      "categoria": "camp_site",
+      "lat": -39.9124314,
+      "lon": -73.134876
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "apart-hotel-hettich-valdivia",
+    "business": "Apart Hotel Hettich",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Hettich 325",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4137361989,
+      "categoria": "hotel",
+      "lat": -39.8256341,
+      "lon": -73.2224242
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-don-mario-curinanco",
+    "business": "Camping Don Mario",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Curiñanco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4228983950,
+      "categoria": "camp_site",
+      "lat": -39.72989,
+      "lon": -73.394353
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-las-bandurrias-valdivia",
+    "business": "Cabañas Las Bandurrias",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Aguilar 253",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4244905590,
+      "categoria": "guest_house",
+      "lat": -39.8267258,
+      "lon": -73.2485977
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-valdivia",
+    "business": "Hospedaje",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4337931098,
+      "categoria": "hostel",
+      "lat": -39.8179538,
+      "lon": -73.2427281
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "valle-de-lluta-valdivia",
+    "business": "Valle de Lluta",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4381083990,
+      "categoria": "hostel",
+      "lat": -39.8366483,
+      "lon": -73.229769
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-mancera-valdivia",
+    "business": "Cabañas Mancera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Nolasco Cárdenas",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4397667389,
+      "categoria": "hostel",
+      "lat": -39.8348047,
+      "lon": -73.2198348
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-torreon-valdivia",
+    "business": "Hostal Torreón",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pasaje Vicente Peréz Rosales 783",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4444499495,
+      "categoria": "hotel",
+      "lat": -39.8173285,
+      "lon": -73.2476668
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "valdiviana-valdivia",
+    "business": "Valdiviana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4548498289,
+      "categoria": "hostel",
+      "lat": -39.8172556,
+      "lon": -73.2377374
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-mi-amigo-valdivia",
+    "business": "Camping Mi Amigo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Bombero Hernández 125",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4581700989,
+      "categoria": "camp_site",
+      "lat": -39.8130486,
+      "lon": -73.2266667
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hosteria-militar-cazadores-valdivia",
+    "business": "Hostería Militar \"Cazadores\"",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Condell 235",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4741469424,
+      "categoria": "hotel",
+      "lat": -39.8174557,
+      "lon": -73.2315591
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "nehuen-valdivia",
+    "business": "Nehuen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Camilo Henríquez 1072",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4829667909,
+      "categoria": "chalet",
+      "lat": -39.8215007,
+      "lon": -73.2447124
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "kapai-valdivia",
+    "business": "Kapai",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4829667911,
+      "categoria": "chalet",
+      "lat": -39.8209046,
+      "lon": -73.2448593
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-lluvias-del-sur-valdivia",
+    "business": "Hostal Lluvias del Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Pérez Rosales",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4844311984,
+      "categoria": "guest_house",
+      "lat": -39.8254704,
+      "lon": -73.2489639
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-maria-elena-valdivia",
+    "business": "Hospedaje María Elena",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4844311987,
+      "categoria": "guest_house",
+      "lat": -39.8253893,
+      "lon": -73.2485734
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-conde-de-castellar-valdivia",
+    "business": "Camping Conde de Castellar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5033185499,
+      "categoria": "camp_site",
+      "lat": -39.8666368,
+      "lon": -73.3943746
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-kalfugen-valdivia",
+    "business": "Cabañas Kalfugen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5262482239,
+      "categoria": "motel",
+      "lat": -39.7777431,
+      "lon": -73.3071541
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-valdivia",
+    "business": "Camping",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5262772324,
+      "categoria": "camp_site",
+      "lat": -39.8605591,
+      "lon": -73.348995
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "familias-de-acogida-fae-valdivia",
+    "business": "Familias de acogida FAE",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Francia 1730",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5288977932,
+      "categoria": "guest_house",
+      "lat": -39.8339149,
+      "lon": -73.240342
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-valdivia",
+    "business": "Hostal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5288977933,
+      "categoria": "hostel",
+      "lat": -39.8339121,
+      "lon": -73.2396517
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "parque-los-arrayanes-valdivia",
+    "business": "Parque Los Arrayanes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Arrayanes",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5320265122,
+      "categoria": "apartment",
+      "lat": -39.8167022,
+      "lon": -73.257819
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-don-agustin-valdivia",
+    "business": "Camping Don Agustin",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5322001721,
+      "categoria": "camp_site",
+      "lat": -39.8624695,
+      "lon": -73.3555361
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "mallacan-complejo-ecoturistico-valdivia",
+    "business": "Mallacan complejo Ecoturistico",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5322338022,
+      "categoria": "camp_site",
+      "lat": -39.7338993,
+      "lon": -73.3816194
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "green-hostel-valdivia",
+    "business": "Green Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Janequeo 480",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5380380422,
+      "categoria": "hostel",
+      "lat": -39.8113876,
+      "lon": -73.2421607
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-renacer-valdivia",
+    "business": "Camping Renacer",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Maitenes",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5431854021,
+      "categoria": "camp_site",
+      "lat": -39.7874766,
+      "lon": -73.2161657
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-ragori-valdivia",
+    "business": "Hostal Ragori",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5432144821,
+      "categoria": "apartment",
+      "lat": -39.8752932,
+      "lon": -73.3959931
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "puerta-fucsia-valdivia",
+    "business": "Puerta Fucsia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Perú 728",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5819571053,
+      "categoria": "guest_house",
+      "lat": -39.8223269,
+      "lon": -73.2322103
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "loft-cabana-valdivia",
+    "business": "Loft Cabańa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6079988885,
+      "categoria": "apartment",
+      "lat": -39.8630479,
+      "lon": -73.3736497
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "surf-hostel-selva-del-mar-niebla",
+    "business": "Surf Hostel Selva del Mar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Caballero",
+    "comuna": "Niebla",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6080315185,
+      "categoria": "hostel",
+      "lat": -39.8657314,
+      "lon": -73.3910527
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-valdivia",
+    "business": "Cabañas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6283569576,
+      "categoria": "guest_house",
+      "lat": -39.8446348,
+      "lon": -73.2038649
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "wild-camping-valdivia",
+    "business": "Wild Camping",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7211773585,
+      "categoria": "camp_site",
+      "lat": -39.7222483,
+      "lon": -73.1087391
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-lucy-valdivia",
+    "business": "Hospedaje Lucy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7281108385,
+      "categoria": "hostel",
+      "lat": -39.8108202,
+      "lon": -73.241782
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-encanto-del-rio-valdivia",
+    "business": "Cabañas Encanto del Río",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8914614815,
+      "categoria": "chalet",
+      "lat": -39.862563,
+      "lon": -73.3557995
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-estancilla-valdivia",
+    "business": "Hotel Estancilla",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9358264577,
+      "categoria": "hotel",
+      "lat": -39.8478874,
+      "lon": -73.3181781
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-santa-clara-valdivia",
+    "business": "Cabañas Santa Clara",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9359346266,
+      "categoria": "motel",
+      "lat": -39.8715155,
+      "lon": -73.3958334
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-fisher-valdivia",
+    "business": "Cabañas Fisher",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9360679934,
+      "categoria": "motel",
+      "lat": -39.8671327,
+      "lon": -73.3988495
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "habitaciones-valdihostal-valdivia",
+    "business": "Habitaciones Valdihostal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10312251348,
+      "categoria": "guest_house",
+      "lat": -39.8217813,
+      "lon": -73.2376689
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-valentina-valdivia",
+    "business": "cabañas Valentina",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11566341069,
+      "categoria": "motel",
+      "lat": -39.845428,
+      "lon": -73.2032829
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-marfer-valdivia",
+    "business": "Cabañas Marfer",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Valdivia - Guacamayo",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13277703245,
+      "categoria": "chalet",
+      "lat": -39.852039,
+      "lon": -73.2566867
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "catrico-valdivia",
+    "business": "Catrico",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Valdivia - Guacamayo",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13277703258,
+      "categoria": "chalet",
+      "lat": -39.8528455,
+      "lon": -73.2573265
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "departamentos-don-luis-niebla",
+    "business": "Departamentos Don Luis",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://www.airbnb.cl/rooms/1590802119843428938/safety?adults=2&check_in=2026-02-05&check_out=2026-02-06&search_mode=regular_search&source_impression_id=p3_1769809804_P3CRHWUaHFeeR837&previous_page_section_name=1000&federated_search_id=64bea486-ba5d-464a-",
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Tornagaleones 132",
+    "comuna": "Niebla",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13612610018,
+      "categoria": "chalet",
+      "lat": -39.8630683,
+      "lon": -73.3944358
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camino-del-rio-valdivia",
+    "business": "Camino del Río",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Helena Disselkoen 275",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13685571601,
+      "categoria": "hotel",
+      "lat": -39.8403559,
+      "lon": -73.2734621
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-arenal-valdivia",
+    "business": "Cabañas El Arenal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 123276717,
+      "categoria": "motel",
+      "lat": -39.7744366,
+      "lon": -73.2181597
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "naguilan-valdivia",
+    "business": "Naguilán",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "General Lagos",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 124130204,
+      "categoria": "hotel",
+      "lat": -39.8299871,
+      "lon": -73.2510036
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "gerlach-valdivia",
+    "business": "Gerlach",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "General Lagos",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 124479575,
+      "categoria": "hotel",
+      "lat": -39.8194337,
+      "lon": -73.2493844
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "esmeralda-valdivia",
+    "business": "Esmeralda",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Esmeralda",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 124492897,
+      "categoria": "hotel",
+      "lat": -39.8161513,
+      "lon": -73.2446274
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-villa-del-rio-valdivia",
+    "business": "Hotel Villa del Río",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida España 1025",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 128032730,
+      "categoria": "hotel",
+      "lat": -39.8081354,
+      "lon": -73.2362218
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-san-francisco-valdivia",
+    "business": "Hostal San Francisco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Anwandter",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 207572992,
+      "categoria": "hostel",
+      "lat": -39.8136044,
+      "lon": -73.2376722
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-castillo-valdivia",
+    "business": "El Castillo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 285165803,
+      "categoria": "hotel",
+      "lat": -39.8734236,
+      "lon": -73.394538
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "piscina-y-cabanas-akuatic-valdivia",
+    "business": "Piscina y cabañas Akuatic",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Bombero Pedro Hernández Araneda 208",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 319602580,
+      "categoria": "motel",
+      "lat": -39.8123224,
+      "lon": -73.2246756
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-de-huespedes-valdivia",
+    "business": "Casa de Huéspedes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 332189842,
+      "categoria": "hostel",
+      "lat": -39.7025591,
+      "lon": -73.3087921
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "regional-valdivia",
+    "business": "Regional",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Ramón Picarte",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 434952420,
+      "categoria": "hotel",
+      "lat": -39.816625,
+      "lon": -73.2355762
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-conaf-valdivia",
+    "business": "Residencial Conaf",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 454990819,
+      "categoria": "guest_house",
+      "lat": -39.8147388,
+      "lon": -73.2521339
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "entre-rios-valdivia",
+    "business": "Entre Ríos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Anwandter 337",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 462198133,
+      "categoria": "guest_house",
+      "lat": -39.8100989,
+      "lon": -73.2437636
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "airesbuenos-valdivia",
+    "business": "AiresBuenos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "García Reyes 550",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 463310359,
+      "categoria": "hostel",
+      "lat": -39.8155724,
+      "lon": -73.2402609
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-villa-paulina-valdivia",
+    "business": "Hostal Villa Paulina",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Yerbas Buenas",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 463588786,
+      "categoria": "guest_house",
+      "lat": -39.8182439,
+      "lon": -73.245525
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rio-baker-valdivia",
+    "business": "Cabañas Río Baker",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Baquedano",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 487188935,
+      "categoria": "chalet",
+      "lat": -39.822974,
+      "lon": -73.2442714
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-oncol-valdivia",
+    "business": "Cabañas Oncol",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 487188936,
+      "categoria": "chalet",
+      "lat": -39.8227829,
+      "lon": -73.2454099
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-arrayanes-valdivia",
+    "business": "Hospedaje Arrayanes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 490776119,
+      "categoria": "guest_house",
+      "lat": -39.8230174,
+      "lon": -73.2446058
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rio-colonia-niebla",
+    "business": "Río Colonia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Conde de Castellar",
+    "comuna": "Niebla",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 514835828,
+      "categoria": "guest_house",
+      "lat": -39.8673597,
+      "lon": -73.3943402
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-del-castillo-niebla",
+    "business": "Cabañas del Castillo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Del Castillo",
+    "comuna": "Niebla",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 515100579,
+      "categoria": "chalet",
+      "lat": -39.8668453,
+      "lon": -73.3982024
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-paso-valdivia",
+    "business": "El Paso",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Del Castillo",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 543003084,
+      "categoria": "motel",
+      "lat": -39.8632393,
+      "lon": -73.3927113
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-los-robles-valdivia",
+    "business": "Hospedaje Los Robles",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Los Robles",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 584268682,
+      "categoria": "hostel",
+      "lat": -39.8102808,
+      "lon": -73.2546503
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-los-ciruelos-valdivia",
+    "business": "Hostal Los Ciruelos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Luis Rudloff 2041",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 588210773,
+      "categoria": "hostel",
+      "lat": -39.8280662,
+      "lon": -73.2415298
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "zuhause-valdivia",
+    "business": "Zuhause",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Santiago Bueras",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 588238004,
+      "categoria": "hostel",
+      "lat": -39.8282157,
+      "lon": -73.2489372
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-casablanca-valdivia",
+    "business": "Hostal Casablanca",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Arturo Prat 795",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 597913580,
+      "categoria": "hostel",
+      "lat": -39.8131704,
+      "lon": -73.237183
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-isla-teja-valdivia",
+    "business": "Camping Isla Teja",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Cipreses",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 637343188,
+      "categoria": "camp_site",
+      "lat": -39.8089971,
+      "lon": -73.2678663
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-pilolcura-valdivia",
+    "business": "Cabañas Pilolcura",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 668172957,
+      "categoria": "guest_house",
+      "lat": -39.6707703,
+      "lon": -73.3496683
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-prat-ii-valdivia",
+    "business": "Hostal Prat II",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Anwandter",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 676041000,
+      "categoria": "hostel",
+      "lat": -39.8115464,
+      "lon": -73.2406843
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-prat-valdivia",
+    "business": "Hostal Prat",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Arturo Prat 595",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 676041004,
+      "categoria": "hostel",
+      "lat": -39.8110396,
+      "lon": -73.2399555
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-totem-valdivia",
+    "business": "Hostal Tótem",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Anwandter 425",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 721024088,
+      "categoria": "hostel",
+      "lat": -39.8105094,
+      "lon": -73.2427274
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "perez-rosales-valdivia",
+    "business": "Pérez Rosales",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Arauco 972",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 744339572,
+      "categoria": "hostel",
+      "lat": -39.8169109,
+      "lon": -73.2358954
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "apart-hotel-rio-cruces-valdivia",
+    "business": "Apart Hotel Río Cruces",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Arturo Prat 1561",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 760392639,
+      "categoria": "hotel",
+      "lat": -39.8188403,
+      "lon": -73.2302292
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "la-casa-de-ana-valdivia",
+    "business": "La Casa de Ana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Sotomayor 1064",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 776909190,
+      "categoria": "guest_house",
+      "lat": -39.8207075,
+      "lon": -73.2473549
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hogar-femenino-huachocopihue-uach-valdivia",
+    "business": "Hogar Femenino Huachocopihue UACH",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "José María Muñoz Hermosilla",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 827745912,
+      "categoria": "hostel",
+      "lat": -39.8337772,
+      "lon": -73.2376943
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-carlos-anwandter-valdivia",
+    "business": "Hostal Carlos Anwandter",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Anwandter 601",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 850597742,
+      "categoria": "guest_house",
+      "lat": -39.8120262,
+      "lon": -73.2406026
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "la-casita-valdivia",
+    "business": "La Casita",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Anwandter",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 851088949,
+      "categoria": "guest_house",
+      "lat": -39.8121166,
+      "lon": -73.2405126
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-nueve-rios-valdivia",
+    "business": "Hotel Nueve Ríos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Anwandter 619",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 851088951,
+      "categoria": "hotel",
+      "lat": -39.8122595,
+      "lon": -73.2403633
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-buenaventura-valdivia",
+    "business": "Hostal Buenaventura",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Ramón Picarte 1890",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 886587470,
+      "categoria": "guest_house",
+      "lat": -39.8250632,
+      "lon": -73.225594
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-felisa-valdivia",
+    "business": "Hostal Felisa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Anfión Muñoz 580",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 924364929,
+      "categoria": "guest_house",
+      "lat": -39.816682,
+      "lon": -73.2368223
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-arauco-valdivia",
+    "business": "Hospedaje Arauco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Arauco",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 933649927,
+      "categoria": "guest_house",
+      "lat": -39.816943,
+      "lon": -73.2377982
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rio-calle-calle-valdivia",
+    "business": "Río Calle Calle",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Anfión Muñoz 597",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 933649929,
+      "categoria": "hotel",
+      "lat": -39.8166973,
+      "lon": -73.2372523
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-punta-arenas-valdivia",
+    "business": "Hospedaje Punta Arenas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Perú 654",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 935225373,
+      "categoria": "guest_house",
+      "lat": -39.8220239,
+      "lon": -73.2312125
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-boutique-cutipay-valdivia",
+    "business": "Hotel Boutique Cutipay",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ruta T-350 5995",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 948512634,
+      "categoria": "hostel",
+      "lat": -39.8553588,
+      "lon": -73.3286066
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-diego-de-almagro-valdivia",
+    "business": "Hotel Diego de Almagro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Arturo Prat 433",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1007338907,
+      "categoria": "hotel",
+      "lat": -39.8101669,
+      "lon": -73.242242
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-isla-teja-valdivia",
+    "business": "Cabañas Isla Teja",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1013169117,
+      "categoria": "motel",
+      "lat": -39.8129475,
+      "lon": -73.2615567
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-azules-niebla",
+    "business": "Cabañas Azules",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Del Castillo 1205",
+    "comuna": "Niebla",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1014610073,
+      "categoria": "chalet",
+      "lat": -39.8660194,
+      "lon": -73.397379
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "los-rios-valdivia",
+    "business": "Los Ríos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Caupolicán",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1054883030,
+      "categoria": "guest_house",
+      "lat": -39.810338,
+      "lon": -73.243293
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-costa-mia-valdivia",
+    "business": "Hostal Costa Mía",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "José Martí",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1122523976,
+      "categoria": "hotel",
+      "lat": -39.8157428,
+      "lon": -73.2349157
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-arcos-valdivia",
+    "business": "Cabañas Los Arcos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Aguirre Cerda 1317",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1122537913,
+      "categoria": "chalet",
+      "lat": -39.8025973,
+      "lon": -73.2140361
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-turismo-niebla-valdivia",
+    "business": "Cabañas Turismo Niebla",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1221292308,
+      "categoria": "motel",
+      "lat": -39.8672478,
+      "lon": -73.3980234
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ecoturismo-la-rueda-del-chucao-valdivia",
+    "business": "Ecoturismo \"La Rueda del Chucao\"",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://laruedadelchucao.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56994444744",
+    "email": "laruedadelchucao@gmail.com",
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7006755285,
+      "categoria": "chalet",
+      "lat": -39.8588647,
+      "lon": -73.341204
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://laruedadelchucao.cl/",
+      "finalUrl": "https://www.laruedadelchucao.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "La Rueda del Chucao | Hotel y cabañas en Valdivia, sur de Chile",
+        "platform": null,
+        "emails": [
+          "leaflet@1.7.1"
+        ],
+        "phones": [
+          "+56994444744"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/laruedadelchucao",
+          "facebook": "https://www.facebook.com/Laruedadelchucao10"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 310475,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 6,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-melillanca-valdivia",
+    "business": "Hotel Melillanca",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hotelmelillanca.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56632212509",
+    "email": null,
+    "direccion": "Avenida Alemania 675",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 275658552,
+      "categoria": "hotel",
+      "lat": -39.8135058,
+      "lon": -73.240293
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.hotelmelillanca.cl/",
+      "finalUrl": "https://hotelmelillanca.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hotel Melillanca &#8211; Ubicados en el centro de la ciudad de Valdivia, a dos cuadras de la plaza La República",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@hotelmelillanca.cl"
+        ],
+        "phones": [
+          "+56632212509"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/hotelmelillanca",
+          "facebook": "https://www.facebook.com/profile.php"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 124189,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 6,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-spa-pedro-de-valdivia-valdivia",
+    "business": "Hotel & Spa Pedro de Valdivia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://valdivia.dreams.cl/hotel-y-spa/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carampangue 190",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1054267102,
+      "categoria": "hotel",
+      "lat": -39.8114718,
+      "lon": -73.2466126
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://valdivia.dreams.cl/hotel-y-spa/",
+      "finalUrl": "https://valdivia.dreams.cl/hotel-y-spa/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hotel en valdivia - Hotel 5 estrellas | Dreams",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [
+          "+6004240000"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/dreamsvaldivia",
+          "facebook": "https://www.facebook.com/DreamsValdivia"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 82046,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 6,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  }
+]
