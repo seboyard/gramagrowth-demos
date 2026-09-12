@@ -103,6 +103,25 @@ Si prefieres no recibir más correos míos, responde "no" y no vuelvo a escribir
 
 ---
 
+# Lote del 2026-09-12 — cuatro prospectos con demo lista
+
+Los correos completos están en la cola (`/prospectar/`); cada uno tiene su demo
+en `clientes/` para adjuntar el enlace público. Ordenados por probabilidad de
+cierre rápido. **Reconfirmar el hallazgo el mismo día** (los dominios caídos se
+comprueban con `Resolve-DnsName`; el teléfono de plantilla, abriendo el sitio).
+
+| # | Negocio | Hallazgo que abre | Canal | Demo | Oferta de entrada |
+|---|---|---|---|---|---|
+| 1 | **Valdilum** | Teléfono de plantilla +569 9876 5432 publicado · pie © 2023 | info@valdilum.cl | `clientes/valdilum/` | Arreglo exprés $120.000 → página vertical |
+| 2 | **TecAlum** | Enlace `tel:` con dos números: no marca en el celular | ventas@tecalumvaldivia.cl · WhatsApp 56 9 9178 1632 | `clientes/tecalum-valdivia/` | Arreglo exprés $120.000 → página vertical |
+| 3 | **Hotel Encanto del Río** | Dominio caído (NXDOMAIN); sólo reserva por Booking | encantodelriovaldivia@gmail.com | `clientes/hotel-encanto-del-rio/` | Página de reserva $320.000 |
+| 4 | **Hostal del Muelle** | Mapa apunta a dominio muerto; sitio vigente sin habitaciones ni tarifas | WhatsApp 56 9 9938 7010 | `clientes/hostal-del-muelle/` | Arreglo exprés o página de reserva |
+
+Los otros cinco instaladores auditados (Ventekom, Domos, AvenZinc, SIIN,
+Solución Ventanas) están en la cola sin demo: se construye sólo si responden.
+
+---
+
 # NO enviar por correo — usar otro canal
 
 ## Sportlife Valdivia — el hallazgo más fuerte, pero sin correo público

@@ -272,13 +272,14 @@
         "hasWhatsapp": false
       }
     },
-    "estado": "auditado",
+    "estado": "promovido",
     "puntaje": 13,
     "razones": [
       "dominio caído",
       "vertical reserva-cabanas",
       "canal de contacto"
-    ]
+    ],
+    "promovidoEl": "2026-09-12"
   },
   {
     "id": "encanto-del-rio-valdivia",
@@ -330,13 +331,14 @@
         "hasWhatsapp": false
       }
     },
-    "estado": "auditado",
+    "estado": "promovido",
     "puntaje": 13,
     "razones": [
       "dominio caído",
       "vertical reserva-cabanas",
       "canal de contacto"
-    ]
+    ],
+    "promovidoEl": "2026-09-12"
   },
   {
     "id": "camping-y-cabanas-agua-del-obispo-valdivia",

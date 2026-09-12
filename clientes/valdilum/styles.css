@@ -1,0 +1,215 @@
+:root {
+  --tinta:#1d3231; --acento:#0f7b6c; --papel:#f6f4ef;
+  --blanco:#fff; --suave:#6b7a78; --linea:rgba(29,50,49,.14);
+  --sombra:0 14px 40px rgba(29,50,49,.10); --radio:16px;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { background:var(--papel); color:var(--tinta); font-family:"Inter",ui-sans-serif,system-ui,-apple-system,sans-serif; line-height:1.55; margin:0; }
+button,input,select { font:inherit; }
+h1,h2,h3 { line-height:1.12; margin:0; letter-spacing:-.02em; }
+main { margin:0 auto; max-width:1120px; padding:0 20px 80px; }
+section { margin-top:64px; }
+
+.demo-banner { background:var(--tinta); color:#eae6dc; font-size:12.5px; letter-spacing:.02em; margin:0; padding:9px 20px; text-align:center; }
+
+/* ── Hero ─────────────────────────────────────────────── */
+.hero { background:linear-gradient(160deg,var(--tinta),#0d1f1e); color:var(--blanco); padding:64px 20px 72px; }
+.hero-inner { margin:0 auto; max-width:1120px; }
+.eyebrow { color:#7fd4c4; font-size:12px; font-weight:800; letter-spacing:.18em; margin:0 0 14px; text-transform:uppercase; }
+.hero h1 { font-size:clamp(34px,6vw,60px); max-width:16ch; }
+.lead { color:#cdd8d6; font-size:clamp(16px,2.2vw,19px); margin:18px 0 28px; max-width:52ch; }
+.hero-actions { display:flex; flex-wrap:wrap; gap:12px; }
+.hero-facts { display:flex; flex-wrap:wrap; gap:10px; list-style:none; margin:30px 0 0; padding:0; }
+.hero-facts li { background:rgba(255,255,255,.1); border-radius:999px; color:#dfe8e6; font-size:12.5px; padding:6px 13px; }
+
+/* ── Botones ──────────────────────────────────────────── */
+.button { border:1px solid transparent; border-radius:11px; cursor:pointer; display:inline-block; font-size:15px; font-weight:750; padding:13px 22px; text-align:center; text-decoration:none; transition:.15s; }
+.button.primary { background:var(--acento); color:var(--blanco); }
+.button.primary:hover { filter:brightness(1.08); }
+.button.ghost { background:transparent; border-color:currentColor; color:inherit; }
+.button.ghost:hover { background:rgba(255,255,255,.08); }
+.button.block { display:block; margin-top:12px; width:100%; }
+.button.small { font-size:13px; padding:9px 15px; }
+main .button.ghost { border-color:var(--linea); color:var(--tinta); }
+main .button.ghost:hover { background:rgba(29,50,49,.05); }
+
+/* ── Cotizador ────────────────────────────────────────── */
+.quote { display:grid; gap:24px; grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); margin-top:-40px; position:relative; z-index:2; }
+.quote-form,.rates-card { background:var(--blanco); border:1px solid var(--linea); border-radius:var(--radio); box-shadow:var(--sombra); padding:26px; }
+.quote-form h2 { font-size:24px; }
+.quote-sub { color:var(--suave); font-size:14px; margin:8px 0 20px; }
+.field-grid { display:grid; gap:12px; grid-template-columns:1fr 1fr; }
+.field-grid label { display:grid; font-size:11px; font-weight:800; gap:6px; letter-spacing:.07em; text-transform:uppercase; }
+.field-grid input,.field-grid select { background:#fbfaf7; border:1px solid var(--linea); border-radius:10px; color:var(--tinta); padding:11px 12px; width:100%; }
+.field-grid input:focus,.field-grid select:focus { border-color:var(--acento); outline:3px solid rgba(15,123,108,.14); }
+
+.quote-result { margin-top:20px; min-height:52px; }
+.quote-empty,.quote-error { color:var(--suave); font-size:14px; margin:0; }
+.quote-error { color:#b3261e; }
+.quote-summary { font-size:13px; font-weight:750; letter-spacing:.02em; margin:0 0 12px; text-transform:uppercase; }
+.quote-rows { display:grid; gap:6px 16px; grid-template-columns:1fr auto; margin:0 0 14px; }
+.quote-rows dt { color:var(--suave); font-size:14px; margin:0; }
+.quote-rows dd { font-size:14px; font-variant-numeric:tabular-nums; margin:0; text-align:right; }
+.quote-rows .promo { color:var(--acento); font-weight:750; }
+.quote-total { align-items:baseline; border-top:1px solid var(--linea); display:flex; justify-content:space-between; margin:0; padding-top:12px; }
+.quote-total strong { font-size:26px; font-variant-numeric:tabular-nums; }
+.quote-deposit { color:var(--suave); font-size:13.5px; margin:6px 0 0; }
+.quote-flag { background:rgba(15,123,108,.09); border-radius:10px; font-size:13px; margin:12px 0 0; padding:10px 12px; }
+.quote-note { color:var(--suave); font-size:12.5px; margin:14px 0 0; }
+
+/* ── Panel del servicio ───────────────────────────────── */
+.rates-card h3 { font-size:15px; letter-spacing:.05em; text-transform:uppercase; }
+.rates-list { display:grid; gap:10px; list-style:none; margin:16px 0 0; padding:0; }
+.rates-list li { align-items:baseline; border-bottom:1px dashed var(--linea); display:flex; gap:12px; justify-content:space-between; padding-bottom:9px; }
+.rates-list span { color:var(--suave); font-size:13.5px; }
+.rates-list strong { font-size:14.5px; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.promo-card { background:rgba(15,123,108,.1); border-radius:11px; display:grid; gap:4px; margin:16px 0 0; padding:12px 14px; }
+.promo-card strong { font-size:14px; }
+.promo-card span { color:var(--suave); font-size:12.5px; }
+.rules-list { color:var(--suave); display:grid; font-size:12.5px; gap:7px; margin:18px 0 0; padding-left:17px; }
+
+/* ── Servicios ────────────────────────────────────────── */
+.units h2,.faq h2,.place h2 { font-size:clamp(26px,3.6vw,34px); }
+.section-lead { color:var(--suave); font-size:16px; margin:14px 0 0; max-width:60ch; }
+.amenity-row { display:flex; flex-wrap:wrap; gap:8px; margin:22px 0 26px; }
+.amenity { background:var(--blanco); border:1px solid var(--linea); border-radius:999px; font-size:12.5px; padding:6px 13px; }
+.unit-grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); }
+.unit-card { background:var(--blanco); border:1px solid var(--linea); border-radius:var(--radio); display:grid; gap:8px; justify-items:start; padding:22px; }
+.unit-card h3 { font-size:19px; }
+.unit-detail { color:var(--suave); font-size:13.5px; margin:0; }
+.unit-cap { font-size:13px; font-weight:750; margin:0; }
+.unit-card .button { margin-top:6px; }
+
+/* ── FAQ ──────────────────────────────────────────────── */
+.faq-list { display:grid; gap:10px; margin-top:22px; }
+.faq-item { background:var(--blanco); border:1px solid var(--linea); border-radius:12px; padding:15px 18px; }
+.faq-item summary { cursor:pointer; font-size:15px; font-weight:700; list-style:none; }
+.faq-item summary::-webkit-details-marker { display:none; }
+.faq-item summary::after { content:"+"; float:right; font-weight:600; }
+.faq-item[open] summary::after { content:"−"; }
+.faq-item p { color:var(--suave); font-size:14px; margin:10px 0 0; }
+
+/* ── Ubicación ────────────────────────────────────────── */
+.place { display:grid; gap:32px; grid-template-columns:minmax(0,1fr) minmax(0,1fr); }
+.address { font-size:17px; margin:14px 0 20px; }
+.place h3 { font-size:15px; letter-spacing:.05em; margin-bottom:14px; text-transform:uppercase; }
+.attraction-list { columns:2; color:var(--suave); font-size:14px; margin:0; padding-left:17px; }
+
+/* ── Pie ──────────────────────────────────────────────── */
+.site-footer { background:var(--tinta); color:#cdd8d6; display:grid; gap:18px; grid-template-columns:1fr auto; margin-top:70px; padding:38px max(20px,calc((100vw - 1120px)/2)); }
+.site-footer strong { color:var(--blanco); display:block; font-size:17px; }
+.site-footer p { font-size:13.5px; margin:6px 0 0; }
+.footer-contact { display:grid; gap:6px; text-align:right; }
+.footer-contact a { color:#7fd4c4; font-size:13.5px; text-decoration:none; }
+.footer-contact a:hover { text-decoration:underline; }
+.footer-source { border-top:1px solid rgba(255,255,255,.14); color:#93a5a2; font-size:11.5px; grid-column:1/-1; margin:0; padding-top:16px; }
+
+/* ── Móvil ────────────────────────────────────────────── */
+@media (max-width:860px) {
+  .quote,.place { grid-template-columns:1fr; }
+  .quote { margin-top:-24px; }
+  .site-footer { grid-template-columns:1fr; }
+  .footer-contact { text-align:left; }
+  .attraction-list { columns:1; }
+}
+@media (max-width:420px) {
+  .field-grid { grid-template-columns:1fr; }
+  .hero { padding:48px 20px 56px; }
+}
+
+/* ── Por qué cotizar directo ──────────────────────────── */
+.direct-list { border-top:1px solid var(--linea); display:grid; gap:8px; list-style:none; margin:16px 0 0; padding:16px 0 0; }
+.direct-list li { color:var(--suave); font-size:13px; padding-left:22px; position:relative; }
+.direct-list li::before { color:var(--acento); content:"✓"; font-weight:800; left:0; position:absolute; }
+
+/* ── Panel del equipo (sólo modo demo) ────────────────── */
+.host-panel { background:var(--tinta); border-radius:var(--radio); color:#dfe8e6; padding:32px; }
+.host-tag { color:#7fd4c4; font-size:11px; font-weight:800; letter-spacing:.14em; margin:0 0 12px; text-transform:uppercase; }
+.host-panel h2 { color:var(--blanco); font-size:clamp(24px,3.4vw,32px); }
+.host-lead { color:#aebfbc; font-size:15px; margin:12px 0 26px; max-width:56ch; }
+.host-compare { display:grid; gap:18px; grid-template-columns:minmax(0,1fr) minmax(0,1.25fr); }
+.host-col { background:rgba(255,255,255,.06); border-radius:12px; padding:20px; }
+.host-col.after { background:rgba(127,212,196,.12); border:1px solid rgba(127,212,196,.35); }
+.host-col h3 { color:var(--blanco); font-size:13px; letter-spacing:.07em; margin-bottom:12px; text-transform:uppercase; }
+.host-msg { background:rgba(0,0,0,.28); border-radius:9px; color:#e8f1ef; font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:12.5px; line-height:1.6; margin:0; overflow-x:auto; padding:14px; white-space:pre-wrap; word-break:break-word; }
+.host-note { color:#93a5a2; font-size:12.5px; margin:12px 0 0; }
+@media (max-width:860px) { .host-compare { grid-template-columns:1fr; } .host-panel { padding:24px; } }
+
+/* ── Mapa y tarifas por servicio ───────────────────────── */
+.map-embed { border:1px solid var(--linea); border-radius:12px; margin-top:20px; overflow:hidden; }
+.map-embed iframe { border:0; display:block; height:300px; width:100%; }
+.rates-empty { color:var(--suave); font-size:12.5px; margin:14px 0 0; }
+.unit-from { font-size:14px; font-weight:800; margin:0; }
+
+/* ── Cotizador de evento ──────────────────────────────── */
+.field-grid label.field-wide { grid-column:1/-1; }
+.field-grid input[type="number"] { font-variant-numeric:tabular-nums; }
+
+.extras { border:1px solid var(--linea); border-radius:12px; margin:18px 0 0; padding:14px 16px 16px; }
+.extras legend { color:var(--suave); font-size:11px; font-weight:800; letter-spacing:.07em; padding:0 6px; text-transform:uppercase; }
+.extras-list { display:grid; gap:10px; }
+.extra-item { align-items:baseline; display:grid; font-size:13.5px; gap:4px 10px; grid-template-columns:auto 1fr; }
+.extra-item input { accent-color:var(--acento); margin:0; }
+.extra-item small { color:var(--suave); font-size:12px; grid-column:2; }
+
+.service-summary { color:var(--suave); font-size:13.5px; margin:12px 0 0; }
+.rates-stale { background:rgba(168,118,62,.12); border-radius:10px; color:var(--tinta); font-size:12.5px; margin:14px 0 0; padding:10px 12px; }
+.deposit-card { border-top:1px solid var(--linea); display:grid; gap:4px; margin-top:16px; padding-top:14px; }
+.deposit-card strong { font-size:14px; }
+.deposit-card span { color:var(--suave); font-size:12.5px; }
+
+.steps-list { color:var(--suave); display:grid; font-size:14px; gap:10px; margin:0; padding-left:20px; }
+.steps-list li { padding-left:4px; }
+
+/* El panel lateral rotula sus títulos en versalitas, pero aquí el título es el
+   nombre del servicio elegido: en mayúsculas se lee como un grito. */
+#service-title { font-size:19px; letter-spacing:-.01em; text-transform:none; }
+
+/* La paleta base venía de la vertical de hospedaje, con acentos verdes fijos.
+   Aquí los detalles sobre fondo oscuro se derivan del acento del cliente, para
+   que cambiar `marca.acento` en config.js cambie la página completa. */
+:root { --acento-claro:color-mix(in srgb, var(--acento) 65%, white); }
+.eyebrow, .footer-contact a, .host-tag { color:var(--acento-claro); }
+.host-col.after { background:color-mix(in srgb, var(--acento) 14%, transparent); border-color:color-mix(in srgb, var(--acento) 40%, transparent); }
+.quote-rows .promo, .direct-list li::before { color:var(--acento); }
+
+/* ── Cotizador de instalación: vanos ──────────────────── */
+/* La base es la hoja de la vertical de eventos. Lo que sigue es lo propio de
+   este producto: la lista de vanos, que es donde la persona hace el trabajo. */
+.vanos { border:1px solid var(--linea); border-radius:12px; margin:18px 0 0; padding:14px 16px 16px; }
+.vanos legend { color:var(--suave); font-size:11px; font-weight:800; letter-spacing:.07em; padding:0 6px; text-transform:uppercase; }
+.vanos-help { color:var(--suave); font-size:12.5px; margin:0 0 12px; }
+.vanos-list { display:grid; gap:12px; margin-bottom:12px; }
+.vano-row { background:#fbfaf7; border:1px solid var(--linea); border-radius:10px; padding:12px; }
+.vano-head { align-items:baseline; display:flex; gap:10px; margin-bottom:10px; }
+.vano-head strong { font-size:13px; letter-spacing:.02em; text-transform:uppercase; }
+.vano-area { color:var(--acento); font-size:13px; font-variant-numeric:tabular-nums; font-weight:800; margin-left:auto; }
+.vano-remove { background:none; border:0; color:var(--suave); cursor:pointer; font-size:12.5px; padding:0 0 0 8px; text-decoration:underline; }
+.vano-remove:hover { color:#b3261e; }
+.vano-grid { display:grid; gap:10px; grid-template-columns:1.6fr 1fr 1fr .8fr 1.2fr; }
+.vano-grid label { display:grid; font-size:10.5px; font-weight:800; gap:5px; letter-spacing:.07em; text-transform:uppercase; }
+.vano-grid input,.vano-grid select { background:var(--blanco); border:1px solid var(--linea); border-radius:9px; color:var(--tinta); font-variant-numeric:tabular-nums; padding:9px 10px; width:100%; }
+.vano-grid input:focus,.vano-grid select:focus { border-color:var(--acento); outline:3px solid color-mix(in srgb, var(--acento) 16%, transparent); }
+
+.surface-field { display:grid; font-size:11px; font-weight:800; gap:6px; letter-spacing:.07em; max-width:220px; text-transform:uppercase; }
+.surface-field input { background:#fbfaf7; border:1px solid var(--linea); border-radius:10px; color:var(--tinta); font-variant-numeric:tabular-nums; padding:11px 12px; }
+
+/* El alcance medido es el titular del resultado: va arriba y sin línea encima. */
+.quote-scope { border-top:0; padding-top:0; }
+.quote-scope strong { color:var(--acento); }
+.scope-list { display:grid; gap:6px; margin:0 0 14px; padding-left:20px; }
+.scope-list li { align-items:baseline; display:flex; gap:12px; justify-content:space-between; }
+.scope-list span { color:var(--suave); font-size:13.5px; }
+.scope-list strong { font-size:13.5px; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.scope-list + .quote-rows { border-top:1px solid var(--linea); padding-top:12px; }
+
+#comuna-slot input,#comuna-slot select { background:#fbfaf7; border:1px solid var(--linea); border-radius:10px; color:var(--tinta); padding:11px 12px; width:100%; }
+#comuna-slot input:focus,#comuna-slot select:focus { border-color:var(--acento); outline:3px solid color-mix(in srgb, var(--acento) 16%, transparent); }
+
+#work-title { font-size:19px; letter-spacing:-.01em; text-transform:none; }
+
+@media (max-width:640px) {
+  .vano-grid { grid-template-columns:1fr 1fr; }
+  .vano-grid label:first-child { grid-column:1/-1; }
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "centro-de-eventos-altos-de-punucapa-valdivia",
+    "business": "Centro de Eventos \"Altos de Punucapa\"",
+    "segment": "Eventos y banquetería",
+    "plantilla": "cotizar-evento",
+    "website": "http://www.altosdepunucapa.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ruta T-358",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1027540121,
+      "categoria": "events_venue",
+      "lat": -39.7781277,
+      "lon": -73.2965588
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "descubierto"
+  }
+]

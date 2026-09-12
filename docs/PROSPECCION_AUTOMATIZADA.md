@@ -156,8 +156,18 @@ en la mayoría de comunidades.
 
 ## 5. Puesta en marcha (comandos para Sebastián)
 
-Estos comandos cambian configuración persistente de Hermes; se ejecutan a mano,
-una vez.
+**Atajo:** todo lo de esta sección lo hace `hermes\instalar.ps1`, que copia el
+`SOUL.md` y la skill desde el repo (fuente de verdad, versionada) al perfil
+`grama`, y con `-ConCron` registra el job semanal con el prompt de
+`hermes\cron\prospeccion-semanal.md`.
+
+```powershell
+powershell -ExecutionPolicy Bypass -File hermes\instalar.ps1            # perfil + skill
+powershell -ExecutionPolicy Bypass -File hermes\instalar.ps1 -ConCron   # además, el cron
+```
+
+Lo que sigue es el detalle de lo que hace, por si se prefiere a mano. Son
+cambios de configuración persistente de Hermes; se ejecutan una vez.
 
 ### 5.1 Perfil propio, sin la personalidad del perfil `default`
 
