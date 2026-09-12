@@ -1,6 +1,7 @@
 /* Configuración de cliente. Sólo se edita este archivo.
-   Datos: el sitio propio (encantodelriohotel.cl) YA NO EXISTE (NXDOMAIN,
-   verificado 2026-09-12). Lo que hay aquí sale de lo que el hotel publica en
+   Datos: el hotel tiene dos dominios y ninguno muestra el sitio: encantodelriohotel.cl
+   no existe (NXDOMAIN) y hotelencantodelrio.cl devuelve una página de relleno
+   del hosting (410), verificado 2026-09-12. Lo que hay aquí sale de lo que el hotel publica en
    OpenStreetMap (teléfono, correo, dirección) y de su ficha en booking.com
    (tipos de habitación, servicios), leídos el 2026-09-12.
    Regla de honestidad: nada de tarifas, porque el hotel no publica ninguna
@@ -9,7 +10,7 @@
 window.RESERVA_CONFIG = {
   demo: {
     activo: true,
-    aviso: 'Muestra preparada por Gramagrowth con información pública del negocio (OpenStreetMap y Booking). No es el sitio oficial. El dominio original del hotel ya no existe.',
+    aviso: 'Muestra preparada por Gramagrowth con información pública del negocio (OpenStreetMap y Booking). No es el sitio oficial. Los dominios del hotel ya no muestran su sitio.',
     fuente: 'booking.com y openstreetmap.org',
     leidoEl: '2026-09-12'
   },

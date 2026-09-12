@@ -94,21 +94,40 @@ ${preset.filtros.map((filtro) => `  ${filtro}["name"](area.a);`).join('\n')}
 out tags center;`;
 
 console.log(`Consultando OSM: zona "${zona}" (admin_level ${nivel}), rubro ${rubro}…`);
-const response = await fetch('https://overpass-api.de/api/interpreter', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/x-www-form-urlencoded',
-    // Overpass pide identificarse. Es un uso legítimo y de bajo volumen.
-    'User-Agent': 'gramagrowth-prospeccion/0.1 (+https://github.com/sakjdkdsw2/gramagrowth-demos)'
-  },
-  body: `data=${encodeURIComponent(query)}`
-});
-const body = await response.text();
-if (!response.ok) {
-  console.error(`Overpass respondió ${response.status}: ${body.slice(0, 300)}`);
+
+// Overpass es un servicio público compartido: devuelve 429 (demasiadas
+// consultas) o 504 (saturado) con frecuencia. Se alternan dos servidores y se
+// reintenta con espera creciente, en vez de fallar a la primera.
+const SERVIDORES = ['https://overpass-api.de/api/interpreter', 'https://overpass.kumi.systems/api/interpreter'];
+const dormir = (ms) => new Promise((ok) => setTimeout(ok, ms));
+async function consultarOverpass() {
+  let ultimo = null;
+  for (let intento = 0; intento < 6; intento += 1) {
+    const servidor = SERVIDORES[intento % SERVIDORES.length];
+    try {
+      const response = await fetch(servidor, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+          // Overpass pide identificarse. Es un uso legítimo y de bajo volumen.
+          'User-Agent': 'gramagrowth-prospeccion/0.1 (+https://github.com/sakjdkdsw2/gramagrowth-demos)'
+        },
+        body: `data=${encodeURIComponent(query)}`
+      });
+      const body = await response.text();
+      if (response.ok) return JSON.parse(body).elements || [];
+      ultimo = `${servidor} respondió ${response.status}`;
+    } catch (error) {
+      ultimo = `${servidor}: ${error.message}`;
+    }
+    const espera = 15000 * (intento + 1);
+    console.log(`  ${ultimo}. Reintento en ${espera / 1000}s…`);
+    await dormir(espera);
+  }
+  console.error(`Overpass no respondió tras varios intentos (${ultimo}). Prueba más tarde.`);
   process.exit(1);
 }
-const elementos = JSON.parse(body).elements || [];
+const elementos = await consultarOverpass();
 
 // Dedupe contra lo que ya está en la cola y en otros lotes: un negocio ya
 // contactado no puede volver a entrar como "nuevo".

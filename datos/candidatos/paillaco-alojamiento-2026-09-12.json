@@ -1,0 +1,77 @@
+[
+  {
+    "id": "camping-el-chamil-paillaco",
+    "business": "Camping El Chamil",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Paillaco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2634173155,
+      "categoria": "camp_site",
+      "lat": -40.0092646,
+      "lon": -73.1408866
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "descubierto"
+  },
+  {
+    "id": "camping-municipal-paillaco-paillaco",
+    "business": "Camping Municipal Paillaco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Paillaco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3971303064,
+      "categoria": "camp_site",
+      "lat": -40.1099524,
+      "lon": -72.8028955
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "descubierto"
+  },
+  {
+    "id": "hotel-paillaco-paillaco",
+    "business": "Hotel Paillaco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Paillaco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4565899820,
+      "categoria": "hotel",
+      "lat": -40.0740785,
+      "lon": -72.8664438
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "descubierto"
+  }
+]

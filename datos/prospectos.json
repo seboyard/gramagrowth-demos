@@ -2153,7 +2153,7 @@
     "business": "Hotel Encanto del Río",
     "segment": "Turismo y alojamiento",
     "priority": "Alta",
-    "website": "https://encantodelriohotel.cl/",
+    "website": "http://www.hotelencantodelrio.cl/",
     "verifiedAt": "2026-09-12",
     "contact": {
       "type": "email",
@@ -2163,11 +2163,15 @@
     "offer": "landing",
     "opportunity": "El sitio propio ya no existe; toda la reserva pasa por Booking con comisión. Reponer una página de reserva directa antes de la temporada.",
     "findings": [
-      "El dominio encantodelriohotel.cl, que figura como sitio del hotel en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12).",
+      "El hotel tiene dos dominios en el mapa y ninguno muestra el sitio: encantodelriohotel.cl ya no existe (NXDOMAIN) y hotelencantodelrio.cl responde con una página de relleno del hosting (error 410 / \"you@company.com\"), verificado el 2026-09-12.",
       "Sin sitio propio, la única forma de reservar en línea es Booking, que cobra comisión por cada reserva.",
       "El hotel publica correo y teléfono en el mapa, así que hay canal para recuperar la presencia."
     ],
     "evidence": [
+      {
+        "label": "Dominio con página de relleno (410)",
+        "url": "http://www.hotelencantodelrio.cl/"
+      },
       {
         "label": "Ficha en OpenStreetMap (con el dominio caído)",
         "url": "https://www.openstreetmap.org/way/676041007"
@@ -2178,7 +2182,7 @@
       }
     ],
     "subject": "La web del Hotel Encanto del Río ya no existe",
-    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando el hotel llegué a encantodelriohotel.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para enero, y si la búsqueda termina en una página caída, muchos se van directo a Booking, que les cobra comisión por cada reserva.\n\nPreparé una muestra con sus cuatro tipos de habitación —doble con vista al río, doble y twin con vista lateral, triple— donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o correo. Sin comisión, y ustedes confirman a mano como siempre. La puedo dejar publicada en un dominio suyo en 5 días hábiles por $320.000.\n\n¿Siguen operando? Si es así, me gustaría mostrársela en 10 minutos.\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando el hotel encontré dos direcciones del hotel, hotelencantodelrio.cl y encantodelriohotel.cl, y ninguna muestra el sitio: una da error del hosting y la otra ya no existe. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para enero, y si la búsqueda termina en una página caída, muchos se van directo a Booking, que les cobra comisión por cada reserva.\n\nPreparé una muestra con sus cuatro tipos de habitación —doble con vista al río, doble y twin con vista lateral, triple— donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o correo. Sin comisión, y ustedes confirman a mano como siempre. La puedo dejar publicada en un dominio suyo en 5 días hábiles por $320.000.\n\n¿Siguen operando? Si es así, me gustaría mostrársela en 10 minutos.\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "audit": {
       "url": "https://encantodelriohotel.cl/",
       "finalUrl": "https://encantodelriohotel.cl/",
@@ -2212,7 +2216,7 @@
     },
     "status": "review",
     "followUp": "",
-    "notes": "Demo: clientes/hotel-encanto-del-rio/ · Datos de OSM y Booking; sin tarifas. Reconfirmar NXDOMAIN el día del contacto."
+    "notes": "Demo: clientes/hotel-encanto-del-rio/ · Datos de OSM y Booking; sin tarifas. Dos dominios: hotelencantodelrio.cl (410, página estacionada) y encantodelriohotel.cl (NXDOMAIN). Reconfirmar ambos el día del contacto."
   },
   {
     "id": "hostal-del-muelle",
@@ -2279,5 +2283,1142 @@
     "status": "review",
     "followUp": "",
     "notes": "Demo: clientes/hostal-del-muelle/ · Sitio vigente hostalvaldivia.cl auditado (sin-descripcion, redes-por-revisar). Una unidad genérica: el sitio no publica tipos."
+  },
+  {
+    "id": "hotel-terrapuerto-valdivia",
+    "business": "Hotel Terrapuerto",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://www.hotelterrapuerto.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 63 227 6350",
+      "label": "Teléfono publicado en OSM y directorios. El correo contacto@hotelterrapuerto.cl está en el dominio caído: puede no recibir."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio hotelterrapuerto.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.hotelterrapuerto.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5302717853"
+      }
+    ],
+    "subject": "La web de Hotel Terrapuerto ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Hotel Terrapuerto llegué a hotelterrapuerto.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nEn SERNATUR el registro figura como \"Hotel Terra Valdivia\": si cambiaron de nombre, la página nueva puede llevar el nombre actual y dejar el antiguo para que los sigan encontrando.\n\nPuedo dejar una página de reserva directa —sus habitaciones con desayuno y estacionamiento incluidos, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.hotelterrapuerto.cl/",
+      "finalUrl": "http://www.hotelterrapuerto.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Lote dominios-caidos-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-puerto-pelicano-valdivia",
+    "business": "Cabañas Puerto Pelicano",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.puertopelicano.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 63 204481",
+      "label": "Teléfono publicado en OSM y Páginas Amarillas"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio puertopelicano.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.puertopelicano.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/1619421525"
+      }
+    ],
+    "subject": "La web de Cabañas Puerto Pelicano ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas Puerto Pelicano llegué a puertopelicano.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nHoy la información completa de las cabañas sólo está en Tripadvisor y directorios de terceros.\n\nPuedo dejar una página de reserva directa —sus diez cabañas para 4 y 5 personas, con piscina y quincho, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Ya preparé una muestra con sus diez cabañas para que vean cómo quedaría; se la envío en cuanto me digan que les interesa.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.puertopelicano.cl/",
+      "finalUrl": "https://www.puertopelicano.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/cabanas-puerto-pelicano/ · Datos de Tripadvisor y OSM; sin tarifas. Dominio puertopelicano.cl caído (NXDOMAIN). Reconfirmar el día del contacto."
+  },
+  {
+    "id": "camping-y-cabanas-agua-del-obispo-valdivia",
+    "business": "Camping y Cabañas Agua del Obispo",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://campingaguadelobispo.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 8819 6804",
+      "label": "Celular publicado en OSM (confirmar si es WhatsApp)"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio campingaguadelobispo.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://campingaguadelobispo.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/963751793"
+      }
+    ],
+    "subject": "La web de Camping y Cabañas Agua del Obispo ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Camping y Cabañas Agua del Obispo llegué a campingaguadelobispo.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPuedo dejar una página de reserva directa —sus sitios de camping y cabañas, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://campingaguadelobispo.cl/",
+      "finalUrl": "http://campingaguadelobispo.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Lote dominios-caidos-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-choshuenco-choshuenco",
+    "business": "Cabañas Choshuenco",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 63 232 8070",
+      "label": "Teléfono publicado en OSM"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio cabañaschoshuenco.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.xn--cabaaschoshuenco-9tb.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2788763081"
+      }
+    ],
+    "subject": "La web de Cabañas Choshuenco ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas Choshuenco llegué a cabañaschoshuenco.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nChoshuenco es puerta de entrada a Huilo Huilo y al lago Panguipulli: la búsqueda \"cabañas Choshuenco\" tiene demanda propia en verano.\n\nPuedo dejar una página de reserva directa —sus cabañas en Choshuenco, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+      "finalUrl": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Lote dominios-caidos-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-rio-fuy-choshuenco",
+    "business": "Cabañas Rio Fuy",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.riofuy.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 5672 9390",
+      "label": "Celular publicado en OSM (confirmar si es WhatsApp)"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio riofuy.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.riofuy.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2788772587"
+      }
+    ],
+    "subject": "La web de Cabañas Rio Fuy ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas Rio Fuy llegué a riofuy.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPuedo dejar una página de reserva directa —sus cabañas con acceso directo al río Fuy, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.riofuy.cl/",
+      "finalUrl": "https://www.riofuy.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Lote dominios-caidos-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-la-negra-ester-panguipulli",
+    "business": "Cabañas La Negra Ester",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://www.cabanaslanegraester.com/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "cabanaslanegraester@gmail.com",
+      "label": "Correo publicado en el registro SERNATUR; el info@ del dominio caído probablemente no recibe. Teléfono +56 63 231 1021."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio cabanaslanegraester.com, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.cabanaslanegraester.com/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4842044321"
+      }
+    ],
+    "subject": "La web de Cabañas La Negra Ester ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas La Negra Ester llegué a cabanaslanegraester.com, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nSu registro en SERNATUR y las fichas de terceros siguen activos, así que la demanda existe; lo que falta es dónde aterrizarla.\n\nPuedo dejar una página de reserva directa —sus cabañas para hasta 18 personas a dos cuadras de la plaza de Panguipulli, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.cabanaslanegraester.com/",
+      "finalUrl": "http://www.cabanaslanegraester.com/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Lote dominios-caidos-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-los-castanos-la-union",
+    "business": "Cabañas Los Castaños",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 64 2 525040",
+      "label": "Teléfono publicado en OSM; celular 9 7794 3692"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio aparthotelloscastaños.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.xn--aparthotelloscastaos-l7b.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/437088708"
+      }
+    ],
+    "subject": "La web de Cabañas Los Castaños ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas Los Castaños llegué a aparthotelloscastaños.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPuedo dejar una página de reserva directa —sus cabañas y apart hotel en La Unión, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+      "finalUrl": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Lote dominios-caidos-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "entre-tilos-valdivia",
+    "business": "Entre Tilos",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.hotelentretilos.com/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "info@hotelentretilos.com",
+      "label": "Correo publicado en OpenStreetMap (el dominio resuelve, pero la web responde 404: puede no recibir). Alternativa: teléfono +5663 2232359, también de OSM."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: el sitio responde 404 en blanco y no hay ningún canal publicado; página de reserva directa antes de la temporada.",
+    "findings": [
+      "El sitio www.hotelentretilos.com responde con error HTTP 404 y una página en blanco (0 bytes; verificado el 2026-09-12 en la portada, /index.html y /es/): quien busque el hotel hoy no encuentra ninguna información.",
+      "Como la página llega vacía, no publica teléfono ni correo ni enlace a WhatsApp: el contacto depende de directorios de terceros."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.hotelentretilos.com/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/1221587444"
+      }
+    ],
+    "subject": "La web de Hotel Entre Tilos responde con error 404",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Hotel Entre Tilos entré a www.hotelentretilos.com y la página responde con error 404, en blanco: lo comprobé el 12 de septiembre en la portada y en dos rutas más, y en ninguna aparece texto, teléfono ni correo. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y si la búsqueda termina en una página vacía, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nComo el sitio no entrega contenido, todavía no armé la muestra con sus habitaciones. Si me confirman que siguen operando, preparo una página de reserva directa —sus habitaciones, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión— y la puedo dejar publicada en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen recibiendo pasajeros? Si es así, ¿a qué correo o WhatsApp les mando la muestra?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.hotelentretilos.com/",
+      "finalUrl": "https://www.hotelentretilos.com/",
+      "status": 404,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 18,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 404",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-viewport",
+          "severity": "alta",
+          "label": "La página no declara viewport móvil",
+          "detail": "Se ve reducida y difícil de leer en celular, que es donde llega la mayoría.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "La página no tiene título",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Lote valdivia-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "hospedaje-futrono-futrono",
+    "business": "Hospedaje Futrono",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.hospedajefutrono.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56981630548",
+      "label": "WhatsApp del sitio (wa.me/56981630548, rotulado +56 9 8163 0548) y teléfono en OSM. Correo del sitio: contactohospedajefutrono@gmail.com."
+    },
+    "offer": "express",
+    "opportunity": "Corregir el título \"Hostinger Horizons\" y la descripción, y dar al pasajero una consulta con fechas y habitación en vez del mensaje genérico.",
+    "findings": [
+      "El título de la página es \"Hostinger Horizons\" (el nombre de la herramienta con que se hizo el sitio) y no lleva meta descripción: así aparece el hospedaje en la pestaña, en Google y al compartir el enlace.",
+      "El HTML que entrega el servidor sólo trae ese título; las seis habitaciones, la dirección y los datos de contacto aparecen únicamente cuando el navegador ejecuta el script, así que las vistas previas del enlace y los lectores sin JavaScript no ven nada.",
+      "El sitio no publica tarifas y el botón \"Reserva tu pausa\" abre un mensaje genérico (\"me gustaría consultar sobre disponibilidad y tarifas\") sin fechas, habitación ni pasajeros: cada consulta obliga a una segunda ronda de preguntas."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.hospedajefutrono.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6167229066"
+      }
+    ],
+    "subject": "Su sitio se presenta como \"Hostinger Horizons\"",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Entré a hospedajefutrono.cl y el título de la página —lo que aparece en la pestaña, en Google y al compartir el enlace por WhatsApp— dice \"Hostinger Horizons\", el nombre de la herramienta con que se hizo el sitio, y no hay descripción. Además, el servidor entrega sólo ese título: las habitaciones, la dirección y el contacto aparecen recién cuando el navegador ejecuta el script, así que la vista previa del enlace sale en blanco. Quien lo ve así duda de haber llegado al lugar correcto.\n\nPreparé una muestra con sus 6 habitaciones (Nilahue, Caunahue, Isla Huapi, Llifén, Calcurrupe y Lago Maihue) donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión, con el check in a las 13:00 y las condiciones del abono ya escritas. Lo del título y la descripción lo dejo corregido en 2 días por $120.000; si prefieren la página de consulta completa, la publico en 5 días hábiles por $320.000.\n\n¿Les muestro la página en 10 minutos por WhatsApp o correo?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.hospedajefutrono.cl/",
+      "finalUrl": "https://www.hospedajefutrono.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 10,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hostinger Horizons",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 7881,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/hospedaje-futrono/ · Lote futrono-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-wingkul-futrono",
+    "business": "Cabañas Wingkul",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://www.wingkul.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56981743922",
+      "label": "Número del botón flotante de WhatsApp del sitio, rotulado \"+569 8174 3922 (Cabañas)\". Correo del sitio: soniathim@gmail.com. El teléfono de OSM (+56984135967) no aparece en el sitio."
+    },
+    "offer": "landing",
+    "opportunity": "Reemplazar la consulta sin fecha de salida ni cabaña por una página de reserva directa que calcule noches y valor publicado.",
+    "findings": [
+      "El botón \"RESERVA AQUÍ\" de wingkul.cl/cabanas/ lleva a la página de contacto, que pide \"Fecha de Inicio\" y \"Cantidad de personas\" pero no fecha de salida ni cabaña: para responder hay que preguntar de vuelta cuántas noches y cuál cabaña.",
+      "Las tarifas están publicadas \"por día + IVA\" ($67.500 y $75.000) y en /contacto/ se indica que en fines de semana largos, vacaciones de invierno y temporada alta de verano suben un 26%, sin fechas: el pasajero no puede calcular su total.",
+      "La página no lleva meta descripción, así que Google arma por su cuenta el resumen que ve la gente al buscar las cabañas."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.wingkul.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6100209044"
+      }
+    ],
+    "subject": "El \"RESERVA AQUÍ\" de Wingkul no pide fecha de salida ni cabaña",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Entré a wingkul.cl y el botón \"RESERVA AQUÍ\" de la página de cabañas lleva al contacto, que pide \"Fecha de Inicio\" y \"Cantidad de personas\" pero no la fecha de salida ni qué cabaña: para responder tienen que preguntar de vuelta cuántas noches y cuál. Y como los valores van \"por día + IVA\" y suben un 26% en fines de semana largos y temporada alta, el pasajero tampoco puede calcular su total antes de escribir.\n\nPreparé una muestra con sus 4 cabañas (Notro, Pellín, Raulí y Tineo) donde el pasajero elige fechas y cuántos son, ve el valor por día publicado con la nota del IVA y del recargo de temporada, y les manda la consulta completa por WhatsApp, sin comisión, con el abono del 50% y la devolución a 10 días ya escritos. La puedo dejar publicada en 5 días hábiles por $320.000.\n\n¿Les muestro la página en 10 minutos por WhatsApp o correo?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.wingkul.cl/",
+      "finalUrl": "https://wingkul.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Wingkul &#8211; Cabañas LLifen",
+        "platform": "WordPress",
+        "emails": [
+          "soniathim@gmail.com"
+        ],
+        "phones": [
+          "+56966364494",
+          "+56981743922"
+        ],
+        "socials": {
+          "facebook": "https://www.facebook.com/Caba"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 128920,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/cabanas-wingkul/ · Lote futrono-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "camping-bahia-coique-futrono",
+    "business": "Camping Bahía Coique",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://bahiacoique.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "camping@bahiacoique.cl",
+      "label": "Correo del camping publicado en el sitio (teléfono +56 9 4688 0705)"
+    },
+    "offer": "landing",
+    "opportunity": "El camping no tiene cotizador ni tarifas publicadas y su botón de reserva es un mailto vacío: una página de solicitud propia ordena las consultas sin tocar el motor del hotel.",
+    "findings": [
+      "En bahiacoique.cl/camping/ el botón \"Reservar ahora\" abre un correo en blanco a camping@bahiacoique.cl: el campista escribe sin fechas, sin cuántos son y sin saber el valor.",
+      "La página del camping publica \"50 sitios de camping · 1 baño privado por sitio · 1 parrilla por sitio · 10 sitios habilitados\", pero ningún valor por sitio, persona o noche; el motor de reservas del complejo (Cloudbeds) es del hotel y departamentos."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://bahiacoique.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/266649289"
+      }
+    ],
+    "subject": "El \"Reservar ahora\" del camping en bahiacoique.cl abre un correo en blanco",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Entré hoy a bahiacoique.cl/camping/ y el botón \"Reservar ahora\" abre un correo en blanco a camping@bahiacoique.cl, mientras el \"Reservar ahora\" del encabezado lleva al motor del hotel y los departamentos. La página del camping dice \"50 sitios · 1 baño privado por sitio · 1 parrilla por sitio · 10 sitios habilitados\", pero no publica valor por sitio ni por noche, así que cada campista les escribe sin fechas, sin cuántos son y sin saber cuánto cuesta, y ustedes tienen que responder de cero.\n\nPreparé una muestra para el camping, con el sitio de camping tal como lo describen y las fotos de su propia galería, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por correo o WhatsApp, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes las indiquen; no inventé ningún valor.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, separada del motor del hotel.\n\n¿Les sirve que les mande el enlace de la muestra para que la vea quien lleva el camping?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://bahiacoique.cl/",
+      "finalUrl": "https://bahiacoique.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Inicio - Bahía Coique",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@bahiacoique.cl",
+          "camping@bahiacoique.cl",
+          "eventos@bahiacoique.cl"
+        ],
+        "phones": [
+          "+56940991499",
+          "+56632481264",
+          "+56946880705"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/bahiacoique",
+          "facebook": "https://facebook.com/bcoique"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 283322,
+        "hasWhatsapp": true
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/camping-bahia-coique/ · Lote futrono-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-de-madera-la-union",
+    "business": "Cabañas de Madera",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://cabanasdemadera.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "info@cabanasdemadera.cl",
+      "label": "Correo publicado en el sitio (sin WhatsApp; teléfono +56 9 9848 2339)"
+    },
+    "offer": "landing",
+    "opportunity": "Su única vía de reserva en línea está rota (404) y no hay WhatsApp: una página de solicitud con fechas y pasajeros reemplaza el enlace caído sin depender de terceros.",
+    "findings": [
+      "El botón \"Reserva en línea aquí\" de cabanasdemadera.cl apunta a reserva.gofeels.com y ese enlace responde \"404 page not found\" (verificado el 2026-09-12): el pasajero que quiere reservar llega a una página de error.",
+      "El sitio no tiene enlace a WhatsApp: publica sólo teléfono, correo y un cuadro de mensaje que no pide fechas ni número de pasajeros.",
+      "No publica tarifas ni capacidad por cabaña, así que cada consulta llega incompleta y hay que responderla de cero."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://cabanasdemadera.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4333123994"
+      }
+    ],
+    "subject": "El botón \"Reserva en línea\" de cabanasdemadera.cl lleva a un error 404",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Entré hoy a cabanasdemadera.cl y el botón \"Reserva en línea aquí\" lleva a reserva.gofeels.com, que responde \"404 page not found\". Quien quiere reservar termina en una página de error, y el único camino que queda es el formulario, que no pide fechas ni cuántos pasajeros son, así que cada consulta les llega incompleta. Tampoco hay un enlace a WhatsApp, que es por donde la mayoría consulta desde el celular.\n\nPreparé una muestra con sus cabañas de 1 y 2 dormitorios, con el equipamiento y la dirección que ya publican, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o correo, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes las indiquen; no inventé ningún valor.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. Si prefieren sólo reparar el enlace de reserva, lo dejo corregido en 2 días por $120.000.\n\n¿Les sirve que les mande el enlace de la muestra para que la vean desde el celular?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://cabanasdemadera.cl/",
+      "finalUrl": "https://cabanasdemadera.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 3,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cabañas de Madera, | La Unión",
+        "platform": "WordPress",
+        "emails": [
+          "info@cabanasdemadera.cl"
+        ],
+        "phones": [
+          "+56998482339"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabanasdemadera",
+          "facebook": "https://facebook.com/1402825366629114"
+        },
+        "socialEmbed": "enlaza-publicaciones",
+        "bytes": 282348,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/cabanas-de-madera/ · Lote la-union-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Redactado por agente: reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "outscape-huilo-huilo-puerto-fuy",
+    "business": "Outscape Huilo Huilo",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.outscape.cl/fuy/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "info@outscape.cl",
+      "label": "Correo publicado en la página Fuy y en el motor de reservas. Teléfono del sitio +56 9 3935 9846. Sin WhatsApp. Los otros 14 correos de la auditoría son placeholders de Sentry/Wix, no se usan."
+    },
+    "offer": "landing",
+    "opportunity": "Una página de consulta en español y en pesos para el destino Fuy, sin depender del motor en inglés.",
+    "findings": [
+      "La página del destino Fuy mezcla inglés y español: el botón \"Book now\" junto a \"Reservar\" y el menú inferior con \"DESTINATIONS\", \"ABOUT US\", \"ACTIVITIES\" y \"PATNERSHIP\" (con error de tipeo) sobre un texto en español.",
+      "El botón Reservar lleva a un motor de reservas en inglés con valores en dólares (\"From $84.96 Per night\"); el sitio no publica tarifas en pesos ni horarios de check in y check out.",
+      "No hay enlace a WhatsApp: los canales publicados son el teléfono +56 9 3935 9846 y el correo info@outscape.cl."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.outscape.cl/fuy/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12374661325"
+      }
+    ],
+    "subject": "Outscape Fuy: el pasajero chileno reserva en inglés y en dólares",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Estuve revisando outscape.cl/fuy y hay algo concreto: la página está en español, pero el botón dice \"Book now\" al lado de \"Reservar\", el pie dice \"DESTINATIONS\", \"ABOUT US\", \"ACTIVITIES\" y \"PATNERSHIP\", y al pulsar Reservar el pasajero cae en un motor en inglés con valores en dólares (\"From $84.96 Per night\"). Para una familia de Valdivia o Temuco que quiere saber cuánto vale un refugio para 5 en pesos y a qué hora puede llegar, eso son dos idiomas y una moneda de más antes de escribir, y el sitio no publica esos datos en ninguna parte.\n\nPreparé una muestra en español con sus 9 refugios en dos tipos (para 2 y para 5 personas, según su propio listado), donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes me digan cuáles publicar.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, sin tocar el motor que ya usan.\n\n¿Tienen un WhatsApp para reservas? Con eso les muestro la página en 10 minutos.\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.outscape.cl/fuy/",
+      "finalUrl": "https://www.outscape.cl/fuy",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 7,
+      "signals": [
+        {
+          "id": "idioma-mezclado",
+          "severity": "media",
+          "label": "Interfaz en inglés dentro de una página en español: \"book now\", \"about us\"",
+          "detail": "Da la impresión de una plantilla sin terminar justo en el momento de escribir.",
+          "evidence": "…reno More Use tab to navigate through the menu items. +56 9 3935 9846 Book now Fuy-Huilo Huilo Reservar SOBRE OUTSCAPE FUY En medio de un entorno id…"
+        },
+        {
+          "id": "correos-en-conflicto",
+          "severity": "alta",
+          "label": "Publica 15 correos de 4 dominios distintos",
+          "detail": "Las consultas se reparten entre bandejas, o una de ellas ya no se revisa.",
+          "evidence": "info@outscape.cl · 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com · 8c4075d5481d476e945486754f783364@sentry.io · 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com · dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com · c183baa23371454f99f417f6616b724d@sentry.wixpress.com · 1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com · 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com · 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com · ed436f5053144538958ad06a5005e99a@sentry.wixpress.com · 460ff4620fa44cba8df530afde949785@sentry.wixpress.com · 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com · 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com · 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com · 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cabañas Boutique En Lago Pirihueico | Outscape Fuy | Puerto Fuy",
+        "platform": "Elementor",
+        "emails": [
+          "info@outscape.cl",
+          "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+          "8c4075d5481d476e945486754f783364@sentry.io",
+          "18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com",
+          "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+          "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+          "1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com",
+          "9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com",
+          "79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com",
+          "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+          "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+          "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com",
+          "8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com",
+          "5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com",
+          "271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+        ],
+        "phones": [
+          "+56939359846"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/outscape.cl",
+          "facebook": "https://facebook.com/Outscapecl-108709984630435"
+        },
+        "socialEmbed": "feed-embebido",
+        "bytes": 1558691,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/outscape-huilo-huilo/ · Faltó del sitio: tarifas en pesos, check in/out, abono, WhatsApp. Unidades tomadas del listado del motor de reservas enlazado desde el sitio (9 refugios: 2 y 5 personas). La señal correos-en-conflicto NO se usó: los 14 correos extra son placeholders de sentry.wixpress.com. · Lote panguipulli-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-patagoniamawida-neltume",
+    "business": "Cabañas Patagoniamawida",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://patagoniamawida.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56961552392",
+      "label": "Número del widget \"Conversemos!\" del sitio; es también el teléfono publicado (+56 9 6155 2392). Correo reservas@patagoniamawida.cl. El +56962123347 de OSM no aparece en el sitio."
+    },
+    "offer": "landing",
+    "opportunity": "Poner las tarifas y la descripción de cada cabaña donde el pasajero las busca, con la consulta armada por WhatsApp.",
+    "findings": [
+      "El menú principal del sitio (Inicio, Cabañas, Ubicación, Reserva aquí) no incluye la página de tarifas: los valores por cabaña sólo aparecen siguiendo un enlace \"TARIFAS\" al final de la página Cabañas.",
+      "La página Cabañas describe el equipamiento común pero no las cuatro cabañas (2, 4, 5 y 8 personas): esa descripción, con camas y baños, está sólo en la página de tarifas.",
+      "La página no tiene meta descripción, así que el resumen que aparece al buscar el negocio no lo escribe el negocio."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://patagoniamawida.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3697606702"
+      }
+    ],
+    "subject": "Las tarifas de Patagoniamawida no están en el menú del sitio",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Estuve revisando patagoniamawida.cl y me pasó algo concreto: el menú tiene Inicio, Cabañas, Ubicación y Reserva aquí, pero la página de tarifas —donde están los valores hasta el 31 de diciembre, los de temporada alta y la descripción de cada cabaña con sus camas— sólo se alcanza por un enlace al final de Cabañas. Quien entra desde el celular a cotizar ve el equipamiento y el botón de reserva, pero no cuánto vale ni qué cabaña le sirve, y muchos cierran antes de encontrarlo.\n\nPreparé una muestra con sus cuatro cabañas (2, 4, 5 y 8 personas), las tarifas marzo–diciembre y enero–febrero tal como las publican, el abono del 30%, la tinaja opcional y los horarios, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. Nada reemplaza a Cloudbeds ni a sus canales actuales; es una página que responde antes de que pregunten.\n\n¿Les muestro la muestra en 10 minutos por teléfono o WhatsApp?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://patagoniamawida.cl/",
+      "finalUrl": "https://patagoniamawida.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "CABAÑAS PATAGONIAMAWIDA &#8211; Alojamiento en medio de los bosques de Huilo Huilo",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@patagoniamawida.cl"
+        ],
+        "phones": [
+          "+56961552392"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 148995,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/cabanas-patagoniamawida/ · Faltó del sitio: número total de cabañas, fechas exactas de Vacaciones de Invierno y Fiestas Patrias (temporada alta), promociones. Ojo: la señal sin-whatsapp es parcial: no hay enlace directo, pero sí un widget de chat de WhatsApp (56961552392). El sitio sí enlaza Facebook e Instagram en la página Ubicación, aunque la auditoría marcó sin-redes. · Lote panguipulli-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "regenbogen-bungalows-panguipulli",
+    "business": "Regenbogen Bungalows",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://www.regenbogengg.com/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "info@regenbogengg.com",
+      "label": "Correo publicado en el pie de todas las páginas. Teléfono del sitio +56 987611785 (el +560632311219 de OSM no aparece en el sitio). Sin WhatsApp."
+    },
+    "offer": "landing",
+    "opportunity": "Reemplazar el formulario de reserva por una consulta armada, con las tarifas por personas y temporada que ya publican.",
+    "findings": [
+      "El sitio no tiene enlace a WhatsApp: para reservar hay que llenar los campos de la página Reservación (nombre, correo, teléfono, fechas, tipo de bungalow, personas) o llamar al +56 987611785, con horario de atención de 09:00 a 20:00.",
+      "El sitio publica dos horarios de check in distintos: \"16:00 hrs. a 22:00 hrs.\" en la página Tarifas y \"16:00 hrs. a 21:00 hrs.\" en la página Reservación."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.regenbogengg.com/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3303994669"
+      }
+    ],
+    "subject": "Regenbogen: reservar exige llenar siete campos o llamar en horario",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Estuve revisando regenbogengg.com y hay algo concreto: para reservar, el pasajero debe llenar el formulario de la página Reservación o llamar al +56 987611785, y no hay ningún enlace a WhatsApp. Desde el celular, que es donde la mayoría cotiza, llenar nombre, correo, fechas, tipo de bungalow y personas en un formulario es justo el paso donde muchos se van; y quien llama fuera del horario de 09:00 a 20:00 no encuentra a nadie. Además noté que la página Tarifas dice check in de 16:00 a 22:00 y la de Reservación de 16:00 a 21:00.\n\nPreparé una muestra con sus dos bungalows (2 a 4 y 4 a 6 personas), las tarifas de temporada alta y baja por número de personas tal como las publican, el abono del 50% y las condiciones de cancelación, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, con su dominio actual o uno nuevo.\n\n¿Tienen un WhatsApp de reservas? Si me lo indican, les muestro la página en 10 minutos.\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.regenbogengg.com/",
+      "finalUrl": "https://www.regenbogengg.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 3,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Regenbogen Bungalows Cabañas en Panguipulli",
+        "platform": null,
+        "emails": [
+          "info@regenbogengg.com"
+        ],
+        "phones": [
+          "+56987611785"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 93566,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/regenbogen-bungalows/ · Faltó del sitio: WhatsApp, promociones, año de las tarifas (temporadas sin año: se usaron para el calendario que viene). Tarifas por persona modeladas con tarifa base al mínimo de personas y el resto en el detalle. Dos horarios de check in distintos en el sitio. · Lote panguipulli-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
   }
 ]

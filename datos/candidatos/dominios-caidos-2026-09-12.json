@@ -1,0 +1,513 @@
+[
+  {
+    "id": "hotel-terrapuerto-valdivia",
+    "business": "Hotel Terrapuerto",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hotelterrapuerto.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 63 227 6350",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Hotel Terrapuerto llegué a hotelterrapuerto.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nEn SERNATUR el registro figura como \"Hotel Terra Valdivia\": si cambiaron de nombre, la página nueva puede llevar el nombre actual y dejar el antiguo para que los sigan encontrando.\n\nPuedo dejar una página de reserva directa —sus habitaciones con desayuno y estacionamiento incluidos, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Carlos Anwandter 1001",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5302717853,
+      "categoria": "hotel",
+      "lat": -39.8159726,
+      "lon": -73.2355717
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.hotelterrapuerto.cl/",
+      "finalUrl": "http://www.hotelterrapuerto.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio hotelterrapuerto.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Hotel Terrapuerto ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 63 227 6350",
+      "label": "Teléfono publicado en OSM y directorios. El correo contacto@hotelterrapuerto.cl está en el dominio caído: puede no recibir."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio original hotelterrapuerto.cl caído. Reconfirmar con Resolve-DnsName el día del contacto.",
+    "loteOrigen": "valdivia",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "cabanas-puerto-pelicano-valdivia",
+    "business": "Cabañas Puerto Pelicano",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.puertopelicano.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 63 204481",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas Puerto Pelicano llegué a puertopelicano.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nHoy la información completa de las cabañas sólo está en Tripadvisor y directorios de terceros.\n\nPuedo dejar una página de reserva directa —sus diez cabañas para 4 y 5 personas, con piscina y quincho, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1619421525,
+      "categoria": "chalet",
+      "lat": -39.8464788,
+      "lon": -73.3092571
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.puertopelicano.cl/",
+      "finalUrl": "https://www.puertopelicano.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio puertopelicano.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Cabañas Puerto Pelicano ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 63 204481",
+      "label": "Teléfono publicado en OSM y Páginas Amarillas"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio original puertopelicano.cl caído. Reconfirmar con Resolve-DnsName el día del contacto.",
+    "loteOrigen": "valdivia",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "camping-y-cabanas-agua-del-obispo-valdivia",
+    "business": "Camping y Cabañas Agua del Obispo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://campingaguadelobispo.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 9 88196804",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Camping y Cabañas Agua del Obispo llegué a campingaguadelobispo.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPuedo dejar una página de reserva directa —sus sitios de camping y cabañas, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 963751793,
+      "categoria": "camp_site",
+      "lat": -39.8623819,
+      "lon": -73.3546358
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://campingaguadelobispo.cl/",
+      "finalUrl": "http://campingaguadelobispo.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio campingaguadelobispo.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Camping y Cabañas Agua del Obispo ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 8819 6804",
+      "label": "Celular publicado en OSM (confirmar si es WhatsApp)"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio original campingaguadelobispo.cl caído. Reconfirmar con Resolve-DnsName el día del contacto.",
+    "loteOrigen": "valdivia",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "cabanas-choshuenco-choshuenco",
+    "business": "Cabañas Choshuenco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56632328070",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas Choshuenco llegué a cabañaschoshuenco.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nChoshuenco es puerta de entrada a Huilo Huilo y al lago Panguipulli: la búsqueda \"cabañas Choshuenco\" tiene demanda propia en verano.\n\nPuedo dejar una página de reserva directa —sus cabañas en Choshuenco, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Padre Bernabé de Lucerna 128",
+    "comuna": "Choshuenco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2788763081,
+      "categoria": "chalet",
+      "lat": -39.8355147,
+      "lon": -72.0752027
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+      "finalUrl": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio cabañaschoshuenco.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Cabañas Choshuenco ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 63 232 8070",
+      "label": "Teléfono publicado en OSM"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio original cabañaschoshuenco.cl caído. Reconfirmar con Resolve-DnsName el día del contacto.",
+    "loteOrigen": "panguipulli",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "cabanas-rio-fuy-choshuenco",
+    "business": "Cabañas Rio Fuy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.riofuy.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56956729390",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas Rio Fuy llegué a riofuy.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPuedo dejar una página de reserva directa —sus cabañas con acceso directo al río Fuy, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Los Canelos 164",
+    "comuna": "Choshuenco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2788772587,
+      "categoria": "chalet",
+      "lat": -39.834843,
+      "lon": -72.0751332
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.riofuy.cl/",
+      "finalUrl": "https://www.riofuy.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio riofuy.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Cabañas Rio Fuy ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 5672 9390",
+      "label": "Celular publicado en OSM (confirmar si es WhatsApp)"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio original riofuy.cl caído. Reconfirmar con Resolve-DnsName el día del contacto.",
+    "loteOrigen": "panguipulli",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "cabanas-la-negra-ester-panguipulli",
+    "business": "Cabañas La Negra Ester",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.cabanaslanegraester.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "632311021",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas La Negra Ester llegué a cabanaslanegraester.com, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nSu registro en SERNATUR y las fichas de terceros siguen activos, así que la demanda existe; lo que falta es dónde aterrizarla.\n\nPuedo dejar una página de reserva directa —sus cabañas para hasta 18 personas a dos cuadras de la plaza de Panguipulli, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Ramón Freire 0305",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4842044321,
+      "categoria": "chalet",
+      "lat": -39.6404688,
+      "lon": -72.3270593
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.cabanaslanegraester.com/",
+      "finalUrl": "http://www.cabanaslanegraester.com/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio cabanaslanegraester.com, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Cabañas La Negra Ester ya no existe",
+    "contact": {
+      "type": "email",
+      "value": "cabanaslanegraester@gmail.com",
+      "label": "Correo publicado en el registro SERNATUR; el info@ del dominio caído probablemente no recibe. Teléfono +56 63 231 1021."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio original cabanaslanegraester.com caído. Reconfirmar con Resolve-DnsName el día del contacto.",
+    "loteOrigen": "panguipulli",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "cabanas-los-castanos-la-union",
+    "business": "Cabañas Los Castaños",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 64 2 525040 / 9 77943692",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Cabañas Los Castaños llegué a aparthotelloscastaños.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar para el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPuedo dejar una página de reserva directa —sus cabañas y apart hotel en La Unión, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Lautaro",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 437088708,
+      "categoria": "chalet",
+      "lat": -40.2872905,
+      "lon": -73.078014
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+      "finalUrl": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio aparthotelloscastaños.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Cabañas Los Castaños ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 64 2 525040",
+      "label": "Teléfono publicado en OSM; celular 9 7794 3692"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio original aparthotelloscastaños.cl caído. Reconfirmar con Resolve-DnsName el día del contacto.",
+    "loteOrigen": "la-union",
+    "promovidoEl": "2026-09-12"
+  }
+]

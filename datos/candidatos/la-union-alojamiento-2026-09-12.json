@@ -1,0 +1,1314 @@
+[
+  {
+    "id": "cabanas-los-castanos-la-union",
+    "business": "Cabañas Los Castaños",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 64 2 525040 / 9 77943692",
+    "email": null,
+    "direccion": "Lautaro",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 437088708,
+      "categoria": "chalet",
+      "lat": -40.2872905,
+      "lon": -73.078014
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+      "finalUrl": "http://www.xn--aparthotelloscastaos-l7b.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-bosque-la-union",
+    "business": "Cabañas El Bosque",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+5699444466",
+    "email": null,
+    "direccion": "Caletera Ruta 5",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3709504376,
+      "categoria": "motel",
+      "lat": -40.2606653,
+      "lon": -72.9547021
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-los-volcanes-la-union",
+    "business": "Cabaña Los Volcanes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56642320655",
+    "email": null,
+    "direccion": "Ruta 208",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4364952391,
+      "categoria": "chalet",
+      "lat": -40.2746433,
+      "lon": -73.070208
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-pesca-y-caza-la-union",
+    "business": "Cabañas Pesca y Caza",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 09 95098950 / 829937062",
+    "email": null,
+    "direccion": "Ricardo Boettcher",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4409729847,
+      "categoria": "chalet",
+      "lat": -40.2999105,
+      "lon": -73.077447
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-21-de-mayo-la-union",
+    "business": "Residencial 21 de Mayo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 64 2 322065",
+    "email": null,
+    "direccion": "21 de Mayo 356",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 433348265,
+      "categoria": "hostel",
+      "lat": -40.2923164,
+      "lon": -73.081041
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-y-cabanas-barros-arana-la-union",
+    "business": "Residencial y Cabañas Barros Arana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 64 2 325510",
+    "email": null,
+    "direccion": "Serrano 1078",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 437087577,
+      "categoria": "hotel",
+      "lat": -40.2910003,
+      "lon": -73.0782899
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-la-union",
+    "business": "Hospedaje",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 09 57565356",
+    "email": null,
+    "direccion": "Riquelme 971",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 443630316,
+      "categoria": "guest_house",
+      "lat": -40.2916133,
+      "lon": -73.0764679
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "carinos-del-sur-la-union",
+    "business": "Cariños del Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+5664 2 320538",
+    "email": null,
+    "direccion": "Serrano 989",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 443641803,
+      "categoria": "guest_house",
+      "lat": -40.2920888,
+      "lon": -73.0783556
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-ensueno-la-union",
+    "business": "Residencial Ensueño",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+5664 2 525040",
+    "email": null,
+    "direccion": "Esmeralda 1402",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 443652427,
+      "categoria": "guest_house",
+      "lat": -40.2870674,
+      "lon": -73.0778095
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-santa-marta-la-union",
+    "business": "Cabañas Santa Marta",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+5698665908",
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 447256213,
+      "categoria": "chalet",
+      "lat": -40.2263152,
+      "lon": -72.5623184
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "lodge-fundo-ranco-lago-ranco",
+    "business": "Lodge Fundo Ranco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.fundoranco.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "Puerto Nuevo - Coique 3.4 km",
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4398094048,
+      "categoria": "hotel",
+      "lat": -40.2257071,
+      "lon": -72.5608767
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.fundoranco.cl/",
+      "finalUrl": "https://fundoranco.cl/maintenance/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 7,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Maintenance &#8211; Fundo Ranco",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/fundoranco",
+          "facebook": "https://www.facebook.com/fundo.ranco"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 46365,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 10,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-finca-daniel-la-union",
+    "business": "Hotel Finca Daniel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1257830051,
+      "categoria": "hotel",
+      "lat": 10.1337264,
+      "lon": -84.7232951
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-club-aleman-la-union",
+    "business": "Hotel Club Alemán",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Cayetano Letelier 497",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2159320857,
+      "categoria": "hotel",
+      "lat": -40.2962148,
+      "lon": -73.0809547
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-los-castanos-la-union",
+    "business": "Hostal Los Castaños",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "21 de Mayo 536",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2432556968,
+      "categoria": "hotel",
+      "lat": -40.2929632,
+      "lon": -73.078349
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "pension-la-union",
+    "business": "Pensión",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Arturo Prat",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4320533332,
+      "categoria": "hostel",
+      "lat": -40.2941451,
+      "lon": -73.0825923
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "pueblo-silencio-chico-la-union",
+    "business": "Pueblo Silencio Chico",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4360570789,
+      "categoria": "hostel",
+      "lat": 0.170648,
+      "lon": -79.3378671
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-puerto-nuevo-la-union",
+    "business": "Hotel Puerto Nuevo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4567930254,
+      "categoria": "hotel",
+      "lat": -40.2571091,
+      "lon": -72.5741754
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-srta-marta-la-union",
+    "business": "Cabaña SRTA. Marta",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4567930255,
+      "categoria": "chalet",
+      "lat": -40.2272058,
+      "lon": -72.5626753
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-alameda-la-union",
+    "business": "Hospedaje Alameda",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5135583924,
+      "categoria": "guest_house",
+      "lat": -9.8295687,
+      "lon": -76.8017638
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-shamuy-la-union",
+    "business": "Hostal Shamuy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5135583930,
+      "categoria": "guest_house",
+      "lat": -9.8317283,
+      "lon": -76.8024537
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "gran-hotel-abilia-alvarado-la-union",
+    "business": "Gran Hotel Abilia Alvarado",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5136006624,
+      "categoria": "guest_house",
+      "lat": -9.8307513,
+      "lon": -76.8022035
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-imperial-la-union",
+    "business": "Hostal Imperial",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5136006630,
+      "categoria": "guest_house",
+      "lat": -9.8329394,
+      "lon": -76.8028486
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-paraiso-la-union",
+    "business": "Hospedaje Paraíso",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5136006632,
+      "categoria": "guest_house",
+      "lat": -9.8326551,
+      "lon": -76.8022139
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-la-joya-la-union",
+    "business": "Hostal La Joya",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5136010322,
+      "categoria": "motel",
+      "lat": -9.8314768,
+      "lon": -76.8024882
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-el-viajero-la-union",
+    "business": "Hostal El Viajero",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5136010333,
+      "categoria": "motel",
+      "lat": -9.8319697,
+      "lon": -76.8025505
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-la-plaza-la-union",
+    "business": "Hostal La Plaza",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5136013923,
+      "categoria": "guest_house",
+      "lat": -9.8287639,
+      "lon": -76.801588
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-picaflor-la-union",
+    "business": "Hostal Picaflor",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5136014231,
+      "categoria": "guest_house",
+      "lat": -9.8312824,
+      "lon": -76.8015052
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-inka-house-cochera-la-union",
+    "business": "Hostal Inka House - cochera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5136022421,
+      "categoria": "guest_house",
+      "lat": -9.8323571,
+      "lon": -76.8018359
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-con-cochera-la-union",
+    "business": "Hostal con cochera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5137608122,
+      "categoria": "guest_house",
+      "lat": -9.8344449,
+      "lon": -76.8028536
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "reserva-costera-valdiviana-camp-sites-la-union",
+    "business": "Reserva Costera Valdiviana Camp Sites",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5491797760,
+      "categoria": "camp_site",
+      "lat": -40.0842853,
+      "lon": -73.6453871
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-huanuco-viejo-la-union",
+    "business": "Hospedaje Huánuco Viejo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5515366021,
+      "categoria": "hostel",
+      "lat": -9.8303899,
+      "lon": -76.8021579
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-yurac-wasi-la-union",
+    "business": "Hostal Yurac Wasi",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5952388785,
+      "categoria": "motel",
+      "lat": -9.8332917,
+      "lon": -76.8021674
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "don-miguel-la-union",
+    "business": "Don Miguel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6589991790,
+      "categoria": "guest_house",
+      "lat": 0.1343511,
+      "lon": -79.4030915
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "motel-pucara-la-union",
+    "business": "Motel Pucara",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 236494375,
+      "categoria": "motel",
+      "lat": -40.3184201,
+      "lon": -73.0087994
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-lahuan-la-union-la-union",
+    "business": "Hostal Lahuan La unión",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Arturo Prat",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 432654755,
+      "categoria": "hostel",
+      "lat": -40.2996112,
+      "lon": -73.0847242
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-delicatessen-la-union",
+    "business": "Hospedaje Delicatessen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Riquelme 766",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 438887834,
+      "categoria": "guest_house",
+      "lat": -40.294836,
+      "lon": -73.0782379
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "fundo-ranco-la-union",
+    "business": "Fundo Ranco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 442213190,
+      "categoria": "hotel",
+      "lat": -40.2210629,
+      "lon": -72.5523585
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-de-madera-la-union",
+    "business": "Cabañas de Madera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://cabanasdemadera.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+569 98482339",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Entré hoy a cabanasdemadera.cl y el botón \"Reserva en línea aquí\" lleva a reserva.gofeels.com, que responde \"404 page not found\". Quien quiere reservar termina en una página de error, y el único camino que queda es el formulario, que no pide fechas ni cuántos pasajeros son, así que cada consulta les llega incompleta. Tampoco hay un enlace a WhatsApp, que es por donde la mayoría consulta desde el celular.\n\nPreparé una muestra con sus cabañas de 1 y 2 dormitorios, con el equipamiento y la dirección que ya publican, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o correo, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes las indiquen; no inventé ningún valor.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. Si prefieren sólo reparar el enlace de reserva, lo dejo corregido en 2 días por $120.000.\n\n¿Les sirve que les mande el enlace de la muestra para que la vean desde el celular?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4333123994,
+      "categoria": "chalet",
+      "lat": -40.3102818,
+      "lon": -73.0238584
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://cabanasdemadera.cl/",
+      "finalUrl": "https://cabanasdemadera.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 3,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cabañas de Madera, | La Unión",
+        "platform": "WordPress",
+        "emails": [
+          "info@cabanasdemadera.cl"
+        ],
+        "phones": [
+          "+56998482339"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabanasdemadera",
+          "facebook": "https://facebook.com/1402825366629114"
+        },
+        "socialEmbed": "enlaza-publicaciones",
+        "bytes": 282348,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 8,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El botón \"Reserva en línea aquí\" de cabanasdemadera.cl apunta a reserva.gofeels.com y ese enlace responde \"404 page not found\" (verificado el 2026-09-12): el pasajero que quiere reservar llega a una página de error.",
+      "El sitio no tiene enlace a WhatsApp: publica sólo teléfono, correo y un cuadro de mensaje que no pide fechas ni número de pasajeros.",
+      "No publica tarifas ni capacidad por cabaña, así que cada consulta llega incompleta y hay que responderla de cero."
+    ],
+    "subject": "El botón \"Reserva en línea\" de cabanasdemadera.cl lleva a un error 404",
+    "contact": {
+      "type": "email",
+      "value": "info@cabanasdemadera.cl",
+      "label": "Correo publicado en el sitio (sin WhatsApp; teléfono +56 9 9848 2339)"
+    },
+    "offer": "landing",
+    "opportunity": "Su única vía de reserva en línea está rota (404) y no hay WhatsApp: una página de solicitud con fechas y pasajeros reemplaza el enlace caído sin depender de terceros.",
+    "notes": "Demo: clientes/cabanas-de-madera/ · el sitio no publica tarifas, capacidad por cabaña, número de cabañas, check in/out ni abono; capacidades de la muestra referenciales (2 y 4). Enlace gofeels 404 verificado 2026-09-12; webpay responde 200.",
+    "promovidoEl": "2026-09-12"
+  }
+]

@@ -14,6 +14,10 @@ Este repositorio contiene sólo los activos necesarios para vender y entregar el
 - `docs/PROSPECCION_AUTOMATIZADA.md`: pipeline de descubrimiento y redacción con agentes.
 - `scripts/descubrir.mjs` → `prospectar-lote.mjs` → `promover.mjs`: descubre negocios en OpenStreetMap, los audita y sólo promueve a la cola lo que pasa las reglas de honestidad.
 - `hermes/skills/gramagrowth-prospector/`: skill de Hermes que redacta hallazgos y correos para un lote.
+- `scripts/nueva-demo.mjs <plantilla> <cliente>`: crea la carpeta de demo de un cliente desde una plantilla.
+- `scripts/priorizar.mjs`: ordena la cola por probabilidad de cierre y escribe `docs/PRIORIDAD.md`.
+- `scripts/capturar-demos.ps1`: capturas móviles de cada demo para la portada de `/presentacion/`.
+- `scripts/publicar-demos.ps1 [-Push]`: copia `clientes/` a la rama `gh-pages` (sin `-Push` sólo deja el commit local).
 
 No es un CRM ni un SaaS. El kit y la cola guardan borradores y estados únicamente en el navegador local. Ninguna herramienta envía mensajes.
 

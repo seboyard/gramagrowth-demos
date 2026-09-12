@@ -179,6 +179,19 @@ function detectSignals(html, finalUrl) {
       'El navegador puede mostrar una advertencia de "no seguro" antes de que lean nada.');
   }
   const title = (html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || '').trim();
+
+  // --- Página estacionada ---
+  // El hosting o el registrador responden con una página de relleno cuando el
+  // sitio real ya no está: título igual al dominio, casi sin texto, o avisos
+  // de "dominio estacionado". hotelencantodelrio.cl devolvía esto con 200.
+  const hostname = (() => { try { return new URL(finalUrl).hostname.replace(/^www\./, ''); } catch { return ''; } })();
+  const parked = /domain (is )?parked|dominio estacionado|this domain (is|has been)|buy this domain|coming soon|sitio en construcci[oó]n|you@company\.com|it is gone/i.test(html);
+  if (parked || (hostname && title.toLowerCase() === hostname && text.length < 600)) {
+    add('pagina-estacionada', 'alta', 'El dominio muestra una página de relleno, no el sitio del negocio',
+      'El sitio real ya no está publicado: quien llega ve una página del hosting o del registrador.',
+      snippet(text, 0, 80));
+  }
+
   if (!title || title.length < 12 || /^(home|inicio|sitio web|untitled|my site)$/i.test(title)) {
     add('titulo-debil', 'media', title ? `Título genérico: "${title}"` : 'La página no tiene título',
       'Es lo que aparece en Google y en la pestaña del navegador.');

@@ -103,24 +103,52 @@ Si prefieres no recibir más correos míos, responde "no" y no vuelvo a escribir
 
 ---
 
-# Lote del 2026-09-12 — cuatro prospectos con demo lista
+# Lote del 2026-09-12 — dieciséis prospectos nuevos, doce con demo
 
-Los correos completos están en la cola (`/prospectar/`); cada uno tiene su demo
-en `clientes/` para adjuntar el enlace público. Ordenados por probabilidad de
-cierre rápido. **Reconfirmar el hallazgo el mismo día** (los dominios caídos se
-comprueban con `Resolve-DnsName`; el teléfono de plantilla, abriendo el sitio).
+Los correos completos están en la cola (`/prospectar/`), la propuesta imprimible
+en `/presentacion/?id=<id>` y el ranking completo en `docs/PRIORIDAD.md`. Orden
+= probabilidad de cierre rápido. **Reconfirmar el hallazgo el mismo día** (los
+dominios caídos con `Resolve-DnsName`; enlaces rotos, títulos y teléfonos de
+plantilla abriendo el sitio en el celular).
 
-| # | Negocio | Hallazgo que abre | Canal | Demo | Oferta de entrada |
+## Con demo lista
+
+| # | Negocio · comuna | Hallazgo que abre | Canal | Demo | Oferta de entrada |
 |---|---|---|---|---|---|
-| 1 | **Valdilum** | Teléfono de plantilla +569 9876 5432 publicado · pie © 2023 | info@valdilum.cl | `clientes/valdilum/` | Arreglo exprés $120.000 → página vertical |
-| 2 | **TecAlum** | Enlace `tel:` con dos números: no marca en el celular | ventas@tecalumvaldivia.cl · WhatsApp 56 9 9178 1632 | `clientes/tecalum-valdivia/` | Arreglo exprés $120.000 → página vertical |
-| 3 | **Hotel Encanto del Río** | Dominio caído (NXDOMAIN); sólo reserva por Booking | encantodelriovaldivia@gmail.com | `clientes/hotel-encanto-del-rio/` | Página de reserva $320.000 |
-| 4 | **Hostal del Muelle** | Mapa apunta a dominio muerto; sitio vigente sin habitaciones ni tarifas | WhatsApp 56 9 9938 7010 | `clientes/hostal-del-muelle/` | Arreglo exprés o página de reserva |
+| 1 | **Valdilum** · Valdivia | Teléfono de plantilla +569 9876 5432 · pie © 2023 | info@valdilum.cl | `clientes/valdilum/` | Arreglo exprés $120.000 → cotizador |
+| 2 | **TecAlum** · Valdivia | Enlace `tel:` con dos números: no marca en el celular | ventas@tecalumvaldivia.cl · WA 56 9 9178 1632 | `clientes/tecalum-valdivia/` | Arreglo exprés $120.000 → cotizador |
+| 3 | **Hospedaje Futrono** · Futrono | Título "Hostinger Horizons"; botón de reserva sin fechas ni habitación | WA 56 9 8163 0548 | `clientes/hospedaje-futrono/` (6 habitaciones) | Arreglo exprés $120.000 → página $320.000 |
+| 4 | **Hotel Encanto del Río** · Valdivia | Dos dominios, ninguno muestra el sitio (NXDOMAIN y 410) | encantodelriovaldivia@gmail.com | `clientes/hotel-encanto-del-rio/` | Página de reserva $320.000 |
+| 5 | **Hostal del Muelle** · Valdivia | Mapa apunta a dominio muerto; sitio vigente sin habitaciones ni tarifas | WA 56 9 9938 7010 | `clientes/hostal-del-muelle/` | Arreglo exprés o página |
+| 6 | **Cabañas de Madera** · La Unión | "Reserva en línea aquí" → reserva.gofeels.com responde 404 | info@cabanasdemadera.cl | `clientes/cabanas-de-madera/` | Arreglo exprés $120.000 → página |
+| 7 | **Camping Bahía Coique** · Futrono | "Reservar ahora" del camping es un correo en blanco | camping@bahiacoique.cl | `clientes/camping-bahia-coique/` | Página $320.000 |
+| 8 | **Cabañas Puerto Pelícano** · Valdivia/Niebla | Dominio caído; 10 cabañas sólo en Tripadvisor | Tel. +56 63 204481 | `clientes/cabanas-puerto-pelicano/` | Página $320.000 |
+| 9 | **Cabañas Wingkul** · Futrono | "RESERVA AQUÍ" no pide fecha de salida ni cabaña; tarifas +26% sin fechas | WA 56 9 8174 3922 | `clientes/cabanas-wingkul/` **calcula con sus tarifas reales** | Página $320.000 |
+| 10 | **Cabañas Patagoniamawida** · Panguipulli | Tarifas fuera del menú; sólo un enlace al final | WA 56 9 6155 2392 | `clientes/cabanas-patagoniamawida/` **calcula con sus tarifas** | Página $320.000 |
+| 11 | **Regenbogen Bungalows** · Panguipulli | Reservar exige formulario o llamar 09–20; dos horarios de check-in distintos | info@regenbogengg.com | `clientes/regenbogen-bungalows/` **calcula con sus tarifas** | Página $320.000 |
+| 12 | **Outscape Huilo Huilo** · Panguipulli | Reserva en inglés y dólares ("Book now", "From $84.96") | info@outscape.cl | `clientes/outscape-huilo-huilo/` | Página $320.000 |
+
+## Sin demo (se construye si responden) — dominio caído, verificado por DNS
+
+| Negocio · comuna | Canal | Nota |
+|---|---|---|
+| **Hotel Terrapuerto** · Valdivia | Tel. +56 63 227 6350 | En SERNATUR figura como "Hotel Terra Valdivia": preguntar el nombre actual |
+| **Hotel Entre Tilos** · Valdivia | info@hotelentretilos.com (puede no recibir) · +56 63 223 2359 | Sitio responde 404 en blanco |
+| **Cabañas La Negra Ester** · Panguipulli | cabanaslanegraester@gmail.com (SERNATUR) | 18 personas, a dos cuadras de la plaza |
+| **Cabañas Choshuenco** · Panguipulli | Tel. +56 63 232 8070 | Puerta de Huilo Huilo |
+| **Cabañas Río Fuy** · Panguipulli | Cel. +56 9 5672 9390 | — |
+| **Cabañas Los Castaños** · La Unión | Tel. +56 64 2 525040 | — |
+| **Camping Agua del Obispo** · Valdivia | Cel. +56 9 8819 6804 | — |
 
 Los otros cinco instaladores auditados (Ventekom, Domos, AvenZinc, SIIN,
 Solución Ventanas) están en la cola sin demo: se construye sólo si responden.
 
+**Para que los enlaces de las demos funcionen en los correos hay que publicar
+`clientes/` en la rama `gh-pages`** (las demos nuevas todavía no están
+publicadas; ver "Publicación" en el README).
+
 ---
+
 
 # NO enviar por correo — usar otro canal
 

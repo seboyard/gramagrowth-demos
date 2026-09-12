@@ -1,0 +1,219 @@
+[
+  {
+    "id": "la-casona-mariquina",
+    "business": "La Casona",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "997055737",
+    "email": null,
+    "direccion": null,
+    "comuna": "Mariquina",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4545708191,
+      "categoria": "guest_house",
+      "lat": -39.5404304,
+      "lon": -72.9630006
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-la-playa-mariquina",
+    "business": "Hotel La Playa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Mariquina",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3439685607,
+      "categoria": "hotel",
+      "lat": -39.4325222,
+      "lon": -73.2138989
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hosteria-el-vagon-del-sur-mariquina",
+    "business": "Hosteria El Vagon del Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ruta 5 Sur",
+    "comuna": "Mariquina",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4545633389,
+      "categoria": "motel",
+      "lat": -39.5179043,
+      "lon": -72.8257404
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-miramar-mariquina",
+    "business": "Cabañas Miramar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Notros 508",
+    "comuna": "Mariquina",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4745130021,
+      "categoria": "hostel",
+      "lat": -39.4295838,
+      "lon": -73.2131626
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "mi-parasol-natural-mariquina",
+    "business": "mi parasol natural",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Mariquina",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7223861885,
+      "categoria": "camp_site",
+      "lat": -39.4198028,
+      "lon": -73.2101013
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rayen-lafquen-mariquina",
+    "business": "Rayen Lafquen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Mariquina",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 668051496,
+      "categoria": "camp_site",
+      "lat": -39.4378093,
+      "lon": -73.2148712
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rewelafken-mariquina",
+    "business": "Rewelafken",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Mariquina",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 668051497,
+      "categoria": "camp_site",
+      "lat": -39.4300324,
+      "lon": -73.2144733
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  }
+]

@@ -1,0 +1,765 @@
+[
+  {
+    "id": "el-rincon-de-la-nina-cadillal",
+    "business": "El Rincón de la Nina",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://turismorurallosrios.cl/el-rincon-de-la-nina/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 9 8467 2259 / +56 9 9304 2447",
+    "email": null,
+    "direccion": "a Rincón de Nina",
+    "comuna": "Cadillal",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 724205352,
+      "categoria": "guest_house",
+      "lat": -39.9936857,
+      "lon": -73.508875
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://turismorurallosrios.cl/el-rincon-de-la-nina/",
+      "finalUrl": "https://pinup-online.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 9,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza tiktok, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Pin Up Casino Chile | Bono de bienvenida y 250 giros gratis 🎰",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "tiktok": "https://www.tiktok.com/@pinupcasinochile"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 220962,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 14,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-chaihuin-corral",
+    "business": "Cabañas Chaihuin",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56977069956",
+    "email": null,
+    "direccion": null,
+    "comuna": "Corral",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5253979766,
+      "categoria": "motel",
+      "lat": -39.9385041,
+      "lon": -73.5863008
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-elsa-chaihuin",
+    "business": "Cabañas Elsa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56984455831",
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328516333,
+      "categoria": "chalet",
+      "lat": -39.9394982,
+      "lon": -73.5852652
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rio-chaihuin-chaihuin",
+    "business": "Cabañas Rio Chaihuin",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56631972109",
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328522918,
+      "categoria": "chalet",
+      "lat": -39.9516725,
+      "lon": -73.5759247
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "arriendo-de-cabana-corral",
+    "business": "Arriendo de Cabaña",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56984520134",
+    "email": null,
+    "direccion": null,
+    "comuna": "Corral",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328523405,
+      "categoria": "chalet",
+      "lat": -39.9470677,
+      "lon": -73.5742123
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "arriendo-de-cabana-chaihuin",
+    "business": "Arriendo de Cabaña",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56977540274",
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328523441,
+      "categoria": "chalet",
+      "lat": -39.9510446,
+      "lon": -73.5754074
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-riberas-del-mar-chaihuin",
+    "business": "Cabañas Riberas del Mar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56976478437",
+    "email": null,
+    "direccion": "Corral - San Carlos - El Huape - Cruce T-470 (Chaihuín)",
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328523530,
+      "categoria": "chalet",
+      "lat": -39.9395043,
+      "lon": -73.5857308
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-stamp-chaihuin",
+    "business": "Cabañas Stamp",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56966343313",
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328523705,
+      "categoria": "chalet",
+      "lat": -39.9424303,
+      "lon": -73.5804568
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-don-ivan-railaf-chaihuin",
+    "business": "Cabañas don Ivan Railaf",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 6898 6170",
+    "email": null,
+    "direccion": "Ruta T-450",
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 551695449,
+      "categoria": "hostel",
+      "lat": -39.9491144,
+      "lon": -73.5732889
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-mariel-corral",
+    "business": "Hospedaje Mariel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Corral",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1641785433,
+      "categoria": "guest_house",
+      "lat": -39.8883613,
+      "lon": -73.4313181
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-chaihuin-corral",
+    "business": "Hostal Chaihuin",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Corral",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5253979389,
+      "categoria": "motel",
+      "lat": -39.9440261,
+      "lon": -73.5763118
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-don-gullermo-chaihuin",
+    "business": "Camping Don Gullermo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5322797021,
+      "categoria": "camp_site",
+      "lat": -39.9536253,
+      "lon": -73.5752573
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-y-camping-los-coihues-chaihuin",
+    "business": "Cabañas y camping Los Coihues",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5322933722,
+      "categoria": "camp_site",
+      "lat": -39.9485407,
+      "lon": -73.5745141
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-don-lalo-chaihuin",
+    "business": "Camping Don Lalo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328516330,
+      "categoria": "camp_site",
+      "lat": -39.954362,
+      "lon": -73.5759457
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hosteria-dona-mina-chaihuin",
+    "business": "Hostería Doña Mina",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328516331,
+      "categoria": "hostel",
+      "lat": -39.9523742,
+      "lon": -73.5733496
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-peumayen-chaihuin",
+    "business": "Camping Peumayen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328516336,
+      "categoria": "camp_site",
+      "lat": -39.9380181,
+      "lon": -73.5884623
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "zona-de-camping-corral",
+    "business": "Zona de camping",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Corral",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328523407,
+      "categoria": "camp_site",
+      "lat": -39.9440301,
+      "lon": -73.5782673
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "arriendo-de-cabanas-chaihuin",
+    "business": "Arriendo de Cabañas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328523524,
+      "categoria": "chalet",
+      "lat": -39.9486237,
+      "lon": -73.5736923
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-liles-corral",
+    "business": "Camping Los Liles",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Corral",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5328523534,
+      "categoria": "camp_site",
+      "lat": -39.8924917,
+      "lon": -73.4841829
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "tres-chiflones-corral",
+    "business": "Tres Chiflones",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Corral",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7472705486,
+      "categoria": "camp_site",
+      "lat": -40.0570922,
+      "lon": -73.275566
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "vista-hermosa-la-poza-verde",
+    "business": "Vista Hermosa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Corral - San Carlos - El Huape - Cruce T-470 (Chaihuín)",
+    "comuna": "La Poza Verde",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10300979525,
+      "categoria": "alpine_hut",
+      "lat": -39.9283292,
+      "lon": -73.5711263
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-reserva-costera-valdiviana-chaihuin",
+    "business": "Camping Reserva Costera Valdiviana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 551694947,
+      "categoria": "camp_site",
+      "lat": -39.9523047,
+      "lon": -73.5810983
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-pescadores-de-chaihuin-chaihuin",
+    "business": "Camping Pescadores de Chaihuin",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Chaihuín",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 551766035,
+      "categoria": "camp_site",
+      "lat": -39.9437413,
+      "lon": -73.5790858
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  }
+]

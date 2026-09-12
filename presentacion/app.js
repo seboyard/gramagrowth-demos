@@ -67,7 +67,54 @@ const OFERTAS = {
   }
 };
 
+// Página vertical para instaladores (ventanas, termopanel, aislación). Mismo
+// precio y reglas que la de reserva; cambia lo que la persona hace en ella:
+// mide sus vanos en vez de elegir fechas.
+OFERTAS.instalacion = {
+  nombre: 'Cotizador de instalación y visita técnica',
+  precio: 320000,
+  plazo: '5 días hábiles',
+  lead: 'Una página donde la persona carga las medidas de cada ventana, ve los metros cuadrados y le pide la visita técnica con todo escrito. Usted presupuesta después de medir, igual que hoy. Sin intermediarios, hecha para el celular.',
+  coverLead: 'Que quien ya lo encontró pueda pedirle la visita técnica con las medidas puestas, en vez de escribir "quiero cotizar ventanas".',
+  features: [
+    ['Llega medido', 'Cada vano con ancho, alto, cantidad y tipo de apertura.'],
+    ['Sin intermediarios', 'La consulta llega directo a su WhatsApp. Nadie revende el lead.'],
+    ['Hecha para el celular', 'Que es desde donde la gente mide y escribe.'],
+    ['Usted sigue mandando', 'No da precios cerrados: ordena la consulta y usted cierra en terreno.']
+  ],
+  incluye: [
+    'Página con sus trabajos, materiales y preguntas frecuentes',
+    'Cargador de vanos que suma los metros cuadrados',
+    'Rango estimado sólo si usted entrega sus valores por m²',
+    'Botón de WhatsApp con la solicitud de visita ya escrita',
+    'Publicación, una ronda de ajustes y guía para actualizar valores'
+  ],
+  noIncluye: [
+    'Precio cerrado sin visita técnica ni medición remota',
+    'Agenda de visitas en tiempo real ni pagos en línea',
+    'Dominio, fotografía profesional ni redes sociales'
+  ]
+};
+
+// Escalón 0: la venta chica que abre la puerta.
+OFERTAS.express = {
+  nombre: 'Arreglo exprés',
+  precio: 120000,
+  plazo: '2 días hábiles',
+  lead: 'Un defecto concreto de su sitio actual, corregido y verificado, con el camino de contacto funcionando desde el celular. Sin tocar el resto.',
+  coverLead: 'Que el problema que hoy le cuesta consultas quede resuelto esta semana, y después vemos si hace falta algo más.',
+  features: [
+    ['Un problema, resuelto', 'El que se señala en esta propuesta, verificado antes y después.'],
+    ['Contacto que funciona', 'Botón de WhatsApp con el mensaje prellenado, si el sitio no lo tiene.'],
+    ['Sin anticipo', 'Se paga el 100% contra entrega aprobada.'],
+    ['Sin compromiso posterior', 'Si después quiere la página completa, se descuenta lo pagado.']
+  ],
+  incluye: ['Corrección del defecto señalado', 'Botón de WhatsApp con mensaje prellenado', 'Captura de antes y después', 'Verificación en celular y escritorio'],
+  noIncluye: ['Rediseño ni contenido nuevo', 'Más de un problema', 'Plataformas cuya clave no pueda entregar']
+};
+
 const isLodging = (prospect) => /turismo|alojamiento|hospedaje|caba|hotel|hostal/i.test(prospect.segment || '');
+const isInstalacion = (prospect) => /construcci|instalaci|ventana|termopanel|aislaci/i.test(prospect.segment || '');
 const isHostal = (prospect) => /hostal|hostel|hospedaje/i.test(prospect.business || '');
 
 const api = (path) => fetch(`/api${path}`).then((response) => {
@@ -114,7 +161,9 @@ function afterMessage(prospect) {
 
 function render(prospect, config) {
   const params = new URLSearchParams(location.search);
-  const offer = OFERTAS[prospect.offer] || OFERTAS.landing;
+  // La "landing" de un instalador es el cotizador de vanos, no la de reserva.
+  const offerKey = prospect.offer === 'landing' && isInstalacion(prospect) ? 'instalacion' : prospect.offer;
+  const offer = OFERTAS[offerKey] || OFERTAS.landing;
   const fragment = template.content.cloneNode(true);
   const priceToday = Number(inputs.priceToday.value) || offer.precio;
   const hasDiscount = priceToday < offer.precio;
@@ -147,8 +196,21 @@ function render(prospect, config) {
     : 'Revisado sobre fuentes públicas.');
 
   // Antes / después
-  setText(fragment, 'msgBefore', isHostal(prospect) ? 'hola tienen habitacion?' : 'Hola, tienen disponibilidad?');
-  setText(fragment, 'msgAfter', afterMessage(prospect));
+  if (isInstalacion(prospect)) {
+    setText(fragment, 'msgBefore', 'Hola, quiero cotizar ventanas para mi casa');
+    setText(fragment, 'msgAfter', [
+      `Hola ${prospect.business}, quiero pedir una visita técnica para cotizar:`, '',
+      'Trabajo: Termopaneles · Perfil de PVC', 'Tipo de proyecto: Residencial', 'Comuna: Valdivia', '',
+      'Vanos medidos por mí (referenciales):',
+      '1) Living · 150 × 120 cm · corredera · 1,80 m²',
+      '2) Dormitorio · 100 × 100 cm · abatible · 2 unidades · 2,00 m²',
+      'Total: 3,80 m² en 3 piezas', '',
+      '¿Cuándo podrían venir a medir?'
+    ].join('\n'));
+  } else {
+    setText(fragment, 'msgBefore', isHostal(prospect) ? 'hola tienen habitacion?' : 'Hola, tienen disponibilidad?');
+    setText(fragment, 'msgAfter', afterMessage(prospect));
+  }
 
   // Comisión (sólo alojamiento)
   if (isLodging(prospect)) {
@@ -213,8 +275,15 @@ function render(prospect, config) {
   // Extras con el precio de hoy, y paquete por varios locales si viene en el enlace.
   const extraFotos = Number(params.get('fotos')) || 200000;
   const extraRescate = Number(params.get('rescate')) || 120000;
-  setText(fragment, 'upsellFotos', `Opcional — fotos y video del lugar, ${money(extraFotos)}.`);
-  setText(fragment, 'upsellRescate', `Opcional — rescate de temporada, ${money(extraRescate)}.`);
+  if (isLodging(prospect)) {
+    setText(fragment, 'upsellFotos', `Opcional — fotos y video del lugar, ${money(extraFotos)}.`);
+    setText(fragment, 'upsellRescate', `Opcional — rescate de temporada, ${money(extraRescate)}.`);
+  } else {
+    // Fuera de alojamiento, los extras que aplican son otros (OFFERS.md).
+    const lines = fragment.querySelectorAll('.upsell-line');
+    if (lines[0]) lines[0].replaceChildren(Object.assign(document.createElement('strong'), { textContent: 'Opcional — ficha de Google ordenada, $90.000.' }), ' Categorías, horarios, fotos, enlace a la página y al WhatsApp, y cinco respuestas modelo para reseñas. La ficha sigue siendo suya.');
+    if (lines[1]) lines[1].replaceChildren(Object.assign(document.createElement('strong'), { textContent: 'Opcional — respuestas rápidas de WhatsApp, $60.000.' }), ' Diez respuestas guardadas con los datos de la página, para no escribir lo mismo cada vez. Responde usted.');
+  }
 
   const bundlePages = Number(params.get('paquete'));
   const bundleFull = Number(params.get('paqueteFull'));

@@ -8,7 +8,7 @@
     "enlaceExterno": null,
     "sinWeb": false,
     "telefono": "+5663 2232359",
-    "email": "info@hotelentretilos.com",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Buscando Hotel Entre Tilos entré a www.hotelentretilos.com y la página responde con error 404, en blanco: lo comprobé el 12 de septiembre en la portada y en dos rutas más, y en ninguna aparece texto, teléfono ni correo. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y si la búsqueda termina en una página vacía, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nComo el sitio no entrega contenido, todavía no armé la muestra con sus habitaciones. Si me confirman que siguen operando, preparo una página de reserva directa —sus habitaciones, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión— y la puedo dejar publicada en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen recibiendo pasajeros? Si es así, ¿a qué correo o WhatsApp les mando la muestra?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "direccion": "Rosas",
     "comuna": "Valdivia",
     "pais": "cl",
@@ -98,13 +98,27 @@
         "hasWhatsapp": false
       }
     },
-    "estado": "auditado",
+    "estado": "promovido",
     "puntaje": 15,
     "razones": [
       "sin WhatsApp",
       "vertical reserva-cabanas",
       "canal de contacto"
-    ]
+    ],
+    "findings": [
+      "El sitio www.hotelentretilos.com responde con error HTTP 404 y una página en blanco (0 bytes; verificado el 2026-09-12 en la portada, /index.html y /es/): quien busque el hotel hoy no encuentra ninguna información.",
+      "Como la página llega vacía, no publica teléfono ni correo ni enlace a WhatsApp: el contacto depende de directorios de terceros."
+    ],
+    "subject": "La web de Hotel Entre Tilos responde con error 404",
+    "contact": {
+      "type": "email",
+      "value": "info@hotelentretilos.com",
+      "label": "Correo publicado en OpenStreetMap (el dominio resuelve, pero la web responde 404: puede no recibir). Alternativa: teléfono +5663 2232359, también de OSM."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: el sitio responde 404 en blanco y no hay ningún canal publicado; página de reserva directa antes de la temporada.",
+    "notes": "Sin demo: el sitio responde HTTP 404 con cuerpo vacío en todas las rutas probadas (portada, /index.html, /es/, robots.txt; DNS en Cloudflare) y no hay habitaciones, fotos ni texto que leer. Se construye si responde. Reconfirmar el 404 el día del contacto.",
+    "promovidoEl": "2026-09-12"
   },
   {
     "id": "cabanas-puerto-pelicano-valdivia",

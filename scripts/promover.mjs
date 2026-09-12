@@ -41,7 +41,8 @@ const PROHIBIDO = [
 // Palabras clave por señal: si el correo habla de esto, la señal tiene que
 // existir en la auditoría. Es la regla de "no inventar hallazgos", en código.
 const SENALES = {
-  'copyright-antiguo': /©|pie de p[aá]gina|derechos reservados|20[12]\d/i,
+  // Sin años sueltos: una fecha de verificación ("2026-09-12") no es un pie.
+  'copyright-antiguo': /©|\bpie\b|derechos reservados|copyright/i,
   'sin-whatsapp': /whatsapp/i,
   'plantilla-sin-terminar': /plantilla|lorem|ejemplo|de relleno/i,
   'dominio-caido': /dominio|no (carga|abre|existe|resuelve)/i,
@@ -111,7 +112,9 @@ for (const c of candidatos) {
       ].filter(Boolean),
       subject: c.subject, email: c.email, audit: c.audit,
       plataformas: {}, status: 'review', followUp: '',
-      notes: `Lote ${lote}. Plantilla: ${c.plantilla || 'landing genérica'}. Redactado por agente: reconfirmar cada hallazgo el día del contacto.`
+      // Las notas del redactor van primero: ahí viene "Demo: clientes/<slug>/",
+      // que es lo que la cola y la presentación usan para enlazar la muestra.
+      notes: [c.notes, `Lote ${lote}. Plantilla: ${c.plantilla || 'landing genérica'}. Reconfirmar cada hallazgo el día del contacto.`].filter(Boolean).join(' · ')
     });
     c.estado = 'promovido';
     c.promovidoEl = hoy;

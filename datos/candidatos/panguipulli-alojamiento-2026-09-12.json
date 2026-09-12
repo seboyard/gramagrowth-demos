@@ -1,0 +1,2803 @@
+[
+  {
+    "id": "cabanas-choshuenco-choshuenco",
+    "business": "Cabañas Choshuenco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56632328070",
+    "email": null,
+    "direccion": "Padre Bernabé de Lucerna 128",
+    "comuna": "Choshuenco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2788763081,
+      "categoria": "chalet",
+      "lat": -39.8355147,
+      "lon": -72.0752027
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+      "finalUrl": "https://www.xn--cabaaschoshuenco-9tb.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rio-fuy-choshuenco",
+    "business": "Cabañas Rio Fuy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.riofuy.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56956729390",
+    "email": null,
+    "direccion": "Los Canelos 164",
+    "comuna": "Choshuenco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2788772587,
+      "categoria": "chalet",
+      "lat": -39.834843,
+      "lon": -72.0751332
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.riofuy.cl/",
+      "finalUrl": "https://www.riofuy.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-la-negra-ester-panguipulli",
+    "business": "Cabañas La Negra Ester",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.cabanaslanegraester.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "632311021",
+    "email": "info@cabanaslanegraester.com",
+    "direccion": "Ramón Freire 0305",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4842044321,
+      "categoria": "chalet",
+      "lat": -39.6404688,
+      "lon": -72.3270593
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.cabanaslanegraester.com/",
+      "finalUrl": "http://www.cabanaslanegraester.com/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "outscape-huilo-huilo-puerto-fuy",
+    "business": "Outscape Huilo Huilo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.outscape.cl/fuy/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Estuve revisando outscape.cl/fuy y hay algo concreto: la página está en español, pero el botón dice \"Book now\" al lado de \"Reservar\", el pie dice \"DESTINATIONS\", \"ABOUT US\", \"ACTIVITIES\" y \"PATNERSHIP\", y al pulsar Reservar el pasajero cae en un motor en inglés con valores en dólares (\"From $84.96 Per night\"). Para una familia de Valdivia o Temuco que quiere saber cuánto vale un refugio para 5 en pesos y a qué hora puede llegar, eso son dos idiomas y una moneda de más antes de escribir, y el sitio no publica esos datos en ninguna parte.\n\nPreparé una muestra en español con sus 9 refugios en dos tipos (para 2 y para 5 personas, según su propio listado), donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes me digan cuáles publicar.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, sin tocar el motor que ya usan.\n\n¿Tienen un WhatsApp para reservas? Con eso les muestro la página en 10 minutos.\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Puerto Fuy",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12374661325,
+      "categoria": "chalet",
+      "lat": -39.8702181,
+      "lon": -71.8811501
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.outscape.cl/fuy/",
+      "finalUrl": "https://www.outscape.cl/fuy",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 7,
+      "signals": [
+        {
+          "id": "idioma-mezclado",
+          "severity": "media",
+          "label": "Interfaz en inglés dentro de una página en español: \"book now\", \"about us\"",
+          "detail": "Da la impresión de una plantilla sin terminar justo en el momento de escribir.",
+          "evidence": "…reno More Use tab to navigate through the menu items. +56 9 3935 9846 Book now Fuy-Huilo Huilo Reservar SOBRE OUTSCAPE FUY En medio de un entorno id…"
+        },
+        {
+          "id": "correos-en-conflicto",
+          "severity": "alta",
+          "label": "Publica 15 correos de 4 dominios distintos",
+          "detail": "Las consultas se reparten entre bandejas, o una de ellas ya no se revisa.",
+          "evidence": "info@outscape.cl · 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com · 8c4075d5481d476e945486754f783364@sentry.io · 18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com · dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com · c183baa23371454f99f417f6616b724d@sentry.wixpress.com · 1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com · 9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com · 79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com · ed436f5053144538958ad06a5005e99a@sentry.wixpress.com · 460ff4620fa44cba8df530afde949785@sentry.wixpress.com · 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com · 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com · 5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com · 271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cabañas Boutique En Lago Pirihueico | Outscape Fuy | Puerto Fuy",
+        "platform": "Elementor",
+        "emails": [
+          "info@outscape.cl",
+          "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+          "8c4075d5481d476e945486754f783364@sentry.io",
+          "18d2f96d279149989b95faf0a4b41882@sentry-next.wixpress.com",
+          "dd0a55ccb8124b9c9d938e3acf41f8aa@sentry.wixpress.com",
+          "c183baa23371454f99f417f6616b724d@sentry.wixpress.com",
+          "1eeb89147c984dc6bc3ffafd9e6cd089@sentry.wixpress.com",
+          "9a65e97ebe8141fca0c4fd686f70996b@sentry.wixpress.com",
+          "79baaa8e09c746d2b7401643b99792e0@sentry.wixpress.com",
+          "ed436f5053144538958ad06a5005e99a@sentry.wixpress.com",
+          "460ff4620fa44cba8df530afde949785@sentry.wixpress.com",
+          "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com",
+          "8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com",
+          "5d1795a2db124a268f1e1bd88f503500@sentry.wixpress.com",
+          "271e9fa3230b4eec94b02bf95780f5f2@sentry.wixpress.com"
+        ],
+        "phones": [
+          "+56939359846"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/outscape.cl",
+          "facebook": "https://facebook.com/Outscapecl-108709984630435"
+        },
+        "socialEmbed": "feed-embebido",
+        "bytes": 1558691,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 12,
+    "razones": [
+      "sin WhatsApp",
+      "correos en conflicto (verificar placeholders)",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "La página del destino Fuy mezcla inglés y español: el botón \"Book now\" junto a \"Reservar\" y el menú inferior con \"DESTINATIONS\", \"ABOUT US\", \"ACTIVITIES\" y \"PATNERSHIP\" (con error de tipeo) sobre un texto en español.",
+      "El botón Reservar lleva a un motor de reservas en inglés con valores en dólares (\"From $84.96 Per night\"); el sitio no publica tarifas en pesos ni horarios de check in y check out.",
+      "No hay enlace a WhatsApp: los canales publicados son el teléfono +56 9 3935 9846 y el correo info@outscape.cl."
+    ],
+    "subject": "Outscape Fuy: el pasajero chileno reserva en inglés y en dólares",
+    "contact": {
+      "type": "email",
+      "value": "info@outscape.cl",
+      "label": "Correo publicado en la página Fuy y en el motor de reservas. Teléfono del sitio +56 9 3935 9846. Sin WhatsApp. Los otros 14 correos de la auditoría son placeholders de Sentry/Wix, no se usan."
+    },
+    "offer": "landing",
+    "opportunity": "Una página de consulta en español y en pesos para el destino Fuy, sin depender del motor en inglés.",
+    "notes": "Demo: clientes/outscape-huilo-huilo/ · Faltó del sitio: tarifas en pesos, check in/out, abono, WhatsApp. Unidades tomadas del listado del motor de reservas enlazado desde el sitio (9 refugios: 2 y 5 personas). La señal correos-en-conflicto NO se usó: los 14 correos extra son placeholders de sentry.wixpress.com.",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "hostal-casa-gavilea-panguipulli",
+    "business": "Hostal Casa Gavilea",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "056978891132",
+    "email": "cezeta02@gmail.com",
+    "direccion": "Guido Beck de Ramberga 295",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4768142723,
+      "categoria": "hostel",
+      "lat": -39.5660964,
+      "lon": -72.0083138
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-marifilo-rain-panguipulli",
+    "business": "Cabañas Marifilo - Rain",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "989751463",
+    "email": null,
+    "direccion": "Al Lago 5500",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5633972628,
+      "categoria": "hostel",
+      "lat": -39.5129625,
+      "lon": -72.0866121
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "the-lowry-thoreau-society-club-panguipulli",
+    "business": "The Lowry-Thoreau Society Club",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56932205983",
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6053476790,
+      "categoria": "camp_site",
+      "lat": -39.5325011,
+      "lon": -71.9428796
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostel-espana-panguipulli",
+    "business": "Hostel España",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "9-83194084",
+    "email": "hostal.ruka.cumelen@gmail.com",
+    "direccion": "Bernardo O'Higgins 790",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6291778339,
+      "categoria": "hostel",
+      "lat": -39.6419204,
+      "lon": -72.3322311
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "las-rosas-panguipulli",
+    "business": "Las Rosas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "9-74959683",
+    "email": null,
+    "direccion": "Etchegaray 624",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6291826656,
+      "categoria": "hostel",
+      "lat": -39.6410474,
+      "lon": -72.3299763
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostel-umantu-panguipulli",
+    "business": "Hostel Umantu",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "63-2696105",
+    "email": "Umantuhostel@gmail.com",
+    "direccion": "Rodríguez 124",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6291837560,
+      "categoria": "hostel",
+      "lat": -39.6429801,
+      "lon": -72.33028
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "alojamiento-turistico-panguipulli",
+    "business": "Alojamiento Turístico",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://airbnb.com/h/alojamiento-turistico-centro-conaripe",
+    "sinWeb": true,
+    "telefono": "+56962421983",
+    "email": "reservas.conaripe@gmail.com",
+    "direccion": "Las Tepas 403",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10798477805,
+      "categoria": "guest_house",
+      "lat": -39.5674166,
+      "lon": -72.0059308
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "tini-house-pullinque-panguipulli",
+    "business": "Tini House Pullinque",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56951501261",
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11277651869,
+      "categoria": "hostel",
+      "lat": -39.5722037,
+      "lon": -72.1394459
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-patagonia-panguipulli",
+    "business": "Camping Patagonia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 6292 3349",
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11638827509,
+      "categoria": "camp_site",
+      "lat": -39.8253719,
+      "lon": -72.0483774
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-el-rancho-de-palito-panguipulli",
+    "business": "Camping El Rancho de Palito",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 8768 5718",
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13321866698,
+      "categoria": "camp_site",
+      "lat": -39.5014381,
+      "lon": -71.8479385
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-chanlelfu-panguipulli",
+    "business": "Camping Chanlelfu",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 9948 5455",
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13414505785,
+      "categoria": "camp_site",
+      "lat": -39.8305626,
+      "lon": -72.0204391
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-el-oasis-panguipulli",
+    "business": "Camping El Oasis",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 8130 7415",
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13416709778,
+      "categoria": "camp_site",
+      "lat": -39.6974802,
+      "lon": -71.895121
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "agrocamping-amuyun-lafken-panguipulli",
+    "business": "Agrocamping Amuyun Lafken",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 8709 5320",
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13424598853,
+      "categoria": "camp_site",
+      "lat": -39.8141861,
+      "lon": -71.9864349
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "ecocamping-nisoleufu-panguipulli",
+    "business": "EcoCamping Ñisoleufú",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 361525766,
+      "categoria": "camp_site",
+      "lat": -39.5827197,
+      "lon": -72.0263942
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-villa-los-encinos-panguipulli",
+    "business": "Cabañas Villa Los Encinos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 966044578,
+      "categoria": "hotel",
+      "lat": -39.6385375,
+      "lon": -72.32505
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-mirador-panguipulli",
+    "business": "Cabañas Mirador",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 966044579,
+      "categoria": "hotel",
+      "lat": -39.6392315,
+      "lon": -72.3252646
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "canopy-village-panguipulli",
+    "business": "Canopy Village",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1164598521,
+      "categoria": "chalet",
+      "lat": -39.8626055,
+      "lon": -71.9111502
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-huilo-huilo-panguipulli",
+    "business": "Cabañas Huilo Huilo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1164599068,
+      "categoria": "chalet",
+      "lat": -39.8709802,
+      "lon": -71.9171476
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-robles-panguipulli",
+    "business": "Cabañas Los Robles",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1811824271,
+      "categoria": "motel",
+      "lat": -39.6301716,
+      "lon": -72.3209956
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-conaripe-panguipulli",
+    "business": "Camping Coñaripe",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2182023817,
+      "categoria": "camp_site",
+      "lat": -39.569916,
+      "lon": -72.0060307
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-conaripe-panguipulli",
+    "business": "Hotel Coñaripe",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2182023830,
+      "categoria": "hotel",
+      "lat": -39.5676499,
+      "lon": -72.0067817
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "laguna-azul-panguipulli",
+    "business": "Laguna Azul",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2184652843,
+      "categoria": "camp_site",
+      "lat": -39.5439022,
+      "lon": -71.748461
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-liquine-panguipulli",
+    "business": "Cabañas Liquiñe",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2193113762,
+      "categoria": "chalet",
+      "lat": -39.738613,
+      "lon": -71.8536796
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "volcan-quetrupillan-panguipulli",
+    "business": "Volcán Quetrupillán",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2288124689,
+      "categoria": "camp_site",
+      "lat": -39.5119192,
+      "lon": -71.7524438
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-hualles-panguipulli",
+    "business": "Cabañas Los Hualles",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2320116526,
+      "categoria": "hotel",
+      "lat": -39.5597901,
+      "lon": -72.0107893
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-tio-carlos-panguipulli",
+    "business": "Cabañas Tío Carlos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2339323314,
+      "categoria": "chalet",
+      "lat": -39.6411038,
+      "lon": -72.3269631
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "termas-de-conaripe-panguipulli",
+    "business": "Termas de Coñaripe",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2406876315,
+      "categoria": "hotel",
+      "lat": -39.6354439,
+      "lon": -71.9226681
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ecotermas-pellaifa-panguipulli",
+    "business": "EcoTermas Pellaifa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2406877977,
+      "categoria": "motel",
+      "lat": -39.632081,
+      "lon": -71.9273137
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-panguipulli",
+    "business": "camping",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2619846714,
+      "categoria": "camp_site",
+      "lat": -39.5962263,
+      "lon": -72.3492034
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-los-rios-panguipulli",
+    "business": "Hospedaje Los Ríos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2634585551,
+      "categoria": "hotel",
+      "lat": -39.6422661,
+      "lon": -72.3356699
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ruka-rayun-panguipulli",
+    "business": "Ruka Rayün",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2634590255,
+      "categoria": "motel",
+      "lat": -39.5837477,
+      "lon": -72.026043
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "pension-gortari-panguipulli",
+    "business": "Pensión \"Gortari\"",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Castanos",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2886868603,
+      "categoria": "guest_house",
+      "lat": -39.8493749,
+      "lon": -71.9439674
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-de-colinche-neltume",
+    "business": "Cabaña de Colinche",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "los mañios 16",
+    "comuna": "Neltume",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2915320691,
+      "categoria": "chalet",
+      "lat": -39.8471132,
+      "lon": -71.9348717
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-gratis-panguipulli",
+    "business": "Camping Gratis",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3353300186,
+      "categoria": "camp_site",
+      "lat": -39.8701184,
+      "lon": -71.8860513
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-patagoniamawida-neltume",
+    "business": "Cabañas Patagoniamawida",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://patagoniamawida.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56962123347",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Estuve revisando patagoniamawida.cl y me pasó algo concreto: el menú tiene Inicio, Cabañas, Ubicación y Reserva aquí, pero la página de tarifas —donde están los valores hasta el 31 de diciembre, los de temporada alta y la descripción de cada cabaña con sus camas— sólo se alcanza por un enlace al final de Cabañas. Quien entra desde el celular a cotizar ve el equipamiento y el botón de reserva, pero no cuánto vale ni qué cabaña le sirve, y muchos cierran antes de encontrarlo.\n\nPreparé una muestra con sus cuatro cabañas (2, 4, 5 y 8 personas), las tarifas marzo–diciembre y enero–febrero tal como las publican, el abono del 30%, la tinaja opcional y los horarios, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. Nada reemplaza a Cloudbeds ni a sus canales actuales; es una página que responde antes de que pregunten.\n\n¿Les muestro la muestra en 10 minutos por teléfono o WhatsApp?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Ruta 203 CH",
+    "comuna": "Neltume",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3697606702,
+      "categoria": "hotel",
+      "lat": -39.8580116,
+      "lon": -71.9178393
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://patagoniamawida.cl/",
+      "finalUrl": "https://patagoniamawida.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "CABAÑAS PATAGONIAMAWIDA &#8211; Alojamiento en medio de los bosques de Huilo Huilo",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@patagoniamawida.cl"
+        ],
+        "phones": [
+          "+56961552392"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 148995,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 9,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El menú principal del sitio (Inicio, Cabañas, Ubicación, Reserva aquí) no incluye la página de tarifas: los valores por cabaña sólo aparecen siguiendo un enlace \"TARIFAS\" al final de la página Cabañas.",
+      "La página Cabañas describe el equipamiento común pero no las cuatro cabañas (2, 4, 5 y 8 personas): esa descripción, con camas y baños, está sólo en la página de tarifas.",
+      "La página no tiene meta descripción, así que el resumen que aparece al buscar el negocio no lo escribe el negocio."
+    ],
+    "subject": "Las tarifas de Patagoniamawida no están en el menú del sitio",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56961552392",
+      "label": "Número del widget \"Conversemos!\" del sitio; es también el teléfono publicado (+56 9 6155 2392). Correo reservas@patagoniamawida.cl. El +56962123347 de OSM no aparece en el sitio."
+    },
+    "offer": "landing",
+    "opportunity": "Poner las tarifas y la descripción de cada cabaña donde el pasajero las busca, con la consulta armada por WhatsApp.",
+    "notes": "Demo: clientes/cabanas-patagoniamawida/ · Faltó del sitio: número total de cabañas, fechas exactas de Vacaciones de Invierno y Fiestas Patrias (temporada alta), promociones. Ojo: la señal sin-whatsapp es parcial: no hay enlace directo, pero sí un widget de chat de WhatsApp (56961552392). El sitio sí enlaza Facebook e Instagram en la página Ubicación, aunque la auditoría marcó sin-redes.",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "hospedaje-peumayen-panguipulli",
+    "business": "Hospedaje Peumayén",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3884274483,
+      "categoria": "guest_house",
+      "lat": -39.8492165,
+      "lon": -71.943379
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "espacio-los-revellines-panguipulli",
+    "business": "Espacio Los Revellines",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4521741407,
+      "categoria": "hostel",
+      "lat": -39.6446028,
+      "lon": -72.2007204
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "apart-hotel-eco-terra-verde-panguipulli",
+    "business": "Apart Hotel Eco Terra Verde",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4557932821,
+      "categoria": "hotel",
+      "lat": -39.6134659,
+      "lon": -72.3534222
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-playa-chauquen-panguipulli",
+    "business": "Camping Playa Chauquén",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4557932842,
+      "categoria": "camp_site",
+      "lat": -39.6787038,
+      "lon": -72.3083214
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-rio-chan-chan-panguipulli",
+    "business": "Camping Río Chan Chan",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4689708889,
+      "categoria": "camp_site",
+      "lat": -39.8108052,
+      "lon": -71.9832714
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-la-esperanza-panguipulli",
+    "business": "Camping La Esperanza",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://facebook.com/Camping-La-esperanza",
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4860555869,
+      "categoria": "camp_site",
+      "lat": -39.5147815,
+      "lon": -72.083292
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-chauquen-panguipulli",
+    "business": "Cabañas Chauquén",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5305090033,
+      "categoria": "chalet",
+      "lat": -39.6787192,
+      "lon": -72.3066093
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-rio-fuy-panguipulli",
+    "business": "Camping Río Fuy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5310119126,
+      "categoria": "camp_site",
+      "lat": -39.8519319,
+      "lon": -71.927238
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-rio-claro-panguipulli",
+    "business": "Camping Río Claro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5311243322,
+      "categoria": "camp_site",
+      "lat": -39.8518987,
+      "lon": -71.9281047
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-llanka-lafquen-panguipulli",
+    "business": "Camping Llanka Lafquén",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5383280621,
+      "categoria": "camp_site",
+      "lat": -39.6563756,
+      "lon": -72.3291824
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "alemapu-pieza-privada-conaripe-panguipulli",
+    "business": "ALEMAPU Pieza privada Coñaripe",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6093936017,
+      "categoria": "guest_house",
+      "lat": -39.5678987,
+      "lon": -71.9981874
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "la-roca-de-dona-teo-panguipulli",
+    "business": "La Roca de Doña Teo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6284938385,
+      "categoria": "camp_site",
+      "lat": -39.553718,
+      "lon": -72.0034513
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-puerto-panguipulli",
+    "business": "El Puerto",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6284938485,
+      "categoria": "camp_site",
+      "lat": -40.0241249,
+      "lon": -71.7215699
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-las-araucarias-panguipulli",
+    "business": "Camping Las Araucarias",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6285298685,
+      "categoria": "camp_site",
+      "lat": -39.5622839,
+      "lon": -72.0098759
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-el-cristo-panguipulli",
+    "business": "Camping El Cristo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6296180085,
+      "categoria": "camp_site",
+      "lat": -39.5621738,
+      "lon": -72.0095246
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "portal-del-puma-panguipulli",
+    "business": "Portal del Puma",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6708030835,
+      "categoria": "hostel",
+      "lat": -39.8408655,
+      "lon": -71.9649859
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-edilia-panguipulli",
+    "business": "CABAÑAS EDILIA",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7106717472,
+      "categoria": "motel",
+      "lat": -39.5696069,
+      "lon": -72.0034216
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rivoli-panguipulli",
+    "business": "Cabañas Rivoli",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7131754385,
+      "categoria": "chalet",
+      "lat": -39.6408307,
+      "lon": -72.3272619
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "bosque-verde-panguipulli",
+    "business": "bosque verde",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Raulíes",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7237553085,
+      "categoria": "guest_house",
+      "lat": -39.8500717,
+      "lon": -71.9434128
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-melita-panguipulli",
+    "business": "Camping Melita",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7416104885,
+      "categoria": "camp_site",
+      "lat": -39.5128284,
+      "lon": -72.0857374
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "pichillancahue-panguipulli",
+    "business": "Pichillancahue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8298422017,
+      "categoria": "camp_site",
+      "lat": -39.4685916,
+      "lon": -71.8576456
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "pozo-de-oro-panguipulli",
+    "business": "Pozo de Oro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8369846019,
+      "categoria": "camp_site",
+      "lat": -39.8730944,
+      "lon": -71.8521119
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "laguna-chan-chan-panguipulli",
+    "business": "Laguna Chan Chan",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8369846218,
+      "categoria": "camp_site",
+      "lat": -39.8167251,
+      "lon": -71.8274903
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-y-pension-coke-panguipulli",
+    "business": "Hospedaje y Pensión Coke",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Manuel Rodríguez 337",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8372584117,
+      "categoria": "hostel",
+      "lat": -39.6447518,
+      "lon": -72.3310598
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "epuleufu-panguipulli",
+    "business": "Epuleufu",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8395035518,
+      "categoria": "motel",
+      "lat": -39.8515446,
+      "lon": -71.9316703
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-liquine-alto-panguipulli",
+    "business": "Cabañas liquiñe Alto",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10281283832,
+      "categoria": "guest_house",
+      "lat": -39.7552739,
+      "lon": -71.8629627
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-entre-coihues-panguipulli",
+    "business": "Camping Entre Coihues",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10649945705,
+      "categoria": "camp_site",
+      "lat": -39.5763262,
+      "lon": -71.9903746
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-koyan-panguipulli",
+    "business": "Hotel Koyan",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11170186350,
+      "categoria": "hotel",
+      "lat": -39.6398433,
+      "lon": -72.3507536
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-mauna-panguipulli",
+    "business": "Hostal Mauna",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11172050164,
+      "categoria": "hostel",
+      "lat": -39.6635964,
+      "lon": -72.3635048
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-arrayan-panguipulli",
+    "business": "Cabaña Arrayán",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11619855769,
+      "categoria": "chalet",
+      "lat": -39.8476561,
+      "lon": -71.9476173
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-tani-ruka-panguipulli",
+    "business": "Cabañas Tañi Ruka",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11638325034,
+      "categoria": "chalet",
+      "lat": -39.5256082,
+      "lon": -71.9293222
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-eluney-panguipulli",
+    "business": "Cabañas Eluney",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11638325048,
+      "categoria": "chalet",
+      "lat": -39.5236116,
+      "lon": -71.9234723
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-picaflores-panguipulli",
+    "business": "Cabañas Los Picaflores",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11638325049,
+      "categoria": "chalet",
+      "lat": -39.5327848,
+      "lon": -71.9375485
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "espacio-bosque-panguipulli",
+    "business": "Espacio Bosque",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12691412301,
+      "categoria": "camp_site",
+      "lat": -39.5880868,
+      "lon": -72.008938
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-aromos-panguipulli",
+    "business": "Camping Los Aromos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13424598852,
+      "categoria": "camp_site",
+      "lat": -39.8021889,
+      "lon": -71.9743118
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-huilohuilo-panguipulli",
+    "business": "Camping HuiloHuilo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 100761622,
+      "categoria": "camp_site",
+      "lat": -39.866488,
+      "lon": -71.9165414
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "club-marina-del-fuy-lodge-panguipulli",
+    "business": "Club Marina del Fuy Lodge",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 225121480,
+      "categoria": "hotel",
+      "lat": -39.8736464,
+      "lon": -71.8902638
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "montana-magica-lodge-panguipulli",
+    "business": "Montaña Mágica Lodge",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://huilohuilo.com/nuestros-alojamientos/montana-magica-lodge/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 390281145,
+      "categoria": "hotel",
+      "lat": -39.8693904,
+      "lon": -71.9151538
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://huilohuilo.com/nuestros-alojamientos/montana-magica-lodge/",
+      "finalUrl": "https://huilohuilo.com/nuestros-alojamientos/montana-magica-lodge/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook y tiktok, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Page not found - Huilo Huilo",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [
+          "+56971502025",
+          "+56632672020",
+          "+56963367673",
+          "+56975359381"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/huilohuilo_reservabiologica",
+          "facebook": "https://www.facebook.com/tr",
+          "tiktok": "https://www.tiktok.com/@huilohuilo_reserva"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 103423,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 9,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "quilmio-panguipulli",
+    "business": "Quilmio",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 479716903,
+      "categoria": "camp_site",
+      "lat": -39.7047251,
+      "lon": -71.9018593
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-parque-del-lago-panguipulli",
+    "business": "Cabañas Parque del Lago",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Juan Pablo II 405",
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1204950288,
+      "categoria": "motel",
+      "lat": -39.6439721,
+      "lon": -72.3424494
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "regenbogen-bungalows-panguipulli",
+    "business": "Regenbogen Bungalows",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.regenbogengg.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+560632311219",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Estuve revisando regenbogengg.com y hay algo concreto: para reservar, el pasajero debe llenar el formulario de la página Reservación o llamar al +56 987611785, y no hay ningún enlace a WhatsApp. Desde el celular, que es donde la mayoría cotiza, llenar nombre, correo, fechas, tipo de bungalow y personas en un formulario es justo el paso donde muchos se van; y quien llama fuera del horario de 09:00 a 20:00 no encuentra a nadie. Además noté que la página Tarifas dice check in de 16:00 a 22:00 y la de Reservación de 16:00 a 21:00.\n\nPreparé una muestra con sus dos bungalows (2 a 4 y 4 a 6 personas), las tarifas de temporada alta y baja por número de personas tal como las publican, el abono del 50% y las condiciones de cancelación, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, con su dominio actual o uno nuevo.\n\n¿Tienen un WhatsApp de reservas? Si me lo indican, les muestro la página en 10 minutos.\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3303994669,
+      "categoria": "hostel",
+      "lat": -39.6638643,
+      "lon": -72.3288476
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.regenbogengg.com/",
+      "finalUrl": "https://www.regenbogengg.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 3,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Regenbogen Bungalows Cabañas en Panguipulli",
+        "platform": null,
+        "emails": [
+          "info@regenbogengg.com"
+        ],
+        "phones": [
+          "+56987611785"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 93566,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 8,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El sitio no tiene enlace a WhatsApp: para reservar hay que llenar los campos de la página Reservación (nombre, correo, teléfono, fechas, tipo de bungalow, personas) o llamar al +56 987611785, con horario de atención de 09:00 a 20:00.",
+      "El sitio publica dos horarios de check in distintos: \"16:00 hrs. a 22:00 hrs.\" en la página Tarifas y \"16:00 hrs. a 21:00 hrs.\" en la página Reservación."
+    ],
+    "subject": "Regenbogen: reservar exige llenar siete campos o llamar en horario",
+    "contact": {
+      "type": "email",
+      "value": "info@regenbogengg.com",
+      "label": "Correo publicado en el pie de todas las páginas. Teléfono del sitio +56 987611785 (el +560632311219 de OSM no aparece en el sitio). Sin WhatsApp."
+    },
+    "offer": "landing",
+    "opportunity": "Reemplazar el formulario de reserva por una consulta armada, con las tarifas por personas y temporada que ya publican.",
+    "notes": "Demo: clientes/regenbogen-bungalows/ · Faltó del sitio: WhatsApp, promociones, año de las tarifas (temporadas sin año: se usaron para el calendario que viene). Tarifas por persona modeladas con tarifa base al mínimo de personas y el resto en el detalle. Dos horarios de check in distintos en el sitio.",
+    "promovidoEl": "2026-09-12"
+  }
+]

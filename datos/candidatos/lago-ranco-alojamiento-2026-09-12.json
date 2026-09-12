@@ -1,0 +1,498 @@
+[
+  {
+    "id": "cabanas-casona-italiana-lago-ranco",
+    "business": "Cabañas Casona Italiana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56992152495",
+    "email": "casonaitaliana@hotmail.com",
+    "direccion": "Viña del Mar 367",
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4721355591,
+      "categoria": "hostel",
+      "lat": -40.3199327,
+      "lon": -72.477597
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-el-arroyo-lago-ranco",
+    "business": "Camping El Arroyo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 9848 2933",
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6281257491,
+      "categoria": "camp_site",
+      "lat": -40.3227367,
+      "lon": -72.4903781
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-costanera-lago-ranco",
+    "business": "Camping Costanera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 9877 9679",
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13424354257,
+      "categoria": "camp_site",
+      "lat": -40.3238144,
+      "lon": -72.4939346
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-el-mirador-lago-ranco",
+    "business": "Camping El Mirador",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 9870 6602",
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1175168757,
+      "categoria": "camp_site",
+      "lat": -40.3248944,
+      "lon": -72.4916916
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-los-pinos-lago-ranco",
+    "business": "Hospedaje Los Pinos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1391492284,
+      "categoria": "hostel",
+      "lat": -40.3206351,
+      "lon": -72.4767782
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "saltos-del-nilahue-lago-ranco",
+    "business": "Saltos del Nilahue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3426984453,
+      "categoria": "camp_site",
+      "lat": -40.2850124,
+      "lon": -72.1726893
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-playa-epulafquen-lago-ranco",
+    "business": "Camping Playa Epulafquen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3554353402,
+      "categoria": "camp_site",
+      "lat": -40.3131842,
+      "lon": -72.2263403
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-parque-funtangue-lago-ranco",
+    "business": "Hotel Parque Funtangue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4453278178,
+      "categoria": "hotel",
+      "lat": -40.3380148,
+      "lon": -72.2183198
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-rininahue-lago-ranco",
+    "business": "Camping Riñinahue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5401844321,
+      "categoria": "camp_site",
+      "lat": -40.3316231,
+      "lon": -72.2401218
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-el-bosque-lago-ranco",
+    "business": "Camping El Bosque",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11013995968,
+      "categoria": "camp_site",
+      "lat": -40.2137394,
+      "lon": -72.1944615
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-aromos-lago-ranco",
+    "business": "Camping Los Aromos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11020737785,
+      "categoria": "camp_site",
+      "lat": -40.2668792,
+      "lon": -72.2403186
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-arenas-del-nilahue-lago-ranco",
+    "business": "Camping Arenas del Nilahue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11020737786,
+      "categoria": "camp_site",
+      "lat": -40.2669476,
+      "lon": -72.2443531
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-entre-arrayanes-lago-ranco",
+    "business": "Camping Entre Arrayanes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11020737790,
+      "categoria": "camp_site",
+      "lat": -40.2649106,
+      "lon": -72.2448015
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-arenas-lago-ranco",
+    "business": "Camping Arenas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11020737791,
+      "categoria": "camp_site",
+      "lat": -40.2685469,
+      "lon": -72.2490849
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-las-bandurrias-lago-ranco",
+    "business": "Camping Las Bandurrias",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13585740204,
+      "categoria": "camp_site",
+      "lat": -40.3228002,
+      "lon": -72.4871236
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-candil-lago-ranco",
+    "business": "Cabañas El Candil",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Lago Ranco",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 266649307,
+      "categoria": "chalet",
+      "lat": -40.3247126,
+      "lon": -72.4987183
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  }
+]

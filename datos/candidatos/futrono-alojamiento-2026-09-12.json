@@ -1,0 +1,1271 @@
+[
+  {
+    "id": "hospedaje-futrono-futrono",
+    "business": "Hospedaje Futrono",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.hospedajefutrono.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56981630548",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Entré a hospedajefutrono.cl y el título de la página —lo que aparece en la pestaña, en Google y al compartir el enlace por WhatsApp— dice \"Hostinger Horizons\", el nombre de la herramienta con que se hizo el sitio, y no hay descripción. Además, el servidor entrega sólo ese título: las habitaciones, la dirección y el contacto aparecen recién cuando el navegador ejecuta el script, así que la vista previa del enlace sale en blanco. Quien lo ve así duda de haber llegado al lugar correcto.\n\nPreparé una muestra con sus 6 habitaciones (Nilahue, Caunahue, Isla Huapi, Llifén, Calcurrupe y Lago Maihue) donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión, con el check in a las 13:00 y las condiciones del abono ya escritas. Lo del título y la descripción lo dejo corregido en 2 días por $120.000; si prefieren la página de consulta completa, la publico en 5 días hábiles por $320.000.\n\n¿Les muestro la página en 10 minutos por WhatsApp o correo?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6167229066,
+      "categoria": "hotel",
+      "lat": -40.1339286,
+      "lon": -72.3882965
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.hospedajefutrono.cl/",
+      "finalUrl": "https://www.hospedajefutrono.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 10,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hostinger Horizons",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 7881,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 15,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El título de la página es \"Hostinger Horizons\" (el nombre de la herramienta con que se hizo el sitio) y no lleva meta descripción: así aparece el hospedaje en la pestaña, en Google y al compartir el enlace.",
+      "El HTML que entrega el servidor sólo trae ese título; las seis habitaciones, la dirección y los datos de contacto aparecen únicamente cuando el navegador ejecuta el script, así que las vistas previas del enlace y los lectores sin JavaScript no ven nada.",
+      "El sitio no publica tarifas y el botón \"Reserva tu pausa\" abre un mensaje genérico (\"me gustaría consultar sobre disponibilidad y tarifas\") sin fechas, habitación ni pasajeros: cada consulta obliga a una segunda ronda de preguntas."
+    ],
+    "subject": "Su sitio se presenta como \"Hostinger Horizons\"",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56981630548",
+      "label": "WhatsApp del sitio (wa.me/56981630548, rotulado +56 9 8163 0548) y teléfono en OSM. Correo del sitio: contactohospedajefutrono@gmail.com."
+    },
+    "offer": "express",
+    "opportunity": "Corregir el título \"Hostinger Horizons\" y la descripción, y dar al pasajero una consulta con fechas y habitación en vez del mensaje genérico.",
+    "notes": "Demo: clientes/hospedaje-futrono/ · Faltó: tarifas (no publicadas), porcentaje del abono. El sitio es una app Hostinger Horizons que pinta todo con JavaScript: la auditoría vio el HTML vacío (por eso marcó sin-whatsapp, sin-redes y sin-telefono-ni-correo); en la página renderizada sí hay WhatsApp, correo, dirección, Instagram y Facebook. No usar esas señales como hallazgo.",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "cabanas-peumayen-la-panchita-futrono",
+    "business": "Cabañas Peumayen La Panchita",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56981377545",
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4545779989,
+      "categoria": "guest_house",
+      "lat": -40.1574574,
+      "lon": -72.2504066
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-refugio-futrono",
+    "business": "Cabañas El Refugio",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+5685008018",
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100531178,
+      "categoria": "chalet",
+      "lat": -40.1924289,
+      "lon": -72.255249
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-casona-de-los-rios-futrono",
+    "business": "Hotel Casona de los Rios",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "56632481128;56920596163",
+    "email": null,
+    "direccion": "Almirante Barroso 243",
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6812331323,
+      "categoria": "hotel",
+      "lat": -40.1318276,
+      "lon": -72.3901367
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-quiman-bajo-futrono",
+    "business": "Camping Quimán Bajo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 6878 0785",
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11013995990,
+      "categoria": "camp_site",
+      "lat": -40.115809,
+      "lon": -72.3576992
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "pewma-futrono",
+    "business": "Pewma",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1946864500,
+      "categoria": "motel",
+      "lat": -40.1296729,
+      "lon": -72.3943755
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-lafquintue-futrono",
+    "business": "Cabañas Lafquintue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2319660434,
+      "categoria": "motel",
+      "lat": -40.1334273,
+      "lon": -72.3873696
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "donde-uli-futrono",
+    "business": "Donde Uli",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2319673102,
+      "categoria": "hostel",
+      "lat": -40.1316086,
+      "lon": -72.3845908
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ruka-futrono",
+    "business": "Ruka",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2319673108,
+      "categoria": "motel",
+      "lat": -40.1316752,
+      "lon": -72.3894859
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-futrono",
+    "business": "Cabaña",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4582621795,
+      "categoria": "hostel",
+      "lat": -40.20046,
+      "lon": -72.246959
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "bahia-coique-futrono",
+    "business": "Bahía Coique",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4786525644,
+      "categoria": "motel",
+      "lat": -40.1404936,
+      "lon": -72.4642741
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-wingkul-futrono",
+    "business": "Cabañas Wingkul",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.wingkul.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56984135967",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Entré a wingkul.cl y el botón \"RESERVA AQUÍ\" de la página de cabañas lleva al contacto, que pide \"Fecha de Inicio\" y \"Cantidad de personas\" pero no la fecha de salida ni qué cabaña: para responder tienen que preguntar de vuelta cuántas noches y cuál. Y como los valores van \"por día + IVA\" y suben un 26% en fines de semana largos y temporada alta, el pasajero tampoco puede calcular su total antes de escribir.\n\nPreparé una muestra con sus 4 cabañas (Notro, Pellín, Raulí y Tineo) donde el pasajero elige fechas y cuántos son, ve el valor por día publicado con la nota del IVA y del recargo de temporada, y les manda la consulta completa por WhatsApp, sin comisión, con el abono del 50% y la devolución a 10 días ya escritos. La puedo dejar publicada en 5 días hábiles por $320.000.\n\n¿Les muestro la página en 10 minutos por WhatsApp o correo?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100209044,
+      "categoria": "chalet",
+      "lat": -40.1961355,
+      "lon": -72.2602968
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.wingkul.cl/",
+      "finalUrl": "https://wingkul.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Wingkul &#8211; Cabañas LLifen",
+        "platform": "WordPress",
+        "emails": [
+          "soniathim@gmail.com"
+        ],
+        "phones": [
+          "+56966364494",
+          "+56981743922"
+        ],
+        "socials": {
+          "facebook": "https://www.facebook.com/Caba"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 128920,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 9,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El botón \"RESERVA AQUÍ\" de wingkul.cl/cabanas/ lleva a la página de contacto, que pide \"Fecha de Inicio\" y \"Cantidad de personas\" pero no fecha de salida ni cabaña: para responder hay que preguntar de vuelta cuántas noches y cuál cabaña.",
+      "Las tarifas están publicadas \"por día + IVA\" ($67.500 y $75.000) y en /contacto/ se indica que en fines de semana largos, vacaciones de invierno y temporada alta de verano suben un 26%, sin fechas: el pasajero no puede calcular su total.",
+      "La página no lleva meta descripción, así que Google arma por su cuenta el resumen que ve la gente al buscar las cabañas."
+    ],
+    "subject": "El \"RESERVA AQUÍ\" de Wingkul no pide fecha de salida ni cabaña",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56981743922",
+      "label": "Número del botón flotante de WhatsApp del sitio, rotulado \"+569 8174 3922 (Cabañas)\". Correo del sitio: soniathim@gmail.com. El teléfono de OSM (+56984135967) no aparece en el sitio."
+    },
+    "offer": "landing",
+    "opportunity": "Reemplazar la consulta sin fecha de salida ni cabaña por una página de reserva directa que calcule noches y valor publicado.",
+    "notes": "Demo: clientes/cabanas-wingkul/ · Faltó: horarios de check in/out, fechas de temporada alta (el +26% se deja como nota, sólo va la tarifa base publicada), rótulo o año de las tarifas. Señal sin-whatsapp es falsa: hay botón flotante (plugin click-to-chat, 56981743922). Facebook e Instagram (instagram.com/cabanaswingkul) sí están enlazados en /contacto/.",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "camping-la-estancia-futrono",
+    "business": "Camping la Estancia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100531176,
+      "categoria": "camp_site",
+      "lat": -40.1915013,
+      "lon": -72.2546071
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-picnic-vista-hermosa-futrono",
+    "business": "Camping-Picnic Vista Hermosa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100533009,
+      "categoria": "camp_site",
+      "lat": -40.1906442,
+      "lon": -72.2582511
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-huequecura-futrono",
+    "business": "Cabañas Huequecura",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100533013,
+      "categoria": "chalet",
+      "lat": -40.1890586,
+      "lon": -72.2539423
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-pixel-futrono",
+    "business": "Cabaña Pixel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100533014,
+      "categoria": "chalet",
+      "lat": -40.196103,
+      "lon": -72.2572775
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-cerezos-futrono",
+    "business": "Camping Los Cerezos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100533143,
+      "categoria": "chalet",
+      "lat": -40.1907556,
+      "lon": -72.259929
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-ruka-vutacura-futrono",
+    "business": "Cabaña Ruka-Vutacura",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100533144,
+      "categoria": "chalet",
+      "lat": -40.1906457,
+      "lon": -72.2556232
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-mama-ana-futrono",
+    "business": "Camping Mamá Ana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100533145,
+      "categoria": "camp_site",
+      "lat": -40.1901573,
+      "lon": -72.2541963
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-lican-futrono",
+    "business": "Cabañas Licán",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6100533417,
+      "categoria": "hostel",
+      "lat": -40.1992839,
+      "lon": -72.2590682
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-futrono",
+    "business": "Hospedaje",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6175063697,
+      "categoria": "guest_house",
+      "lat": -40.1290388,
+      "lon": -72.3929069
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-mi-casa-futrono",
+    "business": "Hostal Mi Casa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6175108418,
+      "categoria": "hostel",
+      "lat": -40.1292423,
+      "lon": -72.386244
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "deprtamentos-du-lac-futrono",
+    "business": "Deprtamentos Du Lac",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6812331342,
+      "categoria": "hotel",
+      "lat": -40.132575,
+      "lon": -72.3898
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-futronhue-futrono",
+    "business": "Hospedaje Futronhue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6812347266,
+      "categoria": "hostel",
+      "lat": -40.1295471,
+      "lon": -72.3918911
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-spa-termas-llifen-futrono",
+    "business": "Hotel Spa Termas Llifen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ruta T-551",
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8156622112,
+      "categoria": "hotel",
+      "lat": -40.2059119,
+      "lon": -72.2625135
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-llifen-futrono",
+    "business": "Cabañas Llifen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ruta T-551",
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8156635326,
+      "categoria": "chalet",
+      "lat": -40.2065237,
+      "lon": -72.2622671
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-maqueo-futrono",
+    "business": "Camping Maqueo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10539272709,
+      "categoria": "camp_site",
+      "lat": -40.2748739,
+      "lon": -71.9999456
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "agrocamping-cuesta-de-arena-futrono",
+    "business": "Agrocamping Cuesta de Arena",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10996120568,
+      "categoria": "camp_site",
+      "lat": -40.1112035,
+      "lon": -72.4563702
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-hualles-futrono",
+    "business": "Camping Los Hualles",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11013995981,
+      "categoria": "camp_site",
+      "lat": -40.2021777,
+      "lon": -72.2540434
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rukaleufu-futrono",
+    "business": "Cabañas Rukaleufu",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11024125390,
+      "categoria": "chalet",
+      "lat": -40.2328862,
+      "lon": -71.9453925
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "wiliwen-futrono",
+    "business": "Wiliwen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11772087170,
+      "categoria": "camp_site",
+      "lat": -40.1998933,
+      "lon": -72.2610489
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-puerto-futrono-futrono",
+    "business": "Hostal Puerto Futrono",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 225111480,
+      "categoria": "hotel",
+      "lat": -40.1395273,
+      "lon": -72.3951048
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "nalcahue-futrono",
+    "business": "Nalcahue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 266649302,
+      "categoria": "camp_site",
+      "lat": -40.1214888,
+      "lon": -72.4124012
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-puerto-las-rosas-futrono",
+    "business": "Camping Puerto Las Rosas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 266649305,
+      "categoria": "camp_site",
+      "lat": -40.120008,
+      "lon": -72.3643486
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-bahia-coique-futrono",
+    "business": "Camping Bahía Coique",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://bahiacoique.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 9 4688 0705",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth (Valdivia). Entré hoy a bahiacoique.cl/camping/ y el botón \"Reservar ahora\" abre un correo en blanco a camping@bahiacoique.cl, mientras el \"Reservar ahora\" del encabezado lleva al motor del hotel y los departamentos. La página del camping dice \"50 sitios · 1 baño privado por sitio · 1 parrilla por sitio · 10 sitios habilitados\", pero no publica valor por sitio ni por noche, así que cada campista les escribe sin fechas, sin cuántos son y sin saber cuánto cuesta, y ustedes tienen que responder de cero.\n\nPreparé una muestra para el camping, con el sitio de camping tal como lo describen y las fotos de su propia galería, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por correo o WhatsApp, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes las indiquen; no inventé ningún valor.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, separada del motor del hotel.\n\n¿Les sirve que les mande el enlace de la muestra para que la vea quien lleva el camping?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 266649289,
+      "categoria": "camp_site",
+      "lat": -40.1472751,
+      "lon": -72.4710956
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://bahiacoique.cl/",
+      "finalUrl": "https://bahiacoique.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Inicio - Bahía Coique",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@bahiacoique.cl",
+          "camping@bahiacoique.cl",
+          "eventos@bahiacoique.cl"
+        ],
+        "phones": [
+          "+56940991499",
+          "+56632481264",
+          "+56946880705"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/bahiacoique",
+          "facebook": "https://facebook.com/bcoique"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 283322,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 6,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "En bahiacoique.cl/camping/ el botón \"Reservar ahora\" abre un correo en blanco a camping@bahiacoique.cl: el campista escribe sin fechas, sin cuántos son y sin saber el valor.",
+      "La página del camping publica \"50 sitios de camping · 1 baño privado por sitio · 1 parrilla por sitio · 10 sitios habilitados\", pero ningún valor por sitio, persona o noche; el motor de reservas del complejo (Cloudbeds) es del hotel y departamentos."
+    ],
+    "subject": "El \"Reservar ahora\" del camping en bahiacoique.cl abre un correo en blanco",
+    "contact": {
+      "type": "email",
+      "value": "camping@bahiacoique.cl",
+      "label": "Correo del camping publicado en el sitio (teléfono +56 9 4688 0705)"
+    },
+    "offer": "landing",
+    "opportunity": "El camping no tiene cotizador ni tarifas publicadas y su botón de reserva es un mailto vacío: una página de solicitud propia ordena las consultas sin tocar el motor del hotel.",
+    "notes": "Demo: clientes/camping-bahia-coique/ · el sitio no publica tarifas del camping, capacidad por sitio, check in/out ni abono; capacidad de la muestra referencial (4). El wa.me del sitio es del restaurant, no del camping.",
+    "promovidoEl": "2026-09-12"
+  }
+]
