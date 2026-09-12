@@ -74,6 +74,39 @@ for (const expected of ['Landing de consultas', '$320.000 CLP', '@gramagrowth'])
 }
 if (!offers.includes('**No incluye:**')) throw new Error('Las ofertas no declaran límites.');
 
+// --- Kit y OFFERS.md dicen lo mismo ---
+// Cada producto y extra que el kit puede cotizar tiene que existir en OFFERS.md
+// con el mismo precio. Es lo que evita que la propuesta impresa prometa algo que
+// el documento de alcance no define, o al revés.
+const clpText = (value) => `$${Number(value).toLocaleString('es-CL')}`;
+const kitItems = [...kitApp.matchAll(/name: '([^']+)',\s*price: (\d+)/g)]
+  .map((match) => ({ name: match[1], price: Number(match[2]) }));
+if (kitItems.length < 8) throw new Error('El kit declara menos productos y extras de los esperados.');
+for (const item of kitItems) {
+  if (!offers.includes(item.name)) throw new Error(`El kit cotiza "${item.name}" pero OFFERS.md no lo define.`);
+  if (!offers.includes(clpText(item.price))) {
+    throw new Error(`El kit cotiza "${item.name}" a ${clpText(item.price)} y ese precio no aparece en OFFERS.md.`);
+  }
+}
+const kitSelect = [...kit.matchAll(/<option value="([a-z]+)">/g)].map((match) => match[1]);
+for (const key of ['express', 'presence', 'flow']) {
+  if (!kitSelect.includes(key) && !kit.includes(`<option value="${key}" selected>`)) {
+    throw new Error(`El selector del kit no ofrece el producto "${key}".`);
+  }
+}
+
+// Los README de las plantillas remiten a la tabla de OFFERS.md: un precio fijado
+// en un README es la forma en que los precios divergieron la primera vez.
+for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio', 'cotizar-instalacion']) {
+  const readme = readFileSync(resolve(root, `plantillas/${template}/README.md`), 'utf8');
+  if (/Precio sugerido/.test(readme)) {
+    throw new Error(`plantillas/${template}/README.md fija un precio propio; debe remitir a docs/OFFERS.md.`);
+  }
+  if (!readme.includes('Catálogo de páginas verticales')) {
+    throw new Error(`plantillas/${template}/README.md no remite al catálogo de OFFERS.md.`);
+  }
+}
+
 // --- Kit de propuesta ---
 for (const expected of ['evidenceConfirmed', 'print-proposal', 'Problema observable 1']) {
   if (!kit.includes(expected)) throw new Error(`El kit no contiene: ${expected}`);

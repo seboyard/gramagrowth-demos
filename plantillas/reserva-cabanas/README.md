@@ -89,8 +89,10 @@ Primera venta: 4-5 días hábiles. Las siguientes, horas.
 5. Publicar en su dominio o en un subdominio propio.
 6. Probar en celular: fechas, promoción, mensaje de WhatsApp.
 
-**Precio sugerido:** $250.000–350.000 CLP de instalación. Sin mensualidad
-obligatoria; si se ofrece hosting y cambios de tarifa por temporada, $20.000/mes.
+**Precio:** el de toda página vertical, en la tabla única de
+[`docs/OFFERS.md`](../../docs/OFFERS.md) ("Catálogo de páginas verticales").
+Sin mensualidad obligatoria; el hosting con cambios de tarifa por temporada es el
+extra "Actualización de tarifas por temporada", cotizado aparte.
 
 ## Probar en local
 

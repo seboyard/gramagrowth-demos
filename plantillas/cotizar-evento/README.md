@@ -110,7 +110,9 @@ Dos mecanismos hacen esto automático:
 4. `demo.activo: false`.
 5. Probar en celular: elegir servicio, fecha e invitados, y revisar el mensaje.
 
-**Precio sugerido:** $250.000–350.000 CLP de instalación.
+**Precio:** el de toda página vertical, en la tabla única de
+[`docs/OFFERS.md`](../../docs/OFFERS.md) ("Catálogo de páginas verticales").
+Extra frecuente en este rubro: actualización de tarifas por temporada.
 
 ## Probar en local
 

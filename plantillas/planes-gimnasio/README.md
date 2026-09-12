@@ -75,8 +75,9 @@ Primera venta: 3-4 días hábiles. Las siguientes, horas.
 4. `demo.activo: false`.
 5. Publicar y probar en celular: elegir plan, ver el ahorro, enviar la solicitud.
 
-**Precio sugerido:** $250.000–350.000 CLP de instalación. Extra frecuente en este
-rubro: gestión de redes, $180.000/mes (ver `docs/OFFERS.md`).
+**Precio:** el de toda página vertical, en la tabla única de
+[`docs/OFFERS.md`](../../docs/OFFERS.md) ("Catálogo de páginas verticales").
+Extra frecuente en este rubro: gestión de redes sociales.
 
 ## Un límite al vender
 

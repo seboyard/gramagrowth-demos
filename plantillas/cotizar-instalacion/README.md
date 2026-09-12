@@ -95,10 +95,12 @@ Primera venta: 4–5 días hábiles. Las siguientes, horas.
 5. Publicar en su dominio o en un subdominio propio.
 6. Probar en celular: agregar tres vanos, quitar uno, mensaje de WhatsApp.
 
-**Precio sugerido:** $320.000 CLP como Landing de consultas; rango defendible
-$280.000–$480.000. Extra natural: **actualización de tarifas por temporada**
-($25.000/mes) cuando el cliente sí publica valores y cambian con el dólar o el
-proveedor.
+**Precio:** el de toda página vertical, en la tabla única de
+[`docs/OFFERS.md`](../../docs/OFFERS.md) ("Catálogo de páginas verticales").
+Extras naturales en este rubro: **Ficha de Google ordenada** (el instalador vive
+del mapa) y **Respuestas rápidas de WhatsApp** (la consulta ya llega medida; el
+cuello de botella pasa a ser contestar). Si el cliente publica valores por m² y
+cambian con el dólar o el proveedor, **actualización de tarifas por temporada**.
 
 ## Probar en local
 

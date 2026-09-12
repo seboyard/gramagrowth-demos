@@ -6,6 +6,58 @@ Creamos páginas claras para negocios de servicios en Valdivia que necesitan con
 
 ZunOps no se vende como marca separada en esta etapa. Sus capacidades de automatización funcionan como parte técnica de la tercera oferta.
 
+## Mapa de la oferta
+
+| Escalón | Producto | Precio lista | Cuándo |
+|---|---|---:|---|
+| 0 | Arreglo exprés | $120.000 | Hay un defecto concreto y comprobable en el sitio actual |
+| 1 | Landing de consultas / página vertical | $320.000 | El negocio necesita una página que convierta |
+| 2 | Presencia lista para consultas | $480.000 | Instagram, web y WhatsApp no dicen lo mismo |
+| 3 | Reserva o seguimiento simple | $650.000 | Alguien copia datos a mano entre canales |
+| + | Extras | según extra | Sólo si el prospecto tiene el problema que lo justifica |
+
+El escalón 0 existe para abrir la puerta con una venta chica y honesta. Los
+correos de `ENVIAR_HOY.md` lo venden desde el primer día; aquí queda definido
+para que el kit lo cotice igual que los demás.
+
+## 0. Arreglo exprés
+
+**Problema:** el sitio actual tiene un defecto puntual que hoy le cuesta
+consultas y que se puede demostrar en diez segundos: un botón de llamar que no
+marca, un formulario en inglés, tarifas de una temporada vencida, un teléfono de
+plantilla, dos correos de contacto distintos.
+
+**Resultado:** ese defecto corregido y el camino de contacto funcionando, sin
+tocar el resto del sitio.
+
+**Incluye:**
+
+- corrección de **un** problema observable, verificado antes y después;
+- botón de WhatsApp con el mensaje prellenado (fechas y pasajeros, o medidas,
+  según el rubro) si el sitio no lo tiene;
+- una captura de antes y después para el cliente.
+
+**No incluye:** rediseño, contenido nuevo, más de un problema, ni acceso a
+plataformas cuya clave el cliente no pueda entregar. Si el sitio está en una
+plataforma cerrada (Wix, Webflow ajeno) y el cliente no tiene acceso, se cotiza
+la landing en vez del arreglo.
+
+**Plazo:** 2 días hábiles desde que el cliente entrega el acceso.
+
+**Precio:** $120.000 CLP. Rango $100.000–150.000 según plataforma.
+
+**Cobro:** 100% contra entrega aprobada. Es lo bastante chico para no pedir
+anticipo, y no pedirlo quita la última objeción.
+
+**Aceptación:** el defecto señalado ya no ocurre y el canal de contacto abre
+correctamente en un celular.
+
+**Por qué es el mejor primer paso:** el cliente compra algo que ya vio roto, no
+una promesa. Y al entregar, el sitio queda en nuestras manos: la landing se
+propone con la confianza ganada.
+
+**Upsell natural:** la página vertical del rubro (ver catálogo).
+
 ## 1. Landing de consultas
 
 **Problema:** el negocio depende de Instagram, tiene información dispersa o una web que no conduce a una consulta.
@@ -78,6 +130,37 @@ ZunOps no se vende como marca separada en esta etapa. Sus capacidades de automat
 **Dificultad:** media–alta.
 
 **Upsell:** soporte mensual, segundo flujo o tablero simple basado en datos existentes.
+
+## Catálogo de páginas verticales
+
+Una página vertical **es una Landing de consultas** (producto 1) con motor de
+cotización del rubro. Se vende al mismo precio y con las mismas reglas; lo que
+cambia es que la primera versión sale de una plantilla probada y la demo se arma
+con datos públicos del prospecto en horas.
+
+| Plantilla | Rubro | Qué calcula | Qué sale por WhatsApp | Extra que casi siempre aplica |
+|---|---|---|---|---|
+| `reserva-cabanas` | Cabañas, hostales, apart hotel | Noches × temporada, promociones, abono | Fechas, pasajeros, unidad y valor estimado | Tarifas por temporada · Rescate de temporada |
+| `planes-gimnasio` | Gimnasios, academias, estudios | Plan, ahorro por periodo, clase de prueba | Plan elegido y día de prueba | Redes sociales |
+| `cotizar-evento` | Banquetería, salones, productoras | Invitados × servicio, mínimo, IVA, abono | Fecha, invitados, servicio y presupuesto estimado | Tarifas por temporada |
+| `cotizar-instalacion` | Ventanas, termopaneles, aislación, techumbre | m² por vano o superficie; rango sólo si publica valores | Lista de vanos medidos y solicitud de visita técnica | Ficha de Google · Respuestas rápidas |
+
+**Regla de precio, única para las cuatro:**
+
+| | Precio lista | Precio hoy (cierre en la reunión) | Piso |
+|---|---:|---:|---:|
+| Primera página | $320.000 | $200.000 | $180.000 |
+| Segunda y siguientes, mismo dueño | — | $150.000 | $130.000 |
+
+El "precio hoy" se ofrece sólo en la conversación y con fecha de vencimiento; el
+precio lista es el que se imprime en la propuesta con el hoy en grande y el lista
+tachado, como ya hace `/presentacion/`. Los README de cada plantilla remiten a
+esta tabla y no fijan precio propio, para que no vuelvan a divergir.
+
+**Cuándo NO vender la vertical y sí la landing genérica:** el rubro no tiene una
+regla de cálculo (abogados, corretaje, comercio) o el prospecto no puede entregar
+sus valores. Sin tabla no hay motor, y prometerlo es venderle una calculadora
+vacía.
 
 ## Extras opcionales
 
@@ -175,6 +258,59 @@ fechas cada vez que cambian, dentro de un día hábil.
 **No incluye:** rediseño, contenido nuevo ni funcionalidades adicionales.
 
 **Precio:** $25.000 CLP mensuales.
+
+### Ficha de Google ordenada
+
+**Cuándo ofrecerlo:** el negocio vive de que lo encuentren en el mapa —cabañas,
+instaladores, gimnasios, talleres— y su ficha de Google está incompleta,
+desactualizada o no existe. Se comprueba a mano buscando el negocio en Google
+Maps: sin horarios, sin fotos propias, categoría equivocada, teléfono distinto
+al del sitio, o reseñas sin responder. La auditoría del sitio no puede verlo;
+hay que abrir el mapa.
+
+**Por qué importa:** para un servicio local, la ficha se ve antes que la página.
+Una ficha con horarios, fotos y el botón de WhatsApp correcto convierte la
+búsqueda en consulta sin que la persona llegue nunca al sitio.
+
+**Incluye:** revisión de la ficha existente o guía para reclamarla; categorías
+principal y secundarias; descripción; horarios y horarios especiales de
+temporada; servicios o productos listados; hasta 10 fotos que entregue el
+negocio, subidas y ordenadas; enlace a la página y al WhatsApp; y cinco
+respuestas modelo para reseñas (positiva, neutra, negativa, pregunta de precio,
+pregunta de disponibilidad).
+
+**No incluye:** creación de cuentas de Google a nombre del cliente ni manejo de
+sus claves —**la ficha la reclama y la posee el dueño**, se trabaja con acceso de
+administrador que él otorga y puede quitar—; compra o solicitud de reseñas;
+promesas de posición en el mapa; ni gestión mensual de la ficha.
+
+**Plazo:** 3 días hábiles desde que el cliente otorga acceso.
+
+**Precio:** $90.000 CLP por una vez. Rango $70.000–120.000 si hay que reclamar
+la ficha desde cero o corregir una duplicada.
+
+### Respuestas rápidas de WhatsApp
+
+**Cuándo ofrecerlo:** el negocio responde las mismas preguntas todos los días
+—tarifas, cómo llegar, hora de entrada, qué incluye, cuánto demora la visita— y
+las escribe de nuevo cada vez o tarda horas en contestar. Se detecta en la
+conversación con la pregunta "¿qué te preguntan más?"; toda página vertical
+entregada lo hace más evidente, porque la consulta llega ordenada y el cuello de
+botella pasa a ser la respuesta.
+
+**Incluye:** diez respuestas guardadas listas para pegar en WhatsApp Business
+(atajos, texto y orden de uso), escritas con los datos de la página para que
+sitio y chat digan lo mismo; un mensaje de bienvenida y uno de ausencia; y una
+hoja de una página con cuándo usar cada una.
+
+**No incluye:** chatbot, respuesta automática por inteligencia artificial,
+responder mensajes por el cliente, ni integraciones con la API de WhatsApp.
+**Responde el negocio**; esto sólo le ahorra escribir lo mismo.
+
+**Plazo:** 2 días hábiles desde la conversación de preguntas frecuentes.
+
+**Precio:** $60.000 CLP por una vez. Se actualiza gratis en la misma entrega si
+la página vertical cambia de tarifas dentro del primer mes.
 
 ## Paquete por varios locales del mismo dueño
 

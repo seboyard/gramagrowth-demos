@@ -8,6 +8,21 @@ const proposalTemplate = document.querySelector('#proposal-template');
 const storageKey = 'gramagrowth.sales-kit.v1';
 
 const offers = {
+  // Escalón 0: la venta chica que abre la puerta. Es lo que venden los correos
+  // de ENVIAR_HOY.md; se cobra 100% contra entrega porque es lo bastante chico
+  // para no pedir anticipo.
+  express: {
+    name: 'Arreglo exprés',
+    price: 120000,
+    timeline: '2 días hábiles',
+    outcome: 'Un defecto concreto del sitio actual corregido y el camino de contacto funcionando desde el celular, sin tocar el resto.',
+    deliverables: [
+      'Corrección de un problema observable, verificado antes y después.',
+      'Botón de WhatsApp con el mensaje prellenado si el sitio no lo tiene.',
+      'Captura de antes y después para el cliente.',
+      'Cobro 100% contra entrega aprobada.'
+    ]
+  },
   landing: {
     name: 'Landing de consultas',
     price: 320000,
@@ -89,6 +104,22 @@ const extras = {
     trigger: 'El sitio publica precios de una temporada vencida.',
     scope: 'Hosting de la página y actualización de tarifas, promociones y fechas cada vez que cambian, dentro de un día hábil.',
     limits: 'No incluye rediseño, contenido nuevo ni funcionalidades adicionales.'
+  },
+  ficha: {
+    name: 'Ficha de Google ordenada',
+    price: 90000,
+    unit: 'una vez',
+    trigger: 'Su ficha en Google Maps está incompleta, desactualizada o no existe. Se comprueba abriendo el mapa, no desde el sitio.',
+    scope: 'Categorías, descripción, horarios, servicios, hasta 10 fotos del negocio, enlace a la página y al WhatsApp, y cinco respuestas modelo para reseñas. La ficha la reclama y la posee el dueño.',
+    limits: 'No incluye crear cuentas ni manejar claves del cliente, comprar reseñas, promesas de posición en el mapa ni gestión mensual.'
+  },
+  respuestas: {
+    name: 'Respuestas rápidas de WhatsApp',
+    price: 60000,
+    unit: 'una vez',
+    trigger: 'Responde las mismas preguntas todos los días o tarda horas en contestar.',
+    scope: 'Diez respuestas guardadas para WhatsApp Business con los datos de la página, más mensaje de bienvenida y de ausencia, y una hoja de cuándo usar cada una. Responde el negocio.',
+    limits: 'No incluye chatbot, respuesta automática, responder por el cliente ni integraciones con la API de WhatsApp.'
   }
 };
 
