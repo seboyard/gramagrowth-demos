@@ -1,0 +1,690 @@
+[
+  {
+    "id": "cabana-vista-al-lago-llanquihue",
+    "business": "Cabaña Vista al Lago",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://instagram.com/cabanavistaallago?utm_medium=copy_link",
+    "sinWeb": true,
+    "telefono": "+569 90063741",
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9413875876,
+      "categoria": "chalet",
+      "lat": -41.2557507,
+      "lon": -73.0202831
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "las-encinas-llanquihue",
+    "business": "Las Encinas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1886849849,
+      "categoria": "motel",
+      "lat": -41.2136477,
+      "lon": -73.0351492
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "luna-sur-llanquihue",
+    "business": "Luna Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1886849850,
+      "categoria": "guest_house",
+      "lat": -41.2133088,
+      "lon": -73.0352775
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-molino-guest-house-llanquihue",
+    "business": "Casa Molino Guest House",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2663445068,
+      "categoria": "hotel",
+      "lat": -41.2847249,
+      "lon": -72.9808198
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-etienne-llanquihue",
+    "business": "Hostal Etienne",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2784354592,
+      "categoria": "motel",
+      "lat": -41.2547875,
+      "lon": -73.0043815
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-millar-llanquihue",
+    "business": "Cabañas Millar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2849353618,
+      "categoria": "motel",
+      "lat": -41.2676073,
+      "lon": -73.0137662
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-bahuenhaus-llanquihue",
+    "business": "Cabañas Bahuenhaus",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2849353756,
+      "categoria": "motel",
+      "lat": -41.2696556,
+      "lon": -73.0666701
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-cisne-llanquihue",
+    "business": "Cabañas El Cisne",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Manuel Montt",
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2883439778,
+      "categoria": "hostel",
+      "lat": -41.252874,
+      "lon": -73.0020558
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-buena-vista-llanquihue",
+    "business": "Cabañas Buena Vista",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2906411207,
+      "categoria": "hostel",
+      "lat": -41.2514363,
+      "lon": -73.002313
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-boutique-casa-werner-llanquihue",
+    "business": "Hotel Boutique Casa Werner",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Manuel Antonio Matta 849",
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3666492926,
+      "categoria": "hotel",
+      "lat": -41.2545319,
+      "lon": -73.0076983
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rio-de-agua-viva-llanquihue",
+    "business": "Rio de Agua Viva",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4332773207,
+      "categoria": "hostel",
+      "lat": -41.2404048,
+      "lon": -73.0105859
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "sra-cecilia-llanquihue",
+    "business": "Sra Cecilia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4691473489,
+      "categoria": "hostel",
+      "lat": -41.2554156,
+      "lon": -73.0120213
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-avellanos-llanquihue",
+    "business": "Cabañas Los Avellanos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Baquedano 931",
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4796186602,
+      "categoria": "chalet",
+      "lat": -41.2534143,
+      "lon": -73.0070543
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-llanquihue-llanquihue",
+    "business": "Cabañas Llanquihue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Blanco",
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4927752131,
+      "categoria": "chalet",
+      "lat": -41.254107,
+      "lon": -73.0025432
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "tulipan-del-lago-llanquihue",
+    "business": "Tulipan del Lago",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5015345513,
+      "categoria": "motel",
+      "lat": -41.2861497,
+      "lon": -72.9810682
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "centro-recreacional-caja-los-heroes-llanquihue",
+    "business": "Centro Recreacional Caja Los Héroes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 178323021,
+      "categoria": "motel",
+      "lat": -41.189279,
+      "lon": -73.0190645
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-werner-llanquihue",
+    "business": "Camping Werner",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 315018769,
+      "categoria": "camp_site",
+      "lat": -41.2471288,
+      "lon": -73.0063014
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-de-piedra-llanquihue",
+    "business": "Casa de Piedra",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 487113972,
+      "categoria": "guest_house",
+      "lat": -41.2537481,
+      "lon": -73.0069556
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-baumbach-llanquihue",
+    "business": "Camping Baumbach",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 767361681,
+      "categoria": "camp_site",
+      "lat": -41.2482848,
+      "lon": -73.0061726
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "gracias-a-la-vida-llanquihue",
+    "business": "Gracias a la Vida",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Aires del Sur 44",
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 781660082,
+      "categoria": "hostel",
+      "lat": -41.2629584,
+      "lon": -73.0553766
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "antea-cabanas-llanquihue",
+    "business": "Antea Cabañas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.antea.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "Manuel Montt 92",
+    "comuna": "Llanquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2883439777,
+      "categoria": "hostel",
+      "lat": -41.2524356,
+      "lon": -73.00179
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.antea.cl/",
+      "finalUrl": "https://www.antea.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 4,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Antea Cabañas &amp; Apart, Llanquihue | Cabañas, departamentos y Suites",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabanasantea",
+          "facebook": "https://facebook.com/antea.cl",
+          "tripadvisor": "https://www.tripadvisor.cl/Hotel_Review-g7614096-d3475902-Reviews-Antea_Cabanas_Apart-Llanquihue_Los_Lagos_"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 68571,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 7,
+    "razones": [
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  }
+]

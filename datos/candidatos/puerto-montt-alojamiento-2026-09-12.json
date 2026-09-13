@@ -1,0 +1,4259 @@
+[
+  {
+    "id": "novotel-puerto-montt-puerto-montt",
+    "business": "Novotel Puerto Montt",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://all.accor.com/hotel/C0I8/index.es.shtml/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Juan Soler Manfredini 81",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11708886840,
+      "categoria": "hotel",
+      "lat": -41.4733847,
+      "lon": -72.9357778
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://all.accor.com/hotel/C0I8/index.es.shtml/",
+      "finalUrl": "https://all.accor.com/hotel/C0I8/index.es.shtml/",
+      "status": 404,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 13,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 404",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "ACCOR - this address is not valid.",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 10431,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "le-mirage-puerto-montt",
+    "business": "Le Mirage",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hotellemirage.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "255125",
+    "email": "contacto@hotellemirage.cl",
+    "direccion": "Rancagua 350",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 942926326,
+      "categoria": "hotel",
+      "lat": -41.4693378,
+      "lon": -72.9413626
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.hotellemirage.cl/",
+      "finalUrl": "http://www.hotellemirage.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-casa-de-mimi-puerto-montt",
+    "business": "Hospedaje casa de Mimi",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "254164",
+    "email": null,
+    "direccion": "Malaquías Concha 819",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1103824247,
+      "categoria": "guest_house",
+      "lat": -41.4669357,
+      "lon": -72.9490721
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-petrohue-puerto-montt",
+    "business": "Hospedaje Petrohué",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "344883",
+    "email": null,
+    "direccion": "Vicente Pérez Rosales 133",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1103824260,
+      "categoria": "guest_house",
+      "lat": -41.4748879,
+      "lon": -72.9531074
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-javiera-puerto-montt",
+    "business": "Hospedaje Javiera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+ 5678575394",
+    "email": null,
+    "direccion": "Aníbal Pinto 315",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3286160060,
+      "categoria": "hostel",
+      "lat": -41.470618,
+      "lon": -72.947924
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-laberinto-puerto-montt",
+    "business": "Hospedaje Laberinto",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 065 2712866",
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4006701593,
+      "categoria": "hostel",
+      "lat": -41.4744345,
+      "lon": -72.9475429
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "paredes-chinquihue",
+    "business": "Paredes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 9554 4767",
+    "email": null,
+    "direccion": "Camino Chinquihue Km 6",
+    "comuna": "Chinquihue",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4141006399,
+      "categoria": "camp_site",
+      "lat": -41.494908,
+      "lon": -72.987553
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "mi-hostal-tu-casa-puerto-montt",
+    "business": "Mi Hostal Tu Casa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 6837 4478",
+    "email": null,
+    "direccion": "Celedonio Ojeda 139",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5287428577,
+      "categoria": "hostel",
+      "lat": -41.4723699,
+      "lon": -72.9204412
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-del-mochilero-puerto-montt",
+    "business": "Hospedaje del Mochilero",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56995641846",
+    "email": null,
+    "direccion": "Francisco Vivar 1335",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6257034785,
+      "categoria": "guest_house",
+      "lat": -41.4757596,
+      "lon": -72.9567413
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-valencia-puerto-montt",
+    "business": "Hospedaje Valencia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+569954209675",
+    "email": null,
+    "direccion": "Valencia 1908",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6274276586,
+      "categoria": "hotel",
+      "lat": -41.4457806,
+      "lon": -72.9245341
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-chucao-hostel-puerto-montt",
+    "business": "Casa Chucao Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56953755311",
+    "email": "hainpuertomontthostel@gmail.com",
+    "direccion": "Vial 839",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6775428785,
+      "categoria": "guest_house",
+      "lat": -41.4709463,
+      "lon": -72.9484607
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "sipo-hostel-puerto-montt",
+    "business": "Sipo Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 6340 5654",
+    "email": null,
+    "direccion": "Ñuble 146",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9506704617,
+      "categoria": "hotel",
+      "lat": -41.4794125,
+      "lon": -72.9555995
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "depto-altos-de-tenglo-puerto-montt",
+    "business": "Depto. Altos de Tenglo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 8449 0330",
+    "email": null,
+    "direccion": "Puerto Cruz Grande 1228",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13289767501,
+      "categoria": "apartment",
+      "lat": -41.4833053,
+      "lon": -72.9840927
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-nativos-puerto-montt",
+    "business": "Camping Nativos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 7393 5813",
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13439618306,
+      "categoria": "camp_site",
+      "lat": -41.6468124,
+      "lon": -72.6668091
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-pacifico-puerto-montt",
+    "business": "Hostal Pacífico",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "(56-65)2256229",
+    "email": null,
+    "direccion": "Alcalde Juan José de Mira 1088",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 265249673,
+      "categoria": "hotel",
+      "lat": -41.475188,
+      "lon": -72.9515692
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "lodge-atma-puerto-montt",
+    "business": "Lodge ATMA",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.atmabosque.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carretera Austral km. 18",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 957352513,
+      "categoria": "guest_house",
+      "lat": -41.5186493,
+      "lon": -72.7539456
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.atmabosque.cl/",
+      "finalUrl": "https://www.atmabosque.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-don-luis-puerto-montt",
+    "business": "Hotel Don Luis",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://hoteldonluis.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+5665300205",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Revisé hoteldonluis.cl y vi que la página Habitaciones describe bien la Ejecutiva de 15 m² y la Superior de 23 m², pero no muestra ninguna tarifa: quien quiere saber cuánto cuesta la noche tiene que salir del sitio al motor de TravelClick, y en Políticas tampoco aparece el horario de check in ni de check out. Cada paso extra es una consulta que se pierde en el camino, sobre todo desde el celular.\n\nPreparé una muestra con sus 2 tipos de habitación, la política de cancelación por temporada y la regla para niños menores de 10 años, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Los valores y horarios quedan \"a confirmar\" hasta que ustedes me los entreguen: no inventé ninguno.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, en su dominio o en uno propio.\n\n¿Le mando el enlace de la muestra para que la vea en el teléfono?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Quillota 146",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 287737648,
+      "categoria": "hotel",
+      "lat": -41.4714182,
+      "lon": -72.9381167
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://hoteldonluis.cl/",
+      "finalUrl": "https://www.hoteldonluis.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 5,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2025",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…, Chile | Tel.: +56 65 2200 300 | E-mail: reservas@hdl.cl © Copyright 2025 | Todos los derechos reservados | Desarrollado por Agencia i5 Quiénes…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hotel en Puerto Montt - Alojamiento Región de Los Lagos",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@hdl.cl"
+        ],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/hoteldonluis",
+          "facebook": "https://www.facebook.com/hoteldonluis"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 148437,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 10,
+    "razones": [
+      "pie antiguo",
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "La página Habitaciones describe la Ejecutiva (15 m²) y la Superior (23 m²) pero no publica ninguna tarifa: para saber el valor hay que salir del sitio al motor externo de TravelClick.",
+      "La página Políticas detalla cancelación, niños y no show, pero no indica horario de check in ni de check out.",
+      "El pie de página dice \"© Copyright 2025\"."
+    ],
+    "subject": "Sus habitaciones no muestran tarifa sin salir a TravelClick",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56995212248",
+      "label": "WhatsApp de reservas publicado en el sitio (+56 9 9521 2248)"
+    },
+    "offer": "landing",
+    "opportunity": "Hotel de 65 habitaciones cuyo sitio no publica tarifas ni horarios y deriva toda consulta a un motor externo; una página de consulta directa por WhatsApp captura lo que hoy se pierde en ese salto.",
+    "notes": "Demo: clientes/hotel-don-luis/ · El sitio no publica tarifas (van a TravelClick), horario de check in/out ni % de abono; capacidad por habitación sólo como \"single o doble\". El sitio SÍ tiene widget de WhatsApp (56995212248): no usar la señal sin-whatsapp. Correo del sitio es reservas@hdl.cl, no el de OSM.",
+    "promovidoEl": "2026-09-13"
+  },
+  {
+    "id": "posada-de-la-maillen-puerto-montt",
+    "business": "Posada de la Maillen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 569673569,
+      "categoria": "hotel",
+      "lat": -41.5555797,
+      "lon": -72.9990603
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-gran-pacifico-puerto-montt",
+    "business": "Hotel Gran Pacifico",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Urmeneta 719",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1087068127,
+      "categoria": "hotel",
+      "lat": -41.4727106,
+      "lon": -72.9452454
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "tren-del-sur-hostal-puerto-montt",
+    "business": "Tren del Sur Hostal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Santa Teresa 343",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1103753365,
+      "categoria": "guest_house",
+      "lat": -41.4651069,
+      "lon": -72.9413062
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-esmeralda-puerto-montt",
+    "business": "Residencial Esmeralda",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Libertad 345",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1103753370,
+      "categoria": "guest_house",
+      "lat": -41.4700963,
+      "lon": -72.9299815
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-bologna-puerto-montt",
+    "business": "Cabanas Bologna",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1354435537,
+      "categoria": "chalet",
+      "lat": -41.4666501,
+      "lon": -72.9536176
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "sofia-puerto-montt",
+    "business": "Sofia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1478660954,
+      "categoria": "guest_house",
+      "lat": -41.4760376,
+      "lon": -72.9508046
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-del-centro-puerto-montt",
+    "business": "Hospedaje Del Centro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1754691093,
+      "categoria": "guest_house",
+      "lat": -41.4703868,
+      "lon": -72.9456888
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "departamentos-del-sur-puerto-montt",
+    "business": "Departamentos del Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ejército 516",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2648932101,
+      "categoria": "hotel",
+      "lat": -41.4663585,
+      "lon": -72.9310527
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-puerto-sur-puerto-montt",
+    "business": "Hotel Puerto Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Huasco 143",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2696450344,
+      "categoria": "hotel",
+      "lat": -41.4728703,
+      "lon": -72.9325125
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-torremolinos-puerto-montt",
+    "business": "Hotel Torremolinos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2696478099,
+      "categoria": "motel",
+      "lat": -41.4711905,
+      "lon": -72.9451567
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-inalafquen-puerto-montt",
+    "business": "Cabañas Inalafquen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2702032636,
+      "categoria": "hostel",
+      "lat": -41.4631628,
+      "lon": -72.9399802
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-corina-puerto-montt",
+    "business": "Hospedaje Corina",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2732726160,
+      "categoria": "guest_house",
+      "lat": -41.4736665,
+      "lon": -72.9562577
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "kiel-puerto-montt",
+    "business": "Kiel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2801520731,
+      "categoria": "motel",
+      "lat": -41.509868,
+      "lon": -73.007128
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-de-los-navegantes-puerto-montt",
+    "business": "Hostal de Los Navegantes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2802058719,
+      "categoria": "hostel",
+      "lat": -41.4994572,
+      "lon": -72.9911838
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-chaullin-puerto-montt",
+    "business": "Cabañas Chaullin",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2802060287,
+      "categoria": "motel",
+      "lat": -41.5104821,
+      "lon": -73.0052027
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "los-alamos-puerto-montt",
+    "business": "Los Alamos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2802066783,
+      "categoria": "motel",
+      "lat": -41.5363135,
+      "lon": -73.0414484
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-katalpi-puerto-montt",
+    "business": "Cabaña Katalpi",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2810189005,
+      "categoria": "motel",
+      "lat": -41.5223712,
+      "lon": -72.7640201
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-don-anibal-puerto-montt",
+    "business": "Cabañas Don Anibal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2810189376,
+      "categoria": "motel",
+      "lat": -41.5892967,
+      "lon": -72.7008701
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-nelda-puerto-montt",
+    "business": "Hospedaje Nelda",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2827222554,
+      "categoria": "hostel",
+      "lat": -41.4750177,
+      "lon": -72.950895
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "miradores-de-panitao-puerto-montt",
+    "business": "Miradores de Panitao",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2909925148,
+      "categoria": "motel",
+      "lat": -41.5330797,
+      "lon": -73.0497283
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-la-vara-puerto-montt",
+    "business": "Cabañas La Vara",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Ferrocarril",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2916665420,
+      "categoria": "motel",
+      "lat": -41.438691,
+      "lon": -72.9085243
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-vista-hermosa-puerto-montt",
+    "business": "Hostal Vista Hermosa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2919067783,
+      "categoria": "hostel",
+      "lat": -41.4781144,
+      "lon": -72.9533175
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-costa-del-mar-puerto-montt",
+    "business": "Hotel Costa del Mar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2942343801,
+      "categoria": "hotel",
+      "lat": -41.4744924,
+      "lon": -72.9489466
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-la-nave-puerto-montt",
+    "business": "Hostal La Nave",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2942343802,
+      "categoria": "hostel",
+      "lat": -41.4750393,
+      "lon": -72.9498125
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-costa-bahia-puerto-montt",
+    "business": "Hotel Costa Bahía",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2942343806,
+      "categoria": "hotel",
+      "lat": -41.4755307,
+      "lon": -72.9499124
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-central-puerto-montt",
+    "business": "Hostal Central",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Juan José Mira",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3042061970,
+      "categoria": "guest_house",
+      "lat": -41.4751559,
+      "lon": -72.9517616
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "jardines-del-sur-puerto-montt",
+    "business": "Jardines del Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3080557690,
+      "categoria": "hostel",
+      "lat": -41.472856,
+      "lon": -72.9491508
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-embassy-puerto-montt",
+    "business": "Residencial Embassy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3218986963,
+      "categoria": "hostel",
+      "lat": -41.474173,
+      "lon": -72.9484687
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-vista-al-mar-puerto-montt",
+    "business": "Hospedaje Vista al Mar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Francisco Vivar 1337",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3304950967,
+      "categoria": "hostel",
+      "lat": -41.4759193,
+      "lon": -72.9567526
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-pangal-puerto-montt",
+    "business": "Camping Pangal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3414554332,
+      "categoria": "camp_site",
+      "lat": -41.4647367,
+      "lon": -72.6474677
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-mandala-puerto-montt",
+    "business": "Cabañas Mandala",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3467817304,
+      "categoria": "motel",
+      "lat": -41.4313342,
+      "lon": -73.0347799
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-kineco-puerto-montt",
+    "business": "Cabañas Kiñeco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3710071400,
+      "categoria": "motel",
+      "lat": -41.4486753,
+      "lon": -73.018539
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "roberto-puerto-montt",
+    "business": "Roberto",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3796317790,
+      "categoria": "camp_site",
+      "lat": -41.5883354,
+      "lon": -72.7007974
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-mozart-puerto-montt",
+    "business": "Hostal Mozart",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3897530441,
+      "categoria": "hostel",
+      "lat": -41.5729245,
+      "lon": -72.7242781
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-ciervo-puerto-montt",
+    "business": "El Ciervo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3900688727,
+      "categoria": "camp_site",
+      "lat": -41.486767,
+      "lon": -72.9731954
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rohe-puerto-montt",
+    "business": "Cabañas Rohe",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3900688946,
+      "categoria": "hostel",
+      "lat": -41.4701864,
+      "lon": -72.9731137
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-ciervo-puerto-montt",
+    "business": "Cabañas El Ciervo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3900688948,
+      "categoria": "hostel",
+      "lat": -41.4868589,
+      "lon": -72.9734703
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "posada-angelmo-puerto-montt",
+    "business": "Posada Angelmo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Angelmo",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3976181250,
+      "categoria": "hostel",
+      "lat": -41.483411,
+      "lon": -72.9616398
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-casablanca-puerto-montt",
+    "business": "Hostal Casablanca",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3982043485,
+      "categoria": "hostel",
+      "lat": -41.4624613,
+      "lon": -72.9313049
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "brisas-del-mar-puerto-montt",
+    "business": "Brisas del Mar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4010341907,
+      "categoria": "motel",
+      "lat": -41.4833965,
+      "lon": -72.9614876
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "parque-nacional-alerce-andino-puerto-montt",
+    "business": "Parque Nacional Alerce Andino",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4040508631,
+      "categoria": "camp_site",
+      "lat": -41.5969309,
+      "lon": -72.5998122
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-antupiren-puerto-montt",
+    "business": "Hotel Antupiren",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Freire 186",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4062330066,
+      "categoria": "hotel",
+      "lat": -41.4726358,
+      "lon": -72.9494655
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-lagunitas-puerto-montt",
+    "business": "Hostal Lagunitas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Quellon 99",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4070416593,
+      "categoria": "hostel",
+      "lat": -41.4622323,
+      "lon": -72.9312257
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-tocoihue-puerto-montt",
+    "business": "Cabañas Tocoihue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4119129068,
+      "categoria": "motel",
+      "lat": -41.4715946,
+      "lon": -72.9302331
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-covadonga-puerto-montt",
+    "business": "Cabañas Covadonga",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4133784042,
+      "categoria": "motel",
+      "lat": -41.4719483,
+      "lon": -72.9306929
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rocas-vivas-puerto-montt",
+    "business": "Rocas Vivas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4256561489,
+      "categoria": "camp_site",
+      "lat": -41.5936477,
+      "lon": -72.7034018
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-chinquihue-alto-puerto-montt",
+    "business": "Cabañas Chinquihue Alto",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4363185697,
+      "categoria": "motel",
+      "lat": -41.5220232,
+      "lon": -73.0559786
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-rio-blanco-puerto-montt",
+    "business": "Residencial Rio Blanco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4363226306,
+      "categoria": "hostel",
+      "lat": -41.5228988,
+      "lon": -73.044885
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-pelluco-puerto-montt",
+    "business": "Cabañas Pelluco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4618579502,
+      "categoria": "hostel",
+      "lat": -41.4881976,
+      "lon": -72.8962572
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-de-la-josefa-puerto-montt",
+    "business": "Hostal de la Josefa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4618579513,
+      "categoria": "motel",
+      "lat": -41.4840437,
+      "lon": -72.9020497
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-abedules-puerto-montt",
+    "business": "Cabañas Los Abedules",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4618579515,
+      "categoria": "motel",
+      "lat": -41.4837808,
+      "lon": -72.9020279
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-sauces-puerto-montt",
+    "business": "Cabañas Los Sauces",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4618579518,
+      "categoria": "motel",
+      "lat": -41.4844551,
+      "lon": -72.9013316
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "las-toninas-puerto-montt",
+    "business": "Las Toninas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4630359911,
+      "categoria": "hostel",
+      "lat": -41.4955166,
+      "lon": -72.8893554
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-pelluhuin-puerto-montt",
+    "business": "Camping Pelluhuin",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4630359947,
+      "categoria": "camp_site",
+      "lat": -41.4953929,
+      "lon": -72.8900356
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-augusta-puerto-montt",
+    "business": "Cabañas Augusta",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4630364375,
+      "categoria": "hostel",
+      "lat": -41.488669,
+      "lon": -72.8982378
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-oregon-puerto-montt",
+    "business": "Cabañas Oregon",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4630364700,
+      "categoria": "chalet",
+      "lat": -41.4672717,
+      "lon": -72.9093389
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-costanera-puerto-montt",
+    "business": "Residencial Costanera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4632799335,
+      "categoria": "hostel",
+      "lat": -41.4803907,
+      "lon": -72.9545685
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-gladys-puerto-montt",
+    "business": "casa gladys",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4729110591,
+      "categoria": "hostel",
+      "lat": -41.4747116,
+      "lon": -72.9496111
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "mayara-puerto-montt",
+    "business": "Mayara",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4748102921,
+      "categoria": "hostel",
+      "lat": -41.4773469,
+      "lon": -72.9530668
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-anahuac-puerto-montt",
+    "business": "Cabañas Anahuac",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Mazatlán",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4764020511,
+      "categoria": "motel",
+      "lat": -41.4846391,
+      "lon": -72.9770764
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "apart-hotel-croacia-puerto-montt",
+    "business": "Apart Hotel Croacia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5151881924,
+      "categoria": "hotel",
+      "lat": -41.4743454,
+      "lon": -72.9550777
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rucalen-puerto-montt",
+    "business": "Cabañas Rucalen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5151954922,
+      "categoria": "hostel",
+      "lat": -41.4718358,
+      "lon": -72.9468997
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-copiapo-9-puerto-montt",
+    "business": "Hostal Copiapó 9",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152054027,
+      "categoria": "hostel",
+      "lat": -41.4725965,
+      "lon": -72.9348364
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-sur-puerto-montt",
+    "business": "Hostal Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152551422,
+      "categoria": "hotel",
+      "lat": -41.4749762,
+      "lon": -72.9486258
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-fx-puerto-montt",
+    "business": "Hostal Fx",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152551423,
+      "categoria": "hostel",
+      "lat": -41.4753374,
+      "lon": -72.9528498
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-el-talquino-puerto-montt",
+    "business": "Residencial El Talquino",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152551424,
+      "categoria": "hostel",
+      "lat": -41.4753682,
+      "lon": -72.9521131
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-perla-puerto-montt",
+    "business": "Casa Perla",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152551428,
+      "categoria": "hostel",
+      "lat": -41.4741686,
+      "lon": -72.9565762
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-don-teo-puerto-montt",
+    "business": "Hotel Don Teo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152553821,
+      "categoria": "hotel",
+      "lat": -41.4751431,
+      "lon": -72.9490012
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-hospedaje-puerto-montt",
+    "business": "Cabañas & Hospedaje",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152553921,
+      "categoria": "hostel",
+      "lat": -41.4741489,
+      "lon": -72.9480945
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-costa-brava-puerto-montt",
+    "business": "Hospedaje Costa Brava",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152553922,
+      "categoria": "hostel",
+      "lat": -41.4748013,
+      "lon": -72.9535401
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-gladys-puerto-montt",
+    "business": "Hospedaje Gladys",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5152553924,
+      "categoria": "hostel",
+      "lat": -41.4736494,
+      "lon": -72.9551941
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-flamencos-puerto-montt",
+    "business": "Casa flamencos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5172872022,
+      "categoria": "guest_house",
+      "lat": -41.4769113,
+      "lon": -72.9907981
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-ibis-puerto-montt-puerto-montt",
+    "business": "Hotel Ibis Puerto Montt",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Diego Portales 1001",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5242905958,
+      "categoria": "hotel",
+      "lat": -41.476569,
+      "lon": -72.9493078
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "las-bandurrias-puerto-montt",
+    "business": "Las Bandurrias",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5275468823,
+      "categoria": "camp_site",
+      "lat": -41.47105,
+      "lon": -72.8442776
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-chucaos-puerto-montt",
+    "business": "Camping Los Chucaos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5446528148,
+      "categoria": "camp_site",
+      "lat": -41.5833478,
+      "lon": -72.5698975
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rocco-house-backpackers-puerto-montt",
+    "business": "Rocco House Backpackers",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pudeto 233",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5542414828,
+      "categoria": "hostel",
+      "lat": -41.4798084,
+      "lon": -72.9576849
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-nancy-puerto-montt",
+    "business": "Hospedaje Nancy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5589649007,
+      "categoria": "guest_house",
+      "lat": -41.4756995,
+      "lon": -72.9530534
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "vista-hermosa-puerto-montt",
+    "business": "vista hermosa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5594787021,
+      "categoria": "guest_house",
+      "lat": -41.4781732,
+      "lon": -72.9533279
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-tia-kati-puerto-montt",
+    "business": "casa tía kati",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5726834623,
+      "categoria": "guest_house",
+      "lat": -41.4612387,
+      "lon": -72.9266354
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-kial-puerto-montt",
+    "business": "Cabaña Kial",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6204090189,
+      "categoria": "guest_house",
+      "lat": -41.5208818,
+      "lon": -72.7597798
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-campo-santy-puerto-montt",
+    "business": "Hostal Campo Santy",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6299384588,
+      "categoria": "hostel",
+      "lat": -41.601452,
+      "lon": -72.6721677
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-ancud-puerto-montt",
+    "business": "Residencial Ancud",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6317612086,
+      "categoria": "hostel",
+      "lat": -41.474346,
+      "lon": -72.9499087
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "belem-puerto-montt",
+    "business": "Belem",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6711374885,
+      "categoria": "guest_house",
+      "lat": -41.4603627,
+      "lon": -72.9619973
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-kalfukura-puerto-montt",
+    "business": "cabañas Kalfukura",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carretera Austral 14,5",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6737692091,
+      "categoria": "guest_house",
+      "lat": -41.5066432,
+      "lon": -72.7951517
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-familiar-puerto-montt",
+    "business": "casa familiar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7217335285,
+      "categoria": "guest_house",
+      "lat": -41.4744613,
+      "lon": -72.9598114
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-carina-puerto-montt",
+    "business": "Hospedaje Carina",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7293507585,
+      "categoria": "guest_house",
+      "lat": -41.4738199,
+      "lon": -72.9558773
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-jacob-puerto-montt",
+    "business": "Hostal Jacob",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9483682019,
+      "categoria": "guest_house",
+      "lat": -41.4796939,
+      "lon": -72.9580674
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-maria-fresia-puerto-montt",
+    "business": "Hostal María Fresia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9712853517,
+      "categoria": "hostel",
+      "lat": -41.4756388,
+      "lon": -72.9548087
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencia-correntoso-puerto-montt",
+    "business": "Residencia Correntoso",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10181296617,
+      "categoria": "guest_house",
+      "lat": -41.4663519,
+      "lon": -72.675866
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-patrimonial-angelmo-puerto-montt",
+    "business": "Hostal Patrimonial Angelmó",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Chorillos 1369",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10809279183,
+      "categoria": "guest_house",
+      "lat": -41.4773243,
+      "lon": -72.9548632
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-miramar-puerto-montt",
+    "business": "Hotel Miramar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12151694213,
+      "categoria": "hotel",
+      "lat": -41.475028,
+      "lon": -72.9487442
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-y-cabanas-mirando-al-mar-puerto-montt",
+    "business": "Hostal y Cabañas Mirando al Mar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12394892394,
+      "categoria": "guest_house",
+      "lat": -41.4688979,
+      "lon": -72.9565231
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hosteria-lenca-puerto-montt",
+    "business": "Hosteria Lenca",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carretera Austral",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12461021001,
+      "categoria": "hostel",
+      "lat": -41.6049886,
+      "lon": -72.652941
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "islanet-hostel-puerto-montt",
+    "business": "Islanet Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Diagonal Germania 33",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12472835901,
+      "categoria": "hostel",
+      "lat": -41.4708721,
+      "lon": -72.9343381
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-sol-de-oriente-puerto-montt",
+    "business": "Hostal Sol de Oriente",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://cabaas-y-hostal-sol-de-oriente.loslagoshoteles.com/es/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": "Volcán Tulapalca",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13244550629,
+      "categoria": "hostel",
+      "lat": -41.4539338,
+      "lon": -72.9267129
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://cabaas-y-hostal-sol-de-oriente.loslagoshoteles.com/es/",
+      "finalUrl": "https://cabaas-y-hostal-sol-de-oriente.loslagoshoteles.com/es/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 6,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "ᐉ CABAÑAS Y HOSTAL SOL DE ORIENTE ( CHILE ) FOTOS DE VIAJEROS Y OFERTAS EXCLUSIVAS",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 114689,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 9,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-viento-norte-puerto-montt",
+    "business": "Camping Viento Norte",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13308259547,
+      "categoria": "camp_site",
+      "lat": -41.5615176,
+      "lon": -73.0046776
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "tapul-mapu-apart-house-spa-puerto-montt",
+    "business": "Tapül Mapu Apart House /Spa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Pacifico 34",
+    "comuna": "puerto montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 14047562140,
+      "categoria": "chalet",
+      "lat": -41.4252561,
+      "lon": -72.9200553
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "gran-hotel-vicente-costanera-puerto-montt",
+    "business": "Gran Hotel Vicente Costanera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Diego Portales 450",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 89636923,
+      "categoria": "hotel",
+      "lat": -41.4725682,
+      "lon": -72.9408351
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "apart-hotel-colon-puerto-montt",
+    "business": "Apart Hotel Colón",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Montt 65",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 116223525,
+      "categoria": "hotel",
+      "lat": -41.4727954,
+      "lon": -72.9425899
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-fx-puerto-montt",
+    "business": "Cabañas Fx",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 148165564,
+      "categoria": "motel",
+      "lat": -41.4715746,
+      "lon": -72.9656071
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "courtyard-by-marriott-puerto-montt",
+    "business": "Courtyard by Marriott",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Seminario 252",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 180422271,
+      "categoria": "hotel",
+      "lat": -41.4677576,
+      "lon": -72.9378902
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "seminario-puerto-montt",
+    "business": "Seminario",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 200130670,
+      "categoria": "hotel",
+      "lat": -41.4676827,
+      "lon": -72.9420952
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-candil-del-sur-puerto-montt",
+    "business": "El Candil del Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 286901207,
+      "categoria": "hotel",
+      "lat": -41.471842,
+      "lon": -72.9362505
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-club-presidente-puerto-montt",
+    "business": "Hotel Club Presidente",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 290731615,
+      "categoria": "hotel",
+      "lat": -41.4733532,
+      "lon": -72.9444022
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "complejo-turistico-coihuin-puerto-montt",
+    "business": "Complejo Turistico Coihuin",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 398524538,
+      "categoria": "motel",
+      "lat": -41.4873611,
+      "lon": -72.8665987
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-versalles-suites-puerto-montt-puerto-montt",
+    "business": "Hotel Versalles Suites Puerto Montt",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "V-805 (Camino a Chinquihue)",
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 552619095,
+      "categoria": "hotel",
+      "lat": -41.5120222,
+      "lon": -73.0005419
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-temuco-puerto-montt",
+    "business": "Residencial Temuco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1001913044,
+      "categoria": "guest_house",
+      "lat": -41.4745051,
+      "lon": -72.9499127
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-polz-puerto-montt",
+    "business": "Hospedaje Polz",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1001913045,
+      "categoria": "hostel",
+      "lat": -41.4745047,
+      "lon": -72.9497988
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "portal-austral-puerto-montt",
+    "business": "Portal Austral",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1001913071,
+      "categoria": "guest_house",
+      "lat": -41.4741741,
+      "lon": -72.9505025
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "terrazas-del-mar-puerto-montt",
+    "business": "Terrazas del Mar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1001922552,
+      "categoria": "hotel",
+      "lat": -41.4744242,
+      "lon": -72.9513635
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casona-alemana-puerto-montt",
+    "business": "Casona Alemana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1095773436,
+      "categoria": "hostel",
+      "lat": -41.4801844,
+      "lon": -72.8423351
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "refugio-volcan-calbuco-puerto-montt",
+    "business": "Refugio Volcán Calbuco",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://los16.cl/volcan-calbuco/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Montt",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5818019227,
+      "categoria": "alpine_hut",
+      "lat": -41.3451915,
+      "lon": -72.6353018
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://los16.cl/volcan-calbuco/",
+      "finalUrl": "https://los16.cl/volcan-calbuco/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 3,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y youtube, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Aventura sostenible en Volcán Calbuco: conecta y descubre",
+        "platform": "WordPress",
+        "emails": [
+          "los16@deportelibre.cl"
+        ],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/los16dechile",
+          "youtube": "https://www.youtube.com/channel/UC1MbRQuvL_d_B5XuwQMKZAw"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 152466,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 8,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  }
+]

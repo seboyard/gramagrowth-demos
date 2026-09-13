@@ -69,12 +69,23 @@ function validar(c) {
   // del correo describe la oferta —"botón de WhatsApp", "un dominio suyo"— y
   // esas palabras no son hallazgos.
   const afirmado = `${(c.findings || []).join(' ')} ${c.subject || ''}`;
+  // Además del audit del sitio, valen verificaciones hechas aparte y anotadas
+  // con fecha: p. ej. que el dominio que figura en el mapa ya no resuelve,
+  // aunque el negocio tenga otro sitio vivo. Sin fecha no cuentan.
   const senales = new Set((c.audit?.signals || []).map((s) => s.id));
+  (c.verificaciones || []).forEach((v) => { if (v.tipo && v.fecha) senales.add(v.tipo); });
   const sinWebOk = c.sinWeb;
+  // Una página estacionada o un error HTTP respaldan hablar de "dominio" y de
+  // "relleno": son la misma familia de hallazgo que el dominio caído.
+  const EQUIVALENTES = {
+    'dominio-caido': ['pagina-estacionada', 'sitio-con-error'],
+    'plantilla-sin-terminar': ['pagina-estacionada']
+  };
+  const respaldada = (id) => senales.has(id) || (EQUIVALENTES[id] || []).some((alt) => senales.has(alt));
   for (const [id, re] of Object.entries(SENALES)) {
     // Un negocio sin web puede hablar de que no tiene sitio; el resto de las
     // señales sólo existen si el auditor las vio.
-    if (re.test(afirmado) && !senales.has(id) && !(sinWebOk && id === 'dominio-caido')) {
+    if (re.test(afirmado) && !respaldada(id) && !(sinWebOk && id === 'dominio-caido')) {
       errores.push(`menciona "${id}" pero la auditoría no lo detectó`);
     }
   }

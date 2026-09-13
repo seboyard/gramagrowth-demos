@@ -1,0 +1,1861 @@
+[
+  {
+    "id": "domos-frutillar-frutillar",
+    "business": "Domos Frutillar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.domosfrutillar.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56981883144",
+    "email": "reservas@domosfrutillar.cl",
+    "direccion": "Ruta V-200",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11476495769,
+      "categoria": "hostel",
+      "lat": -41.1219454,
+      "lon": -73.1409825
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.domosfrutillar.cl/",
+      "finalUrl": "https://www.domosfrutillar.cl/es/error",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 11,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "Título genérico: \"Error\"",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Error",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 1127,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 15,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "ayacara-frutillar",
+    "business": "Ayacara",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.hotelayacara.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56652421550",
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 1215",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 284689106,
+      "categoria": "hotel",
+      "lat": -41.1410144,
+      "lon": -73.0255402
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.hotelayacara.cl/",
+      "finalUrl": "https://www.hotelayacara.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "residenz-am-see-frutillar",
+    "business": "Residenz Am See",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 65 421858",
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 539",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1100073838,
+      "categoria": "hotel",
+      "lat": -41.1331904,
+      "lon": -73.0277775
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "trayen-frutillar",
+    "business": "Trayen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 65 421346",
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 963",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1100109135,
+      "categoria": "hostel",
+      "lat": -41.1381594,
+      "lon": -73.0270775
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hosteria-winkler-frutillar",
+    "business": "Hostería Winkler",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 65 421388",
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 1155",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1100109170,
+      "categoria": "hostel",
+      "lat": -41.1404534,
+      "lon": -73.025704
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-mitchell-frutillar",
+    "business": "Hospedaje Mitchell",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.hospedajefrutillar.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 65 2 421 422",
+    "email": "contacto@hospedajefrutillar.cl",
+    "direccion": "Cristino Winkler 173",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3684326109,
+      "categoria": "guest_house",
+      "lat": -41.1220979,
+      "lon": -73.0576311
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.hospedajefrutillar.cl/",
+      "finalUrl": "https://hospedajefrutillar.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 6,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Frutillar Puerto Montt Osorno: Hotels, Flights & Lake District Tours",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 87563,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-betty-frutillar",
+    "business": "Hospedaje Betty",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "652421563",
+    "email": "bmontenegroscholer@gmail.com",
+    "direccion": "Avenida Alemania 590",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6204696787,
+      "categoria": "guest_house",
+      "lat": -41.1342396,
+      "lon": -73.0324846
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-y-quincho-donde-clemente-frutillar",
+    "business": "Cabañas y Quincho Dónde Clemente.",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "962392474",
+    "email": "bmontenegroscholer@gmail.com",
+    "direccion": "Las Piedras 340",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6204697288,
+      "categoria": "guest_house",
+      "lat": -41.1386254,
+      "lon": -73.0330559
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "espanol-frutillar",
+    "business": "Español",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "962392474",
+    "email": "bmontenegroscholer@gmail.com",
+    "direccion": "Vicente Pérez Rosales 340 C",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10276610909,
+      "categoria": "guest_house",
+      "lat": -41.1310891,
+      "lon": -73.0284475
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-yayi-frutillar",
+    "business": "Cabañas Yayi",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56652421912",
+    "email": null,
+    "direccion": "Vicente Pérez Rosales 570",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 311269609,
+      "categoria": "chalet",
+      "lat": -41.1340666,
+      "lon": -73.0286569
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "paraiso-del-lago-frutillar",
+    "business": "Paraiso del lago",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 1175",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1141684675,
+      "categoria": "hostel",
+      "lat": -41.1406342,
+      "lon": -73.0255525
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-vista-hermosa-frutillar",
+    "business": "Cabañas Vista Hermosa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 1227",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1141684676,
+      "categoria": "hotel",
+      "lat": -41.1414765,
+      "lon": -73.0253191
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-bischoffhausen-frutillar",
+    "business": "Hospedaje Bischoffhausen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 1285",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1141684677,
+      "categoria": "hotel",
+      "lat": -41.1417594,
+      "lon": -73.0251727
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-frau-holle-frutillar",
+    "business": "Hotel Frau Holle",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Antonio Varas 54",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1141687038,
+      "categoria": "hostel",
+      "lat": -41.1387313,
+      "lon": -73.027262
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-el-arroyo-frutillar",
+    "business": "Hospedaje El Arroyo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 989",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1141687062,
+      "categoria": "hostel",
+      "lat": -41.1383999,
+      "lon": -73.0270794
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-vivaldi-frutillar",
+    "business": "Hospedaje Vivaldi",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 851",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1141691315,
+      "categoria": "hostel",
+      "lat": -41.1370703,
+      "lon": -73.0273186
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-elun-frutillar",
+    "business": "Hotel Elun",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Camino a Punta Larga",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2352608622,
+      "categoria": "hotel",
+      "lat": -41.146089,
+      "lon": -73.0219597
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "centro-vacacional-los-volcanes-frutillar",
+    "business": "Centro Vacacional Los Volcanes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2379284720,
+      "categoria": "hotel",
+      "lat": -41.1240734,
+      "lon": -73.0422103
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-lagune-club-frutillar",
+    "business": "Hotel Lagune Club",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Camino a Los Bajos Kilometro 3",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2612199675,
+      "categoria": "hotel",
+      "lat": -41.1174629,
+      "lon": -73.003092
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "amadeus-frutillar",
+    "business": "Amadeus",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Bernardo Philippi 65",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2657074894,
+      "categoria": "hotel",
+      "lat": -41.1275035,
+      "lon": -73.0267044
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-frutillar-frutillar",
+    "business": "Hotel Frutillar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Pérez Rosales 673",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2770245508,
+      "categoria": "hotel",
+      "lat": -41.1353297,
+      "lon": -73.0290186
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "centro-vacacional-caja-los-andes-frutillar",
+    "business": "Centro Vacacional Caja Los Andes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2784382614,
+      "categoria": "hotel",
+      "lat": -41.1902706,
+      "lon": -73.0030695
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "mindanao-frutillar",
+    "business": "Mindanao",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2784390911,
+      "categoria": "motel",
+      "lat": -41.1495987,
+      "lon": -73.0169097
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-oregon-frutillar",
+    "business": "Cabañas Oregon",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Pérez Rosales 1020",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2784414790,
+      "categoria": "motel",
+      "lat": -41.139081,
+      "lon": -73.0282469
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "valle-del-tirol-frutillar",
+    "business": "Valle del Tirol",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Richter 77",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2784414797,
+      "categoria": "hostel",
+      "lat": -41.1313684,
+      "lon": -73.0295283
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "dona-isabel-frutillar",
+    "business": "Doña Isabel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Richter 320",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2784414805,
+      "categoria": "motel",
+      "lat": -41.1274935,
+      "lon": -73.0564208
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "senora-erika-frutillar",
+    "business": "Señora Erika",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Richter 368",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2784414807,
+      "categoria": "motel",
+      "lat": -41.1277444,
+      "lon": -73.0558307
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "wolfang-amadeus-haus-frutillar",
+    "business": "Wolfang Amadeus Haus",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Carlos Richter 35",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2784414811,
+      "categoria": "hostel",
+      "lat": -41.1313483,
+      "lon": -73.0289421
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-tante-imelda-frutillar",
+    "business": "Hostal Tante Imelda",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2800137457,
+      "categoria": "hostel",
+      "lat": -41.1495744,
+      "lon": -73.0222706
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-ciruelillos-frutillar",
+    "business": "Cabañas Los Ciruelillos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3000864625,
+      "categoria": "motel",
+      "lat": -41.1487757,
+      "lon": -73.010411
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-cipres-frutillar",
+    "business": "Cabañas el Cipres",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3495892587,
+      "categoria": "motel",
+      "lat": -41.1474334,
+      "lon": -72.999078
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "entre-verdes-frutillar",
+    "business": "Entre Verdes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pasaje Bremen 300",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3495896462,
+      "categoria": "motel",
+      "lat": -41.135132,
+      "lon": -73.0319834
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "buf-mulan-frutillar",
+    "business": "Buf Mulan",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3495896464,
+      "categoria": "motel",
+      "lat": -41.1399052,
+      "lon": -73.0278932
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-salzburg-frutillar",
+    "business": "Hotel Salzburg",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Camino a Playa Maqui s/n",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3761375091,
+      "categoria": "hotel",
+      "lat": -41.122281,
+      "lon": -73.0209466
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "suites-cinco-robles-frutillar",
+    "business": "Suites Cinco Robles",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Costanera Norte, Km. 1,5",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3761389127,
+      "categoria": "hotel",
+      "lat": -41.1202863,
+      "lon": -73.0163248
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-felix-frutillar",
+    "business": "Cabañas Félix",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Pérez Rosales 610",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3771228884,
+      "categoria": "motel",
+      "lat": -41.134609,
+      "lon": -73.0287806
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-serenade-frutillar",
+    "business": "Hostal Serenade",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Aguirre Cerda 50",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4183446088,
+      "categoria": "hotel",
+      "lat": -41.1410187,
+      "lon": -73.0260424
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-rosalba-cafe-frutillar",
+    "business": "Casa Rosalba Café",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Caupolicán 32",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4197192889,
+      "categoria": "guest_house",
+      "lat": -41.1278401,
+      "lon": -73.0275374
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-jardin-de-los-cerezos-frutillar",
+    "business": "Cabañas Jardín de los Cerezos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Pérez Rosales 286",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4199661928,
+      "categoria": "motel",
+      "lat": -41.1304589,
+      "lon": -73.0283051
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-bosque-patagonico-frutillar",
+    "business": "Cabañas El Bosque Patagónico",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Caupolicán 117",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4199661932,
+      "categoria": "motel",
+      "lat": -41.1272621,
+      "lon": -73.0287959
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-cuatro-estaciones-frutillar",
+    "business": "Cabañas Cuatro Estaciones",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4199663044,
+      "categoria": "motel",
+      "lat": -41.1180748,
+      "lon": -73.0120142
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "vista-paraiso-frutillar",
+    "business": "Vista Paraiso",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4199664934,
+      "categoria": "guest_house",
+      "lat": -41.1138757,
+      "lon": -72.9988724
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-tulipanes-frutillar",
+    "business": "Cabañas Los Tulipanes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4199670341,
+      "categoria": "motel",
+      "lat": -41.1062771,
+      "lon": -72.9875846
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "playa-maqui-lodge-frutillar",
+    "business": "Playa Maqui Lodge",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4200281431,
+      "categoria": "hotel",
+      "lat": -41.093883,
+      "lon": -72.9845913
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "shukas-frutillar",
+    "business": "Shukas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4200281433,
+      "categoria": "guest_house",
+      "lat": -41.0926702,
+      "lon": -72.9821558
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "viento-sur-frutillar",
+    "business": "Viento Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4200297995,
+      "categoria": "guest_house",
+      "lat": -41.0915058,
+      "lon": -72.9788513
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-san-pedro-frutillar",
+    "business": "Cabañas San Pedro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4211573246,
+      "categoria": "guest_house",
+      "lat": -41.128087,
+      "lon": -73.056992
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-lilem-frutillar",
+    "business": "Cabañas LILEM",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4951507933,
+      "categoria": "hostel",
+      "lat": -41.1298386,
+      "lon": -73.0575605
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-mavet-frutillar",
+    "business": "Hospedaje Mavet",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5150832626,
+      "categoria": "hostel",
+      "lat": -41.0091309,
+      "lon": -73.12094
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "centro-vacacional-caja-los-andes-punta-larga-frutillar",
+    "business": "Centro Vacacional Caja Los Andes Punta Larga",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 178323023,
+      "categoria": "motel",
+      "lat": -41.1911099,
+      "lon": -73.0027461
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-edelweiss-frutillar",
+    "business": "Cabañas Edelweiss",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 284689278,
+      "categoria": "chalet",
+      "lat": -41.1418318,
+      "lon": -73.0263867
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-playa-maqui-frutillar",
+    "business": "Camping Playa Maqui",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 358401115,
+      "categoria": "camp_site",
+      "lat": -41.0972795,
+      "lon": -72.9813034
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-angelica-frutillar",
+    "business": "Hospedaje Angélica",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Pérez Rosales 590",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 373704013,
+      "categoria": "hostel",
+      "lat": -41.1343789,
+      "lon": -73.0287524
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "san-pedro-frutillar",
+    "business": "San Pedro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 548469020,
+      "categoria": "motel",
+      "lat": -41.1273252,
+      "lon": -73.0566232
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-la-gruta-frutillar",
+    "business": "Camping La Gruta",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 807485007,
+      "categoria": "camp_site",
+      "lat": -41.1413972,
+      "lon": -73.0323156
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "la-casa-de-la-oma-frutillar",
+    "business": "La Casa de la Oma",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Camino a Tegualda km 14",
+    "comuna": "Frutillar",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 828038668,
+      "categoria": "hotel",
+      "lat": -41.1069179,
+      "lon": -73.2223028
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  }
+]

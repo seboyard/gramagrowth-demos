@@ -3420,5 +3420,1268 @@
     "status": "review",
     "followUp": "",
     "notes": "Demo: clientes/regenbogen-bungalows/ · Faltó del sitio: WhatsApp, promociones, año de las tarifas (temporadas sin año: se usaron para el calendario que viene). Tarifas por persona modeladas con tarifa base al mínimo de personas y el resto en el detalle. Dos horarios de check in distintos en el sitio. · Lote panguipulli-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "zapato-amarillo-puerto-octay",
+    "business": "Zapato Amarillo",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://www.zapatoamarillo.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 8309 8398",
+      "label": "Celular publicado en Tripadvisor; fijo +56 64 221 0787 en OSM. El correo info@zapatoamarillo.cl está en el dominio caído: puede no recibir."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio zapatoamarillo.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.zapatoamarillo.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2136817595"
+      }
+    ],
+    "subject": "La web de Zapato Amarillo ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Buscando Zapato Amarillo llegué a zapatoamarillo.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nSon el alojamiento mejor calificado de Puerto Octay en Tripadvisor, y esa demanda hoy sólo puede reservar por Booking.\n\nPuedo dejar una página de reserva directa —sus habitaciones dobles y twin con vista al jardín y su desayuno casero, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.zapatoamarillo.cl/",
+      "finalUrl": "http://www.zapatoamarillo.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio zapatoamarillo.cl caido. Reconfirmar el día del contacto. · Lote dominios-caidos-los-lagos-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "quincho-casa-hotel-puerto-varas",
+    "business": "Quincho Casa Hotel",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://quinchocasahotel.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 65 233 0737",
+      "label": "Teléfono publicado en OSM"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio quinchocasahotel.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://quinchocasahotel.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4530501647"
+      }
+    ],
+    "subject": "La web de Quincho Casa Hotel ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Buscando Quincho Casa Hotel llegué a quinchocasahotel.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPara un hotel de cuatro suites con excursiones incluidas, la consulta directa vale mucho más que la de una plataforma: quien llega quiere preguntar antes de reservar.\n\nPuedo dejar una página de reserva directa —sus cuatro suites y el programa de excursiones incluidas, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://quinchocasahotel.cl/",
+      "finalUrl": "http://quinchocasahotel.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio quinchocasahotel.cl caido. Reconfirmar el día del contacto. · Lote dominios-caidos-los-lagos-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "casa-margouya-puerto-varas",
+    "business": "Casa Margouya",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "http://www.margouya.com/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 65 223 7640",
+      "label": "Teléfono publicado en OSM"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "findings": [
+      "El dominio margouya.com, que figura como sitio del negocio en OpenStreetMap, muestra una página de relleno del hosting en vez del sitio (verificado el 2026-09-12).",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.margouya.com/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2455523835"
+      }
+    ],
+    "subject": "La web de Casa Margouya ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Buscando Casa Margouya llegué a margouya.com, que aparece como su sitio en el mapa, y en vez del sitio aparece una página de relleno del hosting. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPuedo dejar una página de reserva directa —sus habitaciones y camas de hostal, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.margouya.com/",
+      "finalUrl": "https://www.hugedomains.com/domain_profile.cfm?d=margouya.com",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 6,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "pagina-estacionada",
+          "severity": "alta",
+          "label": "El dominio muestra una página de relleno, no el sitio del negocio",
+          "detail": "El sitio real ya no está publicado: quien llega ve una página del hosting o del registrador.",
+          "evidence": "…Margouya.com is for sale | HugeDomains Skip to main content Search +1-303-893-0552 Home FAQs About us Contact us My account My favorites Shopping cart…"
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Margouya.com is for sale | HugeDomains",
+        "platform": null,
+        "emails": [],
+        "phones": [
+          "+13038930552"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 43591,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio margouya.com estacionado. Reconfirmar el día del contacto. · Lote dominios-caidos-los-lagos-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "hotel-don-luis-puerto-montt",
+    "business": "Hotel Don Luis",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://hoteldonluis.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56995212248",
+      "label": "WhatsApp de reservas publicado en el sitio (+56 9 9521 2248)"
+    },
+    "offer": "landing",
+    "opportunity": "Hotel de 65 habitaciones cuyo sitio no publica tarifas ni horarios y deriva toda consulta a un motor externo; una página de consulta directa por WhatsApp captura lo que hoy se pierde en ese salto.",
+    "findings": [
+      "La página Habitaciones describe la Ejecutiva (15 m²) y la Superior (23 m²) pero no publica ninguna tarifa: para saber el valor hay que salir del sitio al motor externo de TravelClick.",
+      "La página Políticas detalla cancelación, niños y no show, pero no indica horario de check in ni de check out.",
+      "El pie de página dice \"© Copyright 2025\"."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://hoteldonluis.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/287737648"
+      }
+    ],
+    "subject": "Sus habitaciones no muestran tarifa sin salir a TravelClick",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Revisé hoteldonluis.cl y vi que la página Habitaciones describe bien la Ejecutiva de 15 m² y la Superior de 23 m², pero no muestra ninguna tarifa: quien quiere saber cuánto cuesta la noche tiene que salir del sitio al motor de TravelClick, y en Políticas tampoco aparece el horario de check in ni de check out. Cada paso extra es una consulta que se pierde en el camino, sobre todo desde el celular.\n\nPreparé una muestra con sus 2 tipos de habitación, la política de cancelación por temporada y la regla para niños menores de 10 años, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Los valores y horarios quedan \"a confirmar\" hasta que ustedes me los entreguen: no inventé ninguno.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, en su dominio o en uno propio.\n\n¿Le mando el enlace de la muestra para que la vea en el teléfono?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://hoteldonluis.cl/",
+      "finalUrl": "https://www.hoteldonluis.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 5,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2025",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…, Chile | Tel.: +56 65 2200 300 | E-mail: reservas@hdl.cl © Copyright 2025 | Todos los derechos reservados | Desarrollado por Agencia i5 Quiénes…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hotel en Puerto Montt - Alojamiento Región de Los Lagos",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@hdl.cl"
+        ],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/hoteldonluis",
+          "facebook": "https://www.facebook.com/hoteldonluis"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 148437,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/hotel-don-luis/ · El sitio no publica tarifas (van a TravelClick), horario de check in/out ni % de abono; capacidad por habitación sólo como \"single o doble\". El sitio SÍ tiene widget de WhatsApp (56995212248): no usar la señal sin-whatsapp. Correo del sitio es reservas@hdl.cl, no el de OSM. · Lote puerto-montt-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-kari-mapu-park-pucon",
+    "business": "Cabañas Kari Mapu Park",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://www.karimapu.com",
+    "verifiedAt": "2026-09-13",
+    "contact": {
+      "type": "instagram",
+      "value": "https://instagram.com/cabanas_karimapu_pucon",
+      "label": "Instagram publicado en el registro SERNATUR; el sitio caído no muestra teléfono ni correo"
+    },
+    "offer": "express",
+    "opportunity": "Reparar el error 500 (arreglo exprés) y abrir la conversación sobre la página de reserva.",
+    "findings": [
+      "karimapu.com responde con error HTTP 500 (verificado el 2026-09-13): la página existe —el título \"Cabañas bucólicas entre bosques y río\" alcanza a cargar— pero el servidor falla y el visitante ve un error.",
+      "El sitio no publica teléfono ni correo ni enlace a WhatsApp legibles: el único canal visible es Instagram."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.karimapu.com"
+      },
+      {
+        "label": "Perfil público enlazado desde OSM",
+        "url": "https://instagram.com/cabanas_karimapu_pucon"
+      }
+    ],
+    "subject": "karimapu.com está devolviendo error 500",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a karimapu.com desde el registro de SERNATUR y el sitio devuelve un error 500: el título de las cabañas alcanza a verse, pero el servidor falla y la página no termina de cargar. Lo comprobé el 13 de septiembre. Es el tipo de falla que suele arreglarse en horas (un plugin o una actualización de WordPress a medio hacer), pero mientras tanto quien busca las cabañas para el verano ve un error y sigue al siguiente resultado.\n\nPuedo revisarlo y dejarlo funcionando en 2 días hábiles por $120.000, y de paso dejar el botón de WhatsApp con la consulta prellenada. Si además quieren una página donde el pasajero elija fechas y cuántos son y les mande la consulta completa, esa son 5 días hábiles por $320.000.\n\n¿Les sirve que lo revise esta semana?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.karimapu.com",
+      "finalUrl": "https://karimapu.com/",
+      "status": 500,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 13,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 500",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Kari Mapu Park &#8211; Cabañas bucólicas entre bosques y río, privacidad garantizada",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabanas_karimapu_pucon",
+          "facebook": "https://www.facebook.com/karimapu"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 90414,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo (el sitio no entrega contenido). Canal Instagram: mandar el texto por mensaje directo, sin firma de correo. Reconfirmar el 500 el día del contacto. · Lote caidos-hermes-osorno-2026-09-13. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "hostal-truyaca-osorno",
+    "business": "Hostal Truyaca",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://hoteltruyaca.com/",
+    "verifiedAt": "2026-09-13",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56953715662",
+      "label": "Celular publicado en OSM; el sitio vigente tiene botón de WhatsApp. Correo reservas@hoteltruyaca.com"
+    },
+    "offer": "express",
+    "opportunity": "Corregir la referencia al dominio muerto y ordenar el camino de reserva del sitio vigente.",
+    "findings": [
+      "Su ficha en OpenStreetMap apunta a hostaltruyaca.cl, dominio que ya no existe (NXDOMAIN verificado el 2026-09-13); el sitio vigente es hoteltruyaca.com.",
+      "El pie de página del sitio vigente muestra un año anterior al actual, lo que sugiere que no se actualiza."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://hoteltruyaca.com/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/225083809"
+      }
+    ],
+    "subject": "El mapa manda a una web del Hostal Truyaca que ya no existe",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Buscando el hostal en el mapa llegué a hostaltruyaca.cl, que ya no existe; recién después encontré hoteltruyaca.com. Un pasajero con menos paciencia se queda en el error y reserva por una plataforma con comisión. Y en el sitio vigente el pie de página sigue con un año anterior, que es lo primero que hace dudar a quien va a pagar un anticipo.\n\nPuedo corregir el enlace del mapa y dejar el WhatsApp del sitio abriendo con fechas y pasajeros ya escritos en 2 días hábiles por $120.000. Si prefieren una página de reserva directa completa, con sus habitaciones y tarifas, son 5 días hábiles por $320.000.\n\n¿Se lo muestro en 10 minutos por WhatsApp?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://hoteltruyaca.com/",
+      "finalUrl": "https://hoteltruyaca.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 6,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2017",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…ltas te invitamos a escribirnos por nuestro chat RESERVAR © Copyright 2017 - | Hotel Truyaca Concept | todos los derechos reservados | Implement…"
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "HOTEL TRUYACA &#8211; Alojamiento en Osorno I Región de los Lagos",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/hotel_truyaca",
+          "facebook": "https://www.facebook.com/tr"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 125935,
+        "hasWhatsapp": true
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Sin demo todavía. Sitio vigente hoteltruyaca.com auditado (copyright-antiguo, redes-por-revisar). Reconfirmar el día del contacto. · Lote caidos-hermes-osorno-2026-09-13. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "huincaterra-villarrica",
+    "business": "HUINCATERRA",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "http://www.huincaterra.cl",
+    "verifiedAt": "2026-09-13",
+    "contact": {
+      "type": "email",
+      "value": "contacto@huincaterra.cl",
+      "label": "Correo de contacto publicado en el sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Lodge con valores publicados pero sin WhatsApp ni título: una página de consulta por unidad ordena lo que hoy queda en \"consulte valores\".",
+    "findings": [
+      "El sitio no tiene enlace a WhatsApp: quien mira desde el celular tiene que copiar el +56 9 9530 7981 a mano para consultar.",
+      "La página no tiene título ni meta descripción, así que en Google y en la pestaña del navegador aparece sin nombre.",
+      "Cabaña Terraviva y los refugios de montaña y alta montaña figuran como \"Consulte valores\", sin un camino directo para hacer esa consulta."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.huincaterra.cl"
+      }
+    ],
+    "subject": "huincaterra.cl no tiene enlace a WhatsApp ni título de página",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Estuve en huincaterra.cl: los valores por noche están publicados ($40.000 el refugio sobre el río, $80.000 las cabañas Bavaria y Huincaterra, $120.000 Cerro Campanario), pero no hay ningún enlace a WhatsApp y tres unidades dicen \"Consulte valores\". Quien mira desde el celular tiene que copiar el número a mano, y la página además no tiene título, así que en Google y en la pestaña aparece sin nombre. Cada paso extra es una consulta que no llega.\n\nPreparé una muestra con sus 7 unidades (cuatro cabañas y tres tipos de refugio), donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Usa sólo lo que publica su sitio: los valores por noche, la piscina temperada, las tinajas y el Sello S; lo que no está publicado queda marcado como \"a confirmar\".\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. ¿Le mando el enlace de la muestra para que la revise?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.huincaterra.cl",
+      "finalUrl": "https://www.huincaterra.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 6,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "La página no tiene título",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@huincaterra.cl"
+        ],
+        "phones": [
+          "+56995307981"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 638242,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/huincaterra/ · el sitio no publica capacidad por unidad (referenciales), ni temporada de los valores, ni check in/out, abono o IVA · Lote hermes-sernatur-2026-09-13. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "hotel-lican-ray-villarrica",
+    "business": "HOTEL LICAN RAY",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "http://www.hotellicanray.cl",
+    "verifiedAt": "2026-09-13",
+    "contact": {
+      "type": "email",
+      "value": "reservas@hotellicanray.cl",
+      "label": "Correo de reservas publicado en el sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Hotel con habitaciones bien descritas y políticas claras, pero sin tarifas ni WhatsApp: una página de consulta con sus reglas cierra el hueco.",
+    "findings": [
+      "El sitio no tiene enlace a WhatsApp: publica el +56 9 9051 6769 y el correo reservas@hotellicanray.cl, pero desde el celular hay que copiarlos a mano.",
+      "No hay meta descripción, así que Google inventa el resumen que ve la gente al buscar el hotel.",
+      "Las seis habitaciones (Single, Doble Junior, Standard, Superior, Triple y Cuádruple) se describen sin tarifa: el pasajero no puede saber cuánto vale la noche antes de escribir."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.hotellicanray.cl"
+      },
+      {
+        "label": "Perfil público enlazado desde OSM",
+        "url": "https://instagram.com/hotellicanray"
+      }
+    ],
+    "subject": "hotellicanray.cl: seis habitaciones sin tarifa y sin enlace a WhatsApp",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Estuve en hotellicanray.cl: las seis habitaciones están bien descritas (camas, aire acondicionado, desayuno buffet) y las políticas son claras (check in 15:30, anticipo del 50%), pero ninguna tiene tarifa y no hay enlace a WhatsApp. Quien mira desde el celular tiene que copiar el número o el correo a mano y preguntar cuánto vale, y esa fricción se traduce en consultas que no llegan.\n\nPreparé una muestra con sus 6 habitaciones, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o a reservas@hotellicanray.cl, sin comisión. Usa sólo lo que publica su sitio: las camas de cada habitación, el desayuno buffet, el check in y el anticipo; las tarifas quedan marcadas como \"a confirmar\" hasta que ustedes las dicten.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. ¿Le mando el enlace de la muestra para que la revise?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.hotellicanray.cl",
+      "finalUrl": "https://hotellicanray.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hotel Lican Ray &#8211; Hotel Lican Ray",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@hotellicanray.cl"
+        ],
+        "phones": [
+          "+56990516769"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/hotellicanray"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 260293,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/hotel-lican-ray/ · el sitio no publica tarifas, IVA ni número de habitaciones · Lote hermes-sernatur-2026-09-13. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "cabanas-don-juan-villarrica",
+    "business": "CABAÑAS DON JUAN",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "http://www.hostaldonjuan.cl",
+    "verifiedAt": "2026-09-13",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56983547968",
+      "label": "WhatsApp publicado en el sitio (wa.me)"
+    },
+    "offer": "landing",
+    "opportunity": "Cabañas con reglas y temporadas claras pero sin valores por cabaña: una página de consulta por cabaña ordena la cotización.",
+    "findings": [
+      "El pie de página dice \"Copyright © 2024\", mientras la página de tarifas ya habla de temporada baja 2026 y alta 2027: el sitio se ve más antiguo de lo que está.",
+      "La página de tarifas define las temporadas (baja del 1 de marzo al 31 de diciembre de 2026, alta del 1 de enero al 28 de febrero de 2027) pero no publica el valor de cada cabaña de 3, 4, 5 y 6 personas."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.hostaldonjuan.cl"
+      },
+      {
+        "label": "Perfil público enlazado desde OSM",
+        "url": "https://instagram.com/donjuanhostalyturismo"
+      }
+    ],
+    "subject": "hostaldonjuan.cl: tarifas 2026-2027 sin valores por cabaña y pie de 2024",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Estuve en hostaldonjuan.cl: la página de tarifas ya define la temporada baja 2026 y la alta 2027, con check in de 14:00 a 22:00, abono del 50% e IVA incluido, pero no publica el valor de las cabañas de 3, 4, 5 y 6 personas, y el pie de página sigue diciendo 2024. Quien llega a cotizar tiene reglas pero no números, y eso lo manda a Booking o a preguntar por WhatsApp sin saber qué cabaña le conviene.\n\nPreparé una muestra con sus 4 cabañas, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp al +56 9 8354 7968, sin comisión. Usa sólo lo que publica su sitio: capacidades, temporadas, horarios, abono, desayuno opcional a $8.000 y cancelación hasta 48 horas antes; los valores quedan \"a confirmar\" hasta que ustedes los dicten.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. ¿Le mando el enlace de la muestra para que la revise?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.hostaldonjuan.cl",
+      "finalUrl": "https://hostaldonjuan.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 3,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2024",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…scriba el resultado de la operación para continuar Enviar Copyright © 2024 Hostal & Cabañas Don Juan &#8211; General Korner 770 – Villarrica – C…"
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hostal y Cabañas Don Juan en Villarrica | Araucanía | Chile",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@hostaldonjuan.cl"
+        ],
+        "phones": [
+          "+56983547968"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/donjuanhostalyturismo",
+          "facebook": "https://www.facebook.com/DonJuanHostalyTurismo",
+          "tripadvisor": "https://www.tripadvisor.cl/Hotel_Review-g294303-d2223208-Reviews-Hostal_y_Cabanas_Don_Juan-Villarrica_Arauc"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 149026,
+        "hasWhatsapp": true
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/cabanas-don-juan/ · el sitio no publica montos por cabaña ni dormitorios/baño por unidad; sin fotos propias de las cabañas · Lote hermes-sernatur-2026-09-13. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "casa-azul-hostel-puerto-varas",
+    "business": "Casa Azul Hostel",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://www.casaazul.net/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56652232904",
+      "label": "Teléfono publicado en casaazul.net (sin correo ni WhatsApp)"
+    },
+    "offer": "landing",
+    "opportunity": "Hostal familiar con tarifas publicadas sólo en inglés y sin año, sitio sin versión móvil, sin HTTPS, sin correo ni WhatsApp.",
+    "findings": [
+      "Su lista de tarifas está en inglés dentro de un sitio para pasajeros de habla hispana: \"Citizens of Chile have to pay 19% TAX\", \"Prices can vary by 15%\", y los rangos de fechas no indican año.",
+      "El sitio no tiene enlace a WhatsApp ni correo publicado: la única forma de consultar es llamar al +56 (65) 2232904 o llenar el formulario de la sección Reservation.",
+      "El sitio no declara versión móvil y se sirve sin HTTPS: desde el celular se ve reducido y el navegador puede marcarlo como \"no seguro\"."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.casaazul.net/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/275249913"
+      }
+    ],
+    "subject": "Casa Azul Hostel: la lista de tarifas está en inglés y sin año",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a casaazul.net y vi que la lista de precios está en inglés (\"Citizens of Chile have to pay 19% TAX\", \"Prices can vary by 15%\") y que los rangos de fechas no indican año, así que un pasajero chileno que mira desde el celular no sabe cuánto le cuesta realmente una noche en enero. Además el sitio no tiene WhatsApp ni correo visible, no tiene versión para celular y se abre sin HTTPS, así que el navegador puede marcarlo como \"no seguro\".\n\nPreparé una muestra con sus 6 tipos de habitación (doble con baño privado, doble, dos camas, tres camas, single y cama en dormitorio compartido), donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Usé sus tarifas por rango de fechas tal como están publicadas, en español y marcadas \"por confirmar\".\n\nLa puedo dejar publicada en 5 días hábiles por $320.000.\n\n¿Le interesa ver la muestra? Puedo mandarle el enlace o llamar al número del sitio, como prefiera.\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.casaazul.net/",
+      "finalUrl": "http://www.casaazul.net/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 14,
+      "signals": [
+        {
+          "id": "idioma-mezclado",
+          "severity": "media",
+          "label": "Interfaz en inglés dentro de una página en español: \"contact us\"",
+          "detail": "Da la impresión de una plantilla sin terminar justo en el momento de escribir.",
+          "evidence": "…er Rosario, Puerto Varas, Chile ( See Map ) Phone: +56 (65) 2232904 - Contact Us…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-viewport",
+          "severity": "alta",
+          "label": "La página no declara viewport móvil",
+          "detail": "Se ve reducida y difícil de leer en celular, que es donde llega la mayoría.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Home &raquo; Casa Azul Hostel",
+        "platform": null,
+        "emails": [],
+        "phones": [
+          "+56652232904"
+        ],
+        "socials": {
+          "facebook": "http://www.facebook.com/pages"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 12933,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/casa-azul-hostel/ · Tarifas /en/rates/ sin año usadas con fechas 2026-2027 por confirmar; faltan correo, WhatsApp, check in/out y abono. Sí existe formulario en /en/reservation/ (la señal sin-formulario viene de la portada). · Lote puerto-varas-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "camping-playa-niklitschek-puerto-varas",
+    "business": "Camping Playa Niklitschek",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://www.playanik.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "contacto@playanik.cl",
+      "label": "Correo publicado en el sitio (mailto)"
+    },
+    "offer": "express",
+    "opportunity": "Camping con sistema de reservas en línea propio pero sin WhatsApp ni teléfono visibles y con metadatos de prueba al compartir el enlace.",
+    "findings": [
+      "El sitio no tiene enlace a WhatsApp ni publica teléfono: el único canal visible es el correo contacto@playanik.cl, dentro de una aplicación que sólo carga con JavaScript (la portada sin JavaScript trae únicamente el título).",
+      "La vista previa al compartir el enlace apunta a \"camping.yourdomain.com\", una dirección de prueba, y a una imagen ausente."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://www.playanik.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2627373248"
+      }
+    ],
+    "subject": "playanik.cl: sin WhatsApp ni teléfono, y la vista previa apunta a una dirección de prueba",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Revisé playanik.cl y su sistema de reservas funciona bien, pero no encontré ningún enlace a WhatsApp ni un teléfono publicado: el único canal es el correo contacto@playanik.cl. Quien mira desde el celular y tiene una duda rápida (un fogón, un segundo auto) no tiene a quién escribirle antes de pagar. Además, la vista previa que aparece al compartir el enlace por WhatsApp o redes apunta a \"camping.yourdomain.com\", una dirección de prueba, y a una imagen ausente: el enlace se ve vacío al compartirlo.\n\nLo puedo dejar corregido en 2 días por $120.000: botón de WhatsApp y teléfono visibles en cada pantalla, y la vista previa con su nombre, foto y dirección reales. Preparé también una muestra con sus tres tipos de espacio (sitio de camping, sitio con baño privado y cabaña) y sus tarifas por noche publicadas, donde el pasajero elige fechas y cuántos son y les manda la consulta completa, sin comisión.\n\n¿Les interesa que les mande la muestra y el detalle de la corrección?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://www.playanik.cl/",
+      "finalUrl": "https://www.playanik.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 9,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Camping Playa Niklitschek - Reservas en el Lago Llanquihue",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 2893,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/camping-playa-niklitschek/ · Sitio React sólo con JS; datos leídos de su API pública (/api/espacios). Faltó teléfono, WhatsApp, abono y dirección escrita. Ya tienen reservas y pago en línea (Getnet/Khipu): la landing compite con su sistema, por eso la oferta es express. · Lote puerto-varas-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "hostel-la-guapa-puerto-varas",
+    "business": "Hostel La Guapa",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "https://laguapahostel.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "phone",
+      "value": "+56 65 2232673",
+      "label": "Teléfono publicado en el sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Hostel con seis tipos de habitación cuyo sitio en inglés deriva todas las reservas a Booking.com.",
+    "findings": [
+      "Los botones \"Book now!\" del sitio llevan a Booking.com, así que cada reserva que nace en su propia página paga comisión a la plataforma.",
+      "La página está casi toda en inglés (\"Book now!\", \"Check out our socials\"), aunque el sitio es .cl y el público local es chileno, y no tiene enlace a WhatsApp ni formulario: la única vía directa es el teléfono fijo."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://laguapahostel.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/2737708688"
+      }
+    ],
+    "subject": "laguapahostel.cl: el botón \"Book now!\" manda las reservas a Booking",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Revisé laguapahostel.cl y vi que los botones \"Book now!\" llevan a Booking.com: quien llega a su propia página y quiere reservar termina pagando la comisión de la plataforma igual que si los hubiera encontrado allá. Además la página está casi toda en inglés y no tiene WhatsApp ni formulario, así que un pasajero chileno con una duda sobre la tiny house o el dormitorio compartido sólo puede llamar al fijo.\n\nPreparé una muestra con sus 6 tipos de habitación (twin, doble, triple, tiny house, cama en dormitorio de 5 y carpa en el patio), en español, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o correo, sin comisión. Las tarifas quedan como \"a confirmar\" porque el sitio no las publica; ustedes responden el valor como lo hacen hoy.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. ¿Les interesa verla con sus datos antes de decidir?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://laguapahostel.cl/",
+      "finalUrl": "https://laguapahostel.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 9,
+      "signals": [
+        {
+          "id": "idioma-mezclado",
+          "severity": "media",
+          "label": "Interfaz en inglés dentro de una página en español: \"book now\"",
+          "detail": "Da la impresión de una plantilla sin terminar justo en el momento de escribir.",
+          "evidence": "…. Perfect for friends who want a private space and feel right at home Book now! Double Rooms Private double beds with shared bathroom. Quite and per…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook y tiktok, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "La Guapa Hostel - La Guapa Hostel",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [
+          "+56652232673"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/laguapahostel",
+          "facebook": "https://www.facebook.com/laguapahostel",
+          "booking": "https://www.booking.com/hotel/cl/hostel-vermont.es.html",
+          "tiktok": "https://www.tiktok.com/@la.guapa.hostel"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 101754,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/hostel-la-guapa/ · Sin tarifas, correo, WhatsApp ni check in/out publicados. Dirección del sitio: Pasaje Ricke 224 (OSM: 212). El celular de OSM no aparece en el sitio. · Lote puerto-varas-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "hosteria-outsider-puerto-varas",
+    "business": "Hosteria Outsider",
+    "segment": "Turismo y alojamiento",
+    "priority": "Alta",
+    "website": "http://www.turout.com/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "outsider@turout.com",
+      "label": "Correo publicado en turout.com"
+    },
+    "offer": "landing",
+    "opportunity": "Hotel céntrico de 3 tipos de habitación con tarifas publicadas pero vencidas, sitio sin versión móvil, sin HTTPS y sin WhatsApp; ya evita plataformas de reserva, por lo que la consulta directa es su canal.",
+    "findings": [
+      "La página de tarifas dice \"Tarifas válidas desde el 16 de Abril de 2026 hasta el 10 de Septiembre de 2026\": hoy no hay tarifa vigente publicada para ninguna fecha futura.",
+      "El sitio no tiene enlace a WhatsApp y no declara versión móvil: desde el celular se ve reducido y la única forma de consultar es llamar al +56 65 2231056 o escribir un correo.",
+      "El sitio se sirve sin HTTPS: el navegador puede marcarlo como \"no seguro\" antes de que el pasajero lea nada."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "http://www.turout.com/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4863118125"
+      }
+    ],
+    "subject": "Hostería Outsider: sus tarifas publicadas vencieron el 10 de septiembre",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a turout.com para ver sus habitaciones y la página de reservas dice \"Tarifas válidas desde el 16 de Abril de 2026 hasta el 10 de Septiembre de 2026\". Hoy, 13 de septiembre, no hay tarifa vigente para ninguna fecha, así que quien quiere cotizar la primavera o el verano no sabe qué valor tomar. Además el sitio no tiene WhatsApp ni versión para celular, y se abre sin HTTPS, así que el navegador puede marcarlo como \"no seguro\".\n\nPreparé una muestra con sus 3 tipos de habitación (single, doble y triple, con baño privado y calefacción central), donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o correo, sin comisión. Usé sus tarifas de temporada alta y baja tal como están publicadas, marcadas \"por confirmar\", y el detalle del desayuno a $3.000 por persona.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000, con las tarifas de la temporada nueva que ustedes me indiquen.\n\n¿Quiere que le mande el enlace de la muestra para verla en su celular?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "http://www.turout.com/",
+      "finalUrl": "http://www.turout.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 9,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-viewport",
+          "severity": "alta",
+          "label": "La página no declara viewport móvil",
+          "detail": "Se ve reducida y difícil de leer en celular, que es donde llega la mayoría.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hosteria Outsider Puerto Varas Chile deutsch",
+        "platform": null,
+        "emails": [
+          "outsider@turout.com"
+        ],
+        "phones": [
+          "+56652231056"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 16128,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/hosteria-outsider/ · Tarifas 2025-2026 usadas con fechas 2026-2027 por confirmar; faltan WhatsApp, check in/out, abono y capacidad exacta (sitio dice \"ocho camas\"). Correo del sitio outsider@turout.com difiere del de OSM (hoteloutsider@123.cl). · Lote puerto-varas-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "camping-playa-hermosa-puerto-varas",
+    "business": "Camping Playa Hermosa",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://campingplayahermosa.cl/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56986823354",
+      "label": "WhatsApp publicado en el sitio (+569 8682 3354)"
+    },
+    "offer": "express",
+    "opportunity": "Camping con tarifas y WhatsApp publicados pero con la temporada 2025-2026 y el pie 2025 sin actualizar.",
+    "findings": [
+      "La página de tarifas sigue rotulada \"Temporada 2025 – 2026\" en septiembre de 2026 y el pie de página dice \"© 2025\": quien planifica el próximo verano no sabe si los $55.000 por sitio siguen vigentes.",
+      "El sitio no tiene meta descripción, así que el resumen que aparece bajo el nombre al buscarlo lo arma el buscador con cualquier fragmento."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://campingplayahermosa.cl/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3151130398"
+      }
+    ],
+    "subject": "Sus tarifas dicen \"Temporada 2025 – 2026\" y el pie dice 2025",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Revisé campingplayahermosa.cl para el próximo verano y la página de tarifas sigue rotulada \"Temporada 2025 – 2026\", con el pie de página en \"© 2025\". Quien está eligiendo camping para enero no sabe si los $55.000 por sitio y los $5.000 por persona adicional siguen vigentes, y muchos prefieren no preguntar y seguir buscando.\n\nLo dejo corregido en 2 días por $120.000: rótulo y valores de la nueva temporada, pie actualizado y una descripción corta para que el sitio aparezca bien resumido al buscarlo. Preparé además una muestra con su sitio para carpa o casa rodante, sus horarios de check in a las 13:00 y check out a las 12:00 y el valor por noche publicado, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión, por si quieren verla.\n\n¿Me confirman las tarifas de la temporada que viene para dejarlas publicadas?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://campingplayahermosa.cl/",
+      "finalUrl": "https://campingplayahermosa.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 6,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2025",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…campingenpuertovaras@gmail.com Ruta 225, km 7, Puerto Varas, Chile © 2025 | Camping Playa Hermosa Scroll Up WhatsApp Fono…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Camping Playa Hermosa &#8211; Puerto Varas",
+        "platform": "WordPress",
+        "emails": [
+          "campingenpuertovaras@gmail.com"
+        ],
+        "phones": [
+          "+56986823354"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 74851,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/camping-playa-hermosa/ · El sitio SÍ tiene enlace a WhatsApp (whatsapp.com/send?phone=+56986823354): la señal sin-whatsapp de la auditoría es falsa, no usarla. Faltó número de sitios, abono y mascotas. · Lote puerto-varas-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
+  },
+  {
+    "id": "petrohue-lodge-puerto-varas",
+    "business": "Petrohué Lodge",
+    "segment": "Turismo y alojamiento",
+    "priority": "Media",
+    "website": "https://petrohue.com/",
+    "verifiedAt": "2026-09-12",
+    "contact": {
+      "type": "email",
+      "value": "reservas@petrohue.com",
+      "label": "Correo de reservas publicado en petrohue.com"
+    },
+    "offer": "express",
+    "opportunity": "Lodge con sitio moderno y motor de reservas externo, pero sin WhatsApp ni tarifas visibles en su propio sitio.",
+    "findings": [
+      "El sitio no tiene enlace a WhatsApp: el pasajero que llega desde el celular sólo puede llamar, escribir a reservas@petrohue.com o entrar al motor externo de reservas.",
+      "Las tarifas de las habitaciones y cabañas no aparecen en petrohue.com; sólo se ven dentro del motor de reservas externo (GoFeels).",
+      "El pie del sitio dice © 2025 First Patagonia."
+    ],
+    "evidence": [
+      {
+        "label": "Sitio oficial — portada",
+        "url": "https://petrohue.com/"
+      },
+      {
+        "label": "Ficha en OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/1141731279"
+      }
+    ],
+    "subject": "Petrohué Lodge: consultar por WhatsApp desde petrohue.com",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Estuve en petrohue.com y en la página del Lodge: las 20 habitaciones y las 4 cabañas están bien descritas, pero no hay ningún enlace a WhatsApp, y las tarifas sólo se ven al salir del sitio hacia el motor de reservas externo. Quien mira desde el celular y quiere preguntar algo simple (fechas, cuántos son, si hay lugar para 7 en la cabaña Canelo) tiene que llamar o escribir un correo, y muchos no lo hacen.\n\nPreparé una muestra con sus 6 tipos de habitación y las 4 cabañas frente al lago, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Tomé sólo lo que publica el sitio; las tarifas quedan \"a confirmar\" hasta que ustedes las entreguen.\n\nSi sólo quieren sumar el botón de WhatsApp a su sitio actual, lo dejo corregido en 2 días por $120.000. La página de consulta completa la puedo dejar publicada en 5 días hábiles por $320.000.\n\n¿Le interesa ver la muestra? Se la mando por este mismo correo.\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "audit": {
+      "url": "https://petrohue.com/",
+      "finalUrl": "https://www.petrohue.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 5,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2025",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…a Planifica tu viaje Contacto reservas@petrohue.com +56 9 8464 4870 © 2025 First Patagonia. Todos los derechos reservados. Reservar ahora…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "First Patagonia — Lodge Petrohué, Patagonia Chilena",
+        "platform": null,
+        "emails": [
+          "reservas@petrohue.com"
+        ],
+        "phones": [
+          "+56984644870"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/petrohuelodge",
+          "facebook": "https://www.facebook.com/petrohuechile"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 30804,
+        "hasWhatsapp": false
+      }
+    },
+    "plataformas": {},
+    "status": "review",
+    "followUp": "",
+    "notes": "Demo: clientes/petrohue-lodge/ · El sitio no publica tarifas (sólo en GoFeels), WhatsApp, check in/out ni abono. Ya tiene motor de reservas externo: ajuste bajo para landing completa, mejor pitch express (botón WhatsApp). · Lote puerto-varas-alojamiento-2026-09-12. Plantilla: reserva-cabanas. Reconfirmar cada hallazgo el día del contacto."
   }
 ]

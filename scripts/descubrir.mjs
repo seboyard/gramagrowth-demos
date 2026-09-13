@@ -86,8 +86,13 @@ function normalizarWeb(raw) {
   catch { return { website: null, enlaceExterno: null }; }
 }
 
+// Hay comunas con homónimos en otros países (Castro existe en Chile, Italia y
+// Brasil). La zona se busca dentro del país, no en todo el planeta.
+const PAISES = { cl: 'Chile', es: 'España' };
+const paisNombre = PAISES[pais] || PAISES.cl;
 const query = `[out:json][timeout:120];
-area["name"="${zona.replace(/"/g, '')}"]["boundary"="administrative"]["admin_level"="${nivel}"]->.a;
+area["name"="${paisNombre}"]["boundary"="administrative"]["admin_level"="2"]->.pais;
+area["name"="${zona.replace(/"/g, '')}"]["boundary"="administrative"]["admin_level"="${nivel}"](area.pais)->.a;
 (
 ${preset.filtros.map((filtro) => `  ${filtro}["name"](area.a);`).join('\n')}
 );
@@ -137,7 +142,10 @@ const prospectos = existsSync(resolve(root, 'datos/prospectos.json'))
 prospectos.forEach((p) => { conocidos.add(p.id); if (p.website) conocidos.add(new URL(p.website).hostname.replace(/^www\./, '')); });
 const candidatosDir = resolve(root, 'datos', 'candidatos');
 mkdirSync(candidatosDir, { recursive: true });
-readdirSync(candidatosDir).filter((f) => f.endsWith('.json')).forEach((f) => {
+// Si hoy ya se corrió esta misma zona y rubro, el lote se rehace: no se
+// deduplica contra sí mismo (eso dejaba un lote vacío en la segunda corrida).
+const loteHoy = `${slugify(zona)}-${rubro}-${new Date().toISOString().slice(0, 10)}.json`;
+readdirSync(candidatosDir).filter((f) => f.endsWith('.json') && f !== loteHoy).forEach((f) => {
   JSON.parse(readFileSync(resolve(candidatosDir, f), 'utf8')).forEach((c) => {
     conocidos.add(c.id); if (c.website) conocidos.add(new URL(c.website).hostname.replace(/^www\./, ''));
   });

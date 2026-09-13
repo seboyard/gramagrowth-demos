@@ -1,0 +1,2760 @@
+[
+  {
+    "id": "enjoy-chiloe-castro",
+    "business": "Enjoy Chiloé.",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.enjoy.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 65 258 4612",
+    "email": "recepcion.hdi@enjoy.cl",
+    "direccion": "Ruta 5 Sur 2053",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8480515267,
+      "categoria": "hotel",
+      "lat": -42.4894358,
+      "lon": -73.7705903
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.enjoy.cl/",
+      "finalUrl": "https://www.enjoy.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 9,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Enjoy Casino & Resort",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "facebook": "https://www.facebook.com/tr"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 4558,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 14,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "alma-chilota-castro",
+    "business": "Alma Chilota",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://alma-chilota.chiloe-hoteles.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 9 3571 8868",
+    "email": null,
+    "direccion": "Pedro Montt 609",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 14087661901,
+      "categoria": "hotel",
+      "lat": -42.4753095,
+      "lon": -73.7615037
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://alma-chilota.chiloe-hoteles.com/",
+      "finalUrl": "https://alma-chilota.chiloe-hoteles.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 7,
+      "signals": [
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Alma Chilota - Toda la información (actualizado)",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "facebook": "https://www.facebook.com/sharer"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 99840,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 12,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-kolping-castro",
+    "business": "Hostal Kolping",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 65 633273",
+    "email": null,
+    "direccion": "Chacabuco 217",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349669,
+      "categoria": "hotel",
+      "lat": -42.4840221,
+      "lon": -73.7625105
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "palafito-hostel-castro",
+    "business": "Palafito Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+5665531008",
+    "email": "palafitohostel@gmail.com",
+    "direccion": "Ernesto Riquelme 1210",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1578831316,
+      "categoria": "hostel",
+      "lat": -42.4817592,
+      "lon": -73.7720354
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-castro",
+    "business": "Cabañas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "56 9 9621 8186",
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2697259496,
+      "categoria": "motel",
+      "lat": -42.4826214,
+      "lon": -73.7725496
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "entre-palafitos-castro",
+    "business": "Entre Palafitos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://www.facebook.com/Entre-Palafitos-277693659107292/",
+    "sinWeb": true,
+    "telefono": "+56 9 4860 8074",
+    "email": null,
+    "direccion": "Pedro Montt 883",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4799972622,
+      "categoria": "guest_house",
+      "lat": -42.472525,
+      "lon": -73.7632366
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-leo-castro",
+    "business": "Camping Leo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56977202216",
+    "email": "micaelapastahue@gmail.com",
+    "direccion": "Cruce Longitudinal (Piruquina) - San Pedro",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5496984824,
+      "categoria": "motel",
+      "lat": -42.3675754,
+      "lon": -73.8229242
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-lupita-castro",
+    "business": "Hospedaje Lupita",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": "https://WWW.FACEBOOK.COM/HOSPEDAJELUPITACHILOE",
+    "sinWeb": true,
+    "telefono": "+56962309253",
+    "email": "JOSE.VALENZUELA13@GMAIL.COM",
+    "direccion": "Gob. Celedonio Cárdenas 709",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6202298302,
+      "categoria": "hotel",
+      "lat": -42.4744907,
+      "lon": -73.7661117
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-de-castro-castro",
+    "business": "Hotel de Castro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56652632301",
+    "email": null,
+    "direccion": "Chacabuco 202",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 323152521,
+      "categoria": "hotel",
+      "lat": -42.4843569,
+      "lon": -73.7621003
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-rucalhue-castro",
+    "business": "Cabañas Rucalhue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 98270579",
+    "email": null,
+    "direccion": "Francisco Miranda",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1349647052,
+      "categoria": "chalet",
+      "lat": -42.4871354,
+      "lon": -73.7779729
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "la-minga-hostel-castro",
+    "business": "La Minga Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://lamingahostel.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56979641654",
+    "email": "reserva@lamingahostel.com",
+    "direccion": "Los Carrera 316",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10140524017,
+      "categoria": "hostel",
+      "lat": -42.4825727,
+      "lon": -73.7668143
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://lamingahostel.com/",
+      "finalUrl": "https://us2.cloudbeds.com/reservation/5lJ7N4",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 5,
+      "signals": [
+        {
+          "id": "idioma-mezclado",
+          "severity": "media",
+          "label": "Interfaz en inglés dentro de una página en español: \"book now\"",
+          "detail": "Da la impresión de una plantilla sin terminar justo en el momento de escribir.",
+          "evidence": "…La Minga Hostel - Castro, Chile - Book Now {\"@context\":\"https://schema.org\",\"@type\":\"LodgingBusiness\",\"@id\":\"htt…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "La Minga Hostel - Castro, Chile - Book Now",
+        "platform": null,
+        "emails": [
+          "reserva@lamingahostel.com"
+        ],
+        "phones": [
+          "+56979641654"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 46767,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 10,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "archipielago-castro",
+    "business": "Archipiélago",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Montt 281",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1143340681,
+      "categoria": "hotel",
+      "lat": -42.4782772,
+      "lon": -73.7605123
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-siempre-verde-castro",
+    "business": "Hostal Siempre Verde",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Blanco Encalada 43",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1143340690,
+      "categoria": "hostel",
+      "lat": -42.4822509,
+      "lon": -73.7602489
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "haga-tuto-aqui-castro",
+    "business": "Haga Tuto Aquí",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Blanco Encalada",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1143340691,
+      "categoria": "hostel",
+      "lat": -42.4823285,
+      "lon": -73.7603511
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-santiago-castro-castro",
+    "business": "Cabañas Santiago Castro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Montt",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1143340720,
+      "categoria": "hotel",
+      "lat": -42.4813944,
+      "lon": -73.7598149
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-unicornio-azul-castro",
+    "business": "Hotel Unicornio Azul",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Montt 228",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1143340734,
+      "categoria": "hotel",
+      "lat": -42.4789793,
+      "lon": -73.7608341
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hosteria-de-castro-castro",
+    "business": "Hosteria de Castro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Chacabuco 202",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1143342238,
+      "categoria": "hostel",
+      "lat": -42.4841411,
+      "lon": -73.7619874
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-caleuche-castro",
+    "business": "El Caleuche",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349655,
+      "categoria": "guest_house",
+      "lat": -42.5232369,
+      "lon": -73.799002
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "alcamar-castro",
+    "business": "Alcamar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349656,
+      "categoria": "guest_house",
+      "lat": -42.5156598,
+      "lon": -73.7956689
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "llicaldad-castro",
+    "business": "Llicaldad",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349657,
+      "categoria": "motel",
+      "lat": -42.5140864,
+      "lon": -73.7941499
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "san-andres-castro",
+    "business": "San Andres",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349659,
+      "categoria": "motel",
+      "lat": -42.5094162,
+      "lon": -73.7898743
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "encantos-castro",
+    "business": "Encantos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349661,
+      "categoria": "chalet",
+      "lat": -42.5047911,
+      "lon": -73.7866759
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-crucero-castro",
+    "business": "El Crucero",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349662,
+      "categoria": "camp_site",
+      "lat": -42.502101,
+      "lon": -73.7837884
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "sta-elba-castro",
+    "business": "Sta Elba",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349663,
+      "categoria": "camp_site",
+      "lat": -42.5016977,
+      "lon": -73.7831057
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "claro-de-luna-castro",
+    "business": "Claro De Luna",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349664,
+      "categoria": "guest_house",
+      "lat": -42.498587,
+      "lon": -73.7794818
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "don-fonjo-castro",
+    "business": "Don Fonjo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349665,
+      "categoria": "hostel",
+      "lat": -42.4838809,
+      "lon": -73.7739254
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-castro",
+    "business": "Hostal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349666,
+      "categoria": "guest_house",
+      "lat": -42.4876104,
+      "lon": -73.7736529
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "don-miguel-castro",
+    "business": "Don Miguel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349673,
+      "categoria": "hostel",
+      "lat": -42.4806565,
+      "lon": -73.7612509
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "jhovian-castro",
+    "business": "Jhovian",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349677,
+      "categoria": "hostel",
+      "lat": -42.4804781,
+      "lon": -73.7630212
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "del-rio-castro",
+    "business": "Del Rio",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1540349684,
+      "categoria": "hotel",
+      "lat": -42.4837211,
+      "lon": -73.7619688
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "volantin-castro",
+    "business": "Volantín",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Esmeralda 123",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1641233465,
+      "categoria": "guest_house",
+      "lat": -42.4849937,
+      "lon": -73.7632804
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "bordemar-castro",
+    "business": "Bordemar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1641236943,
+      "categoria": "guest_house",
+      "lat": -42.4945593,
+      "lon": -73.7716699
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-molo-castro",
+    "business": "El Molo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1744756975,
+      "categoria": "guest_house",
+      "lat": -42.4803234,
+      "lon": -73.7610327
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-don-camilo-castro",
+    "business": "Hostal Don Camilo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Eleuterio Ramírez 566",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1776193110,
+      "categoria": "hotel",
+      "lat": -42.4794007,
+      "lon": -73.7676992
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-alerce-nativo-castro",
+    "business": "Hotel Alerce Nativo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "O'Higgins 808",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1776707883,
+      "categoria": "hotel",
+      "lat": -42.4768086,
+      "lon": -73.7654865
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-casita-espanola-castro",
+    "business": "Hostal Casita Española",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Carrera 359",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1777123917,
+      "categoria": "hotel",
+      "lat": -42.482211,
+      "lon": -73.7666137
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-chilhue-castro",
+    "business": "Hotel Chilhué",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Blanco Encalada 278",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1777145991,
+      "categoria": "hotel",
+      "lat": -42.4829852,
+      "lon": -73.7628082
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-latorre-castro",
+    "business": "Hostal Latorre",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Latorre 157",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2072396015,
+      "categoria": "hotel",
+      "lat": -42.4816658,
+      "lon": -73.7613705
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-parque-quilquico-castro",
+    "business": "Hotel Parque Quilquico",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2686786371,
+      "categoria": "hotel",
+      "lat": -42.4720798,
+      "lon": -73.6971376
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-palafitos-los-pescadores-castro",
+    "business": "Cabañas Palafitos Los Pescadores",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2697250483,
+      "categoria": "chalet",
+      "lat": -42.5093178,
+      "lon": -73.78655
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-vasconia-castro",
+    "business": "Cabañas Vasconia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2697251097,
+      "categoria": "chalet",
+      "lat": -42.5083934,
+      "lon": -73.7863223
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "posada-alemana-castro",
+    "business": "Posada Alemana",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ruta 5 Sur",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2972321733,
+      "categoria": "hotel",
+      "lat": -42.5000182,
+      "lon": -73.782206
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-gringo-castro",
+    "business": "El Gringo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Eusebio Lillo",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2972354657,
+      "categoria": "hostel",
+      "lat": -42.4835616,
+      "lon": -73.7602719
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "costa-azul-castro",
+    "business": "Costa Azul",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Eusebio Lillo",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2972354665,
+      "categoria": "hostel",
+      "lat": -42.4836684,
+      "lon": -73.7603685
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ocio-territorial-hotel-y-spa-castro",
+    "business": "Ocio Territorial Hotel y Spa",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2972357389,
+      "categoria": "hotel",
+      "lat": -42.4841313,
+      "lon": -73.7288845
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-leblun-castro",
+    "business": "Cabañas Leblun",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Carrera 662",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3135022864,
+      "categoria": "hostel",
+      "lat": -42.4784922,
+      "lon": -73.7668896
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-niklitschek-castro",
+    "business": "Hotel Niklitschek",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3703347334,
+      "categoria": "hotel",
+      "lat": -42.4526498,
+      "lon": -73.7731632
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-palafito-1326-castro",
+    "business": "Hotel Palafito 1326",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3936966501,
+      "categoria": "hostel",
+      "lat": -42.4830544,
+      "lon": -73.7721722
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-naudumar-castro",
+    "business": "Cabañas Naudumar",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Antonio Guarategua Lebe",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4182535989,
+      "categoria": "chalet",
+      "lat": -42.4987976,
+      "lon": -73.7800041
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-palafito-castro",
+    "business": "Hospedaje (Palafito)",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Montt 1073",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4233899694,
+      "categoria": "guest_house",
+      "lat": -42.4711129,
+      "lon": -73.765567
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-santa-fe-castro",
+    "business": "Hostal Santa Fe",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Galvarino Riveros",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4243412690,
+      "categoria": "hostel",
+      "lat": -42.4684368,
+      "lon": -73.7855808
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-refugia-chiloe-castro",
+    "business": "Hotel Refugia Chiloé",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4382762392,
+      "categoria": "hotel",
+      "lat": -42.4641089,
+      "lon": -73.6768727
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostel-bellavista-castro",
+    "business": "hostel bellavista",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Barros Arana 151",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4412510192,
+      "categoria": "hostel",
+      "lat": -42.4803676,
+      "lon": -73.761518
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-bellavista-castro",
+    "business": "Hospedaje Bellavista",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4512546589,
+      "categoria": "hostel",
+      "lat": -42.4803251,
+      "lon": -73.7614195
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-inalaf-castro",
+    "business": "Cabañas Inalaf",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4557343443,
+      "categoria": "chalet",
+      "lat": -42.4975611,
+      "lon": -73.7802908
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-don-beto-castro",
+    "business": "Hostal Don Beto",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4758480026,
+      "categoria": "hotel",
+      "lat": -42.478771,
+      "lon": -73.760777
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "residencial-castro",
+    "business": "Residencial",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4782098528,
+      "categoria": "guest_house",
+      "lat": -42.4806154,
+      "lon": -73.7659557
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-america-castro",
+    "business": "Hospedaje America",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4812004929,
+      "categoria": "guest_house",
+      "lat": -42.4840219,
+      "lon": -73.7619518
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-chiloe-castro",
+    "business": "Hospedaje Chiloé",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Monjitas",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4812005139,
+      "categoria": "guest_house",
+      "lat": -42.4776118,
+      "lon": -73.7634956
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-castro",
+    "business": "Hospedaje",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5282221923,
+      "categoria": "guest_house",
+      "lat": -42.479747,
+      "lon": -73.7668427
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-sotomayor-castro",
+    "business": "Hostal Sotomayor",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Emilio Sotomayor",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5520603122,
+      "categoria": "guest_house",
+      "lat": -42.4806839,
+      "lon": -73.766115
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostel-torre-de-babel-castro",
+    "business": "Hostel Torre de Babel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "O'Higgins 965",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6107701085,
+      "categoria": "hostel",
+      "lat": -42.4749456,
+      "lon": -73.7651387
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabana-donde-juanito-castro",
+    "business": "Cabaña Donde Juanito",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6606857186,
+      "categoria": "guest_house",
+      "lat": -42.4163383,
+      "lon": -73.736884
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "palafito-alanis-castro",
+    "business": "Palafito Alanis",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ernesto Riquelme 1214",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6734076482,
+      "categoria": "hotel",
+      "lat": -42.4819623,
+      "lon": -73.7721133
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cahueles-chiloe-castro",
+    "business": "Cahueles Chiloé",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6771195709,
+      "categoria": "hostel",
+      "lat": -42.4425803,
+      "lon": -73.653469
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-ayelen-castro",
+    "business": "Cabañas Ayelen",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6819016427,
+      "categoria": "motel",
+      "lat": -42.464557,
+      "lon": -73.7701856
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-alamos-castro",
+    "business": "Camping los alamos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8280969617,
+      "categoria": "camp_site",
+      "lat": -42.5074336,
+      "lon": -73.7877461
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casemillas-castro",
+    "business": "Casemillas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Tongoy",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8607018251,
+      "categoria": "chalet",
+      "lat": -42.4764845,
+      "lon": -73.7082026
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "refugio-pullao-castro",
+    "business": "Refugio Pullao",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 9404589099,
+      "categoria": "guest_house",
+      "lat": -42.4650724,
+      "lon": -73.6847986
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-chilote-castro",
+    "business": "El Chilote",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10238110949,
+      "categoria": "motel",
+      "lat": -42.5108223,
+      "lon": -73.7900752
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "dalmacia-castro",
+    "business": "Dalmacia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10238110951,
+      "categoria": "motel",
+      "lat": -42.510241,
+      "lon": -73.7896299
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-y-cafe-bauda-castro",
+    "business": "Hotel y Café Bauda",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Montt 437",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10913063200,
+      "categoria": "guest_house",
+      "lat": -42.4767382,
+      "lon": -73.7602854
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "bledford-chiloe-castro",
+    "business": "Bledford Chiloé",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ernesto Riquelme 1438",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10913063201,
+      "categoria": "hotel",
+      "lat": -42.4847695,
+      "lon": -73.7724975
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-trayen-castro",
+    "business": "Cabañas Trayén",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ruta W-526",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13321884361,
+      "categoria": "chalet",
+      "lat": -42.5042015,
+      "lon": -73.7937944
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "nercon-castro",
+    "business": "Nercon",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13583035432,
+      "categoria": "hostel",
+      "lat": -42.5022685,
+      "lon": -73.7843658
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-y-camping-el-chilote-castro",
+    "business": "Cabañas y Camping El Chilote",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13583123759,
+      "categoria": "chalet",
+      "lat": -42.5020355,
+      "lon": -73.7844516
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-esmeralda-castro",
+    "business": "Hotel Esmeralda",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Esmeralda 266",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 273067669,
+      "categoria": "hotel",
+      "lat": -42.4833183,
+      "lon": -73.7638197
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-cordillera-castro",
+    "business": "Hostal Cordillera",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 321809209,
+      "categoria": "hotel",
+      "lat": -42.4804222,
+      "lon": -73.7617587
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "diego-de-almagro-castro",
+    "business": "Diego de Almagro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ruta 5 Sur",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 903858578,
+      "categoria": "hotel",
+      "lat": -42.4637445,
+      "lon": -73.7683129
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "refugio-ballena-hostel-castro",
+    "business": "Refugio Ballena Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1249730569,
+      "categoria": "hostel",
+      "lat": -42.4827719,
+      "lon": -73.7725031
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-cava-estancia-rilan-castro",
+    "business": "Hotel & Cava Estancia Rilán",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "La Estancia B-1",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 1327737327,
+      "categoria": "hotel",
+      "lat": -42.5489531,
+      "lon": -73.7209263
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "estacion-hostel-castro",
+    "business": "Estación Hostel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://estacionhostel.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56928588254",
+    "email": "estacionhostelchiloe@gmail.com",
+    "direccion": "Pedro Montt 250",
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13525649599,
+      "categoria": "hotel",
+      "lat": -42.4787203,
+      "lon": -73.7607894
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://estacionhostel.cl/",
+      "finalUrl": "https://estacionhostel.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 1,
+      "signals": [
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Estación Hostel | Hostal Boutique y Alojamiento Frente al Mar en Castro, Chiloé",
+        "platform": null,
+        "emails": [
+          "contacto@estacionhostel.cl"
+        ],
+        "phones": [
+          "+56928588254"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 114716,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 6,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "palafito-sur-castro",
+    "business": "Palafito Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.palafitosur.hostel.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Castro",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2972354668,
+      "categoria": "hotel",
+      "lat": -42.4764523,
+      "lon": -73.7610176
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.palafitosur.hostel.com/",
+      "finalUrl": "http://www.palafitosur.hostel.com/",
+      "status": 0,
+      "ok": false,
+      "error": "fetch failed",
+      "auditedAt": "2026-09-12",
+      "score": 0,
+      "signals": [],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 3,
+    "razones": [
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  }
+]

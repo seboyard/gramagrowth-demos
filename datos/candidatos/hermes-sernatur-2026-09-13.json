@@ -1,0 +1,2748 @@
+[
+  {
+    "id": "cabanas-kari-mapu-park-pucon",
+    "business": "CABAÑAS KARI MAPU PARK",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.karimapu.com",
+    "enlaceExterno": "https://instagram.com/cabanas_karimapu_pucon",
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.karimapu.com",
+      "finalUrl": "https://karimapu.com/",
+      "status": 500,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 13,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 500",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Kari Mapu Park &#8211; Cabañas bucólicas entre bosques y río, privacidad garantizada",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabanas_karimapu_pucon",
+          "facebook": "https://www.facebook.com/karimapu"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 90414,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/cabanas_karimapu_pucon",
+      "fb": "facebook.com/karimapu"
+    }
+  },
+  {
+    "id": "centro-turistico-los-pioneros-melipeuco",
+    "business": "CENTRO TURÍSTICO LOS PIONEROS",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.lospioneros.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Melipeuco",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Melipeuco",
+    "audit": {
+      "url": "http://www.lospioneros.cl",
+      "finalUrl": "https://www.lospioneros.cl/",
+      "status": 404,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 16,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 404",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-viewport",
+          "severity": "alta",
+          "label": "La página no declara viewport móvil",
+          "detail": "Se ve reducida y difícil de leer en celular, que es donde llega la mayoría.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "404 Not Found",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 315,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-yemanya-concon-sernatur",
+    "business": "Hostal Yemanya Concon",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.yemanya.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.yemanya.cl",
+      "finalUrl": "https://www.yemanya.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 12,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "Título genérico: \"Success!\"",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Success!",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 2520,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-cerro-castillo-sernatur",
+    "business": "Hotel Cerro Castillo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://turismeleirl.cl/wrp/inicio/hotel-cerro-castillo/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "https://turismeleirl.cl/wrp/inicio/hotel-cerro-castillo/",
+      "finalUrl": "https://turismeleirl.cl/wrp/inicio/hotel-cerro-castillo/",
+      "status": 404,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 7,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 404",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Página no encontrada &#8211; Turismel EIRL",
+        "platform": "WordPress",
+        "emails": [
+          "wordpress@example.com"
+        ],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/explore",
+          "facebook": "https://www.facebook.com/wordpress"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 59864,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 12,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "bahia-luz-hostal-sernatur",
+    "business": "Bahía Luz Hostal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.bahialuz.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.bahialuz.cl",
+      "finalUrl": "https://www.bahialuz.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 9,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Home - BAHIA LUZ",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/javi_flyoga",
+          "facebook": "https://www.facebook.com/BahiaLuzCL",
+          "tripadvisor": "https://www.tripadvisor.cl/Hotel_Review-g488174-d17377077-Reviews-Bahia_Luz_Hostel-Concon_Valparaiso_Region"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 203303,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 12,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cafe-bar-de-paola-sernatur",
+    "business": "Café & Bar de Paola",
+    "segment": "Gastronomía",
+    "plantilla": null,
+    "website": "http://www.cafebardepaola.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.cafebardepaola.cl",
+      "finalUrl": "http://cafebardepaola.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 12,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2022",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…ios de pago Aceptamos todo medio de pago Sitio creado por Don Toldo © 2022 Derechos reservados por Café&#038;Bar de Paola…"
+        },
+        {
+          "id": "plantilla-sin-terminar",
+          "severity": "alta",
+          "label": "Texto de plantilla visible: \"lorem ipsum\"",
+          "detail": "Contenido de ejemplo que quedó publicado. Resta confianza justo antes de contactar.",
+          "evidence": "…stros Eventos & Novedades 25 Feb Surf-Twist &#038; Rock &#8216;N Roll Lorem ipsum dolor sit amet, quando postulant at usu, vel an tempor saperet laoree…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Café &amp; Bar de Paola &#8211; Mágico y único restobar vintage en Concón",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@cafebardepaola.cl"
+        ],
+        "phones": [
+          "+56934159277"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/cafebardepaola",
+          "facebook": "https://www.facebook.com/cafebardepaola"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 239277,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 12,
+    "razones": [
+      "plantilla visible",
+      "pie antiguo",
+      "sin WhatsApp",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostalito-sernatur",
+    "business": "HOSTALITO",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hostalito.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.hostalito.cl",
+      "finalUrl": "http://www.hostalito.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 7,
+      "signals": [
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hostalito | Hostal en Quilpué",
+        "platform": null,
+        "emails": [],
+        "phones": [
+          "+56998199769"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 7900,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 12,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "house-of-colors-backpackers-hostel-pucon",
+    "business": "HOUSE OF COLORS BACKPACKERS-HOSTEL",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.pucon-backpackers.com",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.pucon-backpackers.com",
+      "finalUrl": "http://www.pucon-backpackers.com",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-13",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-emalafquen-pucon",
+    "business": "HOSTAL EMALAFQUEN",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.emalafquen.com",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.emalafquen.com",
+      "finalUrl": "http://www.emalafquen.com",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-13",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "huincaterra-villarrica",
+    "business": "HUINCATERRA",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.huincaterra.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Estuve en huincaterra.cl: los valores por noche están publicados ($40.000 el refugio sobre el río, $80.000 las cabañas Bavaria y Huincaterra, $120.000 Cerro Campanario), pero no hay ningún enlace a WhatsApp y tres unidades dicen \"Consulte valores\". Quien mira desde el celular tiene que copiar el número a mano, y la página además no tiene título, así que en Google y en la pestaña aparece sin nombre. Cada paso extra es una consulta que no llega.\n\nPreparé una muestra con sus 7 unidades (cuatro cabañas y tres tipos de refugio), donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Usa sólo lo que publica su sitio: los valores por noche, la piscina temperada, las tinajas y el Sello S; lo que no está publicado queda marcado como \"a confirmar\".\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. ¿Le mando el enlace de la muestra para que la revise?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Villarrica",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Villarrica",
+    "audit": {
+      "url": "http://www.huincaterra.cl",
+      "finalUrl": "https://www.huincaterra.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 6,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "La página no tiene título",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@huincaterra.cl"
+        ],
+        "phones": [
+          "+56995307981"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 638242,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 11,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El sitio no tiene enlace a WhatsApp: quien mira desde el celular tiene que copiar el +56 9 9530 7981 a mano para consultar.",
+      "La página no tiene título ni meta descripción, así que en Google y en la pestaña del navegador aparece sin nombre.",
+      "Cabaña Terraviva y los refugios de montaña y alta montaña figuran como \"Consulte valores\", sin un camino directo para hacer esa consulta."
+    ],
+    "subject": "huincaterra.cl no tiene enlace a WhatsApp ni título de página",
+    "contact": {
+      "type": "email",
+      "value": "contacto@huincaterra.cl",
+      "label": "Correo de contacto publicado en el sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Lodge con valores publicados pero sin WhatsApp ni título: una página de consulta por unidad ordena lo que hoy queda en \"consulte valores\".",
+    "notes": "Demo: clientes/huincaterra/ · el sitio no publica capacidad por unidad (referenciales), ni temporada de los valores, ni check in/out, abono o IVA",
+    "promovidoEl": "2026-09-13"
+  },
+  {
+    "id": "hotel-y-cabanas-catripulli-curarrehue",
+    "business": "Hotel y Cabañas Catripulli",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hostalcatripulli.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Curarrehue",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Curarrehue",
+    "audit": {
+      "url": "http://www.hostalcatripulli.cl",
+      "finalUrl": "http://www.hostalcatripulli.cl",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-13",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-graciela-pucon",
+    "business": "HOSTAL GRACIELA",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hostalgracielapucon.cl",
+    "enlaceExterno": "https://instagram.com/hostalgracielapucon",
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.hostalgracielapucon.cl",
+      "finalUrl": "https://hostalgracielapucon.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 5,
+      "signals": [
+        {
+          "id": "correos-en-conflicto",
+          "severity": "alta",
+          "label": "Publica 2 correos de 2 dominios distintos",
+          "detail": "Las consultas se reparten entre bandejas, o una de ellas ya no se revisa.",
+          "evidence": "hostalgraciela@gmail.com · contacto@hostalgracielapucon.cl"
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Inicio - Hostal Graciela",
+        "platform": "WordPress",
+        "emails": [
+          "hostalgraciela@gmail.com",
+          "contacto@hostalgracielapucon.cl"
+        ],
+        "phones": [
+          "+56998683742",
+          "+56452441404"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/hostalgracielapucon",
+          "facebook": "https://www.facebook.com/hostalgracielapucon"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 188638,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 10,
+    "razones": [
+      "correos en conflicto (verificar placeholders)",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/hostalgracielapucon",
+      "fb": "facebook.com/hostalgracielapucon"
+    }
+  },
+  {
+    "id": "antu-rios-y-montanas-pucon",
+    "business": "Antu Rios y Montañas",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "http://www.antupucon.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.antupucon.cl",
+      "finalUrl": "http://www.antupucon.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 13,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Redireccionando...",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 773,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 10,
+    "razones": [
+      "sin WhatsApp",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "beer-garden-cerveceria-toska-sernatur",
+    "business": "Beer Garden Cerveceria TOSKA",
+    "segment": "Gastronomía",
+    "plantilla": null,
+    "website": "http://www.cervezatoska.com",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.cervezatoska.com",
+      "finalUrl": "https://www.cervezatoska.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 8,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2018",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…A DE FOTOS Cerveza Toska cervezatoska@gmail.com WhatsApp (9)57998830 ©2018 by Cerveza Toska. Proudly created with Wix.com bottom of page…"
+        },
+        {
+          "id": "correos-en-conflicto",
+          "severity": "alta",
+          "label": "Publica 5 correos de 3 dominios distintos",
+          "detail": "Las consultas se reparten entre bandejas, o una de ellas ya no se revisa.",
+          "evidence": "cervezatoska@gmail.com · 605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com · 88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com · 2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com · 8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Cerveza Artesanal | Cerveza Toska | Quilpué",
+        "platform": "Elementor",
+        "emails": [
+          "cervezatoska@gmail.com",
+          "605a7baede844d278b89dc95ae0a9123@sentry-next.wixpress.com",
+          "88170cb0c9d64f94b5821ca7fd2d55a4@sentry-next.wixpress.com",
+          "2062d0a4929b45348643784b5cb39c36@sentry.wixpress.com",
+          "8eb368c655b84e029ed79ad7a5c1718e@sentry.wixpress.com"
+        ],
+        "phones": [
+          "+56957998830"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/cervezatoska",
+          "facebook": "https://www.facebook.com/cervezatoska"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 859948,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 10,
+    "razones": [
+      "pie antiguo",
+      "sin WhatsApp",
+      "correos en conflicto (verificar placeholders)",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "pimenton-rojo-restobar-sernatur",
+    "business": "Pimenton Rojo Restobar",
+    "segment": "Gastronomía",
+    "plantilla": null,
+    "website": "http://www.valledorado.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.valledorado.cl",
+      "finalUrl": "http://www.valledorado.cl/",
+      "status": 401,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 21,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 401",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-viewport",
+          "severity": "alta",
+          "label": "La página no declara viewport móvil",
+          "detail": "Se ve reducida y difícil de leer en celular, que es donde llega la mayoría.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "La página no tiene título",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 14,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 10,
+    "razones": [
+      "sin WhatsApp",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "s-g-turismo-sernatur",
+    "business": "S&G TURISMO",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "http://www.sygturismo.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.sygturismo.cl",
+      "finalUrl": "http://www.sygturismo.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 18,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-viewport",
+          "severity": "alta",
+          "label": "La página no declara viewport móvil",
+          "detail": "Se ve reducida y difícil de leer en celular, que es donde llega la mayoría.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "La página no tiene título",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 195,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 10,
+    "razones": [
+      "sin WhatsApp",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "valpovina-turismo-sernatur",
+    "business": "VALPOVINA TURISMO",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "http://www.valpovinaturismo.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.valpovinaturismo.cl",
+      "finalUrl": "http://www.valpovinaturismo.cl/2017/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 16,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-viewport",
+          "severity": "alta",
+          "label": "La página no declara viewport móvil",
+          "detail": "Se ve reducida y difícil de leer en celular, que es donde llega la mayoría.",
+          "evidence": null
+        },
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Redireccionando...",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 206,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 10,
+    "razones": [
+      "sin WhatsApp",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-huechuntu-pucon",
+    "business": "CAMPING HUECHUNTU",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.huechuntu.cl",
+    "enlaceExterno": "https://facebook.com/huechuntu",
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.huechuntu.cl",
+      "finalUrl": "https://huechuntu.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 4,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2022",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…pletar este formulario. Nombre * Email * Mensaje * Enviar Copyright © 2022 Huechuntu | Hecho por estrategiaclave.cl…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Pucon Cabanas - Camping - Rental Ski - Pucón Huechuntu",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [
+          "+56982732465"
+        ],
+        "socials": {
+          "facebook": "https://www.facebook.com/huechuntu",
+          "youtube": "https://www.youtube.com/@huechuntupucon"
+        },
+        "socialEmbed": "feed-embebido",
+        "bytes": 209646,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 9,
+    "razones": [
+      "pie antiguo",
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": null,
+      "fb": "facebook.com/huechuntu"
+    }
+  },
+  {
+    "id": "alpes-apart-hotel-pucon",
+    "business": "ALPES APART HOTEL",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.alpesaparthotel.cl",
+    "enlaceExterno": "https://instagram.com/p",
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.alpesaparthotel.cl",
+      "finalUrl": "http://alpesaparthotel.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-https",
+          "severity": "alta",
+          "label": "El sitio no usa HTTPS",
+          "detail": "El navegador puede mostrar una advertencia de \"no seguro\" antes de que lean nada.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Alpes Apart Hotel | Alojamiento en el Centro de Pucón &#8211; Alpes Apart Hotel | Alojamiento en el Centro de Pucón",
+        "platform": "WordPress",
+        "emails": [
+          "soc.matus@gmail.com"
+        ],
+        "phones": [
+          "+56997748098"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/alpes_apart_hotel_pucon_",
+          "facebook": "https://www.facebook.com/Alpes-Apart-Hotel-316673772670",
+          "youtube": "https://www.youtube.com/channel/UCnaFKhO-LhLinjhcpCfg5xw"
+        },
+        "socialEmbed": "feed-embebido",
+        "bytes": 137281,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 9,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/p",
+      "fb": "facebook.com/alpes"
+    }
+  },
+  {
+    "id": "hotel-lican-ray-villarrica",
+    "business": "HOTEL LICAN RAY",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hotellicanray.cl",
+    "enlaceExterno": "https://instagram.com/hotellicanray",
+    "sinWeb": false,
+    "telefono": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Estuve en hotellicanray.cl: las seis habitaciones están bien descritas (camas, aire acondicionado, desayuno buffet) y las políticas son claras (check in 15:30, anticipo del 50%), pero ninguna tiene tarifa y no hay enlace a WhatsApp. Quien mira desde el celular tiene que copiar el número o el correo a mano y preguntar cuánto vale, y esa fricción se traduce en consultas que no llegan.\n\nPreparé una muestra con sus 6 habitaciones, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o a reservas@hotellicanray.cl, sin comisión. Usa sólo lo que publica su sitio: las camas de cada habitación, el desayuno buffet, el check in y el anticipo; las tarifas quedan marcadas como \"a confirmar\" hasta que ustedes las dicten.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. ¿Le mando el enlace de la muestra para que la revise?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Villarrica",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Villarrica",
+    "audit": {
+      "url": "http://www.hotellicanray.cl",
+      "finalUrl": "https://hotellicanray.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hotel Lican Ray &#8211; Hotel Lican Ray",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@hotellicanray.cl"
+        ],
+        "phones": [
+          "+56990516769"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/hotellicanray"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 260293,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 9,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/hotellicanray",
+      "fb": null
+    },
+    "findings": [
+      "El sitio no tiene enlace a WhatsApp: publica el +56 9 9051 6769 y el correo reservas@hotellicanray.cl, pero desde el celular hay que copiarlos a mano.",
+      "No hay meta descripción, así que Google inventa el resumen que ve la gente al buscar el hotel.",
+      "Las seis habitaciones (Single, Doble Junior, Standard, Superior, Triple y Cuádruple) se describen sin tarifa: el pasajero no puede saber cuánto vale la noche antes de escribir."
+    ],
+    "subject": "hotellicanray.cl: seis habitaciones sin tarifa y sin enlace a WhatsApp",
+    "contact": {
+      "type": "email",
+      "value": "reservas@hotellicanray.cl",
+      "label": "Correo de reservas publicado en el sitio"
+    },
+    "offer": "landing",
+    "opportunity": "Hotel con habitaciones bien descritas y políticas claras, pero sin tarifas ni WhatsApp: una página de consulta con sus reglas cierra el hueco.",
+    "notes": "Demo: clientes/hotel-lican-ray/ · el sitio no publica tarifas, IVA ni número de habitaciones",
+    "promovidoEl": "2026-09-13"
+  },
+  {
+    "id": "agencia-life-travel-temuco",
+    "business": "Agencia LIFE TRAVEL",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "http://www.agencialifetravel.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Temuco",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Temuco",
+    "audit": {
+      "url": "http://www.agencialifetravel.cl",
+      "finalUrl": "https://www.agencialifetravel.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 9,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Agencia Life Travel",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 1967,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 9,
+    "razones": [
+      "sin WhatsApp",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-don-juan-villarrica",
+    "business": "CABAÑAS DON JUAN",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.hostaldonjuan.cl",
+    "enlaceExterno": "https://instagram.com/donjuanhostalyturismo",
+    "sinWeb": false,
+    "telefono": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Estuve en hostaldonjuan.cl: la página de tarifas ya define la temporada baja 2026 y la alta 2027, con check in de 14:00 a 22:00, abono del 50% e IVA incluido, pero no publica el valor de las cabañas de 3, 4, 5 y 6 personas, y el pie de página sigue diciendo 2024. Quien llega a cotizar tiene reglas pero no números, y eso lo manda a Booking o a preguntar por WhatsApp sin saber qué cabaña le conviene.\n\nPreparé una muestra con sus 4 cabañas, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp al +56 9 8354 7968, sin comisión. Usa sólo lo que publica su sitio: capacidades, temporadas, horarios, abono, desayuno opcional a $8.000 y cancelación hasta 48 horas antes; los valores quedan \"a confirmar\" hasta que ustedes los dicten.\n\nLa puedo dejar publicada en 5 días hábiles por $320.000. ¿Le mando el enlace de la muestra para que la revise?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Villarrica",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Villarrica",
+    "audit": {
+      "url": "http://www.hostaldonjuan.cl",
+      "finalUrl": "https://hostaldonjuan.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 3,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2024",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…scriba el resultado de la operación para continuar Enviar Copyright © 2024 Hostal & Cabañas Don Juan &#8211; General Korner 770 – Villarrica – C…"
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hostal y Cabañas Don Juan en Villarrica | Araucanía | Chile",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@hostaldonjuan.cl"
+        ],
+        "phones": [
+          "+56983547968"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/donjuanhostalyturismo",
+          "facebook": "https://www.facebook.com/DonJuanHostalyTurismo",
+          "tripadvisor": "https://www.tripadvisor.cl/Hotel_Review-g294303-d2223208-Reviews-Hostal_y_Cabanas_Don_Juan-Villarrica_Arauc"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 149026,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 8,
+    "razones": [
+      "pie antiguo",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/donjuanhostalyturismo",
+      "fb": "facebook.com/donjuanhostalyturismo"
+    },
+    "findings": [
+      "El pie de página dice \"Copyright © 2024\", mientras la página de tarifas ya habla de temporada baja 2026 y alta 2027: el sitio se ve más antiguo de lo que está.",
+      "La página de tarifas define las temporadas (baja del 1 de marzo al 31 de diciembre de 2026, alta del 1 de enero al 28 de febrero de 2027) pero no publica el valor de cada cabaña de 3, 4, 5 y 6 personas."
+    ],
+    "subject": "hostaldonjuan.cl: tarifas 2026-2027 sin valores por cabaña y pie de 2024",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56983547968",
+      "label": "WhatsApp publicado en el sitio (wa.me)"
+    },
+    "offer": "landing",
+    "opportunity": "Cabañas con reglas y temporadas claras pero sin valores por cabaña: una página de consulta por cabaña ordena la cotización.",
+    "notes": "Demo: clientes/cabanas-don-juan/ · el sitio no publica montos por cabaña ni dormitorios/baño por unidad; sin fotos propias de las cabañas",
+    "promovidoEl": "2026-09-13"
+  },
+  {
+    "id": "diego-pizza-sernatur",
+    "business": "DIEGO PIZZA",
+    "segment": "Gastronomía",
+    "plantilla": null,
+    "website": "http://www.diegopizza.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.diegopizza.cl",
+      "finalUrl": "http://www.diegopizza.cl",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-13",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 8,
+    "razones": [
+      "dominio caído",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "alma-equina-pucon-pucon",
+    "business": "Alma Equina Pucon",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.almaequinapucon.cl",
+    "enlaceExterno": "https://instagram.com/almaequinapucon",
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.almaequinapucon.cl",
+      "finalUrl": "https://www.almaequinapucon.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 2,
+      "signals": [
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Inicio Alma Equina Pucón - Alma Equina",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@almaequinapucon.cl"
+        ],
+        "phones": [
+          "+56976535601"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/almaequinapucon",
+          "facebook": "https://www.facebook.com/AlmaEquinaPucon"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 248575,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 7,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/almaequinapucon",
+      "fb": "facebook.com/almaequinapucon"
+    }
+  },
+  {
+    "id": "cabanas-y-camping-los-pinos-villarrica",
+    "business": "CABAÑAS Y CAMPING LOS PINOS",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.campinglospinoslicanray.com",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Villarrica",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Villarrica",
+    "audit": {
+      "url": "http://www.campinglospinoslicanray.com",
+      "finalUrl": "https://campinglospinoslicanray.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 2,
+      "signals": [
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Camping Los Pinos &#8211; Turismo en Lican Ray",
+        "platform": "WordPress",
+        "emails": [
+          "campinglospinos@yahoo.es"
+        ],
+        "phones": [
+          "+56985148324",
+          "+56992102758"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 53379,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 7,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "rutas-australes-temuco",
+    "business": "RUTAS AUSTRALES",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "http://www.rutasaustrales.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Temuco",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Temuco",
+    "audit": {
+      "url": "http://www.rutasaustrales.cl",
+      "finalUrl": "https://rutasaustrales.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 5,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2025",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…ndiciones Niveles de dificultad Política de sustentabilidad Copyright 2025…"
+        },
+        {
+          "id": "idioma-mezclado",
+          "severity": "media",
+          "label": "Interfaz en inglés dentro de una página en español: \"read more\"",
+          "detail": "Da la impresión de una plantilla sin terminar justo en el momento de escribir.",
+          "evidence": "…nal y se preocupó en todo momento de que disfrutáramos de una&hellip; Read More Mauricio Pérez Sin duda lo que marca la diferencia en Rutas Australes…"
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Tours de montaña en el sur de Chile | Rutas Australes",
+        "platform": "WordPress",
+        "emails": [
+          "info@australes.cl"
+        ],
+        "phones": [
+          "+56967770413"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 128672,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 7,
+    "razones": [
+      "pie antiguo",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "brothers-tours-sernatur",
+    "business": "Brothers Tours",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://brotherstours.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "https://brotherstours.cl/",
+      "finalUrl": "https://brotherstours.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 2,
+      "signals": [
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Inicio - Brothers Tours",
+        "platform": "WordPress",
+        "emails": [
+          "reserva@brotherstours.cl"
+        ],
+        "phones": [
+          "+56968696226"
+        ],
+        "socials": {
+          "facebook": "https://facebook.com/profile.php"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 225041,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 7,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-terranostra-cunco",
+    "business": "CABAÑAS TERRANOSTRA",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.turismoterranostra.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Cunco",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Cunco",
+    "audit": {
+      "url": "http://www.turismoterranostra.cl",
+      "finalUrl": "https://www.turismoterranostra.cl/web/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Turismo Terranostra &#8211; Cabañas &amp; Centro de eventos Terranostra.",
+        "platform": "WordPress",
+        "emails": [
+          "info@turismoterranostra.cl"
+        ],
+        "phones": [
+          "+56986739315",
+          "+56950161678"
+        ],
+        "socials": {
+          "facebook": "https://www.facebook.com/complejoturistico.terranostra"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 282481,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 6,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-galos-hotel-lofts-sernatur",
+    "business": "Casa Galos Hotel & Lofts",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.casagalos.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.casagalos.cl",
+      "finalUrl": "https://casagalos.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Casa Galos Hotel &amp; Lofts &#8226; Valparaíso",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@casagalos.cl"
+        ],
+        "phones": [
+          "+56962705458",
+          "+56322112633",
+          "+56971289332"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/casagalos",
+          "facebook": "https://facebook.com/Casagalos",
+          "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g294306-d3200965-Reviews-Casa_Galos_Hotel_Lofts-Valparaiso_Valparai"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 266444,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 6,
+    "razones": [
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "immer-travel-sernatur",
+    "business": "Immer Travel",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "https://immer.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "https://immer.cl/",
+      "finalUrl": "https://immer.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 4,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Inicio - Immer ∞ - Tour Virtuales, Experiencias Virtuales y Stand Inmersivos",
+        "platform": "WordPress",
+        "emails": [
+          "contacto@immer.cl"
+        ],
+        "phones": [
+          "+56954147505"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 102919,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 6,
+    "razones": [
+      "sin WhatsApp",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "peuma-nuke-temuco",
+    "business": "PEUMA ÑUKE",
+    "segment": "Gastronomía",
+    "plantilla": null,
+    "website": "http://www.peumanuke.cl",
+    "enlaceExterno": "https://instagram.com/peumanuke",
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Temuco",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Temuco",
+    "audit": {
+      "url": "http://www.peumanuke.cl",
+      "finalUrl": "https://peumanuke.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 3,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2023",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…stagram Google PeumaÑuke © 2026 Facebook Instagram Google Peumañuke © 2023 Desarrollado por VitrinaWeb…"
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Turismo Mapuche y Gastronomía",
+        "platform": "WordPress",
+        "emails": [
+          "peumanuke@gmail.com"
+        ],
+        "phones": [
+          "+56979673002"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/peumanuke",
+          "facebook": "https://www.facebook.com/peumanuke"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 124766,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 5,
+    "razones": [
+      "pie antiguo",
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/peumanuke",
+      "fb": "facebook.com/peumanuke"
+    }
+  },
+  {
+    "id": "hornitos-de-barro-soulsurf-sernatur",
+    "business": "Hornitos de Barro Soulsurf",
+    "segment": "Gastronomía",
+    "plantilla": null,
+    "website": "http://www.escuelasoulsurf.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.escuelasoulsurf.cl",
+      "finalUrl": "https://escuelasoulsurf.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 3,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Escuela Soul Surf Concón - Home",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [
+          "+56947779741"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/escuelasoulsurf",
+          "facebook": "https://www.facebook.com/www.escuelasoulsurf.cl"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 147830,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 5,
+    "razones": [
+      "sin WhatsApp",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "ecomapu-travel-sernatur",
+    "business": "ECOMAPU TRAVEL",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "http://www.ecomapu.com",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.ecomapu.com",
+      "finalUrl": "https://ecomapu.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 3,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2024",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…lparaíso - Chile. Enlaces Prensa Blog Todos los derechos reservados © 2024 - ECOMAPU® INICIO TOURS VALPARAÍSO PATRIMONIAL THE LEGACY TOUR VALPAR…"
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook y tiktok, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Tours sustentables en Valparaíso - Descubre la belleza y la cultura de la ciudad patrimonio de la UNESCO.",
+        "platform": "WordPress",
+        "emails": [
+          "info@ecomapu.com"
+        ],
+        "phones": [
+          "+5693556748",
+          "+56993556748",
+          "+56944691054"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/ecomapu",
+          "facebook": "https://www.facebook.com/tr",
+          "tripadvisor": "https://www.tripadvisor.cl/Attraction_Review-g294306-d6105402-Reviews-Ecomapu_Travel-Valparaiso_Valparaiso_",
+          "tiktok": "https://www.tiktok.com/@ecomapu"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 207477,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 5,
+    "razones": [
+      "pie antiguo",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "buceo-chungungo-e-i-r-l-sernatur",
+    "business": "buceo chungungo E.I.R.L.",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "http://www.buceochungungo.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": null,
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur",
+    "audit": {
+      "url": "http://www.buceochungungo.cl",
+      "finalUrl": "https://buceochungungo.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 3,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Inicio - Buceo Chungungo",
+        "platform": "WordPress",
+        "emails": [
+          "hola@buceochungungo.cl"
+        ],
+        "phones": [
+          "+56994375957"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/chungungo_muellebaron"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 127008,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 5,
+    "razones": [
+      "sin WhatsApp",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "restaurant-del-parque-pucon",
+    "business": "RESTAURANT DEL PARQUE",
+    "segment": "Gastronomía",
+    "plantilla": null,
+    "website": "http://www.parquemetrenehue.com",
+    "enlaceExterno": "https://instagram.com/parquemetrenehue",
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.parquemetrenehue.com",
+      "finalUrl": "https://www.parquemetrenehue.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Hotel Posada del Río | Naturaleza y Cabañas en Pucón",
+        "platform": null,
+        "emails": [],
+        "phones": [
+          "+56958215306"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/parquemetrenehue",
+          "tripadvisor": "https://www.tripadvisor.es/Hotel_Review-g294297-d5230802-Reviews-Hotel_Posada_del_Rio_Parque_Metrenehue-Puc"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 313162,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 3,
+    "razones": [
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/parquemetrenehue",
+      "fb": null
+    }
+  },
+  {
+    "id": "congui-spa-melipeuco",
+    "business": "Congui Spa",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "http://www.congui.cl",
+    "enlaceExterno": "https://instagram.com/somoscongui",
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Melipeuco",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Melipeuco",
+    "audit": {
+      "url": "http://www.congui.cl",
+      "finalUrl": "https://congui.cl/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 1,
+      "signals": [
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "home - Congui",
+        "platform": "WordPress",
+        "emails": [
+          "reservas@hotelconguillio.cl"
+        ],
+        "phones": [
+          "+56974769302"
+        ],
+        "socials": {
+          "instagram": "https://www.instagram.com/somoscongui",
+          "facebook": "https://www.facebook.com/ConguiSpa",
+          "tripadvisor": "https://www.tripadvisor.cl/Attraction_Review-g1989222-d26803774-Reviews-Agencia_de_turismo_Somos_Congui-Mel"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 168949,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 3,
+    "razones": [
+      "canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/somoscongui",
+      "fb": "facebook.com/conguispa"
+    }
+  },
+  {
+    "id": "chucao-kayak-villarrica",
+    "business": "CHUCAO KAYAK",
+    "segment": "Turismo y experiencias",
+    "plantilla": null,
+    "website": "https://www.chucaokayak.cl",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Villarrica",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Villarrica",
+    "audit": {
+      "url": "https://www.chucaokayak.cl",
+      "finalUrl": "https://www.chucaokayak.cl",
+      "status": 0,
+      "ok": false,
+      "error": "fetch failed",
+      "auditedAt": "2026-09-13",
+      "score": 0,
+      "signals": [],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 0,
+    "razones": [
+      "SIN canal de contacto"
+    ]
+  }
+]

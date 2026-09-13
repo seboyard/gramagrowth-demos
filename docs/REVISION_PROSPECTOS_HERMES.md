@@ -33,9 +33,40 @@ Lo que sí es rescatable: la **intención de fuente**. Directorios como
 yellowpages.cl y gremios como ASECH sí listan negocios; hay que entrar a las
 fichas de los negocios, no a los menús del directorio.
 
-## Decisión
+## Segundo lote (2026-09-13): 234 registros, 40 aprovechables
 
-No se incorpora nada de este lote. La prospección sigue por el pipeline del repo
+El agente cambió de fuente y esta vez sí trajo negocios: el **registro de
+prestadores de SERNATUR** (Los Lagos, Araucanía, Valparaíso), más yelu.cl y
+Páginas Amarillas. Revisado con `scripts/importar-hermes.mjs`:
+
+| Grupo | Registros | Qué se hizo |
+|---|---:|---|
+| Enlaces a agregadores (ficha SERNATUR, Booking, redes) como si fueran el sitio | 161 | Descartados: no son el sitio del negocio. Muchos son alojamientos **sin web propia**, útiles en el futuro si se extrae el teléfono de la ficha |
+| Ya en nuestra cola o lotes | 24 | Descartados |
+| Cadenas (Sheraton, Dreams, Enjoy, andBeyond) | 4 | Descartadas |
+| Duplicados internos, gobierno, salud | 9 | Descartados |
+| **Negocios reales con sitio propio** | **40** → lote `hermes-sernatur-2026-09-13` | Auditados con nuestro motor. 3 con dominio muerto, 2 con error 500/404, 15 alojamientos con sitio vivo y contacto |
+
+**Lo que no se conserva de ese lote:** el campo `offer`/`opportunity`. Son textos
+de venta generados sin verificación: prometen SEO, Google Ads, "reservas
+fatales", "motor de reservas con disponibilidad en tiempo real" y precios
+inventados (CLP 240.000–490.000) que no son los de `OFFERS.md`. En dos casos la
+"oferta" es para una cadena global. Nada de eso pasa la compuerta ni la regla de
+no prometer resultados, así que el importador los descarta y la redacción se
+hace de nuevo a partir de la auditoría.
+
+**Aciertos del agente que sí valen:** detectó el error 500 de karimapu.com y los
+dominios muertos de House of Colors, Emalafquen y Catripulli antes que nosotros;
+y guardó los perfiles de Instagram/Facebook de diez negocios, que sirven de
+canal cuando el sitio está caído.
+
+**Resultado:** 3 prospectos nuevos con correo ya en la cola desde este lote
+(Karimapu por Instagram, Truyaca, y los que redactan los agentes de Villarrica),
+y 30+ candidatos auditados esperando redacción.
+
+## Decisión sobre el primer lote
+
+No se incorpora nada de él. La prospección sigue por el pipeline del repo
 (`descubrir.mjs` → `prospectar-lote.mjs` → redacción → `promover.mjs`), que hoy
 mismo se corrió sobre la Región de Los Ríos; ver `docs/ENVIAR_HOY.md` y los lotes
 en `datos/candidatos/`.

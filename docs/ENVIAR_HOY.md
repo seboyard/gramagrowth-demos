@@ -150,6 +150,39 @@ publicadas; ver "Publicación" en el README).
 ---
 
 
+# Lote del 2026-09-13 — Los Lagos y Araucanía: 15 prospectos, 10 demos
+
+Ranking completo en `docs/PRIORIDAD.md`; correos en la cola; propuesta en
+`/presentacion/?id=<id>`. Ninguno es de Valdivia: el saludo del correo dice
+"un estudio de Valdivia que hace páginas de reserva para alojamientos del sur"
+y no se ofrecen visitas ni fotos. **Reconfirmar el hallazgo el mismo día.**
+
+| # | Negocio · comuna | Hallazgo que abre | Canal | Demo | Oferta de entrada |
+|---|---|---|---|---|---|
+| 1 | **Camping Playa Hermosa** · Puerto Varas | Tarifas rotuladas "2025–2026" y pie © 2025 | WA 56 9 8682 3354 | `clientes/camping-playa-hermosa/` **calcula con sus tarifas** | Arreglo exprés $120.000 |
+| 2 | **Hostería Outsider** · Puerto Varas | Tarifas publicadas vencieron el 10-09-2026; sin versión móvil; sin HTTPS | outsider@turout.com | `clientes/hosteria-outsider/` **calcula con sus tarifas** | Página $320.000 |
+| 3 | **Camping Playa Niklitschek** · Puerto Varas | Sin WhatsApp ni teléfono; vista previa muestra "camping.yourdomain.com" | contacto@playanik.cl | `clientes/camping-playa-niklitschek/` **calcula con sus tarifas** | Arreglo exprés $120.000 (ya tienen pago en línea) |
+| 4 | **Casa Azul Hostel** · Puerto Varas | Lista de precios en inglés y sin año; sin móvil; sin HTTPS | Tel. +56 65 223 2904 | `clientes/casa-azul-hostel/` **calcula con sus tarifas** | Página $320.000 |
+| 5 | **Cabañas Kari Mapu Park** · Pucón | Sitio responde error 500 | Instagram @cabanas_karimapu_pucon | — | Arreglo exprés $120.000 |
+| 6 | **Huincaterra** · Villarrica | Sin WhatsApp; página sin título | contacto@huincaterra.cl | `clientes/huincaterra/` (tarifas parciales) | Página $320.000 |
+| 7 | **Hotel Licán Ray** · Villarrica | 6 habitaciones sin tarifa; sin WhatsApp | reservas@hotellicanray.cl | `clientes/hotel-lican-ray/` | Página $320.000 |
+| 8 | **Cabañas Don Juan** · Villarrica | Pie © 2024; temporadas sin montos | WA 56 9 8354 7968 | `clientes/cabanas-don-juan/` | Página $320.000 |
+| 9 | **Hostel La Guapa** · Puerto Varas | "Book now" lleva a Booking; sitio en inglés; sin WhatsApp | Tel. +56 65 223 2673 | `clientes/hostel-la-guapa/` | Página $320.000 |
+| 10 | **Petrohué Lodge** · Puerto Varas | Sin WhatsApp; tarifas sólo en motor externo; pie © 2025 | reservas@petrohue.com | `clientes/petrohue-lodge/` | Arreglo exprés (sitio moderno: ajuste bajo para landing) |
+| 11 | **Hotel Don Luis** · Puerto Montt | Habitaciones sin tarifa ni horarios; pie © 2025 | WA 56 9 9521 2248 | `clientes/hotel-don-luis/` | Página $320.000 |
+| 12 | **Hostal Truyaca** · Osorno | Mapa apunta a dominio muerto; sitio vigente con pie antiguo | WA 56 9 5371 5662 | — | Arreglo exprés $120.000 |
+| 13 | **Zapato Amarillo** · Puerto Octay | Dominio caído; #1 de Tripadvisor en la comuna | Cel. +56 9 8309 8398 | — | Página $320.000 |
+| 14 | **Quincho Casa Hotel** · Puerto Varas | Dominio caído; 4 suites con excursiones | Tel. +56 65 233 0737 | — | Página $320.000 |
+| 15 | **Casa Margouya** · Puerto Varas | Dominio con página de relleno | Tel. +56 65 223 7640 | — | Página $320.000 |
+
+Sin demo ni canal, quedan en los lotes: Los Pioneros (Melipeuco, 404), House of
+Colors, Emalafquen y Catripulli (dominios caídos), Domos Frutillar (sitio en
+error), Blockhouse (en mantención), Hospedaje Mitchell (dominio recomprado por
+un portal ajeno).
+
+---
+
+
 # NO enviar por correo — usar otro canal
 
 ## Sportlife Valdivia — el hallazgo más fuerte, pero sin correo público

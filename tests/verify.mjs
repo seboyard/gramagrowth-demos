@@ -43,6 +43,7 @@ const required = [
   'hermes/instalar.ps1',
   'scripts/nueva-demo.mjs',
   'scripts/priorizar.mjs',
+  'scripts/importar-hermes.mjs',
   'scripts/capturar-demos.ps1',
   'scripts/publicar-demos.ps1',
   'hermes/briefs/demo-alojamiento.md',

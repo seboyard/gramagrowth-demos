@@ -1,0 +1,884 @@
+[
+  {
+    "id": "zapato-amarillo-puerto-octay",
+    "business": "Zapato Amarillo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.zapatoamarillo.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 64 221 07 87",
+    "email": "info@zapatoamarillo.cl",
+    "direccion": "Ruta U-55 Km 2.5, Puerto Octay",
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2136817595,
+      "categoria": "hostel",
+      "lat": -40.951064,
+      "lon": -72.8841755
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.zapatoamarillo.cl/",
+      "finalUrl": "http://www.zapatoamarillo.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "blockhouse-puerto-octay",
+    "business": "Blockhouse",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.blockhouse-chile.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "999620978",
+    "email": "uwebernstein@aol.com",
+    "direccion": "Ruta U-55-V",
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4633821889,
+      "categoria": "guest_house",
+      "lat": -41.0602445,
+      "lon": -72.6600375
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.blockhouse-chile.com/",
+      "finalUrl": "https://blockhouse-chile.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 8,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2022",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…l be available soon. Thank you for your patience! © Block House Chile 2022 Benutzeranmeldung Passwort vergessen…"
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Site is undergoing maintenance",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 5578,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "pie antiguo",
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-irma-puerto-octay",
+    "business": "Camping Irma",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 4471 9461",
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6251478468,
+      "categoria": "camp_site",
+      "lat": -41.093357,
+      "lon": -72.6318643
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-la-tranca-del-lago-puerto-octay",
+    "business": "Camping La Tranca del Lago",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 9144 2558",
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13430142057,
+      "categoria": "camp_site",
+      "lat": -41.0644379,
+      "lon": -72.6543121
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-las-cascadas-puerto-octay",
+    "business": "Camping Las Cascadas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 9619 3184;+56 9 9619 3184",
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 314804084,
+      "categoria": "camp_site",
+      "lat": -41.0834511,
+      "lon": -72.6362607
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-los-avellanos-puerto-octay",
+    "business": "Camping Los Avellanos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 9 9672 1908",
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 314804704,
+      "categoria": "camp_site",
+      "lat": -41.081016,
+      "lon": -72.6431591
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-y-cabanas-el-centinela-puerto-octay",
+    "business": "Hotel y Cabañas El Centinela",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1141715281,
+      "categoria": "hotel",
+      "lat": -40.9893419,
+      "lon": -72.8613503
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hosteria-la-baja-puerto-octay",
+    "business": "Hosteria La Baja",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2832747493,
+      "categoria": "hostel",
+      "lat": -40.9953813,
+      "lon": -72.875432
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-maderos-puerto-octay",
+    "business": "Cabañas Maderos",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2832749410,
+      "categoria": "motel",
+      "lat": -40.9745385,
+      "lon": -72.8856834
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rincon-aleman-puerto-octay",
+    "business": "Rincon aleman",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2832751040,
+      "categoria": "motel",
+      "lat": -41.0595313,
+      "lon": -72.6609053
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "don-memo-puerto-octay",
+    "business": "Don Memo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3291833061,
+      "categoria": "guest_house",
+      "lat": -41.0800371,
+      "lon": -72.6367386
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "arriendo-cabana-de-veraneo-puerto-octay",
+    "business": "Arriendo Cabaña de Veraneo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3291834720,
+      "categoria": "motel",
+      "lat": -41.0794624,
+      "lon": -72.6389789
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "arriendo-cabana-y-alojamiento-puerto-octay",
+    "business": "Arriendo Cabaña y Alojamiento",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3291834765,
+      "categoria": "hostel",
+      "lat": -41.0788437,
+      "lon": -72.6383017
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-el-molino-puerto-octay",
+    "business": "Camping El Molino",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3400611828,
+      "categoria": "camp_site",
+      "lat": -40.9774584,
+      "lon": -72.8825119
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-el-molino-puerto-octay",
+    "business": "Cabañas El Molino",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3400620010,
+      "categoria": "chalet",
+      "lat": -41.0065796,
+      "lon": -72.7292758
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-laguna-los-quetros-puerto-octay",
+    "business": "Camping Laguna Los Quetros",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3846037899,
+      "categoria": "camp_site",
+      "lat": -40.9341074,
+      "lon": -72.1565753
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "lodge-los-lingues-puerto-octay",
+    "business": "Lodge Los Lingues",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3984254549,
+      "categoria": "hotel",
+      "lat": -40.8032841,
+      "lon": -72.9268047
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-lagos-del-sur-puerto-octay",
+    "business": "Hospedaje Lagos del Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Germán Wulf",
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4114320800,
+      "categoria": "motel",
+      "lat": -40.9712215,
+      "lon": -72.8845826
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-alto-puerto-octay-puerto-octay",
+    "business": "Cabañas Alto Puerto Octay",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4127195738,
+      "categoria": "motel",
+      "lat": -40.957481,
+      "lon": -72.8880359
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-y-pension-licarayen-puerto-octay",
+    "business": "Hospedaje y Pensión \"Licarayen\"",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4682633818,
+      "categoria": "hostel",
+      "lat": -41.0802748,
+      "lon": -72.636408
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-y-cafeteria-triwe-puerto-octay",
+    "business": "Hostal y Cafeteria Triwe",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Montt 475",
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5410284780,
+      "categoria": "guest_house",
+      "lat": -40.9735882,
+      "lon": -72.8826467
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "campamento-alerces-puerto-octay",
+    "business": "Campamento Alerces",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6918884803,
+      "categoria": "camp_site",
+      "lat": -40.941775,
+      "lon": -72.2569371
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "club-de-pesca-y-caza-osorno-puerto-octay",
+    "business": "Club de Pesca y Caza Osorno",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11519873190,
+      "categoria": "camp_site",
+      "lat": -40.8808241,
+      "lon": -72.4066749
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-haase-puerto-octay",
+    "business": "Hotel Haase",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro Montt 344",
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 225083795,
+      "categoria": "hotel",
+      "lat": -40.9744917,
+      "lon": -72.8832821
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-la-carreta-puerto-octay",
+    "business": "Cabañas La Carreta",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 315122013,
+      "categoria": "chalet",
+      "lat": -41.0789393,
+      "lon": -72.642045
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-lodge-las-cascadas-puerto-octay",
+    "business": "Hotel Lodge Las Cascadas",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Vicente Perez Rosales s/n km 62, 5",
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 555518899,
+      "categoria": "hotel",
+      "lat": -41.0779369,
+      "lon": -72.6451407
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  }
+]

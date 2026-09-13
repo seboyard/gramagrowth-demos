@@ -1,0 +1,1179 @@
+[
+  {
+    "id": "dallas-house-osorno",
+    "business": "Dallas House",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.dallashouse.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56945562827",
+    "email": "dhousenosorno@gmail.com",
+    "direccion": "Lord Cochrane 162",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 11355551469,
+      "categoria": "hostel",
+      "lat": -40.5805788,
+      "lon": -73.131965
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.dallashouse.com/",
+      "finalUrl": "https://dallashouse.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 9,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "titulo-debil",
+          "severity": "media",
+          "label": "Título genérico: \"DallasHOUSE\"",
+          "detail": "Es lo que aparece en Google y en la pestaña del navegador.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "DallasHOUSE",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 89547,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 14,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-truyaca-osorno",
+    "business": "Hostal Truyaca",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://www.hostaltruyaca.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56953715662",
+    "email": "reservas@hoteltruyaca.com",
+    "direccion": "Alcalde Alberto Fuschslocher 1420",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 225083809,
+      "categoria": "hostel",
+      "lat": -40.5877668,
+      "lon": -73.0835865
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://www.hostaltruyaca.cl/",
+      "finalUrl": "https://www.hostaltruyaca.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-13",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "hostel-chaman-osorno",
+    "business": "Hostel Chaman",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "0056954101213",
+    "email": "hostelchaman@gmail.com",
+    "direccion": "Terminal de Buses 556",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5258702121,
+      "categoria": "hostel",
+      "lat": -40.5731649,
+      "lon": -73.1241482
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "emily-eva-osorno",
+    "business": "Emily Eva",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56993690017",
+    "email": null,
+    "direccion": "Cervantes 1905",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 7061639085,
+      "categoria": "hostel",
+      "lat": -40.5819522,
+      "lon": -73.1188362
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "punto-rockstar-osorno-hostal-osorno",
+    "business": "Punto Rockstar Osorno - Hostal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://puntorockstar.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56996192485",
+    "email": "rockstarpunto@gmail.com",
+    "direccion": "Barros Arana 1070",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13423065501,
+      "categoria": "guest_house",
+      "lat": -40.5809809,
+      "lon": -73.1310824
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://puntorockstar.com/",
+      "finalUrl": "https://puntorockstar.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 6,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Punto Rockstar - Coliving - Hotel in Osorno",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 25753,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 11,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "garcia-hurtado-de-mendoza-osorno",
+    "business": "Garcia Hurtado de Mendoza",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 996514747,
+      "categoria": "hotel",
+      "lat": -40.5744922,
+      "lon": -73.1324048
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "weager-osorno",
+    "business": "Weager",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Lord Cochrane 816",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 996514754,
+      "categoria": "hotel",
+      "lat": -40.5761641,
+      "lon": -73.1327814
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-sonesta-osorno-osorno",
+    "business": "Hotel Sonesta Osorno",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ejército 395",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1099851116,
+      "categoria": "hotel",
+      "lat": -40.5753897,
+      "lon": -73.1460985
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "bilbao-osorno",
+    "business": "Bilbao",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Juan Mackenna 1019",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2159349211,
+      "categoria": "hotel",
+      "lat": -40.5749267,
+      "lon": -73.1293704
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hein-osorno",
+    "business": "Hein",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2159349222,
+      "categoria": "hotel",
+      "lat": -40.576771,
+      "lon": -73.1330842
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "bilbao-express-osorno",
+    "business": "Bilbao Express",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Mackenna 1205",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2159349230,
+      "categoria": "hotel",
+      "lat": -40.576125,
+      "lon": -73.1324062
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-blumenau-osorno",
+    "business": "Cabañas Blumenau",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2444999253,
+      "categoria": "motel",
+      "lat": -40.5780565,
+      "lon": -73.1060545
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostel-vermont-osorno",
+    "business": "Hostel Vermont",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2446011080,
+      "categoria": "hotel",
+      "lat": -40.5775084,
+      "lon": -73.1168329
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "camping-municipal-olegario-mohr-osorno",
+    "business": "Camping Municipal Olegario Mohr",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3087720308,
+      "categoria": "camp_site",
+      "lat": -40.5870647,
+      "lon": -73.0962601
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-los-yaganes-osorno",
+    "business": "Cabañas Los Yaganes",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3137628127,
+      "categoria": "motel",
+      "lat": -40.6053663,
+      "lon": -73.0389014
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "santuario-patagonia-hotel-boutique-osorno",
+    "business": "Santuario Patagonia Hotel Boutique",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Camino Pilauco 617",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3722042369,
+      "categoria": "hotel",
+      "lat": -40.5649533,
+      "lon": -73.1287267
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-san-pedro-osorno",
+    "business": "Hotel San Pedro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Manuel Bulnes 630",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 3722045034,
+      "categoria": "hotel",
+      "lat": -40.5734426,
+      "lon": -73.1383273
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-lagos-del-sur-osorno",
+    "business": "Hotel Lagos del Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Bernardo O´Higgins 564",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4413621445,
+      "categoria": "hotel",
+      "lat": -40.5726353,
+      "lon": -73.1367432
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-freire-osorno",
+    "business": "Hospedaje Freire",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ramon Freire",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4661328194,
+      "categoria": "hostel",
+      "lat": -40.5767821,
+      "lon": -73.1310449
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "apart-hotel-niltaihuen-osorno",
+    "business": "Apart Hotel Ñiltaihuén",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Carrera 951",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4693490651,
+      "categoria": "hotel",
+      "lat": -40.5719768,
+      "lon": -73.1341803
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cabanas-swart-osorno",
+    "business": "Cabañas Swart",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4806019090,
+      "categoria": "motel",
+      "lat": -40.6242169,
+      "lon": -73.0770875
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-paraiso-osorno",
+    "business": "Hostal paraíso",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5299410225,
+      "categoria": "hostel",
+      "lat": -40.5728475,
+      "lon": -73.1177141
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-florencia-osorno",
+    "business": "Hostal Florencia",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Conrado Amthauer 744",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5300633727,
+      "categoria": "hotel",
+      "lat": -40.5782453,
+      "lon": -73.1373968
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "motel-osorno",
+    "business": "Motel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5446659131,
+      "categoria": "motel",
+      "lat": -40.6068042,
+      "lon": -73.004778
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "rukajaus-sur-osorno",
+    "business": "RukaJaus Sur",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5455579423,
+      "categoria": "chalet",
+      "lat": -40.6607119,
+      "lon": -73.1297604
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-osorno",
+    "business": "Hostal",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5928715002,
+      "categoria": "hostel",
+      "lat": -40.5726746,
+      "lon": -73.1314906
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hostal-kayser-osorno",
+    "business": "Hostal Kayser",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6000896685,
+      "categoria": "guest_house",
+      "lat": -40.5723639,
+      "lon": -73.1240592
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-latue-osorno",
+    "business": "Hospedaje Latue",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6251971409,
+      "categoria": "hostel",
+      "lat": -40.5730368,
+      "lon": -73.1241269
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "casa-hrna-nancy-bello-osorno",
+    "business": "casa hrna. Nancy bello",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6259569885,
+      "categoria": "guest_house",
+      "lat": -40.5890368,
+      "lon": -73.1522349
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hospedaje-papo-osorno",
+    "business": "Hospedaje Papo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ramón Freire 518",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 6286991787,
+      "categoria": "hostel",
+      "lat": -40.5723846,
+      "lon": -73.1315158
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "conrado-hotel-osorno",
+    "business": "Conrado Hotel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Conrado Amthauer 1153",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13291195101,
+      "categoria": "hotel",
+      "lat": -40.578738,
+      "lon": -73.13008
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "la-posada-osorno",
+    "business": "La Posada",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Francisco Bilbao",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 486651729,
+      "categoria": "guest_house",
+      "lat": -40.5757189,
+      "lon": -73.1332288
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-innsbruck-osorno",
+    "business": "Hotel Innsbruck",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Manuel Rodríguez 941",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 490517613,
+      "categoria": "hotel",
+      "lat": -40.5774272,
+      "lon": -73.1335563
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "hotel-diego-de-almagro-osorno",
+    "business": "Hotel Diego de Almagro",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Alcalde Alberto Fuchslocher 1236",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 999055488,
+      "categoria": "hotel",
+      "lat": -40.5855662,
+      "lon": -73.087484
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ]
+  }
+]

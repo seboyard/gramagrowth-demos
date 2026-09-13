@@ -74,6 +74,15 @@ descubrir.mjs ──▶ prospectar-lote.mjs ──▶ TÚ (redactas) ──▶ p
   [negocio]; la gente que los busca llega a [OSM/Booking/Facebook] y no puede
   cotizar"— y ofrece la página vertical de su rubro (`plantilla`).
 
+## Si el lote viene de otro agente (production-data)
+
+`node scripts/importar-hermes.mjs <prospectos.json> <lote>` convierte el archivo
+del bot de producción en un lote nuestro: conserva nombre, sitio, comuna, fuente
+y redes; **descarta** sus textos de oferta (prometen SEO, Ads y precios que no
+son los de OFFERS.md), los enlaces a agregadores y las cadenas. Después sigue el
+flujo normal: `prospectar-lote.mjs` y redacción. El sitio de un negocio es su
+dominio propio, nunca su ficha en SERNATUR, Booking o una red social.
+
 ## Zonas y niveles OSM útiles
 
 | Etapa | `--zona` | `--nivel` |

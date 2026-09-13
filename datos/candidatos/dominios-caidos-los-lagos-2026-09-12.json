@@ -1,0 +1,234 @@
+[
+  {
+    "id": "zapato-amarillo-puerto-octay",
+    "business": "Zapato Amarillo",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.zapatoamarillo.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 64 221 07 87",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Buscando Zapato Amarillo llegué a zapatoamarillo.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nSon el alojamiento mejor calificado de Puerto Octay en Tripadvisor, y esa demanda hoy sólo puede reservar por Booking.\n\nPuedo dejar una página de reserva directa —sus habitaciones dobles y twin con vista al jardín y su desayuno casero, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Ruta U-55 Km 2.5, Puerto Octay",
+    "comuna": "Puerto Octay",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2136817595,
+      "categoria": "hostel",
+      "lat": -40.951064,
+      "lon": -72.8841755
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.zapatoamarillo.cl/",
+      "finalUrl": "http://www.zapatoamarillo.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio zapatoamarillo.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Zapato Amarillo ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 8309 8398",
+      "label": "Celular publicado en Tripadvisor; fijo +56 64 221 0787 en OSM. El correo info@zapatoamarillo.cl está en el dominio caído: puede no recibir."
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio zapatoamarillo.cl caido. Reconfirmar el día del contacto.",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "quincho-casa-hotel-puerto-varas",
+    "business": "Quincho Casa Hotel",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://quinchocasahotel.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 65 233 0737",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Buscando Quincho Casa Hotel llegué a quinchocasahotel.cl, que aparece como su sitio en el mapa, y el dominio ya no existe: quien entra hoy ve un error. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPara un hotel de cuatro suites con excursiones incluidas, la consulta directa vale mucho más que la de una plataforma: quien llega quiere preguntar antes de reservar.\n\nPuedo dejar una página de reserva directa —sus cuatro suites y el programa de excursiones incluidas, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Ruta 225, km. 7.5",
+    "comuna": "Puerto Varas",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4530501647,
+      "categoria": "hotel",
+      "lat": -41.3096731,
+      "lon": -72.8771676
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://quinchocasahotel.cl/",
+      "finalUrl": "http://quinchocasahotel.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-12",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio quinchocasahotel.cl, que figura como sitio del negocio en OpenStreetMap, ya no resuelve (NXDOMAIN verificado el 2026-09-12): quien entra ve un error.",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Quincho Casa Hotel ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 65 233 0737",
+      "label": "Teléfono publicado en OSM"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio quinchocasahotel.cl caido. Reconfirmar el día del contacto.",
+    "promovidoEl": "2026-09-12"
+  },
+  {
+    "id": "casa-margouya-puerto-varas",
+    "business": "Casa Margouya",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.margouya.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56 65237640",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Buscando Casa Margouya llegué a margouya.com, que aparece como su sitio en el mapa, y en vez del sitio aparece una página de relleno del hosting. Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y si la búsqueda termina en una página que no carga, muchos siguen al siguiente resultado o reservan por una plataforma que cobra comisión.\n\nPuedo dejar una página de reserva directa —sus habitaciones y camas de hostal, con fechas, pasajeros y el WhatsApp abriendo con la consulta ya escrita— publicada en un dominio suyo en 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Siguen operando con normalidad? Si es así, ¿se la muestro en 10 minutos?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Santa Rosa 318",
+    "comuna": "Puerto Varas",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 2455523835,
+      "categoria": "hostel",
+      "lat": -41.3170701,
+      "lon": -72.983124
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.margouya.com/",
+      "finalUrl": "https://www.hugedomains.com/domain_profile.cfm?d=margouya.com",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-12",
+      "score": 6,
+      "signals": [
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "pagina-estacionada",
+          "severity": "alta",
+          "label": "El dominio muestra una página de relleno, no el sitio del negocio",
+          "detail": "El sitio real ya no está publicado: quien llega ve una página del hosting o del registrador.",
+          "evidence": "…Margouya.com is for sale | HugeDomains Skip to main content Search +1-303-893-0552 Home FAQs About us Contact us My account My favorites Shopping cart…"
+        },
+        {
+          "id": "sin-redes",
+          "severity": "baja",
+          "label": "El sitio no enlaza ninguna red social",
+          "detail": "Quien quiere ver fotos recientes o confirmar que el negocio sigue activo no tiene dónde mirar.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Margouya.com is for sale | HugeDomains",
+        "platform": null,
+        "emails": [],
+        "phones": [
+          "+13038930552"
+        ],
+        "socials": {},
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 43591,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 11,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "El dominio margouya.com, que figura como sitio del negocio en OpenStreetMap, muestra una página de relleno del hosting en vez del sitio (verificado el 2026-09-12).",
+      "Sin sitio propio, la única información completa está en plataformas y directorios de terceros, y la reserva pasa por intermediarios con comisión."
+    ],
+    "subject": "La web de Casa Margouya ya no existe",
+    "contact": {
+      "type": "phone",
+      "value": "+56 65 223 7640",
+      "label": "Teléfono publicado en OSM"
+    },
+    "offer": "landing",
+    "opportunity": "Reponer la presencia propia: página de reserva directa antes de la temporada, en un dominio del negocio.",
+    "notes": "Sin demo todavía (no hay material público propio): se construye si responde. Dominio margouya.com estacionado. Reconfirmar el día del contacto.",
+    "promovidoEl": "2026-09-12"
+  }
+]

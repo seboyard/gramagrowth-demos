@@ -1,0 +1,209 @@
+[
+  {
+    "id": "cabanas-kari-mapu-park-pucon",
+    "business": "Cabañas Kari Mapu Park",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "http://www.karimapu.com",
+    "enlaceExterno": "https://instagram.com/cabanas_karimapu_pucon",
+    "sinWeb": false,
+    "telefono": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a karimapu.com desde el registro de SERNATUR y el sitio devuelve un error 500: el título de las cabañas alcanza a verse, pero el servidor falla y la página no termina de cargar. Lo comprobé el 13 de septiembre. Es el tipo de falla que suele arreglarse en horas (un plugin o una actualización de WordPress a medio hacer), pero mientras tanto quien busca las cabañas para el verano ve un error y sigue al siguiente resultado.\n\nPuedo revisarlo y dejarlo funcionando en 2 días hábiles por $120.000, y de paso dejar el botón de WhatsApp con la consulta prellenada. Si además quieren una página donde el pasajero elija fechas y cuántos son y les mande la consulta completa, esa son 5 días hábiles por $320.000.\n\n¿Les sirve que lo revise esta semana?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": null,
+    "comuna": "Pucón",
+    "pais": "cl",
+    "osm": null,
+    "fichaSernatur": null,
+    "descubiertoEl": "2026-09-12",
+    "fuente": "hermes:sernatur.cl (serviciosturisticos.sernatur.cl) Pucón",
+    "audit": {
+      "url": "http://www.karimapu.com",
+      "finalUrl": "https://karimapu.com/",
+      "status": 500,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 13,
+      "signals": [
+        {
+          "id": "sitio-con-error",
+          "severity": "alta",
+          "label": "El sitio responde con error HTTP 500",
+          "detail": "Quien busque el negocio hoy no encuentra información.",
+          "evidence": null
+        },
+        {
+          "id": "sin-whatsapp",
+          "severity": "media",
+          "label": "No hay enlace a WhatsApp",
+          "detail": "Es el canal que más usa la gente para consultar un servicio local desde el celular.",
+          "evidence": null
+        },
+        {
+          "id": "sin-formulario",
+          "severity": "alta",
+          "label": "No hay formulario ni correo de contacto visible",
+          "detail": "La única forma de contactar exige llamar o buscar por otro canal.",
+          "evidence": null
+        },
+        {
+          "id": "sin-descripcion",
+          "severity": "baja",
+          "label": "No hay meta descripción",
+          "detail": "Google inventa el resumen que ve la gente al buscar el negocio.",
+          "evidence": null
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "Kari Mapu Park &#8211; Cabañas bucólicas entre bosques y río, privacidad garantizada",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/cabanas_karimapu_pucon",
+          "facebook": "https://www.facebook.com/karimapu"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 90414,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "sin WhatsApp",
+      "vertical reserva-cabanas",
+      "SIN canal de contacto"
+    ],
+    "redesHermes": {
+      "ig": "instagram.com/cabanas_karimapu_pucon",
+      "fb": "facebook.com/karimapu"
+    },
+    "findings": [
+      "karimapu.com responde con error HTTP 500 (verificado el 2026-09-13): la página existe —el título \"Cabañas bucólicas entre bosques y río\" alcanza a cargar— pero el servidor falla y el visitante ve un error.",
+      "El sitio no publica teléfono ni correo ni enlace a WhatsApp legibles: el único canal visible es Instagram."
+    ],
+    "subject": "karimapu.com está devolviendo error 500",
+    "contact": {
+      "type": "instagram",
+      "value": "https://instagram.com/cabanas_karimapu_pucon",
+      "label": "Instagram publicado en el registro SERNATUR; el sitio caído no muestra teléfono ni correo"
+    },
+    "offer": "express",
+    "opportunity": "Reparar el error 500 (arreglo exprés) y abrir la conversación sobre la página de reserva.",
+    "notes": "Sin demo (el sitio no entrega contenido). Canal Instagram: mandar el texto por mensaje directo, sin firma de correo. Reconfirmar el 500 el día del contacto.",
+    "promovidoEl": "2026-09-13"
+  },
+  {
+    "id": "hostal-truyaca-osorno",
+    "business": "Hostal Truyaca",
+    "segment": "Turismo y alojamiento",
+    "plantilla": "reserva-cabanas",
+    "website": "https://hoteltruyaca.com/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56953715662",
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Buscando el hostal en el mapa llegué a hostaltruyaca.cl, que ya no existe; recién después encontré hoteltruyaca.com. Un pasajero con menos paciencia se queda en el error y reserva por una plataforma con comisión. Y en el sitio vigente el pie de página sigue con un año anterior, que es lo primero que hace dudar a quien va a pagar un anticipo.\n\nPuedo corregir el enlace del mapa y dejar el WhatsApp del sitio abriendo con fechas y pasajeros ya escritos en 2 días hábiles por $120.000. Si prefieren una página de reserva directa completa, con sus habitaciones y tarifas, son 5 días hábiles por $320.000.\n\n¿Se lo muestro en 10 minutos por WhatsApp?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
+    "direccion": "Alcalde Alberto Fuschslocher 1420",
+    "comuna": "Osorno",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 225083809,
+      "categoria": "hostel",
+      "lat": -40.5877668,
+      "lon": -73.0835865
+    },
+    "descubiertoEl": "2026-09-12",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "https://hoteltruyaca.com/",
+      "finalUrl": "https://hoteltruyaca.com/",
+      "status": 200,
+      "ok": true,
+      "error": null,
+      "auditedAt": "2026-09-13",
+      "score": 6,
+      "signals": [
+        {
+          "id": "copyright-antiguo",
+          "severity": "media",
+          "label": "El pie de página dice 2017",
+          "detail": "Sugiere que el sitio no se actualiza, aunque el negocio siga activo.",
+          "evidence": "…ltas te invitamos a escribirnos por nuestro chat RESERVAR © Copyright 2017 - | Hotel Truyaca Concept | todos los derechos reservados | Implement…"
+        },
+        {
+          "id": "redes-por-revisar",
+          "severity": "baja",
+          "label": "Enlaza instagram y facebook, pero el sitio no muestra publicaciones",
+          "detail": "Desde el sitio no se puede saber si el perfil sigue activo. Ábrelo y mira la última publicación: si está abandonado, ahí hay una venta de gestión de redes.",
+          "evidence": null
+        },
+        {
+          "id": "sin-telefono-ni-correo",
+          "severity": "alta",
+          "label": "No publica teléfono ni correo",
+          "detail": "Sólo se puede contactar por formulario o red social.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "HOTEL TRUYACA &#8211; Alojamiento en Osorno I Región de los Lagos",
+        "platform": "WordPress",
+        "emails": [],
+        "phones": [],
+        "socials": {
+          "instagram": "https://www.instagram.com/hotel_truyaca",
+          "facebook": "https://www.facebook.com/tr"
+        },
+        "socialEmbed": "sin-evidencia-en-el-sitio",
+        "bytes": 125935,
+        "hasWhatsapp": true
+      }
+    },
+    "estado": "promovido",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reserva-cabanas",
+      "canal de contacto"
+    ],
+    "findings": [
+      "Su ficha en OpenStreetMap apunta a hostaltruyaca.cl, dominio que ya no existe (NXDOMAIN verificado el 2026-09-13); el sitio vigente es hoteltruyaca.com.",
+      "El pie de página del sitio vigente muestra un año anterior al actual, lo que sugiere que no se actualiza."
+    ],
+    "subject": "El mapa manda a una web del Hostal Truyaca que ya no existe",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56953715662",
+      "label": "Celular publicado en OSM; el sitio vigente tiene botón de WhatsApp. Correo reservas@hoteltruyaca.com"
+    },
+    "offer": "express",
+    "opportunity": "Corregir la referencia al dominio muerto y ordenar el camino de reserva del sitio vigente.",
+    "notes": "Sin demo todavía. Sitio vigente hoteltruyaca.com auditado (copyright-antiguo, redes-por-revisar). Reconfirmar el día del contacto.",
+    "auditVigente": "https://hoteltruyaca.com/",
+    "verificaciones": [
+      {
+        "tipo": "dominio-caido",
+        "dominio": "hostaltruyaca.cl",
+        "metodo": "DNS NXDOMAIN via auditor.mjs",
+        "fecha": "2026-09-13"
+      }
+    ],
+    "promovidoEl": "2026-09-13"
+  }
+]
