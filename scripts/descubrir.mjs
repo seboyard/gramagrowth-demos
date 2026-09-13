@@ -61,6 +61,10 @@ const RUBROS = {
   gastronomia: {
     segment: 'Gastronomía', plantilla: null, sinWebVale: false,
     filtros: ['nwr["amenity"~"restaurant|cafe"]', 'nwr["craft"="brewery"]']
+  },
+  barberias: {
+    segment: 'Barberías y peluquerías', plantilla: 'reservar-hora', sinWebVale: true,
+    filtros: ['nwr["shop"~"hairdresser|beauty|massage"]', 'nwr["craft"="hairdresser"]']
   }
 };
 

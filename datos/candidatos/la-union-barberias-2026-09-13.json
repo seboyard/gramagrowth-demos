@@ -1,0 +1,312 @@
+[
+  {
+    "id": "peluqueria-charme-la-union",
+    "business": "Peluqueria Charme",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 64 2 322842",
+    "email": null,
+    "direccion": "21 de Mayo 355",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 420523311,
+      "categoria": "hairdresser",
+      "lat": -40.2925776,
+      "lon": -73.0808516
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "fernanda-la-union",
+    "business": "Fernanda",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Angamos",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4317791188,
+      "categoria": "hairdresser",
+      "lat": -40.2935244,
+      "lon": -73.0809789
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "estetica-integral-la-union",
+    "business": "Estética Integral",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Angamos",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4317792516,
+      "categoria": "hairdresser",
+      "lat": -40.2932439,
+      "lon": -73.0823236
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "reinaldo-la-union",
+    "business": "Reinaldo",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Angamos 346",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4317797323,
+      "categoria": "hairdresser",
+      "lat": -40.2934733,
+      "lon": -73.0812886
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "emanuel-unisex-la-union",
+    "business": "Emanuel (Unisex)",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4326314054,
+      "categoria": "hairdresser",
+      "lat": -40.3048548,
+      "lon": -73.078852
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-torrijos-la-union",
+    "business": "Peluquería Torrijos",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Serrano 545",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4350396893,
+      "categoria": "hairdresser",
+      "lat": -40.2969067,
+      "lon": -73.0805689
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "aurora-unisex-la-union",
+    "business": "Aurora Unisex",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Serrano",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4350399588,
+      "categoria": "hairdresser",
+      "lat": -40.2969794,
+      "lon": -73.0808049
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-anita-la-union",
+    "business": "Peluqueria Anita",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4574423162,
+      "categoria": "hairdresser",
+      "lat": -40.3088635,
+      "lon": -73.0853064
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "el-sol-la-union",
+    "business": "El Sol",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Angamos",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4580359174,
+      "categoria": "hairdresser",
+      "lat": -40.2941781,
+      "lon": -73.07914
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "creaciones-la-union",
+    "business": "Creaciones",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Manuel Montt 632",
+    "comuna": "La Unión",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 443643274,
+      "categoria": "hairdresser",
+      "lat": -40.2955156,
+      "lon": -73.0774893
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "negrito-barbero-futrono",
+    "business": "Negrito Barbero",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10995008262,
+      "categoria": "hairdresser",
+      "lat": -40.1224384,
+      "lon": -72.3858366
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cecilia-cespedes-futrono",
+    "business": "Cecilia Céspedes",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10995008264,
+      "categoria": "hairdresser",
+      "lat": -40.1301064,
+      "lon": -72.3813904
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ja-r-barberia-futrono",
+    "business": "Ja´r Barbería",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Futrono",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 10995790521,
+      "categoria": "hairdresser",
+      "lat": -40.1295823,
+      "lon": -72.385424
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  }
+]

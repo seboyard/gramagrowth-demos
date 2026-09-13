@@ -1,0 +1,897 @@
+[
+  {
+    "id": "bambu-medical-spa-valdivia",
+    "business": "Bambu Medical Spa",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": "http://www.bambumedicalspa.cl/",
+    "enlaceExterno": null,
+    "sinWeb": false,
+    "telefono": "+56632515016",
+    "email": "bambumedicalspa@gmail.com",
+    "direccion": "Beauchef 658",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 394987130,
+      "categoria": "massage",
+      "lat": -39.8172239,
+      "lon": -73.2425055
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": {
+      "url": "http://www.bambumedicalspa.cl/",
+      "finalUrl": "http://www.bambumedicalspa.cl/",
+      "status": 0,
+      "ok": false,
+      "error": "El dominio no existe (NXDOMAIN)",
+      "auditedAt": "2026-09-13",
+      "score": 12,
+      "signals": [
+        {
+          "id": "dominio-caido",
+          "severity": "alta",
+          "label": "El dominio ya no existe",
+          "detail": "El sitio no carga para nadie. Si el negocio sigue operando es urgente, y hay que contactarlo por otro canal.",
+          "evidence": null
+        }
+      ],
+      "meta": {
+        "title": "",
+        "platform": null,
+        "emails": [],
+        "phones": [],
+        "socials": {},
+        "socialEmbed": null,
+        "bytes": 0,
+        "hasWhatsapp": false
+      }
+    },
+    "estado": "auditado",
+    "puntaje": 13,
+    "razones": [
+      "dominio caído",
+      "vertical reservar-hora",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "renattos-unisex-valdivia",
+    "business": "Renattos Unisex",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56 63 2 259463",
+    "email": null,
+    "direccion": "Ismael Valdes 418",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4341870857,
+      "categoria": "hairdresser",
+      "lat": -39.8137112,
+      "lon": -73.2422905
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "camila-valdivia",
+    "business": "Camila",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": "+56996739711",
+    "email": null,
+    "direccion": "Túnez",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12979246114,
+      "categoria": "beauty",
+      "lat": -39.8505914,
+      "lon": -73.2162028
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 11,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-valdivia",
+    "business": "Peluquería",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1375295026,
+      "categoria": "hairdresser",
+      "lat": -39.8161016,
+      "lon": -73.2477084
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "haar-unisex-valdivia",
+    "business": "Haar Unisex",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Esmeralda",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4337946553,
+      "categoria": "hairdresser",
+      "lat": -39.8156663,
+      "lon": -73.244336
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "antonella-valdivia",
+    "business": "Antonella",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ismael Valdes",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4341874582,
+      "categoria": "hairdresser",
+      "lat": -39.8131569,
+      "lon": -73.242337
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "salon-unisex-valdivia",
+    "business": "Salon Unisex",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ismael Valdes",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4341874583,
+      "categoria": "hairdresser",
+      "lat": -39.8131866,
+      "lon": -73.2423436
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "barberia-valdivia",
+    "business": "Barbería",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4547232593,
+      "categoria": "hairdresser",
+      "lat": -39.8196813,
+      "lon": -73.2304037
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "barberia-brunetti-valdivia",
+    "business": "Barberia Brunetti",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 4907828921,
+      "categoria": "hairdresser",
+      "lat": -39.8412285,
+      "lon": -73.2173153
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "the-gentlemans-valdivia",
+    "business": "The Gentlemans",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": "https://www.facebook.com/the-gentlemans-barber-shop",
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Aníbal Pinto",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5120039830,
+      "categoria": "hairdresser",
+      "lat": -39.8225848,
+      "lon": -73.2399661
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-genesis-valdivia",
+    "business": "Peluquería Génesis",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Intendente Alfredo Vial Solar 892",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5287748138,
+      "categoria": "hairdresser",
+      "lat": -39.8514413,
+      "lon": -73.2326785
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-unisex-valdivia",
+    "business": "Peluqueria Unisex",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pasaje Cuatro",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5288206369,
+      "categoria": "hairdresser",
+      "lat": -39.8379647,
+      "lon": -73.2048749
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-iris-valdivia",
+    "business": "Peluquería Iris",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Calle Dos 214",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5288218883,
+      "categoria": "hairdresser",
+      "lat": -39.8479474,
+      "lon": -73.2175527
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-arthelux-valdivia",
+    "business": "Peluquería Arthelux",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida René Schneider",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5288218905,
+      "categoria": "hairdresser",
+      "lat": -39.8467797,
+      "lon": -73.2186664
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-y-estetica-seth-valdivia",
+    "business": "Peluquería y Estética Seth",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Italia 1721",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5288977937,
+      "categoria": "hairdresser",
+      "lat": -39.8331586,
+      "lon": -73.2392924
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "cut-studio-valdivia",
+    "business": "Cut Studio",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Anfión Muñoz 360",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5302681515,
+      "categoria": "hairdresser",
+      "lat": -39.8156377,
+      "lon": -73.2357256
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "preunic-valdivia",
+    "business": "PreUnic",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Arauco 561",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5303404182,
+      "categoria": "beauty",
+      "lat": -39.8165558,
+      "lon": -73.2421879
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "salon-de-peluqueria-unisex-valdivia",
+    "business": "Salon de peluquería Unisex",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Circunvalación Sur 2442",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5703337356,
+      "categoria": "hairdresser",
+      "lat": -39.8446938,
+      "lon": -73.2357767
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "elegance-valdivia",
+    "business": "Elegance",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Chacabuco",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12507634186,
+      "categoria": "hairdresser",
+      "lat": -39.8130294,
+      "lon": -73.245066
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "latinos-valdivia",
+    "business": "Latinos",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Río Calle-Calle",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 12999651939,
+      "categoria": "hairdresser",
+      "lat": -39.834747,
+      "lon": -73.208647
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "jany-valdivia",
+    "business": "Jany",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Chuquicamata",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13078583429,
+      "categoria": "hairdresser",
+      "lat": -39.8075484,
+      "lon": -73.2188705
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "yohanne-valdivia",
+    "business": "Yohanne",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pedro de Valdivia",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13288223712,
+      "categoria": "beauty",
+      "lat": -39.8149856,
+      "lon": -73.2383502
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "chichiss-unisex-niebla",
+    "business": "Chichiss Unisex",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Del Castillo",
+    "comuna": "Niebla",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 515369073,
+      "categoria": "hairdresser",
+      "lat": -39.8683059,
+      "lon": -73.3993682
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-y-podologia-valdivia",
+    "business": "Peluqueria y Podología",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Santa Filomena",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 546409988,
+      "categoria": "hairdresser",
+      "lat": -39.8354381,
+      "lon": -73.2235018
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-andrew-valdivia",
+    "business": "Peluquería Andrew",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Avenida Pedro Montt 4557",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 547782173,
+      "categoria": "hairdresser",
+      "lat": -39.8529252,
+      "lon": -73.2326278
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ange-liz-valdivia",
+    "business": "Ange-liz",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 568566645,
+      "categoria": "hairdresser",
+      "lat": -39.8286155,
+      "lon": -73.2379343
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ricardo-valdivia",
+    "business": "Ricardo",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Los Pelúes",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 584979763,
+      "categoria": "hairdresser",
+      "lat": -39.8147362,
+      "lon": -73.258812
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "ayelen-valdivia",
+    "business": "Ayelen",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Pasaje Puerto Natales",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": {
+      "tipo": "way",
+      "id": 927403364,
+      "categoria": "hairdresser",
+      "lat": -39.8401944,
+      "lon": -73.200014
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  }
+]

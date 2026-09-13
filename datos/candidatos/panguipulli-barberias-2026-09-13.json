@@ -1,0 +1,33 @@
+[
+  {
+    "id": "salon-tu-estilo-panguipulli",
+    "business": "Salón Tu Estilo",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Panguipulli",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 13623947101,
+      "categoria": "hairdresser",
+      "lat": -39.6434458,
+      "lon": -72.3282696
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  }
+]

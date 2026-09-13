@@ -1,0 +1,188 @@
+[
+  {
+    "id": "peluqueria-igor-los-lagos",
+    "business": "Peluquería Igor",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": null,
+    "comuna": "Los Lagos",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 1242351496,
+      "categoria": "hairdresser",
+      "lat": -39.8613878,
+      "lon": -72.8104391
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-los-lagos",
+    "business": "Peluquería",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Quinchilca",
+    "comuna": "Los Lagos",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 5313118253,
+      "categoria": "hairdresser",
+      "lat": -39.8591064,
+      "lon": -72.8064088
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "salon-de-belleza-darling-los-lagos",
+    "business": "Salon de Belleza Darling",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Balmaceda Norte 68",
+    "comuna": "Los Lagos",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8692271884,
+      "categoria": "hairdresser",
+      "lat": -39.8621405,
+      "lon": -72.8149107
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "the-beaty-is-here-los-lagos",
+    "business": "The Beaty is Here",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Balmaceda Norte 68",
+    "comuna": "Los Lagos",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8692271885,
+      "categoria": "hairdresser",
+      "lat": -39.8620839,
+      "lon": -72.8148306
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "barber-shop-los-lagos",
+    "business": "Barber Shop",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Balmaceda Norte 68",
+    "comuna": "Los Lagos",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8692271887,
+      "categoria": "hairdresser",
+      "lat": -39.8620751,
+      "lon": -72.8147326
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  },
+  {
+    "id": "peluqueria-cossio-los-lagos",
+    "business": "Peluquería Cossío",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": null,
+    "sinWeb": true,
+    "telefono": null,
+    "email": null,
+    "direccion": "Ecuador",
+    "comuna": "Los Lagos",
+    "pais": "cl",
+    "osm": {
+      "tipo": "node",
+      "id": 8692294309,
+      "categoria": "hairdresser",
+      "lat": -39.8619805,
+      "lon": -72.8174369
+    },
+    "descubiertoEl": "2026-09-13",
+    "fuente": "openstreetmap",
+    "audit": null,
+    "estado": "sin-web",
+    "puntaje": 9,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "SIN canal de contacto"
+    ]
+  }
+]
