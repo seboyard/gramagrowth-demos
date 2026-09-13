@@ -34,6 +34,10 @@ const required = [
   'plantillas/cotizar-instalacion/config.js',
   'plantillas/cotizar-instalacion/app.js',
   'plantillas/cotizar-instalacion/README.md',
+  'plantillas/reservar-hora/index.html',
+  'plantillas/reservar-hora/config.js',
+  'plantillas/reservar-hora/app.js',
+  'plantillas/reservar-hora/README.md',
   'scripts/descubrir.mjs',
   'scripts/prospectar-lote.mjs',
   'scripts/promover.mjs',
@@ -80,7 +84,7 @@ const offers = readFileSync(resolve(root, 'docs/OFFERS.md'), 'utf8');
 const htmlFiles = ['index.html', 'kit/index.html', 'prospectar/index.html',
   'plantillas/landing-prospecto/index.html', 'plantillas/reserva-cabanas/index.html',
   'plantillas/cotizar-evento/index.html', 'plantillas/planes-gimnasio/index.html',
-  'plantillas/cotizar-instalacion/index.html'];
+  'plantillas/cotizar-instalacion/index.html', 'plantillas/reservar-hora/index.html'];
 
 // --- Claims comerciales ---
 const forbiddenPublicClaims = [
@@ -122,7 +126,7 @@ for (const key of ['express', 'presence', 'flow']) {
 
 // Los README de las plantillas remiten a la tabla de OFFERS.md: un precio fijado
 // en un README es la forma en que los precios divergieron la primera vez.
-for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio', 'cotizar-instalacion']) {
+for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio', 'cotizar-instalacion', 'reservar-hora']) {
   const readme = readFileSync(resolve(root, `plantillas/${template}/README.md`), 'utf8');
   if (/Precio sugerido/.test(readme)) {
     throw new Error(`plantillas/${template}/README.md fija un precio propio; debe remitir a docs/OFFERS.md.`);
@@ -229,7 +233,7 @@ for (const service of eventoConfig.servicios) {
 // y no procesar pagos. Es lo que las hace vendibles sin generar responsabilidad.
 const PAY_TERMS = ['webpay', 'transbank', 'stripe', 'mercadopago', 'cardnumber',
   'card_number', 'cvv', 'flow.cl', 'khipu'];
-for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio', 'cotizar-instalacion']) {
+for (const template of ['reserva-cabanas', 'cotizar-evento', 'planes-gimnasio', 'cotizar-instalacion', 'reservar-hora']) {
   const templateConfig = readFileSync(resolve(root, `plantillas/${template}/config.js`), 'utf8');
   const templateApp = readFileSync(resolve(root, `plantillas/${template}/app.js`), 'utf8');
   if (!templateConfig.includes('demo:')) throw new Error(`${template} no declara el bloque demo.`);

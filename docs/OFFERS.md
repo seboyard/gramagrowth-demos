@@ -144,6 +144,7 @@ con datos públicos del prospecto en horas.
 | `planes-gimnasio` | Gimnasios, academias, estudios | Plan, ahorro por periodo, clase de prueba | Plan elegido y día de prueba | Redes sociales |
 | `cotizar-evento` | Banquetería, salones, productoras | Invitados × servicio, mínimo, IVA, abono | Fecha, invitados, servicio y presupuesto estimado | Tarifas por temporada |
 | `cotizar-instalacion` | Ventanas, termopaneles, aislación, techumbre | m² por vano o superficie; rango sólo si publica valores | Lista de vanos medidos y solicitud de visita técnica | Ficha de Google · Respuestas rápidas |
+| `reservar-hora` | Barberías, peluquerías, salones | Servicio, duración, bloque horario que cabe antes del cierre, precio publicado | Servicio, profesional, día, hora y valor | Respuestas rápidas · Ficha de Google |
 
 **Regla de precio, única para las cuatro:**
 

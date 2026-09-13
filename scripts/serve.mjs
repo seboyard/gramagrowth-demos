@@ -200,12 +200,13 @@ async function handleApi(request, response, pathname) {
             new Function('window', readFileSync(configPath, 'utf8'))(scope);
             // Cada vertical declara su propio global. La galería no necesita
             // saber cuál es: toma el que exista y lee los campos comunes.
-            const config = scope.RESERVA_CONFIG || scope.EVENTO_CONFIG || scope.GIMNASIO_CONFIG || scope.INSTALACION_CONFIG || {};
+            const config = scope.RESERVA_CONFIG || scope.EVENTO_CONFIG || scope.GIMNASIO_CONFIG || scope.INSTALACION_CONFIG || scope.HORA_CONFIG || {};
             business = config.negocio?.nombre || entry.name;
             source = config.demo?.fuente || null;
             // Unidades cotizables: cabañas en la vertical de hospedaje,
             // servicios en la de eventos, trabajos en la de instalación.
             const items = config.tipos || config.planes || config.servicios || config.trabajos || [];
+            // servicios existe en eventos (con opciones) y en reservar-hora (con precio).
             units = items.length;
             unitsLabel = config.planes ? 'plan' : config.tipos ? 'unidad' : config.trabajos ? 'trabajo' : 'servicio';
             // El plural va explícito: en español no basta con agregar una "s"
