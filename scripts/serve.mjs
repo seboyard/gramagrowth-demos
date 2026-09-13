@@ -1,11 +1,60 @@
+import { execFile } from 'node:child_process';
+import { randomBytes, scryptSync, timingSafeEqual } from 'node:crypto';
 import { createReadStream, existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { dirname, extname, join, normalize, resolve } from 'node:path';
 import { auditUrl } from './auditor.mjs';
+import { agregarCandidatos, resumenLotes } from './lib-candidatos.mjs';
+import { sincronizarHermes } from './sincronizar-hermes.mjs';
 
 const root = resolve(process.cwd());
 const port = Number(process.env.GRAMAGROWTH_PORT || 4173);
 const dataFile = resolve(root, 'datos', 'prospectos.json');
+
+// ── Acceso al panel ────────────────────────────────────────────────────────
+// Opcional: si existe datos/panel-auth.json (lo crea scripts/panel-clave.mjs),
+// las herramientas y la API piden clave. Sin ese archivo, el servidor sigue
+// abierto sólo en localhost, como siempre. Las sesiones viven en memoria: al
+// reiniciar el servidor hay que entrar de nuevo, que para una herramienta local
+// es lo razonable.
+const authFile = resolve(root, 'datos', 'panel-auth.json');
+const sesiones = new Set();
+function leerAuth() {
+  if (!existsSync(authFile)) return null;
+  try { return JSON.parse(readFileSync(authFile, 'utf8')); } catch { return null; }
+}
+function claveCorrecta(clave) {
+  const auth = leerAuth();
+  if (!auth) return false;
+  const esperado = Buffer.from(auth.hash, 'hex');
+  const recibido = scryptSync(String(clave || ''), auth.salt, esperado.length);
+  return esperado.length === recibido.length && timingSafeEqual(esperado, recibido);
+}
+const cookieDe = (request) => Object.fromEntries((request.headers.cookie || '').split(';').map((c) => c.trim().split('=')).filter((p) => p[0]));
+function sesionValida(request) {
+  if (!leerAuth()) return true;                      // sin clave configurada
+  const token = cookieDe(request).gg_session;
+  return Boolean(token && sesiones.has(token));
+}
+// Los agentes no tienen navegador: usan un token de cabecera para agregar
+// candidatos. Sólo vale para ese endpoint.
+function tokenAgenteValido(request) {
+  const auth = leerAuth();
+  if (!auth) return true;
+  const recibido = request.headers['x-agent-token'];
+  return Boolean(recibido && auth.agentToken && recibido === auth.agentToken);
+}
+// Rutas de herramientas que piden sesión cuando hay clave. Las demos de
+// clientes/ y las plantillas siguen abiertas: son lo que se muestra al prospecto.
+const RUTAS_PROTEGIDAS = /^\/(prospectar|kit|presentacion)(\/|$)/;
+
+function ejecutarScript(args) {
+  return new Promise((accept) => {
+    execFile(process.execPath, args, { cwd: root, maxBuffer: 20 * 1024 * 1024 }, (error, stdout, stderr) => {
+      accept({ ok: !error, code: error?.code ?? 0, stdout: String(stdout), stderr: String(stderr) });
+    });
+  });
+}
 
 const mimeTypes = {
   '.css': 'text/css; charset=utf-8',
@@ -58,6 +107,71 @@ const slugify = (value) => value.toLowerCase().normalize('NFD')
 
 async function handleApi(request, response, pathname) {
   const [, , section, id] = pathname.split('/');
+
+  // ── Sesión ──────────────────────────────────────────────────────────────
+  if (section === 'sesion' && request.method === 'GET') {
+    return sendJson(response, 200, { requiereClave: Boolean(leerAuth()), autenticado: sesionValida(request) });
+  }
+  if (section === 'login' && request.method === 'POST') {
+    const { clave } = await readBody(request);
+    if (!leerAuth()) return sendJson(response, 200, { ok: true, requiereClave: false });
+    if (!claveCorrecta(clave)) return sendJson(response, 401, { error: 'Clave incorrecta' });
+    const token = randomBytes(24).toString('hex');
+    sesiones.add(token);
+    response.setHeader('Set-Cookie', `gg_session=${token}; Path=/; HttpOnly; SameSite=Strict`);
+    return sendJson(response, 200, { ok: true });
+  }
+  if (section === 'logout' && request.method === 'POST') {
+    sesiones.delete(cookieDe(request).gg_session);
+    response.setHeader('Set-Cookie', 'gg_session=; Path=/; Max-Age=0');
+    return sendJson(response, 200, { ok: true });
+  }
+
+  // ── Candidatos que dejan los agentes ────────────────────────────────────
+  // POST acepta un lote de registros de cualquier agente (Hermes, Codex, un
+  // script). Pasan por las mismas reglas que todo (lib-candidatos.mjs) y
+  // quedan en datos/candidatos/agentes-<fecha>.json como "descubiertos": la
+  // redacción y la compuerta siguen después. Nunca entran directo a la cola.
+  if (section === 'candidatos' && request.method === 'POST') {
+    if (!sesionValida(request) && !tokenAgenteValido(request)) return sendJson(response, 401, { error: 'Falta sesión o X-Agent-Token' });
+    const body = await readBody(request);
+    const registros = Array.isArray(body) ? body : Array.isArray(body.candidatos) ? body.candidatos : null;
+    if (!registros) return sendJson(response, 400, { error: 'Envía { agente, candidatos: [...] } o una lista' });
+    const agente = slugify(body.agente || request.headers['x-agent-name'] || 'agente');
+    const lote = `agentes-${agente}-${new Date().toISOString().slice(0, 10)}`;
+    const resumen = agregarCandidatos(root, lote, registros, `agente:${agente}`);
+    return sendJson(response, 201, { lote, agregados: resumen.agregados.length, descartados: resumen.descartados, totalLote: resumen.totalLote });
+  }
+  // La galería de demos (/clientes/) y la URL pública son información que se
+  // muestra al prospecto: siguen abiertas. Todo lo demás pide sesión.
+  if (!['clientes', 'config'].includes(section) && !sesionValida(request)) {
+    return sendJson(response, 401, { error: 'Sesión requerida' });
+  }
+
+  if (section === 'candidatos' && request.method === 'GET') {
+    return sendJson(response, 200, resumenLotes(root));
+  }
+  // Trae lo que el bot de Hermes dejó en production-data y lo audita.
+  if (section === 'sincronizar-hermes' && request.method === 'POST') {
+    return sendJson(response, 200, await sincronizarHermes(root));
+  }
+  // Audita y puntúa un lote (lo que faltaba), con el script de siempre.
+  if (section === 'auditar-lote' && request.method === 'POST') {
+    const { lote } = await readBody(request);
+    if (!/^[a-z0-9-]+$/.test(lote || '')) return sendJson(response, 400, { error: 'Lote inválido' });
+    const r = await ejecutarScript([resolve(root, 'scripts', 'prospectar-lote.mjs'), lote, '--top', '5']);
+    return sendJson(response, r.ok ? 200 : 500, { ok: r.ok, salida: (r.stdout + r.stderr).slice(-3000) });
+  }
+  // Promueve a la cola lo redactado de un lote, pasando por la compuerta.
+  if (section === 'promover' && request.method === 'POST') {
+    const { lote, dryRun } = await readBody(request);
+    if (!/^[a-z0-9-]+$/.test(lote || '')) return sendJson(response, 400, { error: 'Lote inválido' });
+    const args = [resolve(root, 'scripts', 'promover.mjs'), lote];
+    if (dryRun) args.push('--dry-run');
+    const r = await ejecutarScript(args);
+    // promover sale con 2 cuando rechaza alguno: no es un error del servidor.
+    return sendJson(response, 200, { ok: r.code !== 1, rechazos: r.code === 2, salida: (r.stdout + r.stderr).slice(-4000) });
+  }
 
   if (section === 'auditar' && request.method === 'POST') {
     const { url } = await readBody(request);
@@ -193,6 +307,13 @@ createServer(async (request, response) => {
 
   if (!filePath.startsWith(root)) {
     response.writeHead(403).end('Forbidden');
+    return;
+  }
+
+  // Con clave configurada, las herramientas internas piden entrar. La página
+  // de login es estática y vive en /prospectar/login.html.
+  if (RUTAS_PROTEGIDAS.test(pathname) && !/\/login\.html$|\.css$|\.png$|\.svg$/.test(pathname) && !sesionValida(request)) {
+    response.writeHead(302, { Location: `/prospectar/login.html?volver=${encodeURIComponent(pathname)}` }).end();
     return;
   }
 

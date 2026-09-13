@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Entrar | Gramagrowth</title>
+  <link rel="icon" type="image/png" href="../assets/isotipo-color-64.png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .login-wrap { display:grid; min-height:70vh; place-items:center; padding:40px 20px; }
+    .login-card { background:var(--white); border:1px solid var(--line); border-radius:22px; box-shadow:var(--shadow); max-width:380px; padding:30px; width:100%; }
+    .login-card h1 { font-size:22px; margin:0 0 6px; }
+    .login-card p { color:var(--muted); font-size:13px; margin:0 0 18px; }
+    .login-card label { display:grid; font-size:11px; font-weight:800; gap:6px; letter-spacing:.06em; text-transform:uppercase; }
+    .login-card input { border:1px solid var(--line); border-radius:12px; padding:12px; width:100%; }
+    .login-card button { margin-top:14px; width:100%; }
+    .login-error { color:#b3261e; font-size:13px; margin:10px 0 0; min-height:18px; }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <a href="../" class="brand"><img src="../assets/logo-blanco-600.png" alt="Gramagrowth"></a>
+    <nav aria-label="Herramientas locales"><span>Local · sin envío automático</span></nav>
+  </header>
+  <main class="login-wrap">
+    <form class="login-card" id="login-form">
+      <h1>Panel de prospección</h1>
+      <p>Esta herramienta corre sólo en este computador. Entra con la clave fijada con <code>scripts/panel-clave.mjs</code>.</p>
+      <label>Clave<input id="clave" type="password" autocomplete="current-password" autofocus required></label>
+      <button type="submit" class="primary">Entrar</button>
+      <p class="login-error" id="login-error"></p>
+    </form>
+  </main>
+  <script>
+    const form = document.getElementById('login-form');
+    const error = document.getElementById('login-error');
+    const volver = new URLSearchParams(location.search).get('volver') || '/prospectar/';
+    // Sin clave configurada no hay nada que pedir: se sigue al panel.
+    fetch('/api/sesion').then((r) => r.json()).then((s) => { if (!s.requiereClave || s.autenticado) location.replace(volver); }).catch(() => {});
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      error.textContent = '';
+      const response = await fetch('/api/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ clave: document.getElementById('clave').value }) });
+      if (response.ok) { location.replace(volver.startsWith('/') ? volver : '/prospectar/'); return; }
+      error.textContent = (await response.json().catch(() => ({}))).error || 'No se pudo entrar';
+    });
+  </script>
+</body>
+</html>

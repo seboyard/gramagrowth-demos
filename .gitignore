@@ -5,3 +5,4 @@ tmp-*.mjs
 prospectos-backup-*.json
 .claude/
 entregas/
+datos/panel-auth.json

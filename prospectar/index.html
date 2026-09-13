@@ -13,7 +13,9 @@
     <a href="../" class="brand"><img src="../assets/logo-blanco-600.png" alt="Gramagrowth"></a>
     <nav aria-label="Herramientas locales">
       <a href="../kit/">Kit de propuesta</a>
+      <a href="../clientes/">Demos</a>
       <span>Local · sin envío automático</span>
+      <a href="#" id="logout-link" hidden>Salir</a>
     </nav>
   </header>
 
@@ -40,6 +42,23 @@
       </div>
       <datalist id="segment-options"></datalist>
       <div id="audit-preview" class="audit-preview" hidden></div>
+    </section>
+
+    <!-- Lo que dejan los agentes (Hermes, Codex, scripts) antes de pasar por la
+         compuerta. Nada de aquí es un prospecto todavía: son candidatos. -->
+    <section class="agents-panel" aria-labelledby="agents-title">
+      <div class="agents-head">
+        <div>
+          <h2 id="agents-title">Candidatos de agentes</h2>
+          <p>Lotes en <code>datos/candidatos/</code>. Un candidato entra a la cola sólo cuando tiene hallazgos, asunto y correo y pasa la compuerta (<code>promover.mjs</code>).</p>
+        </div>
+        <div class="agents-actions">
+          <button type="button" id="sync-hermes" class="primary">Sincronizar agentes de Hermes</button>
+          <button type="button" id="refresh-lotes" class="ghost">Actualizar</button>
+        </div>
+      </div>
+      <p id="agents-note" class="agents-note"></p>
+      <div id="lotes-list" class="lotes-list"></div>
     </section>
 
     <section class="summary" aria-label="Resumen de la cola">

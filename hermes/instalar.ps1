@@ -33,8 +33,16 @@ if (Test-Path $skillDestino) { Remove-Item $skillDestino -Recurse -Force }
 Copy-Item (Join-Path $repo 'hermes\skills\gramagrowth-prospector') $skillDestino -Recurse
 Write-Host 'SOUL.md y skill gramagrowth-prospector instalados en el perfil grama.'
 
-# 3. Cron semanal, sólo si se pide. El prompt sale del archivo versionado.
+# 3. Cron, sólo si se pide. El prompt del job semanal sale del archivo
+#    versionado; el job de sincronización es un script sin LLM.
 if ($ConCron) {
+  New-Item -ItemType Directory -Force (Join-Path $hermesHome 'scripts') | Out-Null
+  Copy-Item (Join-Path $repo 'hermes\scripts\sincronizar_gramagrowth.py') (Join-Path $hermesHome 'scripts\sincronizar_gramagrowth.py') -Force
+  $jobsSync = (& hermes -p grama cron list 2>&1) -join "`n"
+  if ($jobsSync -notmatch 'grama-sync-hermes') {
+    & hermes -p grama cron create '0 */6 * * *' --name grama-sync-hermes --no-agent --script sincronizar_gramagrowth.py --deliver telegram
+    Write-Host 'Cron grama-sync-hermes creado (cada 6 horas, sin LLM).'
+  }
   $jobs = (& hermes -p grama cron list 2>&1) -join "`n"
   if ($jobs -match 'grama-prospeccion-semanal') {
     Write-Host 'El job grama-prospeccion-semanal ya existe. Bórralo con `hermes -p grama cron remove` si quieres recrearlo.'

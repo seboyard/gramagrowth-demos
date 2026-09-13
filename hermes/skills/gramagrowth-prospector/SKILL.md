@@ -83,6 +83,34 @@ son los de OFFERS.md), los enlaces a agregadores y las cadenas. Después sigue e
 flujo normal: `prospectar-lote.mjs` y redacción. El sitio de un negocio es su
 dominio propio, nunca su ficha en SERNATUR, Booking o una red social.
 
+## Cómo entregar candidatos al panel (cualquier agente)
+
+El panel local (`npm run serve`, `http://127.0.0.1:4173/prospectar/`) recibe
+candidatos por API. No entran a la cola: quedan en un lote para auditar,
+redactar y pasar por la compuerta.
+
+```
+POST http://127.0.0.1:4173/api/candidatos
+X-Agent-Token: <token que imprime scripts/panel-clave.mjs>   (sólo si hay clave)
+Content-Type: application/json
+
+{ "agente": "hermes-grama",
+  "candidatos": [
+    { "business": "Barbería X", "website": "https://barberiax.cl", "segment": "Barbería",
+      "telefono": "+56 9 ...", "email": null, "comuna": "Valdivia",
+      "enlaceExterno": "https://instagram.com/barberiax" }
+  ] }
+```
+
+Reglas que aplica el servidor: `website` debe ser el dominio propio (una ficha
+de SERNATUR, Booking o una red social no lo es: va en `enlaceExterno`); sin
+sitio y sin ningún canal se descarta; lo ya conocido se descarta; las cadenas se
+descartan. Respuesta: `{ lote, agregados, descartados }`. Después, en el panel,
+"Auditar lo que falta" → redactar → "Compuerta" → "Promover".
+
+Lo que deja el bot de production-data se trae con el botón "Sincronizar
+agentes de Hermes" o con `node scripts/sincronizar-hermes.mjs` (cron cada 6 h).
+
 ## Zonas y niveles OSM útiles
 
 | Etapa | `--zona` | `--nivel` |

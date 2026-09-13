@@ -154,6 +154,28 @@ en la mayoría de comunidades.
 
 ---
 
+## 4b. El panel: acceso, candidatos de agentes y sincronización
+
+- **Clave de acceso (opcional).** `node scripts/panel-clave.mjs "<clave>"` guarda
+  un hash en `datos/panel-auth.json` (ignorado por git) y desde ahí
+  `/prospectar/`, `/kit/`, `/presentacion/` y la API piden entrar
+  (`/prospectar/login.html`). `--quitar` vuelve al modo abierto. Sin clave, todo
+  sigue como antes: sólo localhost. Las demos de `clientes/` nunca piden clave.
+- **Token de agentes.** El mismo comando imprime un token para la cabecera
+  `X-Agent-Token` de `POST /api/candidatos`, que es como Hermes, Codex o un
+  script agregan candidatos sin navegador.
+- **Sección "Candidatos de agentes"** en `/prospectar/`: lista los lotes de
+  `datos/candidatos/` con totales (con sitio, auditados, redactados, en la
+  cola) y por lote los botones **Auditar lo que falta**, **Compuerta (sólo
+  validar)** y **Promover a la cola**. Todo pasa por los mismos scripts.
+- **Sincronizar agentes de Hermes**: lee `seboyard/production-data` con `gh`,
+  importa lo nuevo con las reglas de `scripts/lib-candidatos.mjs` (dominio
+  propio o nada, sin agregadores ni cadenas, sin duplicados, sin textos de
+  oferta ajenos) y lo audita. Es idempotente: la segunda corrida no agrega nada.
+  También corre solo cada 6 horas como job `--no-agent` de Hermes
+  (`hermes/scripts/sincronizar_gramagrowth.py`, instalado por `instalar.ps1
+  -ConCron`).
+
 ## 5. Puesta en marcha (comandos para Sebastián)
 
 **Atajo:** todo lo de esta sección lo hace `hermes\instalar.ps1`, que copia el

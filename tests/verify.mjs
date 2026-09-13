@@ -44,6 +44,11 @@ const required = [
   'scripts/nueva-demo.mjs',
   'scripts/priorizar.mjs',
   'scripts/importar-hermes.mjs',
+  'scripts/lib-candidatos.mjs',
+  'scripts/sincronizar-hermes.mjs',
+  'scripts/panel-clave.mjs',
+  'prospectar/login.html',
+  'hermes/scripts/sincronizar_gramagrowth.py',
   'scripts/capturar-demos.ps1',
   'scripts/publicar-demos.ps1',
   'hermes/briefs/demo-alojamiento.md',
@@ -151,6 +156,13 @@ for (const banned of ['nodemailer', 'sendgrid', 'smtp', 'mailgun', 'trackingPixe
 }
 if (!prospectApp.includes('mailto:')) throw new Error('La cola debe abrir borradores con mailto, no enviarlos.');
 if (!server.includes("listen(port, '127.0.0.1'")) throw new Error('El servidor debe escuchar sólo en localhost.');
+// Acceso: la clave se guarda como hash (scrypt) y se compara en tiempo
+// constante; los candidatos que llegan por API nunca entran directo a la cola.
+if (!server.includes('scryptSync') || !server.includes('timingSafeEqual')) throw new Error('El login del panel debe usar hash scrypt y comparación en tiempo constante.');
+if (/panel-auth\.json/.test(readFileSync(resolve(root, '.gitignore'), 'utf8')) === false) throw new Error('datos/panel-auth.json debe estar en .gitignore.');
+if (!server.includes('agregarCandidatos(')) throw new Error('POST /api/candidatos debe pasar por lib-candidatos.mjs.');
+const libCandidatos = readFileSync(resolve(root, 'scripts/lib-candidatos.mjs'), 'utf8');
+if (/status: 'review'|prospectos\.json.*writeFileSync/.test(libCandidatos)) throw new Error('lib-candidatos.mjs no puede escribir en la cola: eso es de promover.mjs.');
 if (!server.includes('filePath.startsWith(root)')) throw new Error('El servidor perdió la protección de path traversal.');
 
 // --- Datos de prospectos ---

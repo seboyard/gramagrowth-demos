@@ -703,7 +703,140 @@ function renderSignalsPreview(container, signals) {
 [search, statusFilter, segmentFilter, channelFilter, siteFilter, platformFilter, groupToggle]
   .forEach((control) => control.addEventListener('input', renderList));
 
+// ── Candidatos de agentes ──────────────────────────────────────────────────
+// Lotes de datos/candidatos/: lo que descubren los scripts o dejan los agentes
+// antes de la compuerta. Desde aquí se audita, se sincroniza con el bot de
+// Hermes y se promueve lo redactado. La redacción no se hace aquí: la hace el
+// agente (skill gramagrowth-prospector) o Sebastián, sobre el archivo del lote.
+const lotesList = document.querySelector('#lotes-list');
+const agentsNote = document.querySelector('#agents-note');
+
+function renderLotes(lotes) {
+  lotesList.replaceChildren(...lotes.map((lote) => {
+    const box = document.createElement('details');
+    box.className = 'lote';
+    const summary = document.createElement('summary');
+    summary.append(
+      Object.assign(document.createElement('strong'), { textContent: lote.lote }),
+      chip(`${lote.total} candidatos`),
+      chip(`${lote.conSitio} con sitio`),
+      chip(`${lote.auditados} auditados`),
+      chip(`${lote.redactados} redactados`, lote.redactados > 0),
+      chip(`${lote.promovidos} en la cola`, lote.promovidos > 0)
+    );
+    box.append(summary);
+
+    const body = document.createElement('div');
+    body.className = 'lote-body';
+    const actions = document.createElement('div');
+    actions.className = 'lote-actions';
+    const out = document.createElement('pre');
+    out.className = 'lote-out';
+    out.hidden = true;
+    const run = (label, path, payload, cls = 'ghost') => {
+      const button = document.createElement('button');
+      button.type = 'button'; button.className = cls; button.textContent = label;
+      button.addEventListener('click', async () => {
+        button.disabled = true; out.hidden = false; out.textContent = `${label}…`;
+        try {
+          const result = await api(path, { method: 'POST', body: payload });
+          out.textContent = result.salida || JSON.stringify(result, null, 2);
+          await loadLotes();
+          if (path === '/promover' && !payload.dryRun) await reloadProspects();
+        } catch (error) { out.textContent = `Error: ${error.message}`; }
+        button.disabled = false;
+      });
+      return button;
+    };
+    actions.append(
+      run('Auditar lo que falta', '/auditar-lote', { lote: lote.lote }),
+      run('Compuerta (sólo validar)', '/promover', { lote: lote.lote, dryRun: true }),
+      run('Promover a la cola', '/promover', { lote: lote.lote, dryRun: false }, 'primary')
+    );
+    body.append(actions);
+
+    const items = document.createElement('ul');
+    items.className = 'lote-items';
+    items.replaceChildren(...lote.top.map((c) => {
+      const li = document.createElement('li');
+      li.append(Object.assign(document.createElement('span'), { className: 'pts', textContent: c.puntaje ?? '–' }));
+      li.append(Object.assign(document.createElement('strong'), { textContent: c.business }));
+      if (c.comuna) li.append(Object.assign(document.createElement('span'), { className: 'razones', textContent: c.comuna }));
+      if (c.website) {
+        const link = document.createElement('a');
+        link.href = c.website; link.target = '_blank'; link.rel = 'noreferrer'; link.textContent = c.website.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '');
+        li.append(link);
+      } else li.append(Object.assign(document.createElement('span'), { className: 'razones', textContent: 'sin sitio' }));
+      if (c.redactado) li.append(Object.assign(document.createElement('span'), { className: 'tag', textContent: 'redactado' }));
+      li.append(Object.assign(document.createElement('span'), { className: 'razones', textContent: `${c.canal} · ${c.razones.join(' · ')}` }));
+      return li;
+    }));
+    body.append(items, out);
+    box.append(body);
+    return box;
+  }));
+  if (!lotes.length) lotesList.textContent = 'No hay lotes todavía. Corre scripts/descubrir.mjs o sincroniza los agentes.';
+}
+
+function chip(text, ok = false) {
+  return Object.assign(document.createElement('span'), { className: `lote-stat${ok ? ' ok' : ''}`, textContent: text });
+}
+
+async function loadLotes() {
+  try {
+    const lotes = await api('/candidatos');
+    renderLotes(lotes);
+    const pendientes = lotes.reduce((sum, lote) => sum + lote.redactados, 0);
+    agentsNote.textContent = `${lotes.length} lotes · ${lotes.reduce((s, l) => s + l.total, 0)} candidatos · ${pendientes} redactados esperando la compuerta.`;
+  } catch (error) {
+    agentsNote.textContent = `No se pudieron leer los lotes: ${error.message}`;
+  }
+}
+
+async function reloadProspects() {
+  prospects = await api('/prospectos');
+  prospects.sort(byPriority);
+  refreshSegments();
+  renderList();
+  updateSummary();
+}
+
+document.querySelector('#refresh-lotes').addEventListener('click', loadLotes);
+document.querySelector('#sync-hermes').addEventListener('click', async (event) => {
+  const button = event.currentTarget;
+  button.disabled = true;
+  agentsNote.textContent = 'Leyendo seboyard/production-data y auditando lo nuevo… (puede tardar un par de minutos)';
+  try {
+    const r = await api('/sincronizar-hermes', { method: 'POST', body: {} });
+    if (!r.ok) throw new Error(r.error);
+    agentsNote.textContent = `${r.leidos} registros de Hermes → ${r.agregados} candidatos nuevos en ${r.lote} (${r.auditados} auditados). Descartados: ${Object.entries(r.descartados).map(([k, v]) => `${k} ${v}`).join(', ') || 'ninguno'}.`;
+    await loadLotes();
+  } catch (error) {
+    agentsNote.textContent = `No se pudo sincronizar: ${error.message}`;
+  }
+  button.disabled = false;
+});
+
+// Sesión: si hay clave configurada, se muestra "Salir"; si no hay sesión, el
+// servidor ya redirigió a login.html antes de llegar aquí.
+async function checkSession() {
+  try {
+    const s = await api('/sesion');
+    const link = document.querySelector('#logout-link');
+    if (s.requiereClave) {
+      link.hidden = false;
+      link.addEventListener('click', async (event) => {
+        event.preventDefault();
+        await api('/logout', { method: 'POST', body: {} });
+        location.href = '/prospectar/login.html';
+      });
+    }
+  } catch { /* sin servidor: el boot avisa */ }
+}
+
 async function boot() {
+  checkSession();
+  loadLotes();
   try {
     appConfig = await api('/config').catch(() => ({}));
     prospects = await api('/prospectos');
