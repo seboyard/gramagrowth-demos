@@ -183,6 +183,25 @@ un portal ajeno).
 ---
 
 
+# Lote del 2026-09-14 — Araucanía y barberías: 6 prospectos, 5 demos
+
+Hecho con las plantillas, sin agentes. Ranking en `docs/PRIORIDAD.md`.
+
+| # | Negocio · comuna | Hallazgo que abre | Canal | Demo | Oferta de entrada |
+|---|---|---|---|---|---|
+| 1 | **Hostal Graciela** · Pucón | Tarifas de verano rotuladas "2025-2026" | WA 56 9 9868 3742 | `clientes/hostal-graciela-pucon/` **calcula con sus tarifas** | Arreglo exprés $120.000 |
+| 2 | **Alpes Apart Hotel** · Pucón | Sitio sin HTTPS ("no seguro"); sin tarifas | WA 56 9 9774 8098 | `clientes/alpes-apart-hotel/` | Arreglo exprés $120.000 |
+| 3 | **Complejo Terranostra** · Cunco | Cuatro cabañas, piscina y tinas, sin valores ni horarios | WA 56 9 8673 9315 | `clientes/cabanas-terranostra/` | Página $320.000 |
+| 4 | **Camping Huechuntu** · Pucón | Sin tarifas ni WhatsApp; pie 2022 | Tel. +56 9 8273 2465 | `clientes/camping-huechuntu/` | Página $320.000 |
+| 5 | **Barbería Rasputín** · Valdivia | Sólo se pide hora vía plataforma; 3 de 17 servicios con precio | Instagram @rasputin.barberia (mensaje corto, sin firma) | `clientes/barberia-rasputin/` | Página $320.000 |
+| 6 | **Los Pinos** · Licán Ray | 42 sitios y cabañas sin valores ni capacidades | WA 56 9 8514 8324 | — (pide datos) | Página $320.000 |
+
+Barberías del mapa (48 en Los Ríos, 47 sin web): sin servicios ni precios
+publicados no hay demo honesta; el canal es Instagram/WhatsApp y el hallazgo es
+"no hay cómo pedir hora desde el celular". Ver `docs/PROSPECCION_BARBERIAS.md`.
+
+---
+
 # NO enviar por correo — usar otro canal
 
 ## Sportlife Valdivia — el hallazgo más fuerte, pero sin correo público

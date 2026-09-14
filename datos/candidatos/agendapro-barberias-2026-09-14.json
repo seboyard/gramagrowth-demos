@@ -1,0 +1,54 @@
+[
+  {
+    "id": "barberia-rasputin-valdivia",
+    "business": "Barbería Rasputín",
+    "segment": "Barberías y peluquerías",
+    "plantilla": "reservar-hora",
+    "website": null,
+    "enlaceExterno": "https://www.instagram.com/rasputin.barberia",
+    "sinWeb": true,
+    "telefono": null,
+    "email": "Hola, Barbería Rasputín. Soy Sebastián, de Gramagrowth (Valdivia). Busqué cómo pedir hora con ustedes y hoy hay que entrar a la plataforma de agenda: ahí no aparece su WhatsApp ni su teléfono, y sólo tres servicios tienen precio. Preparé una muestra de una página propia donde el cliente elige servicio, día y bloque —con sus precios publicados— y les llega la solicitud escrita por WhatsApp; ustedes confirman como siempre. ¿Se la muestro en 10 minutos? Si prefieren no recibir más mensajes míos, respondan \"no\" y no vuelvo a escribir.",
+    "direccion": "Arauco 950, Local 2",
+    "comuna": "Valdivia",
+    "pais": "cl",
+    "osm": null,
+    "referencia": "https://agendapro.com/mp/cl/pl/barberia-rasputin-valdivia/40040",
+    "descubiertoEl": "2026-09-14",
+    "fuente": "agendapro (búsqueda web)",
+    "audit": null,
+    "estado": "promovido",
+    "puntaje": 12,
+    "razones": [
+      "sin sitio propio",
+      "vertical reservar-hora",
+      "canal instagram"
+    ],
+    "findings": [
+      "No tiene sitio propio: la única forma de pedir hora en línea es entrar a la plataforma de agenda (AgendaPro), que no publica teléfono ni WhatsApp de la barbería.",
+      "En la agenda sólo tres servicios tienen precio y duración; los otros catorce aparecen sin valor."
+    ],
+    "subject": "Pedir hora en Rasputín desde el celular, sin entrar a una plataforma",
+    "contact": {
+      "type": "instagram",
+      "value": "https://www.instagram.com/rasputin.barberia",
+      "label": "Instagram citado en directorios; la agenda no publica teléfono. Dos números distintos circulan en directorios: no usar hasta confirmar."
+    },
+    "offer": "landing",
+    "opportunity": "Página de reserva de hora propia con sus precios publicados, en vez de depender de la plataforma.",
+    "notes": "Demo: clientes/barberia-rasputin/ · 3 servicios con precio (AgendaPro), 4 sin precio. Sin WhatsApp publicado: el botón queda oculto hasta que lo entregue. Mensaje para Instagram (sin firma de correo).",
+    "verificaciones": [
+      {
+        "tipo": "sin-whatsapp",
+        "metodo": "lectura manual de la página de AgendaPro",
+        "fecha": "2026-09-14"
+      },
+      {
+        "tipo": "sin-telefono-ni-correo",
+        "metodo": "lectura manual de la página de AgendaPro",
+        "fecha": "2026-09-14"
+      }
+    ],
+    "promovidoEl": "2026-09-14"
+  }
+]

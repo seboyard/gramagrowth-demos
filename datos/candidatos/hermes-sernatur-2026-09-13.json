@@ -852,14 +852,14 @@
   },
   {
     "id": "hostal-graciela-pucon",
-    "business": "HOSTAL GRACIELA",
+    "business": "Hostal Graciela",
     "segment": "Turismo y alojamiento",
     "plantilla": "reserva-cabanas",
     "website": "http://www.hostalgracielapucon.cl",
     "enlaceExterno": "https://instagram.com/hostalgracielapucon",
     "sinWeb": false,
     "telefono": null,
-    "email": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a hostalgracielapucon.cl a mirar valores y la temporada alta sigue publicada como \"Verano 2025 - 2026\". Lo menciono por la fecha: septiembre es cuando la gente empieza a cotizar el verano, y quien ve ese rótulo no sabe si el precio es el de este verano o el del anterior; varios prefieren no preguntar y reservan por Booking.\n\nPreparé una muestra con sus cuatro habitaciones y sus tarifas de temporada baja y alta, donde el pasajero elige fechas y cuántos son, ve el total y les manda la consulta completa por WhatsApp, sin comisión. Dejar la página de tarifas con la temporada vigente y el botón de WhatsApp con la consulta prellenada son 2 días hábiles por $120.000; la página de reserva completa, 5 días hábiles por $320.000.\n\n¿Se la muestro en 10 minutos por WhatsApp?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "direccion": null,
     "comuna": "Pucón",
     "pais": "cl",
@@ -918,7 +918,7 @@
         "hasWhatsapp": true
       }
     },
-    "estado": "auditado",
+    "estado": "promovido",
     "puntaje": 10,
     "razones": [
       "correos en conflicto (verificar placeholders)",
@@ -928,7 +928,20 @@
     "redesHermes": {
       "ig": "instagram.com/hostalgracielapucon",
       "fb": "facebook.com/hostalgracielapucon"
-    }
+    },
+    "findings": [
+      "La página de tarifas publica la temporada alta como \"Temporada de Verano 2025 - 2026\" (leído el 2026-09-14): quien cotiza para enero de 2027 no sabe si esos valores siguen vigentes."
+    ],
+    "subject": "Las tarifas de verano de hostalgracielapucon.cl siguen rotuladas 2025-2026",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56998683742",
+      "label": "WhatsApp publicado en el sitio; correo hostalgraciela@gmail.com"
+    },
+    "offer": "express",
+    "opportunity": "Actualizar el rótulo de temporada y ordenar la reserva directa con sus tarifas reales.",
+    "notes": "Demo: clientes/hostal-graciela-pucon/ · calcula con sus tarifas (alta proyectada a 2027, por confirmar). Sin check in/out ni desayuno en el sitio.",
+    "promovidoEl": "2026-09-14"
   },
   {
     "id": "antu-rios-y-montanas-pucon",
@@ -1408,14 +1421,14 @@
   },
   {
     "id": "camping-huechuntu-pucon",
-    "business": "CAMPING HUECHUNTU",
+    "business": "Camping y Cabañas Huechuntu",
     "segment": "Turismo y alojamiento",
     "plantilla": "reserva-cabanas",
     "website": "http://www.huechuntu.cl",
     "enlaceExterno": "https://facebook.com/huechuntu",
     "sinWeb": false,
     "telefono": null,
-    "email": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a huechuntu.cl para cotizar un sitio de camping y no hay tarifas por noche —sólo el valor de giras de estudio— ni un enlace a WhatsApp: hay que escribir por la página o llamar. Con 16 sitios con baño privado, cabañas para 10 y departamentos para 8, cada consulta les llega sin fechas, sin cuántos son y sin saber el valor, y ustedes responden de cero.\n\nPreparé una muestra con sus tres tipos de unidad, con las fotos de su propio sitio, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp o correo, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes las indiquen; no inventé ningún valor. La puedo dejar publicada en 5 días hábiles por $320.000.\n\n¿Les sirve que les mande el enlace de la muestra?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "direccion": null,
     "comuna": "Pucón",
     "pais": "cl",
@@ -1463,7 +1476,7 @@
         "hasWhatsapp": false
       }
     },
-    "estado": "auditado",
+    "estado": "promovido",
     "puntaje": 9,
     "razones": [
       "pie antiguo",
@@ -1474,18 +1487,33 @@
     "redesHermes": {
       "ig": null,
       "fb": "facebook.com/huechuntu"
-    }
+    },
+    "findings": [
+      "El sitio no publica tarifas por noche para sitios, cabañas ni departamentos: el único valor visible es el de giras de estudio ($12.000 por persona), así que cada consulta llega sin saber cuánto cuesta.",
+      "No hay enlace a WhatsApp: para consultar hay que escribir por la página o llamar al celular.",
+      "El pie de página dice 2022."
+    ],
+    "subject": "Reservar en huechuntu.cl: sin tarifas ni WhatsApp",
+    "contact": {
+      "type": "phone",
+      "value": "+56 9 8273 2465",
+      "label": "Celular publicado en el sitio (confirmar si es WhatsApp); formulario en huechuntu.cl/contacto"
+    },
+    "offer": "landing",
+    "opportunity": "Página de reserva directa con sus tres tipos de unidad; hoy no hay tarifas ni WhatsApp.",
+    "notes": "Demo: clientes/camping-huechuntu/ · sin tarifas (no publicadas). Pie 2022.",
+    "promovidoEl": "2026-09-14"
   },
   {
     "id": "alpes-apart-hotel-pucon",
-    "business": "ALPES APART HOTEL",
+    "business": "Alpes Apart Hotel",
     "segment": "Turismo y alojamiento",
     "plantilla": "reserva-cabanas",
     "website": "http://www.alpesaparthotel.cl",
     "enlaceExterno": "https://instagram.com/p",
     "sinWeb": false,
     "telefono": null,
-    "email": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a alpesaparthotel.cl desde el celular y el navegador lo marca como \"no seguro\" (el sitio no tiene HTTPS); además no aparece ninguna tarifa: hay que entrar a la página de reserva para ver un valor. Quien está comparando para el verano suele preferir un lugar donde el precio se ve de inmediato.\n\nPreparé una muestra con sus habitaciones single, doble y triple y el departamento cuádruple, con las fotos de su propio sitio, donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes las indiquen. Activar el candado (HTTPS) y dejar el WhatsApp con la consulta prellenada son 2 días hábiles por $120.000; la página de reserva completa, 5 días hábiles por $320.000.\n\n¿Se la muestro en 10 minutos por WhatsApp?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "direccion": null,
     "comuna": "Pucón",
     "pais": "cl",
@@ -1536,7 +1564,7 @@
         "hasWhatsapp": true
       }
     },
-    "estado": "auditado",
+    "estado": "promovido",
     "puntaje": 9,
     "razones": [
       "vertical reserva-cabanas",
@@ -1545,7 +1573,21 @@
     "redesHermes": {
       "ig": "instagram.com/p",
       "fb": "facebook.com/alpes"
-    }
+    },
+    "findings": [
+      "El sitio no publica tarifas de ninguna unidad: para saber un valor hay que entrar a la página de reserva, y quien sólo quiere cotizar escribe sin saber cuánto cuesta.",
+      "El sitio se sirve sin HTTPS: el navegador lo marca como \"no seguro\" justo cuando la persona va a dejar sus datos."
+    ],
+    "subject": "alpesaparthotel.cl aparece como \"no seguro\" y no muestra tarifas",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56997748098",
+      "label": "WhatsApp publicado en el sitio; correo soc.matus@gmail.com"
+    },
+    "offer": "express",
+    "opportunity": "HTTPS y WhatsApp prellenado como entrada; página de reserva con sus cuatro tipos de unidad.",
+    "notes": "Demo: clientes/alpes-apart-hotel/ · sin tarifas (el sitio deriva a su motor). Señales: sin-https, sin-descripcion.",
+    "promovidoEl": "2026-09-14"
   },
   {
     "id": "hotel-lican-ray-villarrica",
@@ -1922,14 +1964,14 @@
   },
   {
     "id": "cabanas-y-camping-los-pinos-villarrica",
-    "business": "CABAÑAS Y CAMPING LOS PINOS",
+    "business": "Cabañas y Camping Los Pinos",
     "segment": "Turismo y alojamiento",
     "plantilla": "reserva-cabanas",
     "website": "http://www.campinglospinoslicanray.com",
     "enlaceExterno": null,
     "sinWeb": false,
     "telefono": null,
-    "email": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a campinglospinoslicanray.com para cotizar y el sitio dice que tienen 42 sitios y cabañas equipadas, pero no publica valores ni cuántas personas caben en cada cabaña. Quien planifica el verano les escribe sin fechas ni cuántos son, y ustedes responden de cero.\n\nSi me indican los tipos de cabaña con su capacidad y, si quieren, sus valores, les preparo una muestra de página donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. La página completa son 5 días hábiles por $320.000. Antes de eso les muestro cómo quedaría, sin costo.\n\n¿Les interesa verla?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "direccion": null,
     "comuna": "Villarrica",
     "pais": "cl",
@@ -1977,12 +2019,25 @@
         "hasWhatsapp": true
       }
     },
-    "estado": "auditado",
+    "estado": "promovido",
     "puntaje": 7,
     "razones": [
       "vertical reserva-cabanas",
       "canal de contacto"
-    ]
+    ],
+    "findings": [
+      "El sitio publica 42 sitios de camping y cabañas \"equipadas\", pero ni un valor ni la capacidad de las cabañas: quien quiere reservar escribe sin saber qué hay ni cuánto cuesta."
+    ],
+    "subject": "Los Pinos Licán Ray: 42 sitios y cabañas sin valores en el sitio",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56985148324",
+      "label": "WhatsApp publicado en el sitio; correo campinglospinos@yahoo.es"
+    },
+    "offer": "landing",
+    "opportunity": "Página de reserva directa; hoy el sitio no publica capacidades ni valores.",
+    "notes": "Sin demo: el sitio no publica tipos ni capacidades de cabaña (sería inventar). Se construye si responde con los datos.",
+    "promovidoEl": "2026-09-14"
   },
   {
     "id": "rutas-australes-temuco",
@@ -2121,14 +2176,14 @@
   },
   {
     "id": "cabanas-terranostra-cunco",
-    "business": "CABAÑAS TERRANOSTRA",
+    "business": "Complejo Turístico Terranostra",
     "segment": "Turismo y alojamiento",
     "plantilla": "reserva-cabanas",
     "website": "http://www.turismoterranostra.cl",
     "enlaceExterno": null,
     "sinWeb": false,
     "telefono": null,
-    "email": null,
+    "email": "Hola:\n\nSoy Sebastián, de Gramagrowth, un estudio de Valdivia que hace páginas de reserva para alojamientos del sur. Entré a turismoterranostra.cl para cotizar una cabaña y el sitio cuenta muy bien lo que tienen —cabañas para 2, 4 y 6, piscina, tinas termales, camping— pero no publica valores ni horarios. Quien cotiza para el verano les escribe sin fechas, sin cuántos son y sin saber cuánto cuesta, y ustedes responden de cero cada vez.\n\nPreparé una muestra con sus cuatro tipos de cabaña donde el pasajero elige fechas y cuántos son y les manda la consulta completa por WhatsApp, sin comisión. Las tarifas quedan \"a confirmar\" hasta que ustedes las indiquen; no inventé ningún valor. La puedo dejar publicada en 5 días hábiles por $320.000.\n\n¿Se la muestro en 10 minutos por WhatsApp?\n\n--\nSebastián · Gramagrowth · Valdivia\n[TU TELÉFONO] · instagram.com/gramagrowth\nSi prefieres no recibir más correos míos, responde \"no\" y no vuelvo a escribir.",
     "direccion": null,
     "comuna": "Cunco",
     "pais": "cl",
@@ -2171,12 +2226,25 @@
         "hasWhatsapp": true
       }
     },
-    "estado": "auditado",
+    "estado": "promovido",
     "puntaje": 6,
     "razones": [
       "vertical reserva-cabanas",
       "canal de contacto"
-    ]
+    ],
+    "findings": [
+      "El sitio describe cuatro tipos de cabaña, piscina, tinas termales y camping, pero no publica ninguna tarifa ni horario de check in y check out: cada consulta llega sin saber el valor y hay que responderla de cero."
+    ],
+    "subject": "Terranostra: cuatro cabañas y piscina, pero sin valores en el sitio",
+    "contact": {
+      "type": "whatsapp",
+      "value": "56986739315",
+      "label": "WhatsApp publicado en el sitio; correo info@turismoterranostra.cl"
+    },
+    "offer": "landing",
+    "opportunity": "Página de reserva directa con sus cuatro cabañas; hoy no hay tarifas ni horarios publicados.",
+    "notes": "Demo: clientes/cabanas-terranostra/ · sin tarifas. Capacidad de la cabaña alpina referencial.",
+    "promovidoEl": "2026-09-14"
   },
   {
     "id": "casa-galos-hotel-lofts-sernatur",
